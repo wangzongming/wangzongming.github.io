@@ -1,0 +1,71 @@
+* {
+  font-family: "Microsoft YaHei";
+}
+html {
+  font-size: 70px;
+}
+body {
+  background-color: #010101;
+}
+@media (min-width: 1400px) {
+  .container {
+    width: 1370px;
+  }
+}
+.cust-logo-area {
+  background-color: #000000;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.cust-logo-area.active {
+  background-color: #2e2e2e;
+}
+.cust-logo-area .cust-logo.navbar {
+  margin-bottom: 0.26rem;
+  min-height: 0.94rem;
+  border: 0px;
+}
+.cust-logo-area .cust-logo.navbar .navbar-brand {
+  margin-left: 0px;
+  height: 0.94rem;
+  padding: 0px;
+}
+.cust-logo-area .cust-logo.navbar .navbar-brand img {
+  width: 4.00rem;
+  height: 0.94rem;
+}
+.cust-logo-area .cust-logo.navbar .navbar-collapse > .nav.navbar-nav > li.open a,
+.cust-logo-area .cust-logo.navbar .navbar-collapse > .nav.navbar-nav > li.open a:hover,
+.cust-logo-area .cust-logo.navbar .navbar-collapse > .nav.navbar-nav > li.open a:focus {
+  background-color: transparent;
+}
+.cust-logo-area .cust-logo.navbar .navbar-collapse > .nav.navbar-nav > li > a {
+  padding-top: 0.40rem;
+  padding-left: 0.12rem;
+  padding-right: 0.12rem;
+  font-size: 0.18rem;
+  line-height: 0.18rem;
+  color: #FFFFFF;
+}
+.cust-logo-area .cust-logo.navbar .navbar-collapse > .nav.navbar-nav > li > a:focus,
+.cust-logo-area .cust-logo.navbar .navbar-collapse > .nav.navbar-nav > li > a:hover {
+  background-color: transparent;
+  color: #e55b27;
+}
+.cust-logo-area .cust-logo.navbar .navbar-collapse > .nav.navbar-nav > li > ul.dropdown-menu {
+  min-width: 120px;
+  background-color: #4d4d4d;
+}
+.cust-logo-area .cust-logo.navbar .navbar-collapse > .nav.navbar-nav > li > ul.dropdown-menu > li > a {
+  color: #FFFFFF;
+  font-size: 0.18rem;
+  line-height: 0.26rem;
+}
+.cust-logo-area .cust-logo.navbar .navbar-collapse > .nav.navbar-nav > li > ul.dropdown-menu > li > a img {
+  width: 0.30rem;
+  height: auto;
+}
+.cust-logo-area .cust-logo.navbar .navbar-collapse > .nav.navbar-nav > li > ul.dropdown-menu > li.divider {
+  margin-top: 4px;
+  margin-bottom: 4px;
+}

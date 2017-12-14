@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="keywords" content="">
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="format-detection" content="telephone=no" />
+		<meta name="x5-orientation" content="portrait">
+		<link href="../css/frtBase.css" rel="stylesheet" />
+		<title>附件列表</title>
+	</head>
+
+	<body class="creambg">
+		<div class="legend-section ">
+			<div class="l-title">
+				<span class="whole">公文正文</span>
+
+			</div>
+
+			<div class="more-link">
+
+				<ul class="attachment-list">
+					<li>
+						<div class="attac-name">
+							<img src="../img/attachment.png">
+							<a>附件fsdfdssdfasdsadsasaaffffffffffffffffffffff1.doc</a>
+						</div>
+						<a href="javascript:void(0)">
+							<div class="download-btn">
+								<p class="load-icon">
+									<img src="../img/load.png"></p>
+								<p class="load-text">下载附件</p>
+							</div>
+						</a>
+					</li>
+					<li>
+						<div class="attac-name">
+							<img src="../img/attachment.png">
+							<a>附件2.doc</a>
+						</div>
+						<div class="download-btn">
+							<p class="load-icon">
+								<img src="../img/load.png"></p>
+							<p class="load-text">下载附件</p>
+						</div>
+
+					</li>
+					<li>
+						<div class="attac-name">
+							<img src="../img/attachment.png">
+							<a>附件3.doc</a>
+						</div>
+						<div class="download-btn">
+							<p class="load-icon">
+								<img src="../img/load.png"></p>
+							<p class="load-text">
+								<a>下载附件</a>
+							</p>
+						</div>
+					</li>
+				</ul>
+
+			</div>
+
+		</div>
+
+		<div class="legend-section">
+			<div class="l-title">
+				<span class="whole">公文附件</span>
+
+			</div>
+
+			<div class="more-link">
+
+				<ul class="attachment-list">
+					<li>
+						<div class="attac-name">
+							<img src="../img/attachment.png">
+							<a>附件1.doc</a>
+						</div>
+						<div class="download-btn">
+							<p class="load-icon">
+								<img src="../img/load.png"></p>
+							<p class="load-text">下载附件</p>
+						</div>
+					</li>
+					<li>
+						<div class="attac-name">
+							<img src="../img/attachment.png">
+							<a>附件2.doc</a>
+						</div>
+						<div class="download-btn">
+							<p class="load-icon">
+								<img src="../img/load.png"></p>
+							<p class="load-text">下载附件</p>
+						</div>
+
+					</li>
+					<li>
+						<div class="attac-name">
+							<img src="../img/attachment.png">
+							<a>附件3.doc</a>
+						</div>
+						<div class="download-btn">
+							<p class="load-icon">
+								<img src="../img/load.png"></p>
+							<p class="load-text">下载附件</p>
+						</div>
+					</li>
+					<li>
+						<div class="attac-name">
+							<img src="../img/attachment.png">
+							<a>附件1.doc</a>
+						</div>
+						<div class="download-btn">
+							<p class="load-icon">
+								<img src="../img/load.png"></p>
+							<p class="load-text">下载附件</p>
+						</div>
+					</li>
+					<li>
+						<div class="attac-name">
+							<img src="../img/attachment.png">
+							<a>附件2.doc</a>
+						</div>
+						<div class="download-btn">
+							<p class="load-icon">
+								<img src="../img/load.png"></p>
+							<p class="load-text">下载附件</p>
+						</div>
+
+					</li>
+					<li>
+						<div class="attac-name">
+							<img src="../img/attachment.png">
+							<a>附件3.doc</a>
+						</div>
+						<div class="download-btn">
+							<p class="load-icon">
+								<img src="../img/load.png"></p>
+							<p class="load-text">下载附件</p>
+						</div>
+					</li>
+					<li>
+						<div class="attac-name">
+							<img src="../img/attachment.png">
+							<a>附件1.doc</a>
+						</div>
+						<div class="download-btn">
+							<p class="load-icon">
+								<img src="../img/load.png"></p>
+							<p class="load-text">下载附件</p>
+						</div>
+					</li>
+					<li>
+						<div class="attac-name">
+							<img src="../img/attachment.png">
+							<a>附件2.doc</a>
+						</div>
+						<div class="download-btn">
+							<p class="load-icon">
+								<img src="../img/load.png"></p>
+							<p class="load-text">下载附件</p>
+						</div>
+
+					</li>
+					<li>
+						<div class="attac-name">
+							<img src="../img/attachment.png">
+							<a>附件3.doc</a>
+						</div>
+						<div class="download-btn">
+							<p class="load-icon">
+								<img src="../img/load.png"></p>
+							<p class="load-text">下载附件</p>
+						</div>
+					</li>
+				</ul>
+
+			</div>
+		</div>
+		<div class="legend-section uploadAjustHeight">
+			
+				<span class="uploadTitle">上传附件</span>
+			<div class="attachment-upload">
+				<input type="file" class="inputfile inputfile-1" id="file-1">
+
+				<div class="input-label-arrow"></div>
+				<label for="file-1" class="input-label">
+							<span>上传附件 +</span>
+						</label>
+			</div>
+		</div>
+		<div class="btn-one">
+		<div class="btn-one">
+			<span class="blueButton fullRow wordspac">返 回</span>
+		</div>
+		<div id="psbtn" class="psbtn">
+        <a href=""><img src="../img/btnHome.png" /></a>
+    </div>
+	</body>
+
+</html>

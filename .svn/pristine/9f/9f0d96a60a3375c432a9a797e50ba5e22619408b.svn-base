@@ -1,0 +1,41 @@
+.content{
+    height:650px;
+}
+#slide-left-call{
+    background:rgba(28,28,28,0.1);
+    box-sizing: border-box;
+    border-left:5px solid rgba(28,28,28,1);
+    transition: 0.1s;
+}
+
+.content .content-title{
+    margin:10px;
+    color: #1874CD;
+    font-weight:600;
+    font-size:23px;
+    padding:5px;
+    position:relative;
+    box-sizing:border-box;
+    margin-bottom:50px;
+}
+.content .content-title img{
+    vertical-align:middle;
+    padding-bottom:10px;
+      box-sizing:border-box;
+     border-bottom:2px solid #1874CD;
+}
+.content p{
+    line-height:35px;
+    font-size:14px;
+}
+.content .iconfont{
+    color:#1874CD;
+    margin:0 10px;
+    font-size:18px;
+}
+
+
+
+
+
+

@@ -1,0 +1,126 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title></title>
+    <link href="css/main.css" rel="stylesheet" />
+    <script src="js/jquery-1.9.1.min.js"></script>
+    <script src="js/index.js"></script>
+    <link href="css/swiper.min.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="header">
+        <div class="inner">
+            <div class="top">
+                <span>
+                    <a href="javascript:void(0)" onclick="shoucang(document.title,window.location)"><em class="collection">收藏味争鲜</em></a>|<em class="weixin" id="weixin">
+                        <strong>关注微信</strong><dl id="weixin_code" style="display: none;">
+                            <dt>味争鲜微信公众号</dt>
+                            <dd><img src="img/pr_weixin_top.png" width="105" height="105"></dd>
+                        </dl>
+                    </em>
+                </span>hi，欢迎光临味争鲜！
+            </div>
+            <a href="index.html" class="logo">
+                <img src="img/logo.png" width="350" height="105" alt="味争鲜" id="home" class="logo_img">
+            </a>
+            <div class="nav" id="nav">
+                <ul>
+                    <li class=""><a href="index.html">首页<span>HOME</span></a></li>
+                    <li class=""><a href="aboutUs.html">关于我们<span>ABOUT US</span></a></li>
+                    <li class=""><a href="ournews.html">媒体报道<span>OUR NEWS</span></a></li>
+                    <li class=""><a href="base.html">契约基地<span>BASE</span></a></li>
+                    <li class=""><a href="onlineSale.html">销售网络<span>ONLINE SALE</span></a></li>
+                    <li class="current"><a href="partner.html">合作伙伴<span>PARTNER</span></a></li>
+                    <li class=""><a href="contact.html">联系我们<span>CONTACT</span></a></li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <!--契约基地-->
+    <div class="contain">
+        <div class="contactus">
+            <div class="inner">
+                <h2><strong><span>合作伙伴</span><span>PARTNER</span></strong><em class="h2_bar"></em></h2>
+                <div class="partner">
+                    <div class="swiper-container" id="s2">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="img/partner/a1.png" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/partner/a2.png" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/partner/a3.png" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/partner/a4.png" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/partner/a5.png" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/partner/a6.png" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/partner/a7.png" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/partner/a8.png" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/partner/a9.png" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/partner/a10.png" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/partner/a3.png" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/partner/a4.png" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/partner/a5.png" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/partner/a6.png" />
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="swiper-button-next" id="swiper-button-next2" style=" "></div>
+                    <div class="swiper-button-prev" id="swiper-button-prev2" style=" "></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="footer">
+        <div class="inner">
+            味争鲜（大连）科技有限公司辽ICP备13005630号-2 增值电信业务经营许可证： 辽B2-20140019
+        </div>
+    </div>
+    <script src="js/swiper.jquery.min.js"></script>
+    <script>
+        $(function () {
+            var swiper2 = new Swiper('#s2', {
+                slidesPerView: 5,
+                slidesPerGroup:10,
+                slidesPerColumn: 2,
+                autoplay: 5000,
+                speed:1000,
+                nextButton: '#swiper-button-next2',
+                prevButton: '#swiper-button-prev2',
+            });
+        })
+    </script>
+
+</body>
+</html>

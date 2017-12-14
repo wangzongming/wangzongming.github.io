@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./style/css/main.css">
+    <title>资料下载</title>
+</head>
+
+<body>
+    <div class="main">
+        <!-- header -->
+        <div class="header leftArr">
+            <div class="header-l">
+                <img class="leftArr-img" src="./img/home/leftArr.jpg" alt="">
+                <img src="./img/home/logo.gif" alt="">
+            </div>
+            <div class="header-r">
+                <img src="./img/home/home_06.gif" alt="">
+                <img src="./img/home/home_08.gif" alt="">
+                <!-- 下拉菜单 -->
+                <div class="down_menu">
+                    <ul class="down_menu-ul">
+                        <li>
+                            <a href="./index.html">
+                                    <div class="left">主页</div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./product_category.html">
+                                <div class="left">产品类别</div>
+                                <div class="right"><img src="./img/rightArr.jpg" alt=""></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./service_field.html">
+                                <div class="left">服务领域</div>
+                                <div class="right"><img src="./img/rightArr.jpg" alt=""></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./machining_field.html">
+                                <div class="left">加工领域</div>
+                                <div class="right"><img src="./img/rightArr.jpg" alt=""></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./service_dome.html">
+                                <div class="left">服务案列</div>
+                                <div class="right"><img src="./img/rightArr.jpg" alt=""></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./about.html">
+                                <div class="left">关于誉程</div>
+                                <div class="right"><img src="./img/rightArr.jpg" alt=""></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./industry.html">
+                                <div class="left">行业咨询</div>
+                                <div class="right"><img src="./img/rightArr.jpg" alt=""></div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="download-content">
+            <div class="content">
+                <div class="down-tab">
+                    <ul class="down-tab-ul">
+                        <li data-index='0' class="blue">下载类别1</li>
+                        <li data-index='1'>下载类别2</li>
+                        <li data-index='2'>下载类别3</li>
+                    </ul>
+                </div>
+
+                <!-- 下载类别1 -->
+                <div class="download-tab-con">
+                    <ul class="download-tab-con-ul">
+                        <li>
+                            <a href="">
+                                <div class="left">          
+                                    <img src="./img/home/download.jpg" alt="">
+                                </div>
+                                <div class="right">
+                                    Jahresabschluss_ _Lagebericht_ _KUKA_
+                                    AG_ _2010- pdf,2138 kb
+                                </div>        
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <div class="left">          
+                                    <img src="./img/home/download.jpg" alt="">
+                                </div>
+                                <div class="right">
+                                    Jahresabschluss_ _Lagebericht_ _KUKA_
+                                    AG_ _2010- pdf,2138 kb
+                                </div>        
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <div class="left">          
+                                    <img src="./img/home/download.jpg" alt="">
+                                </div>
+                                <div class="right">
+                                    Jahresabschluss_ _Lagebericht_ _KUKA_
+                                    AG_ _2010- pdf,2138 kb
+                                </div>        
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- 下载类别2 -->
+                <div class="download-tab-con" style="display:none;">
+                    <ul class="download-tab-con-ul">
+                        <li>
+                            <a href="">
+                                <div class="left">          
+                                    <img src="./img/home/download.jpg" alt="">
+                                </div>
+                                <div class="right">
+                                    Jahresabschluss_ _Lagebericht_ _KUKA_
+                                    AG_ _2010- pdf,2138 kb
+                                </div>        
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <div class="left">          
+                                    <img src="./img/home/download.jpg" alt="">
+                                </div>
+                                <div class="right">
+                                    Jahresabschluss_ _Lagebericht_ _KUKA_
+                                    AG_ _2010- pdf,2138 kb
+                                </div>        
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- 下载类别3 -->
+                <div class="download-tab-con"  style="display:none;">
+                    <ul class="download-tab-con-ul">
+                        <li>
+                            <a href="">
+                                <div class="left">          
+                                    <img src="./img/home/download.jpg" alt="">
+                                </div>
+                                <div class="right">
+                                    Jahresabschluss_ _Lagebericht_ _KUKA_
+                                    AG_ _2010- pdf,2138 kb
+                                </div>        
+                            </a>
+                        </li>
+                        
+                    </ul>
+                </div>
+    
+            </div>
+        </div>
+
+        <!-- footer -->
+        <div class="footer">
+            <ul class="footer-ul">
+                <li>
+                    <a href="#">
+                        <div>
+                            <img src="./img/home/home_60.gif" alt="">
+                        </div>
+                        <div>一键通话</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="./contact.html">
+                        <div>
+                            <img src="./img/home/home_63.gif" alt="">
+                        </div>
+                        <div>联系方式</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="./download.html">
+                        <div>
+                            <img src="./img/home/home_66.gif" alt="">
+                        </div>
+                        <div>资料下载</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div>
+                            <img src="./img/home/home_68.gif" alt="">
+                        </div>
+                        <div>地图导航</div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>
+<script src="./js/font.js"></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/main.js"></script>

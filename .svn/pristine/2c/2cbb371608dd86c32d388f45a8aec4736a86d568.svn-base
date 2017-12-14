@@ -1,0 +1,37 @@
+* {
+  font-family: "Microsoft YaHei";
+}
+html {
+  font-size: 70px;
+}
+body {
+  background-color: #010101;
+}
+@media (min-width: 1400px) {
+  .container {
+    width: 1370px;
+  }
+}
+header nav.navbar {
+  border: 0px;
+  min-height: .52rem;
+  background-color: #333333;
+  margin-bottom: 0px;
+}
+header nav.navbar.active {
+  background-color: #2e2e2e;
+}
+header nav.navbar.active .navbar-collapse ul li a {
+  background-color: #2e2e2e;
+}
+header nav.navbar .navbar-collapse ul li a {
+  padding-top: 0.14rem;
+  padding-bottom: 0.14rem;
+  line-height: 0.24rem;
+  font-size: 0.24rem;
+  background-color: #4d4d4d;
+  color: #bdbdbd;
+}
+header nav.navbar .navbar-collapse ul li a:hover {
+  background-color: #e55b27;
+}

@@ -1,0 +1,198 @@
+body {
+    margin: 0;
+    color: #333333;
+    background-color: #e92f37;
+    font-family: sans-serif;
+    }     
+.ny_view {
+    width: 10rem;
+    margin: 0 auto;       
+    box-sizing: border-box;
+    }
+        .ny_viewTop{
+            position: relative;
+            height:2.6rem;
+            background-image: url(../images/topBg.png);
+            background-position: center top;
+            background-size: cover;
+        }
+        .ny_viewTop .ny_tit{
+            color: #FFF;
+            font-size: .55rem;
+            text-align: center;
+            line-height:1.2rem;
+            padding-top:.4rem; 
+            font-weight: bold;
+        }
+
+        .ny_viewTop .logo{
+            position: absolute;
+            left: .2rem;
+            top:.2rem;
+            width:2.5rem;
+            display: block;
+        }
+        .ny_viewTop .ny_search{
+            width:70%;
+            margin: 0 auto;
+            display: flex;
+            background-color: #fff;
+            border-radius: .2rem;
+            overflow: hidden;
+            height:.55rem; 
+            border:.05rem solid #ffffff;
+        }
+        .ny_search input{
+            height:.55rem;
+            display: block;
+            padding: 0 .2rem;
+            flex: 1;
+            width: 0;
+            border: 0 none;
+            line-height: 1;
+            outline: none;
+            -webkit-appearance: none;
+        }
+        .ny_search a{
+            display: flex;
+            background-color: #e92f37;
+            color: #fff;
+            padding:0 .1rem;
+            justify-content: center;
+            align-items: center;
+            font-size: .3rem;
+            text-decoration: none;
+        }
+        .ny_search a img{
+            display: block;
+            width:.4rem;
+            margin-left: .1rem;
+        }
+        .ny_viewTopColumn{
+            position: relative;
+            height:2rem;
+            background-image: url(../images/topBg.png);
+            background-position: center top;
+            background-size: cover;
+        }
+        .ny_viewTopColumn .ny_tit{
+            color: #FFF;
+            font-size: .55rem;
+            text-align: center;
+            line-height:.6rem;
+            padding-top:.6rem; 
+        }
+        .ny_viewTopColumn .ny_tit span{
+            font-size: .3rem;
+            line-height:.35rem;
+        } 
+        .ny_h2{
+            display: flex;
+            padding: .1rem;
+            margin:.1rem 0 .2rem 0;
+            color: #e92f37;
+            border-bottom:1px solid #e92f37 ;
+            
+        }
+        .ny_h2_content{
+             align-items: center;
+             display: flex;
+             width:0;
+             flex: 1;
+         }
+         .ny_h2 img{
+             width: .45rem;
+             height: .45rem;
+             display: block;
+             margin-right: .1rem;        
+         }
+
+        .ny_h2 .ny_h2_main{
+            font-family: "宋体";
+            font-size: .42rem;
+            padding-right: .2rem;
+        }
+        .ny_h2 .ny_h2_sub{
+            font-family: "宋体";
+            font-size: .42rem;
+            border-left: 1px solid #e92f37;
+            padding-left: .2rem;
+            
+        }
+        .ny_h2 .ny_h2_more{
+           
+            text-decoration: none;
+            align-self: flex-end;
+            font-weight: normal;
+            display: block;
+            color: #e92f37;
+            font-size: .3rem
+        }
+        .ny_container{
+            padding:.1rem;
+            background-color: #e92f37;
+        }
+        .ny_content{
+            padding:.1rem;
+            background-color: #ffffff;
+        }
+.ny_grid{
+   
+}
+.ny_grid::after{
+    clear: both;
+    content:"";
+    display: table;
+    visibility: hidden;
+    }
+        .ny_gridItem{        
+            width: 4.7rem;
+            margin-right: .2rem;
+            margin-bottom: .2rem;
+            float: left;
+            display: block;
+            text-decoration: none;
+        }
+        .ny_gridItem:nth-child(2n){
+            margin-right: 0
+        }
+        .ny_gridItem .ny_gridItem_img{border-radius: .05rem;overflow: hidden;position: relative;height: 6.2rem; background-color:#f2f2f2;background-position:center;background-repeat:no-repeat;background-size:cover}
+        .ny_gridItem .ny_gridItem_name{position: absolute;left:0;right: 0;bottom:0;height: 1rem;padding:0 .25rem;line-height: 1rem;font-size: .3rem;background-color: rgba(0,0,0,.5);color: #fff;text-overflow:ellipsis;overflow: hidden;white-space: nowrap}
+        .ny_gridItem .ny_gridItem_tit{padding:.2rem .1rem;height: .7rem;overflow: hidden;line-height: .35rem;font-size:.26rem;color: #666; }
+        .ny_gridItem .ny_gridItem_tag{position: absolute;top:0;right: 0;width: .6rem;height:.4rem;line-height: .4rem;text-align:center;font-size: .2rem;color: #ffffff}
+        .red{background-color: e92f37}
+        .green{background-color: green}
+        .ny_footer{
+            line-height: 2rem;
+            text-align: center;
+            color: #fff;
+            font-size:.3rem;
+        }
+.ny_detailsContent{
+    background-color: #FFF;
+    padding: 0 .4rem .4rem;
+    color: #333;
+}
+.ny_detailsTit{
+    padding: .3rem 0;
+    line-height: .6rem;
+    font-size: .4rem;
+    font-weight: bold;
+}
+.ny_detailsMsg{
+    line-height: .4rem;
+    font-size: .3rem;
+}
+video{
+    display:block;
+    width:100%
+}
+
+.swiper-container {
+height: 5.625rem;
+border-radius: .05rem;
+} 
+.swiper-slide{background-position:center;background-repeat:no-repeat;background-size:cover   }
+.swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction{bottom:.5rem}
+.swiper-pagination-bullet{width: .15rem;height:.15rem;}
+        

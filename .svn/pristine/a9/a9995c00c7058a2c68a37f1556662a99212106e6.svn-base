@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="keywords" content="">
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="format-detection" content="telephone=no" />
+		<meta name="x5-orientation" content="portrait">
+		<link href="../css/frtBase.css" rel="stylesheet" />
+		<script type="text/javascript" src="../js/jquery-2.1.0.js"></script>
+		<script type="text/javascript" src="../js/util.js"></script>
+		<script type="text/javascript" src="../js/docWorkDetail.js"></script>
+		<script type="text/javascript" src="../js/util.js"></script>
+		<title>公文反馈表</title>
+	</head>
+
+	<body class="creambg">
+
+		<div class="docList">
+			<ul class="docUl align-l">
+				
+
+				<li>
+					<div class="work-list">
+                        <div class="titlefb">公文反馈表</div>
+						<div class="form-group">		
+
+							<p class="titlesub">关于胡灯中等人植物任免的通知</p>
+
+						</div>
+
+						
+						<div class="form-group">
+							<p class="arrrove-title">反馈意见</p>
+								<div class="spack">
+								<div class="speak-key">
+									<div class="speak-btn" id="speak1" onclick="recordVoice('1')">
+										<img src="../img/speak.png">
+										<span>点击说话</span>
+									</div>
+									<div class="speak-text">
+										<textarea name="opinionItem" id="opinionId1" req="1" rqLength='100'>已经收到！</textarea>
+									</div>
+									<div class="speak-sound" id="speakMask1" onclick="endRecord('1')">
+										<img src="../img/speak-sound.png" class="speak-img">
+										<img src="../img/speak-load.gif" class="speak-imgChange">
+										<p>点击此处，停止录音</p>
+									</div>
+								</div>
+							</div>				
+						</div>
+					</div>
+				</li>
+
+				<li>
+					<div class="attachment">
+						<p class="attachment-title">附件 ：</p>
+
+						<ul class="attachment-list">
+							<li>
+								<img src="../img/attachment.png">
+								<a href="#">附件1.doc</a>
+							</li>
+							<li>
+								<img src="../img/attachment.png">
+								<a href="#">附件2.doc</a>
+							</li>
+							<li>
+								<img src="../img/attachment.png">
+								<a href="#">附件3.doc</a>
+							</li>
+						</ul>
+					</div>		
+
+		</div>
+		<div class="btn-one" onclick="newAction()">
+				<span class="blueButton fullRow wordspac">回复</span>
+			</div>
+		<div id="pop-mask"></div>
+		<div class="popup" id="orgpop">
+			<div class="popup-head">请选择发文机构</div>
+			<ul>
+				<li onclick="chooseOrg('id1')">机构1</li>
+				<li onclick="chooseOrg('id2')">机构2</li>
+				<li>机构2</li>
+			</ul>
+			<div onclick="sbOrg()" class="popbtnarea">
+				<span class="popOKbtn">确 定</span>
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript">
+	
+	function newAction(){
+		
+		showPopup('orgpop');
+		
+	}
+	
+		var recordFlag = 0;
+		//录音开始
+		function recordVoice(num) {
+
+			if(recordFlag == 1) {
+
+				return;
+
+			}
+
+			var speakCtl = document.getElementById("speak" + num);
+
+			document.getElementById("speakMask" + num).style.display = "block";
+
+			var textObj = $("#speakMask" + num).parent().find("textarea");
+
+			$(textObj).text("");
+
+			recordFlag = 1;
+
+			//TODO record voice
+
+		}
+
+		//录音结束
+		function endRecord(num) {
+
+			recordFlag = 0;
+
+			document.getElementById("speakMask" + num).style.display = "none";
+
+			//TODO end record
+
+			var textObj = $("#speak" + num).parent().find("textarea");
+
+			$(textObj).text("1111111");
+		}
+		function sbOrg() {
+			hidPopup();
+		}
+	</script>
+
+</html>

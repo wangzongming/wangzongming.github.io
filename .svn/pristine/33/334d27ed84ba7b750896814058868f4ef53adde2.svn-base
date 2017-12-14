@@ -1,0 +1,16 @@
+﻿<html>
+<head>
+</head>
+<body>
+    <div class="down_list" id="downList">
+        <ul>
+            <li class="down_1" index="1"><a href="#"><span class="data">iphone</span></a></li>
+            <li class="down_2" index="2"><a href="#"><span>Android</span></a></li>
+            <li class="down_3" index="3"><a href="#"><span>触屏版</span></a></li>
+            <li class="down_4" index="4"><a href="#"><span>WeChat</span></a></li>
+            <li class="last data" id="prImg"><em></em></li>
+        </ul>
+        <p><img src="img/close.png" width="34" height="34" alt="关闭" id="closePayer"></p>
+    </div>
+</body>
+</html>

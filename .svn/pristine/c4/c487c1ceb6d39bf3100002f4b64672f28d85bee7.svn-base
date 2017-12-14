@@ -1,0 +1,193 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>加入我们</title>
+    <link href="css/reset200802.css" rel="stylesheet" />
+    <link href="css/swiper-3.4.1.min.css" rel="stylesheet" />
+    <link href="css/main.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="page">
+        <header class="hd">
+            <div class="hd_con clear">
+                <a href="#" class="f_l hd_logo">
+                    <img class="f_l" src="img/logo_ico.png" width="30" alt="易家宝" />
+                    <img class="f_l" src="img/logo_word.png" width="72" alt="易家宝" />
+                </a>
+                <nav class="f_l">
+                    <div class="f_l navBtn">
+                        <a href="#">关于易家宝</a>
+                        <ul class="subNav">
+                            <li><a href="#">关于易家宝</a></li>
+                            <li><a href="#">关于易家宝</a></li>
+                        </ul>
+                    </div>
+                    <div class="f_l navBtn">
+                        <a href="#">产品中心</a>
+                        <ul class="subNav">
+                            <li><a href="#">关于易家宝</a></li>
+                            <li><a href="#">关于易家宝</a></li>
+                        </ul>
+                    </div>
+                    <div class="f_l navBtn">
+                        <a href="#">使用方式</a>
+                        <ul class="subNav">
+                            <li><a href="#">关于易家宝</a></li>
+                            <li><a href="#">关于易家宝</a></li>
+                        </ul>
+                    </div>
+                    <div class="f_l navBtn">
+                        <a href="#">创新优势</a>
+                        <ul class="subNav">
+                            <li><a href="#">关于易家宝</a></li>
+                            <li><a href="#">关于易家宝</a></li>
+                        </ul>
+                    </div>
+                    <div class="f_l navBtn">
+                        <a href="#">易家宝智能安防系统</a>
+                        <ul class="subNav">
+                            <li><a href="#">关于易家宝</a></li>
+                            <li><a href="#">关于易家宝</a></li>
+                        </ul>
+                    </div>
+                    <div class="f_l navBtn">
+                        <a href="#">加入我们</a>
+                        <ul class="subNav">
+                            <li><a href="#">关于易家宝</a></li>
+                            <li><a href="#">关于易家宝</a></li>
+                        </ul>
+                    </div>
+                    <div class="f_l navBtn">
+                        <a href="#">荣誉资质</a>
+                        <ul class="subNav">
+                            <li><a href="#">关于易家宝</a></li>
+                            <li><a href="#">关于易家宝</a></li>
+                        </ul>
+                    </div>
+                    <div class="f_l navBtn">
+                        <a href="#" class="on">联系我们</a>
+                        <ul class="subNav">
+                            <li><a href="#">关于易家宝</a></li>
+                            <li><a href="#">关于易家宝</a></li>
+                        </ul>
+                    </div>
+                </nav>
+                <div class="f_r call">咨询电话：0411-88867770</div>
+            </div>
+        </header>
+        <div class="bd">
+            <div class="wrap joinwrap" style="background-image:url(img/join_bg_1.jpg)">
+                <div class="con" style="height:450px;">
+                    <img src="img/join_con_1.png" />
+                </div>
+            </div>
+            <div class="wrap joinwrap" style="background-image:url(img/join_bg_2.jpg)">
+                <div class="con" style="height:450px;">
+                    <img src="img/join_con_2.png" />
+                </div>
+            </div>
+            <div class="wrap joinwrap" style="background-image:url(img/join_bg_3.jpg)">
+                <div class="con" style="height:680px;">
+                    <img src="img/join_con_3.png" />
+                    <embed width="870" height="485" poster="img/video.png" src="http://static.youku.com/v1.0.0686/v/swf/loader.swf?VideoIDS=XMTg5MTc4MjI2MA%3D%3D&winType=BDskin&embedid=MTgyLjIwMS4xNDUuMjI0AjQ3Mjk0NTU2NQIC&wd=&partnerid=0edbfd2e4fc91b72&vext=pid%253D0edbfd2e4fc91b72%2526emb%253DMTgyLjIwMS4xNDUuMjI0AjQ3Mjk0NTU2NQIC%2526bc%253D%2526cna%253D1O%2BJEDCamxUCAa%2B%2BUMaoHGNC%2526vvlogext%253Dpc_i%25253D1476616448673fyw%252526pc_u%25253D-%252526rvpvid%25253D-%252526rycid%25253D-%252526yvft%25253D1476687456049%252526vsidc%25253D1%252526seid%25253D1486532321316xBb%252526vstp%25253D117%252526svstp%25253D6%2526type%253D0%2526embsig%253D1_1486532932_726295641ef89aa9234dc1d95c0c63cb" style="display:block;margin:0 auto"></embed>
+                </div>
+            </div>
+            <div class="wrap joinwrap" style="background-image:url(img/join_bg_4.jpg)">
+                <div class="con" style="padding-bottom:70px;">
+                    <img src="img/join_con_4.png" />
+                        <div class="formBox clear">
+                            <div class="f_l inputBox m_r30">
+                                <input placeholder=" * 姓名：" value=" * 姓名：" />
+                            </div>
+                            <div class="f_l inputBox">
+                                <input placeholder=" * 城市：" value=" * 城市：" />
+                            </div>
+                            <div class="f_l inputBox m_r30">
+                                <input placeholder=" * 联系邮箱：" value=" * 联系邮箱：" />
+                            </div>
+                            <div class="f_l inputBox">
+                                <input placeholder=" * 联系电话：" value=" * 联系电话：" />
+                            </div>
+                            <div class="f_l textBox">
+                                <textarea placeholder=" * 详细说明："> * 详细说明：</textarea>
+                            </div>
+                            <div class="submitBtn f_l" href="#">提交</div>
+                        </div>
+                </div>
+            </div>
+            <div class="wrap joinwrap" style="background-image:url(img/join_bg_5.jpg)">
+                <div class="con" style="height:500px;">
+                    <img src="img/join_con_5.png" />
+                </div>
+            </div>
+        </div>
+        <footer class="ft">
+            <div class="ft_tit">
+                您的24小时卫士   能管住每户人家的锁<br />
+                <span>THE MARKETING MARKETING PACKAGING DESIGN OPERATION</span>
+            </div>
+            <ul class="ft_nav clear">
+                <li class="f_l">
+                    <img class="f_l" src="img/ft_navBtn1.png" />
+                    <dl class="f_l">
+                        <dt>产品中心</dt>
+                        <dd>机械锁</dd>
+                        <dd>机械锁</dd>
+                        <dd>配件</dd>
+                    </dl>
+                </li>
+                <li class="f_l">
+                    <img class="f_l" src="img/ft_navBtn2.png" />
+                    <dl class="f_l">
+                        <dt>招商加盟</dt>
+                        <dd>市场前景</dd>
+                        <dd>易家宝运营方式介绍 </dd>
+                        <dd>招商流程介绍</dd>
+                        <dd>政府用ppt</dd>
+                        <dd>此类针对招商代理</dd>
+                    </dl>
+                </li>
+                <li class="f_l">
+                    <img class="f_l" src="img/ft_navBtn3.png" />
+                    <dl class="f_l">
+                        <dt>创新优势</dt>
+                        <dd>对于家庭用户的优势 </dd>
+                        <dd>对于小区物业的优势   </dd>
+                        <dd>商业用户优势</dd>
+                    </dl>
+                </li>
+                <li class="f_l">
+                    <img class="f_l" src="img/ft_navBtn4.png" />
+                    <dl class="f_l">
+                        <dt>易家宝智能安防系统</dt>
+                        <dd>物业系统介绍</dd>
+                        <dd>民用系统介绍</dd>
+                        <dd>商业用户系统介绍</dd>
+                    </dl>
+                </li>
+                <li class="f_l">
+                    <img class="f_l" src="img/ft_navBtn5.png" />
+                    <dl class="f_l">
+                        <dt>联系我们</dt>
+                        <dd>大连市沙河口区绿波路43-7</dd>
+                        <dd>电话：0411-88867770</dd>
+                        <dd>QQ   : 5616478798</dd>
+                    </dl>
+                </li>
+                <li class="f_l">
+                    大巴科技微信<br />
+                    <img src="img/erweima.jpg" />
+                </li>
+            </ul>
+            <div class="ft_copyright">DALIAN 123123123KLJ12KL3KL12J3KL12JKL3J</div>
+        </footer>
+    </div>
+</body>
+</html>
+<script src="js/jquery.min.js"></script>
+<script src="js/swiper-3.4.1.jquery.min.js"></script>
+<script src="js/main.js"></script>

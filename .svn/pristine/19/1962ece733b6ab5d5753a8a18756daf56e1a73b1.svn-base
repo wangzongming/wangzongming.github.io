@@ -1,0 +1,89 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="uth-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link href="css/normalize.css" rel="stylesheet" />
+    <link href="css/main.css" rel="stylesheet" />
+    <link href="css/swiper.min.css" rel="stylesheet"/>
+</head>
+<body>
+    <!--header start--> 
+    <header class="header grey">
+    
+      <img src="images/mobile_03.jpg" class="logo"/>
+     
+      <section class="swiper-container" id="s1">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="images/banner_03.jpg">
+            </div>
+            <div class="swiper-slide">
+                <img src="images/banner_03.jpg">
+            </div>
+           <div class="swiper-slide">
+                <img src="images/banner_03.jpg">
+            </div>
+        </div>
+        <!-- Add Pagination -->
+        <!--<div class="swiper-button-next swiper-button-white" id="swiper-button-next1"></div>
+        <div class="swiper-button-prev swiper-button-white" id="swiper-button-prev1"></div>-->
+    </section>
+    </header>
+         
+   <!--历史--> 
+  
+  <ul class="company_ul clear">
+   <li class="float_l company_li">企业新闻</li>
+   </ul>
+  
+  <div class="history_con"> 
+  
+       <ul class="knowledge">
+          <li class="clear" onClick="javascript:window.location.href='history_detail.html';">
+              <span class="float_l knowledge_left">
+                  <img src="images/grape_03.png" />
+              </span>
+              <div class="float_l knowledge_right">
+                  <h5 class="knowledge_right_title">葡萄酒知识</h5>
+                  <p class="knowledge_right_content">根据考古研究推测，葡萄酒的历史已有 6000 年。有消息报道，20年前，伊朗的格登特比发现了一只公元前,根据考古研究推测，葡萄酒的历史已有 6000 年。有消息报道，20年前，伊朗的格登特比发现了一只公元前,根据考古研究推测，葡萄酒的历史已有 6000 年。根据考古研究推测，葡萄酒的历史已有 6000 年。根据考古研究推测，葡萄酒的历史已有 6000 年。</p>
+                 
+              </div>
+          </li>
+            <li class="clear" onClick="javascript:window.location.href='history_detail.html';">
+                <span class="float_l knowledge_left">
+                    <img src="images/grape_03.png" />
+                </span>
+                <div class="float_l knowledge_right">
+                    <h5 class="knowledge_right_title">葡萄酒知识</h5>
+                    <p class="knowledge_right_content">根据考古研究推测，葡萄酒的历史已有 6000 年。有消息报道，20年前，伊朗的格登特比发现了一只公元前,根据考古研究推测，葡萄酒的历史已有 6000 年。有消息报道，20年前，伊朗的格登特比发现了一只公元前,根据考古研究推测，葡萄酒的历史已有 6000 年。根据考古研究推测，葡萄酒的历史已有 6000 年。根据考古研究推测，葡萄酒的历史已有 6000 年。</p>
+                   
+                </div>
+            </li>
+            <li class="clear" onClick="javascript:window.location.href='history_detail.html';">
+                <span class="float_l knowledge_left">
+                    <img src="images/grape_03.png" />
+                </span>
+                <div class="float_l knowledge_right">
+                    <h5 class="knowledge_right_title">葡萄酒知识</h5>
+                    <p class="knowledge_right_content">根据考古研究推测，葡萄酒的历史已有 6000 年。有消息报道，20年前，伊朗的格登特比发现了一只公元前,根据考古研究推测，葡萄酒的历史已有 6000 年。有消息报道，20年前，伊朗的格登特比发现了一只公元前,根据考古研究推测，葡萄酒的历史已有 6000 年。根据考古研究推测，葡萄酒的历史已有 6000 年。根据考古研究推测，葡萄酒的历史已有 6000 年。</p>
+                   
+                </div>
+            </li>
+        </ul>
+     <a class="more">查看更多</a>
+   </div>
+   <footer class="footer">
+   <p>烁州（上海）国际贸易有限公司</p>
+   </footer>
+   <div class="fixed_footer clear">
+   <a class="first float_l" href="index.html">首页</a>
+   <a class="telephone float_l"><img src="images/mobile_35.jpg"/></a>
+   <span>免费电话</span>
+   </div>
+    <script src="js/jquery-1.10.1.min.js"></script>
+    <script src="js/swiper.jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

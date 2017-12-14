@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="keywords" content="">
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="format-detection" content="telephone=no" />
+		<meta name="x5-orientation" content="portrait">
+		<link href="../css/frtBase.css" rel="stylesheet" />
+		<script type="text/javascript" src="../js/jquery-2.1.0.js"></script>
+		<script type="text/javascript" src="../js/nextStep.js"></script>
+		<script type="text/javascript" src="../js/util.js"></script>
+		<title>选择人员</title>
+		<script>
+			function sbmtPerson() {
+
+				//arr1从request中得到
+				var arr1 = [{
+					"userid": "personId4",
+					"userOrgid": "userOrgid4",
+					"userText": "同望张三"
+				}, {
+					"userid": "personId2",
+					"userOrgid": "userOrgid2",
+					"userText": "同望李毅家"
+				}, {
+					"userid": "personId5",
+					"userOrgid": "userOrgid5",
+					"userText": "xxxx部门 李四"
+				}];				
+				
+				var arr2 = contPersonInner();
+
+				console.debug(mergePersonArray(arr1, arr2));
+				//	alert(JSON.stringify(mergePersonArray(arr1,arr2)));
+			}
+		</script>
+	</head>
+
+	<body class="creambg">
+		<div class="breadcrumb">
+			<span>一级机构1 ></span>
+
+		</div>
+
+		<div class="legend-section ">
+			<div class="l-title">
+				<span>成 员</span> <i></i>
+				<div class="legend-search">
+					<input type="text" placeholder="请输入搜索关键字">
+					<span></span>
+				</div>
+			</div>
+
+			<div class="l-content">
+				<ul class="col-4s col-4s-smail" id="persnUlInner">
+					<li onclick="choseOrNotInner('persnId11','userOrgid1')">
+						<span id="persnId11_userOrgid1" personId="persnId11" userOrgid="userOrgid1">同望张三</span>
+					</li>
+					<li onclick="choseOrNotInner('persnId12','userOrgid2')">
+						<span id="persnId12_userOrgid2" personId="persnId12" userOrgid="userOrgid2">同望李毅家</span>
+					</li>
+					<li onclick="choseOrNotInner('persnId13','userOrgid3')">
+						<span id="persnId13_userOrgid3" personId="persnId13" userOrgid="userOrgid3">同望张三</span>
+					</li>
+					<li onclick="choseOrNotInner('persnId14','userOrgid4')">
+						<span id="persnId14_userOrgid4" personId="persnId14" userOrgid="userOrgid4">同望张三</span>
+					</li>
+					<li onclick="choseOrNotInner('persnId15','userOrgid5')">
+						<span id="persnId15_userOrgid5" personId="persnId15" userOrgid="userOrgid5">同望张三</span>
+					</li>
+
+				</ul>
+			</div>
+
+		</div>
+
+		<div class="legend-section ">
+			<div class="l-title">
+				<span>子机构</span> <i></i>
+				<div class="legend-search">
+					<input type="text" placeholder="请输入搜索关键字">
+					<span></span>
+				</div>
+			</div>
+
+			<div class="organization">
+				<ul class="organization-list">
+					<li>
+						<span>二级机构 1dddddddddddddddddddddddddddddddddddddddddddddddddddddddddd</span>
+						<span>></span>
+					</li>
+					<li>
+						<span>二级机构 2dddddddddddddddddddddddddddddddddddddddddddddddddddddddddd</span>
+						<span>></span>
+					</li>
+					<li>
+						<span>二级机构 3</span>
+						<span>></span>
+					</li>
+					<li>
+						<span>二级机构 4</span>
+						<span>></span>
+					</li>
+
+				</ul>
+			</div>
+
+		</div>
+
+		<div class="btn-one" onclick="sbmtPerson()">
+			<span class="blueButton fullRow wordspac">返回公文页</span>
+		</div>
+	</body>
+
+</html>

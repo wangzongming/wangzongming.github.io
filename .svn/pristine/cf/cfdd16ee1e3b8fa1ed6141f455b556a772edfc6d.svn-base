@@ -1,0 +1,266 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="uth-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link href="css/normalize.css" rel="stylesheet" />
+    <link href="css/main.css" rel="stylesheet" />
+    <link href="css/swiper.min.css" rel="stylesheet" />
+    <link href="css/jquery.fancybox.css" rel="stylesheet" type="text/css" />
+
+</head>
+<body>
+    <!--header start-->
+    <header class="header">
+        <section class="top">
+            <div class="width_all clear">
+                <a title="点击查看" href="javascript:voi(0);" class="tell font_18 float_r font_B">4000-999-136</a>
+                <a title="天猫商城" href="https://luokekefw.tmall.com" rel="nofollow" class="tmall font_18 float_r font_B">TMALL</a>
+                <a title="点击查看" href="css/img/phone_tc.jpg" class="app font_18 float_r font_B fancybox_img">手机版</a>
+            </div>
+        </section>
+        <section class="position ">
+            <div class="clear width_all">
+                <a href="#" class="float_l logo"><img src="css/img/logo.png" /></a>
+                <a href="#" class="float_l global"><img src="css/img/top_global.png" /></a>
+                <ul class="float_l city font_18">
+                    <li class="cur"><a href="#"><span>大连</span><span class="font_12">DALIAN</span></a></li>
+                    <li><a href="#"><span>三亚</span><span class="font_12">SANYA</span></a></li>
+                    <li><a href="#"><span>济州岛</span><span class="font_12">JEJU</span></a></li>
+                    <li><a href="#"><span>巴里岛</span><span class="font_12">BALI</span></a></li>
+                    <li><a href="#"><span>普吉岛</span><span class="font_12">PHUKET</span></a></li>
+                    <li><a href="#"><span>上海</span><span class="font_12">SHANGHAI</span></a></li>
+                    <li><a href="#"><span>台湾</span><span class="font_12">TAIWAN</span></a></li>
+                    <li><a href="#"><span>悉尼</span><span class="font_12">SYDNEY</span></a></li>
+                    <li><a href="#"><span>马尔代夫</span><span class="font_12">MALDIVES</span></a></li>
+                    <li><a href="#"><span>伊斯坦布尔</span><span class="font_12">ISTANBUL</span></a></li>
+                </ul>
+            </div>
+        </section>
+        <nav class="nav font_14">
+            <ul class="width_all clear">
+                <li class="float_l nav_tabOne">
+                    <div class="nav_tabOne_tit">网站首页<span class="font_14">home</span></div>
+                </li>
+                <li class="float_l nav_tabOne">
+                    <div class="nav_tabOne_tit">作品展示<span class="font_14">works</span></div>
+                    <ul class="nav_tabOne_ul">
+                        <li class="nav_tabTwo">
+                            <a class="nav_tabTwo_tit">大连<span class="font_14">dalian</span></a>
+                        </li>
+                        <li class="nav_tabTwo">
+                            <a class="nav_tabTwo_tit">三亚<span class="font_14">sanya</span></a>
+                        </li>
+                        <li class="nav_tabTwo">
+                            <a class="nav_tabTwo_tit">上海<span class="font_14">shanghai</span></a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="float_l nav_tabOne">
+                    <div class="nav_tabOne_tit">最新客照<span class="font_14">loveshow</span></div>
+                    <ul class="nav_tabOne_ul">
+                        <li class="nav_tabTwo">
+                            <a class="nav_tabTwo_tit">大连<span class="font_14">dalian</span></a>
+                        </li>
+                        <li class="nav_tabTwo">
+                            <a class="nav_tabTwo_tit">三亚<span class="font_14">sanya</span></a>
+                        </li>
+                        <li class="nav_tabTwo">
+                            <a class="nav_tabTwo_tit">上海<span class="font_14">shanghai</span></a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="float_l nav_tabOne">
+                    <div class="nav_tabOne_tit">最新活动<span class="font_14">event</span></div>
+                    <ul class="nav_tabOne_ul">
+                        <li class="nav_tabTwo">
+                            <a class="nav_tabTwo_tit">大连<span class="font_14">dalian</span></a>
+                        </li>
+                        <li class="nav_tabTwo">
+                            <a class="nav_tabTwo_tit">三亚<span class="font_14">sanya</span></a>
+                        </li>
+                        <li class="nav_tabTwo">
+                            <a class="nav_tabTwo_tit">上海<span class="font_14">shanghai</span></a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="float_l nav_tabOne">
+                    <div class="nav_tabOne_tit">新闻中心<span class="font_14">news</span></div>
+                    <ul class="nav_tabOne_ul">
+                        <li class="nav_tabTwo">
+                            <a class="nav_tabTwo_tit">大连<span class="font_14">dalian</span></a>
+                        </li>
+                        <li class="nav_tabTwo">
+                            <a class="nav_tabTwo_tit">三亚<span class="font_14">sanya</span></a>
+                        </li>
+                        <li class="nav_tabTwo">
+                            <a class="nav_tabTwo_tit">上海<span class="font_14">shanghai</span></a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="float_l nav_tabOne">
+                    <div class="nav_tabOne_tit">服务报价<span class="font_14">price</span></div>
+                </li>
+                <li class="float_l nav_tabOne">
+                    <div class="nav_tabOne_tit">关于我们<span class="font_14">about</span></div>
+                </li>
+                <li class="float_l nav_tabOne">
+                    <div class="nav_tabOne_tit">粉丝好评<span class="font_14">bool</span></div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!--header end-->
+    <section class="swiper-container" id="s1">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="img/banner/1.jpg">
+            </div>
+            <div class="swiper-slide">
+                <img src="img/banner/2.jpg">
+            </div>
+            <div class="swiper-slide">
+                <img src="img/banner/03.jpg">
+            </div>
+            <div class="swiper-slide">
+                <img src="img/banner/4.jpg">
+            </div>
+            <div class="swiper-slide">
+                <img src="img/banner/5.jpg">
+            </div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-button-next swiper-button-white" id="swiper-button-next1"></div>
+        <div class="swiper-button-prev swiper-button-white" id="swiper-button-prev1"></div>
+    </section>
+    <!--banner end-->
+    <!--联系方式-->
+    <section class="clear width_all font_24 font_B q_linkBox">
+        <a href="http://weibo.com/u/5619421448" class="float_l top_link_wb">官方微博 <span class="font_20">WEIBON</span></a>
+        <a href="https://luokekefw.tmall.com" class="float_l top_link_tm">天猫商城 <span class="font_20">TMALL</span></a>
+        <a href="#" class="float_l top_link_wx">官方微信 <span class="font_20">WEIXIN</span></a>
+    </section>
+    <!--洛可可旅拍计划-->
+    <h2 class="index_h2 font_28"><a href="#"><span class="cn">新闻资讯</span><span class="en">NEWS&NFORMATION</span></a></h2>
+    <div class="list_city"><a class="cur" href="#">最新活动</a><a href="#">新闻公告</a><a href="#">新娘课堂</a><a href="#">婚纱照攻略</a><a href="#">网站首页</a></div>
+    <ul class="list_news clear width_all">
+        <li class="float_l list_news_li">
+            <div class="list_news_imgBox float_l">
+                <img class="list_news_img" src="img/banner/4.jpg" />
+                <div class="list_news_mask"></div>
+            </div>
+            <dl class="list_news_txtBox float_l">
+                <dt class="font_18 list_news_tit">2016洛可可·济州岛站荣耀开镜</dt>
+                <dd class="font_14 list_news_time">TIME：2016.06.06</dd>
+                <dd class="font_13 list_news_msg">
+                    6.6日 这个日子济州岛注定不平凡 我们来了！ 洛可可.环球旅行婚纱摄
+                    影品牌【济州岛站】将于2016年的六月六日盛大开业欢迎新人大驾光
+                    临....
+                </dd>
+            </dl>
+        </li>
+        <li class="float_l list_news_li">
+            <div class="list_news_imgBox float_l">
+                <img class="list_news_img" src="img/banner/4.jpg" />
+                <div class="list_news_mask"></div>
+            </div>
+            <dl class="list_news_txtBox float_l">
+                <dt class="font_18 list_news_tit">2016洛可可·济州岛站荣耀开镜</dt>
+                <dd class="font_14 list_news_time">TIME：2016.06.06</dd>
+                <dd class="font_13 list_news_msg">
+                    6.6日 这个日子济州岛注定不平凡 我们来了！ 洛可可.环球旅行婚纱摄
+                    影品牌【济州岛站】将于2016年的六月六日盛大开业欢迎新人大驾光
+                    临....
+                </dd>
+            </dl>
+        </li>
+        <li class="float_l list_news_li">
+            <div class="list_news_imgBox float_l">
+                <img class="list_news_img" src="img/banner/4.jpg" />
+                <div class="list_news_mask"></div>
+            </div>
+            <dl class="list_news_txtBox float_l">
+                <dt class="font_18 list_news_tit">2016洛可可·济州岛站荣耀开镜</dt>
+                <dd class="font_14 list_news_time">TIME：2016.06.06</dd>
+                <dd class="font_13 list_news_msg">
+                    6.6日 这个日子济州岛注定不平凡 我们来了！ 洛可可.环球旅行婚纱摄
+                    影品牌【济州岛站】将于2016年的六月六日盛大开业欢迎新人大驾光
+                    临....
+                </dd>
+            </dl>
+        </li>
+        <li class="float_l list_news_li">
+            <div class="list_news_imgBox float_l">
+                <img class="list_news_img" src="img/banner/4.jpg" />
+                <div class="list_news_mask"></div>
+            </div>
+            <dl class="list_news_txtBox float_l">
+                <dt class="font_18 list_news_tit">2016洛可可·济州岛站荣耀开镜</dt>
+                <dd class="font_14 list_news_time">TIME：2016.06.06</dd>
+                <dd class="font_13 list_news_msg">
+                    6.6日 这个日子济州岛注定不平凡 我们来了！ 洛可可.环球旅行婚纱摄
+                    影品牌【济州岛站】将于2016年的六月六日盛大开业欢迎新人大驾光
+                    临....
+                </dd>
+            </dl>
+        </li>
+    </ul>
+    <!--分页-->
+    <ul class="ul_page font_16">
+        <li class="page_a"><a class="hover">1</a></li>
+        <li class="page_a"><a>2</a></li>
+        <li class="page_a"><a>3</a></li>
+        <li class="page_a page_next"><a>下一页</a></li>
+    </ul>
+
+    <!--底部导航-->
+    <nav class="nav font_14 nav_bottom">
+        <ul class="width_all clear">
+            <li class="float_l nav_tabOne">
+                <a class="nav_tabOne_tit">网站首页<span class="font_14">home</span></a>
+            </li>
+            <li class="float_l nav_tabOne">
+                <a class="nav_tabOne_tit">作品展示<span class="font_14">works</span></a>
+            </li>
+            <li class="float_l nav_tabOne">
+                <a class="nav_tabOne_tit">最新客照<span class="font_14">loveshow</span></a>
+            </li>
+            <li class="float_l nav_tabOne">
+                <a class="nav_tabOne_tit">最新活动<span class="font_14">event</span></a>
+            </li>
+            <li class="float_l nav_tabOne">
+                <a class="nav_tabOne_tit">新闻中心<span class="font_14">news</span></a>
+            </li>
+            <li class="float_l nav_tabOne">
+                <a class="nav_tabOne_tit">服务报价<span class="font_14">price</span></a>
+            </li>
+            <li class="float_l nav_tabOne">
+                <a class="nav_tabOne_tit">关于我们<span class="font_14">about</span></a>
+            </li>
+            <li class="float_l nav_tabOne">
+                <a class="nav_tabOne_tit">粉丝好评<span class="font_14">bool</span></a>
+            </li>
+        </ul>
+    </nav>
+    <!--通用底部-->
+    <footer class="footer">
+        <img class="f_1" src="css/img/f_1.png" />
+        <img class="f_2" src="css/img/f_2.png" />
+        <ul class="f_3  font_14">
+            <li>总部地址：大连市中山区友好路117号洛可可婚纱摄影</li>
+            <li>官方微博：<a href="http://weibo.com/u/5619421448">http://weibo.com/u/5619421448</a></li>
+            <li>天猫商城：<a href="https://luokekefw.tmall.com">https://luokekefw.tmall.com</a></li>
+        </ul>
+        <img class="f_4" src="css/img/f_4.png" />
+        <img class="f_5" src="css/img/f_5.png" />
+        <div class="f_6 font_14">
+            版权所有：大连洛可可婚纱摄影有限公司，拥有大连、三亚、济州岛三家直营店<br /><span class="font_12">copyright      copyright      2013-2016 rococo wedding photo</span><br /><span class="font_12">TAG：首页 作品展示 最新客片 最新活动 新闻服务 服务报价 关于我们 粉丝好评</span>
+        </div>
+    </footer>
+    <script src="js/jquery-1.10.1.min.js"></script>
+    <script src="js/jquery.fancybox.pack.js" type="text/javascript"></script>
+    <script src="js/swiper.jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./style/css/main.css">
+    <title>服务领域</title>
+</head>
+
+<body class="hui">
+    <div class="main">
+        <!-- header -->
+        <div class="header">
+            <div class="header-l">
+                <img src="./img/home/logo.gif" alt="">
+            </div>
+            <div class="header-r">
+                <img src="./img/home/home_06.gif" alt="">
+                <img src="./img/home/home_08.gif" alt="">
+                <!-- 下拉菜单 -->
+                <div class="down_menu">
+                    <ul class="down_menu-ul">
+                        <li>
+                            <a href="./index.html">
+                                    <div class="left">主页</div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./product_category.html">
+                                <div class="left">产品类别</div>
+                                <div class="right"><img src="./img/rightArr.jpg" alt=""></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./service_field.html">
+                                <div class="left">服务领域</div>
+                                <div class="right"><img src="./img/rightArr.jpg" alt=""></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./machining_field.html">
+                                <div class="left">加工领域</div>
+                                <div class="right"><img src="./img/rightArr.jpg" alt=""></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./service_dome.html">
+                                <div class="left">服务案列</div>
+                                <div class="right"><img src="./img/rightArr.jpg" alt=""></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./about.html">
+                                <div class="left">关于誉程</div>
+                                <div class="right"><img src="./img/rightArr.jpg" alt=""></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./industry.html">
+                                <div class="left">行业咨询</div>
+                                <div class="right"><img src="./img/rightArr.jpg" alt=""></div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>  
+            </div>
+        </div>
+
+        <div class="service_field">
+            <div class="banner">
+                <img src="./img/field-banner.jpg" alt="">
+            </div>
+            <div class="content">
+                <div class="desc">
+                        工车间配有加工中心，全机能精密数控，NC
+                        自动车床。数控车床摇臂钻。台钻。攻丝机
+                        及其他焊接、修理设备和三坐标等先进的生
+                        产检查设备。可根据客户订单需求进行石化
+                        工业制冷/汽车/船舶行业用会属制品的机械
+                        加工。
+                </div>
+
+                <!-- ======================= 阀门 -->
+                <div class="line"></div>
+                <!-- 阀门 -->
+                <div class="valve">
+                    <div class="tab valve-tab">
+                        <div data-index='0' class="tab-l blue">全部</div>
+                        <div data-index='1' class="tab-r">石化行业</div>
+                    </div>
+
+                    <!-- 全部 -->
+                    <div class="company valve-company">
+                        <ul class="valve-ul">
+                            <li>
+                                <a href="">
+                                    <img src="./img/home/home_14.gif" alt="">
+                                    <div class="desc">
+                                        <div class="desc-size">20X30X40mm</div>
+                                        <div class="desc-text">PRODUCT CATEGORY</div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="./img/home/home_14.gif" alt="">
+                                    <div class="desc">
+                                        <div class="desc-size">20X30X40mm</div>
+                                        <div class="desc-text">PRODUCT CATEGORY</div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="./img/home/home_14.gif" alt="">
+                                    <div class="desc">
+                                        <div class="desc-size">20X30X40mm</div>
+                                        <div class="desc-text">PRODUCT CATEGORY</div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="./img/home/home_14.gif" alt="">
+                                    <div class="desc">
+                                        <div class="desc-size">20X30X40mm</div>
+                                        <div class="desc-text">PRODUCT CATEGORY</div>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- 阀门 -->
+                    <div class="industry valve-industry" style="display:none">
+                        <ul class="valve-ul">
+                            <li>
+                                <a href="">
+                                    <img src="./img/home/home_14.gif" alt="">
+                                    <div class="desc">
+                                        <div class="desc-size">20X30X40mm</div>
+                                        <div class="desc-text">PRODUCT CATEGORY</div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="./img/home/home_14.gif" alt="">
+                                    <div class="desc">
+                                        <div class="desc-size">20X30X40mm</div>
+                                        <div class="desc-text">PRODUCT CATEGORY</div>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- 查看更多 -->
+                <h3 class="h3-more">
+                    <span><a href="">查看更多</a></span>
+                    <img src="./img/home/home_03.jpg" alt="">
+                </h3>
+
+                <!-- ======================= 过滤器 -->
+                <div class="line"></div>
+                <!-- 阀门 -->
+                <div class="valve">
+                    <div class="tab valve1-tab">
+                        <div data-index='0' class="tab-l blue">工业制冷</div>
+                        <div data-index='1' class="tab-r">汽车零部件</div>
+                    </div>
+
+                    <!-- 全部 -->
+                    <div class="company valve1-company">
+                        <ul class="valve-ul">
+                            <li>
+                                <a href="">
+                                <img src="./img/home/home_14.gif" alt="">
+                                <div class="desc">
+                                    <div class="desc-size">20X30X40mm</div>
+                                    <div class="desc-text">PRODUCT CATEGORY</div>
+                                </div>
+                            </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                <img src="./img/home/home_14.gif" alt="">
+                                <div class="desc">
+                                    <div class="desc-size">20X30X40mm</div>
+                                    <div class="desc-text">PRODUCT CATEGORY</div>
+                                </div>
+                            </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                <img src="./img/home/home_14.gif" alt="">
+                                <div class="desc">
+                                    <div class="desc-size">20X30X40mm</div>
+                                    <div class="desc-text">PRODUCT CATEGORY</div>
+                                </div>
+                            </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                <img src="./img/home/home_14.gif" alt="">
+                                <div class="desc">
+                                    <div class="desc-size">20X30X40mm</div>
+                                    <div class="desc-text">PRODUCT CATEGORY</div>
+                                </div>
+                            </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- 查看更多 -->
+                    <div class="industry valve1-industry" style="display:none">
+                        <ul class="valve-ul">
+                            <li>
+                                <a href="">
+                                    <img src="./img/home/home_14.gif" alt="">
+                                    <div class="desc">
+                                        <div class="desc-size">20X30X40mm</div>
+                                        <div class="desc-text">PRODUCT CATEGORY</div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="./img/home/home_14.gif" alt="">
+                                    <div class="desc">
+                                        <div class="desc-size">20X30X40mm</div>
+                                        <div class="desc-text">PRODUCT CATEGORY</div>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- 查看更多 -->
+                <h3 class="h3-more">
+                    <span><a href="">查看更多</a></span>
+                    <img src="./img/home/home_03.jpg" alt="">
+                </h3>
+
+                 <!-- ======================= 安全阀部件 -->
+                 <div class="line"></div>
+                 <!-- 阀门 -->
+                 <div class="valve">
+                     <div class="tab valve2-tab">
+                         <div  data-index='0' class="tab-l blue">船舶零部件</div>
+                         <div  data-index='1' class="tab-r">工业建材</div>
+                     </div>
+ 
+                     <!-- 全部 -->
+                     <div class="company valve2-company">
+                         <ul class="valve-ul">
+                             <li>
+                                 <a href="">
+                                 <img src="./img/home/home_14.gif" alt="">
+                                 <div class="desc">
+                                     <div class="desc-size">20X30X40mm</div>
+                                     <div class="desc-text">PRODUCT CATEGORY</div>
+                                 </div>
+                             </a>
+                             </li>
+                             <li>
+                                 <a href="">
+                                 <img src="./img/home/home_14.gif" alt="">
+                                 <div class="desc">
+                                     <div class="desc-size">20X30X40mm</div>
+                                     <div class="desc-text">PRODUCT CATEGORY</div>
+                                 </div>
+                             </a>
+                             </li>
+                             <li>
+                                 <a href="">
+                                 <img src="./img/home/home_14.gif" alt="">
+                                 <div class="desc">
+                                     <div class="desc-size">20X30X40mm</div>
+                                     <div class="desc-text">PRODUCT CATEGORY</div>
+                                 </div>
+                             </a>
+                             </li>
+                             <li>
+                                 <a href="">
+                                 <img src="./img/home/home_14.gif" alt="">
+                                 <div class="desc">
+                                     <div class="desc-size">20X30X40mm</div>
+                                     <div class="desc-text">PRODUCT CATEGORY</div>
+                                 </div>
+                             </a>
+                             </li>
+                         </ul>
+                     </div>
+                     <!-- 查看更多 -->
+                     <div class="industry valve2-industry" style="display:none">
+                         <ul class="valve-ul">
+                             <li>
+                                 <a href="">
+                                     <img src="./img/home/home_14.gif" alt="">
+                                     <div class="desc">
+                                         <div class="desc-size">20X30X40mm</div>
+                                         <div class="desc-text">PRODUCT CATEGORY</div>
+                                     </div>
+                                 </a>
+                             </li>
+                             <li>
+                                 <a href="">
+                                     <img src="./img/home/home_14.gif" alt="">
+                                     <div class="desc">
+                                         <div class="desc-size">20X30X40mm</div>
+                                         <div class="desc-text">PRODUCT CATEGORY</div>
+                                     </div>
+                                 </a>
+                             </li>
+                         </ul>
+                     </div>
+ 
+                 </div>
+                 <!-- 查看更多 -->
+                 <h3 class="h3-more">
+                     <span><a href="">查看更多</a></span>
+                     <img src="./img/home/home_03.jpg" alt="">
+                 </h3>
+
+
+            </div>
+        </div>
+
+        <!-- footer -->
+        <div class="footer">
+            <ul class="footer-ul">
+                <li>
+                    <a href="#">
+                        <div>
+                            <img src="./img/home/home_60.gif" alt="">
+                        </div>
+                        <div>一键通话</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="./contact.html">
+                        <div>
+                            <img src="./img/home/home_63.gif" alt="">
+                        </div>
+                        <div>联系方式</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="./download.html">
+                        <div>
+                            <img src="./img/home/home_66.gif" alt="">
+                        </div>
+                        <div>资料下载</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div>
+                            <img src="./img/home/home_68.gif" alt="">
+                        </div>
+                        <div>地图导航</div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>
+<script src="./js/font.js"></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/main.js"></script>

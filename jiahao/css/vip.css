@@ -1,0 +1,21 @@
+.content {
+    min-height:600px;
+}
+.content .content-vip{
+    padding:20px;
+}
+.content .content-vip ul li{
+    width:280px;
+    list-style:none;
+    float:left;
+    background-color: #e5e5e5;
+    border: 1px solid #959595;
+}
+.content .content-vip ul li:nth-child(2n){
+    margin:0 16px;
+}
+.content .content-vip ul li img{
+    width:100%;
+    height:100%;
+    cursor:pointer;
+}

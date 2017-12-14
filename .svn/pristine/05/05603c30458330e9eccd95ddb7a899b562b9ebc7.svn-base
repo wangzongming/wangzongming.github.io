@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>关于誉程</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="css/idangerous.swiper.css" rel="stylesheet">
+  <link href="css/normalize.css" rel="stylesheet" />
+  <link href="css/main.css" rel="stylesheet" />
+</head>
+
+<body>
+  <!-- 头部开始  -->
+  <header>
+    <div class="wrapper clearfix">
+      <div class="header_l fl">
+        <img src="img/logo_blue.png" alt="誉程精密logo" class="fl logo" />
+        <div class="name_con fl">
+          <p class="ch_name">誉程精密</p>
+          <p class="eng_name">YUCHENG PRECISION MACHINING</p>
+        </div>
+      </div>
+      <div class="header_r fr">
+        <ul class="header_ul clearfix">
+          <li class="header_phone fl">400 877 3838</li>
+          <li class="header_email fl">sales@dalianhonour.com</li>
+          <li class="fl">语言切换</li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <nav>
+    <div class="wrapper clearfix">
+      <ul class="nav_ul fl">
+        <li class="fl"><a href="index.html">首页</a></li>
+        <li class="fl"><a href="product.html">产品类别</a></li>
+        <li class="fl"><a href="service.html">服务领域</a></li>
+        <li class="fl"><a href="made.html">加工领域</a></li>
+        <li class="fl"><a href="success.html">服务案例</a></li>
+        <li class="fl on"><a href="about.html">关于誉程</a></li>
+        <li class="fl"><a href="news.html">行业资讯</a></li>
+        <li class="fl"><a href="contact.html">联系我们</a></li>
+      </ul>
+      <div class="fr search_con">
+        <input type="text" class="search_input fl" />
+        <span class="search fl"></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- banner -->
+  <div class="swiper-container banner">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"> <img src="img/banner3.png" /></div>
+      <div class="swiper-slide"> <img src="img/banner.png" /> </div>
+      <div class="swiper-slide"> <img src="img/banner3.png" /></div>
+    </div>
+    <div class="pagination banner-pagination"></div>
+  </div>
+  <!-- 头部结束 -->
+
+  <!-- 主体内容开始 -->
+  <div class="main">
+    <section class="concept wrapper">
+      <div class="concept_top">
+        <div class="concept_name">
+          <h3 class="concept_eng_name">YUCHENG PRECISION MACHINING<br/>BUSINESS PHILOSOPHY</h3>
+          <h4 class="concept_ch_name">誉程经营理念</h4>
+        </div>
+        <div class="clearfix">
+          <p class="concept_content  fl">一个人的时候，自己的想法总是特别地清晰。想要的，不想要的，界限明确，好像没有什么可以撼动自己。也曾经好像已经下定了决心去做某件事，但更多的时候是最后又打起了退堂鼓。嫌恶过自己的怯懦，最终却发现有很多缘分，有很多错过，好像冥冥之中真的已经注定。<br/>
+         此刻，天空是阴暗的，空气里有着刚下过雨之后的清新因子。突然想到那件蓝格子衬衫；那些被折成各种各样形状的信纸；那段从街角深巷伊始的友谊；还有那场还没有开始就宣告了终结的邂逅计划……那些年那些天的非做不可，终于和青春一样，都将在我们的人生中谢幕。</p>
+          <img class="concept_img fr" src="img/about1.jpg" />
+        </div>
+      </div>
+      <div class="concept_bottom clearfix">
+        <div class="fr">
+          <div class="concept_name">
+            <h3 class="concept_eng_name">YUCHENG PRECISION MACHINING<br/>BUSINESS PHILOSOPHY</h3>
+            <h4 class="concept_ch_name">誉程经营理念</h4>
+          </div>
+          <p class="concept_content">一个人的时候，自己的想法总是特别地清晰。想要嫌恶过自己的怯懦，最终却发现有很多缘分，有很多错过，好像冥冥之中真的已经注定。</p>
+        </div>
+        <img class="fl" src="img/about1.jpg" />
+      </div>
+  </div>
+  </section>
+<section  class="grey">
+      <div class="wrapper">
+        <div class="exp_name">
+          <h3 class="exp_eng_name">YUCHENG PRECISION MACHINING</h3>
+          <h4 class="exp_ch_name">20年行业经验</h4>
+        </div>
+        <img src="img/time_scroll.jpg" class="time_scroll"/>
+      </div>
+  </section>
+<section  class="team">
+      <div class="wrapper">
+        <div class="team_name">
+          <h4 class="team_ch_name">研发团队 工匠团队</h4>
+          <h3 class="team_eng_name">YUCHENG PRECISION MACHINING<br/>BUSINESS PHILOSOPHY</h3>
+        </div>
+      </div>
+  </section>
+
+<section  class="grey web">
+      <div class="wrapper">
+        <div class="concept_name">
+            <h3 class="concept_eng_name">YUCHENG PRECISION MACHINING<br/>BUSINESS PHILOSOPHY</h3>
+            <h4 class="concept_ch_name">誉程营销网络</h4>
+          </div>
+        <img src="img/map.jpg" class="time_scroll"/>
+      </div>
+  </section>
+<section  class="manage">
+      <div class="wrapper">
+        <div class="exp_name">
+          <h3 class="exp_eng_name">YUCHENG PRECISION MACHINING</h3>
+          <h4 class="exp_ch_name">生产加工管理</h4>
+        </div>
+        <ul class="manage_ul  clearfix ">
+          <li class="manage_li fl"><img src="img/business1.jpg" class="fl"/><p class="fl">YUCHENG PRECISION MACHINING YUCHENG PRECISION MACHINING YUCHENG PRECISION MACHINING</p></li>
+          <li class="manage_li fl"><img src="img/business2.jpg" class="fl"/><p class="fl">YUCHENG PRECISION MACHINING YUCHENG PRECISION MACHINING YUCHENG PRECISION MACHINING</p></li>
+          <li class="manage_li fl"><img src="img/business3.jpg" class="fl"/><p class="fl">YUCHENG PRECISION MACHINING YUCHENG PRECISION MACHINING YUCHENG PRECISION MACHINING</p></li>
+          <li class="manage_li fl"><img src="img/business4.jpg" class="fl"/><p class="fl">YUCHENG PRECISION MACHINING YUCHENG PRECISION MACHINING YUCHENG PRECISION MACHINING</p></li>
+          <li class="manage_li fl"><img src="img/business5.jpg" class="fl"/><p class="fl">YUCHENG PRECISION MACHINING YUCHENG PRECISION MACHINING YUCHENG PRECISION MACHINING</p></li>
+          <li class="manage_li fl"><img src="img/business6.jpg" class="fl"/><p class="fl">YUCHENG PRECISION MACHINING YUCHENG PRECISION MACHINING YUCHENG PRECISION MACHINING</p></li>
+        </ul>
+        <div class="concept_name">
+          <h3 class="concept_eng_name">YUCHENG PRECISION MACHINING<br/>BUSINESS PHILOSOPHY</h3>
+          <h4 class="concept_ch_name">誉程经营理念</h4>
+        </div>
+        <div class="clearfix">
+           <p class="concept_content  fl">一个人的时候，自己的想法总是特别地清晰。想要的，不想要的，界限明确，好像没有什么可以撼动自己。也曾经好像已经下定了决心去做某件事，但更多的时候是最后又打起了退堂鼓。嫌恶过自己的怯懦，最终却发现有很多缘分，有很多错过，好像冥冥之中真的已经注定。</p>
+           <ul class="show fr">
+             <li class="fl"><img src="img/service.jpg"/></li>
+             <li class="fl"><img src="img/service.jpg"/></li>
+             <li class="fl"><img src="img/service.jpg"/></li>
+           </ul>
+        </div>
+      </div>
+  </section>
+  </div>
+  <!-- 主体内容结束 -->
+
+  <!-- 底部开始 -->
+  <footer>
+    <div class="footer_top">
+      <div class="wrapper clearfix">
+        <div class="fl footer_top_l">
+          <ul class="footer_about fl">
+            <li>
+              <a href="">
+                <h3>About</h3>
+              </a>
+            </li>
+            <li><a href="">Help</a></li>
+            <li><a href="">Submit content</a></li>
+            <li><a href="">RFE community</a></li>
+            <li><a href="">Report abuse</a></li>
+            <li><a href="">Third-party notice</a></li>
+          </ul>
+          <ul class="footer_about fl">
+            <li>
+              <a href="">
+                <h3>Join</h3>
+              </a>
+            </li>
+            <li><a href="">Help</a></li>
+            <li><a href="">Submit content</a></li>
+            <li class="m40"><a href="">RFE community</a></li>
+            <li><a href="">中文</a></li>
+            <li><a href="">English</a></li>
+          </ul>
+        </div>
+        <div class="fr footer_top_r">
+          <ul class="footer_about fl">
+            <li>
+              <img src="img/footer_l1.png" />
+              <p>DEVELOPMENT</p>
+            </li>
+            <li><img src="img/footer_l2.png" />
+              <p>DEVELOPMENT</p>
+            </li>
+            <li><img src="img/footer_l3.png" />
+              <p>DEVELOPMENT</p>
+            </li>
+          </ul>
+          <ul class="footer_about fl">
+            <li><img src="img/footer_r1.png" />
+              <p>DEVELOPMENT</p>
+            </li>
+            <li><img src="img/footer_r2.png" />
+              <p>DEVELOPMENT</p>
+            </li>
+            <li><img src="img/footer_r3.png" />
+              <p>DEVELOPMENT</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer_bottom">
+      <div class="wrapper clearfix">
+        <div class="fl">
+          <ul class="footer_about fl">
+            <li class="footer_address fl">
+              <p class="footer_text">大连市金州区站前街道吴家屯机场</p>
+            </li>
+            <li class="footer_phone fl">
+              <p class="footer_text">400 877 3838<br/>400 877 3838</p>
+            </li>
+            <li class="footer_email fl">
+              <p class="footer_text">sales@dalianhonour.com<br/>sales@dalianhonour.com</p>
+            </li>
+            <li class="footer_search fl">
+              <input type="text" class="search_input fl" />
+              <span class="search fl"></span></li>
+          </ul>
+        </div>
+        <div class="fr">
+          <img src="img/logo_black.png" alt="誉程精密logo" class="fl logo" />
+        </div>
+
+      </div>
+    </div>
+
+  </footer>
+  <!-- 底部结束 -->
+</body>
+
+</html>
+<script src="js/jquery-1.10.1.min.js"></script>
+<script src="js/idangerous.swiper.min.js"></script>
+<script src="js/main.js"></script>

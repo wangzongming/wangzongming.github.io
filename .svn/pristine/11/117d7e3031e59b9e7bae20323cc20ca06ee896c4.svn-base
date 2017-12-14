@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="keywords" content="">
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="format-detection" content="telephone=no" />
+		<meta name="x5-orientation" content="portrait">
+		<link href="../css/frtBase.css" rel="stylesheet" />
+		<script type="text/javascript" src="../js/jquery-2.1.0.js"></script>
+		<script type="text/javascript" src="../js/nextStep.js"></script>
+		<script type="text/javascript" src="../js/util.js"></script>
+		<title>下一步处理步骤</title>
+		<script>
+			function subtWork() {
+
+				var nextStep = getNextStep();
+
+				if(nextStep == 0) {
+
+					alert("请选择下一步骤！");
+
+					return;
+				}
+
+				var tempnextUsers = "";
+
+				if(nextStep.stepId == "888"||nextStep.stepId == "999") {
+					
+					 if(nextStep.stepId=="999"){
+					 	
+					 	var gdUserJsonArray = contPerson("gd");
+					 	
+					 	var ffUserJsonArray = contPerson("ff");
+					 	
+					 	var fenfaUser,docSendUserIds,archiveUser,docArchiveUserIds;
+					 	
+					 	for(var i = 0; i < ffUserJsonArray.length; i++) {
+
+						fenfaUser += ffUserJsonArray[i].userOrgid + ";";
+
+					}
+
+					if(fenfaUser.length > 1) {
+
+						fenfaUser = fenfaUser.substr(0, tempnextUsers.length - 1);
+
+					}
+					
+					docSendUserIds = fenfaUser;
+					
+					
+					for(var i = 0; i < gdUserJsonArray.length; i++) {
+
+						archiveUser += gdUserJsonArray[i].userOrgid + ";";
+
+					}
+
+					if(archiveUser.length > 1) {
+
+						archiveUser = archiveUser.substr(0, tempnextUsers.length - 1);
+
+					}
+					
+					docArchiveUserIds = archiveUser;
+					 	
+					 }
+
+				} else {
+
+					var userJsonArray = contPerson("xb");
+
+					if(userJsonArray.length < 1) {
+
+						alert("请选择下一步处理人员！");
+
+						return;
+
+					}
+
+					for(var i = 0; i < userJsonArray.length; i++) {
+
+						tempnextUsers += userJsonArray[i].userOrgid + "~";
+
+					}
+
+					if(tempnextUsers.length > 1) {
+
+						tempnextUsers = tempnextUsers.substr(0, tempnextUsers.length - 1);
+
+					}
+				}
+
+				console.debug(tempnextUsers);
+
+				//TODO
+			}
+		</script>
+	</head>
+
+	<body class="creambg">
+		<div class="legend-section ">
+			<div class="l-title">
+				<span>下一步处理步骤</span> <i></i>
+			</div>
+
+			<div class="l-content">
+				<ul class="col-4s" id="newxtStepUl">
+					<li onclick="choseOrNotStep('step1')">
+						<span id="step1">步骤一</span>
+					</li>
+					<li onclick="choseOrNotStep('step2')">
+						<span id="step2">步骤二</span>
+					</li>
+					<li onclick="choseOrNotStep('step3')">
+						<span id="step3">步骤三</span>
+					</li>
+					<li onclick="choseOrNotStep('888')">
+						<span id="888">返回上一步</span>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="legend-section " id="chosePersonDiv">
+
+			<div class="l-title">
+				<span>下一步处理人员</span><i></i>
+			</div>
+
+			<div class="title-decoration">
+				<h3>备 选 列 表</h3>
+				<i></i>
+			</div>
+			<div class="search b-gray mt20">
+				<input type="text" placeholder="请输入搜索关键字">
+				<span></span>
+			</div>
+			<div class="person-choose">
+				<span>常用人员</span>
+				<a href="＃">机构人员 ></a>
+			</div>
+
+			<div class="l-content">
+				<ul class="col-4s col-4s-smail" id='xb_PersonList'>
+					<li onclick="choseOrNot('xb','userOrgid1','personId1')">
+						<span id="personId1_userOrgid1">同望张三</span>
+					</li>
+					<li onclick="choseOrNot('xb','userOrgid2','personId2')">
+						<span id="personId2_userOrgid2">同望李毅家</span>
+					</li>
+					<li onclick="choseOrNot('xb','userOrgid3','personId3')">
+						<span id="personId3_userOrgid3">同望张三同望张三同望张三</span>
+					</li>
+					<li onclick="choseOrNot('xb','userOrgid4','personId4')">
+						<span id="personId4_userOrgid4">同望张三</span>
+					</li>
+					<li onclick="choseOrNot('xb','userOrgid5','personId5')">
+						<span id="personId5_userOrgid5">xxxx部门 李四</span>
+					</li>
+
+				</ul>
+				<!-- 用于没有常用人员的时候 -->
+				<div class="noData1" style="display:none">您还没有常用人员列表!</div>
+			</div>
+			<div class="dashed-line"></div>
+			<div class="title-decoration">
+				<h3>已 选 列 表</h3>
+				<i></i>
+			</div>
+			<div class="l-content mb20">
+				<ul class="col-3s" id="xb_chosnPerList">
+
+				</ul>
+			</div>
+
+		</div>
+          <!-- 归档人 -->
+          <div class="legend-section " id="aticlePersonDiv">
+
+			<div class="l-title">
+				<span>选择归档人员</span><i></i>
+			</div>
+
+			<div class="title-decoration">
+				<h3>备 选 列 表</h3>
+				<i></i>
+			</div>
+			<div class="search b-gray mt20">
+				<input type="text" placeholder="请输入搜索关键字">
+				<span></span>
+			</div>
+			<div class="person-choose">
+				<span>常用人员</span>
+				<a href="＃">机构人员 ></a>
+			</div>
+
+			<div class="l-content">
+				<ul class="col-4s col-4s-smail" id='gd_PersonList'>
+					<li onclick="choseOrNot('gd','userOrgid1','personId1')">
+						<span id="personId1_userOrgid1">同望张三</span>
+					</li>
+					<li onclick="choseOrNot('gd','userOrgid2','personId2')">
+						<span id="personId2_userOrgid2">同望李毅家</span>
+					</li>
+					<li onclick="choseOrNot('gd','userOrgid3','personId3')">
+						<span id="personId3_userOrgid3">同望张三同望张三同望张三</span>
+					</li>
+					<li onclick="choseOrNot('gd','userOrgid4','personId4')">
+						<span id="personId4_userOrgid4">同望张三</span>
+					</li>
+					<li onclick="choseOrNot('gd','userOrgid5','personId5')">
+						<span id="personId5_userOrgid5">xxxx部门 李四</span>
+					</li>
+
+				</ul>
+				<!-- 用于没有常用人员的时候 -->
+				<div class="noData1" style="display:none">您还没有常用人员列表!</div>
+			</div>
+			<div class="dashed-line"></div>
+			<div class="title-decoration">
+				<h3>已 选 列 表</h3>
+				<i></i>
+			</div>
+			<div class="l-content mb20">
+				<ul class="col-3s" id="gd_chosnPerList">
+
+				</ul>
+			</div>
+			</div>
+			<!-- 分发人 -->
+			 <div class="legend-section " id="DistributePersonDiv">
+
+			<div class="l-title">
+				<span>选择分发人员</span><i></i>
+			</div>
+
+			<div class="title-decoration">
+				<h3>备 选 列 表</h3>
+				<i></i>
+			</div>
+			<div class="search b-gray mt20">
+				<input type="text" placeholder="请输入搜索关键字">
+				<span></span>
+			</div>
+			<div class="person-choose">
+				<span>常用人员</span>
+				<a href="＃">机构人员 ></a>
+			</div>
+
+			<div class="l-content">
+				<ul class="col-4s col-4s-smail" id='ff_PersonList'>
+					<li onclick="choseOrNot('ff','userOrgid1','personId1')">
+						<span id="personId1_userOrgid1">同望张三</span>
+					</li>
+					<li onclick="choseOrNot('ff','userOrgid2','personId2')">
+						<span id="personId2_userOrgid2">同望李毅家</span>
+					</li>
+					<li onclick="choseOrNot('ff','userOrgid3','personId3')">
+						<span id="personId3_userOrgid3">同望张三同望张三同望张三</span>
+					</li>
+					<li onclick="choseOrNot('ff','userOrgid4','personId4')">
+						<span id="personId4_userOrgid4">同望张三</span>
+					</li>
+					<li onclick="choseOrNot('ff','userOrgid5','personId5')">
+						<span id="personId5_userOrgid5">xxxx部门 李四</span>
+					</li>
+
+				</ul>
+				<!-- 用于没有常用人员的时候 -->
+				<div class="noData1" style="display:none">您还没有常用人员列表!</div>
+			</div>
+			<div class="dashed-line"></div>
+			<div class="title-decoration">
+				<h3>已 选 列 表</h3>
+				<i></i>
+			</div>
+			<div class="l-content mb20">
+				<ul class="col-3s" id="ff_chosnPerList">
+
+				</ul>
+			</div>
+
+		</div>
+		<div class="btn-one" onclick="subtWork()">
+			<span class="blueButton fullRow wordspac">提交</span>
+		</div>
+	</body>
+	<script>
+		var personArray = [{
+			"userid": "personId4",
+			"userOrgid": "userOrgid4",
+			"userText": "同望张三"
+		}, {
+			"userid": "personId2",
+			"userOrgid": "userOrgid2",
+			"userText": "同望李毅家"
+		}, {
+			"userid": "personId5",
+			"userOrgid": "userOrgid5",
+			"userText": "xxxx部门 李四"
+		}]
+
+		//	initPersonAndStep(personArray, "step1");
+	</script>
+
+</html>

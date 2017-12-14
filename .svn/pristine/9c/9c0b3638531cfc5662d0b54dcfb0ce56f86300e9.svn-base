@@ -1,0 +1,179 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title></title>
+    <link href="css/main.css" rel="stylesheet" />
+    <script src="js/jquery-1.9.1.min.js"></script>
+    <script src="js/index.js"></script>
+    <link href="css/easyscroll.css" rel="stylesheet" />
+    <link href="css/swiper.min.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="header">
+        <div class="inner">
+            <div class="top">
+                <span>
+                    <a href="javascript:void(0)" onclick="shoucang(document.title,window.location)"><em class="collection">收藏味争鲜</em></a>|<em class="weixin" id="weixin">
+                        <strong>关注微信</strong><dl id="weixin_code" style="display: none;">
+                            <dt>味争鲜微信公众号</dt>
+                            <dd><img src="img/pr_weixin_top.png" width="105" height="105"></dd>
+                        </dl>
+                    </em>
+                </span>hi，欢迎光临味争鲜！
+            </div>
+            <a href="index.html" class="logo">
+                <img src="img/logo.png" width="350" height="105" alt="味争鲜" id="home" class="logo_img">
+            </a>
+            <div class="nav" id="nav">
+                <ul>
+                    <li class=""><a href="index.html">首页<span>HOME</span></a></li>
+                    <li class=""><a href="aboutUs.html">关于我们<span>ABOUT US</span></a></li>
+                    <li class="current"><a href="ournews.html">媒体报道<span>OUR NEWS</span></a></li>
+                    <li class=""><a href="base.html">契约基地<span>BASE</span></a></li>
+                    <li class=""><a href="onlineSale.html">销售网络<span>ONLINE SALE</span></a></li>
+                    <li class=""><a href="partner.html">合作伙伴<span>PARTNER</span></a></li>
+                    <li class=""><a href="contact.html">联系我们<span>CONTACT</span></a></li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+    <!--媒体报道-->
+    <div class="contain">
+        <div class="contactus">
+            <div class="inner">
+                <h2><strong><span>媒体报道</span><span>OUR NEWS</span></strong><em class="h2_bar"></em></h2>
+                <div class="news">
+                    <div class="news_left">
+                        <div class="news_first">
+                            <p><img src="img/pic_1.png" width="160" height="140" alt="味争鲜（大连）科技有限公司"></p>
+                            <dl>
+                                <dt>味争鲜（大连）科技有限公司</dt>
+                                <dd>味争鲜与顺丰和EMS航空和冷链共共同打造互联网+ 天然 农场直供生鲜销售模式。味争鲜致力成为新农业产品标准的践行者，新农业的电商平台建设者，新农人的系统化培训者，做新农业国际化的引领者。</dd>
+                                <dd class="more"><span><!--<a href="#" ><img src="img/more.png" width="44" height="10"></a>--></span>2015-04-30</dd>
+                            </dl>
+                        </div>
+                        <div class="news_first">
+                            <p><img src="img/pic_2.png" width="160" height="140" alt="味争鲜（大连）科技有限公司"></p>
+                            <dl>
+                                <dt>味争鲜（大连）科技有限公司</dt>
+                                <dd>味争鲜与顺丰和EMS航空和冷链共共同打造互联网+ 天然 农场直供生鲜销售模式。味争鲜致力成为新农业产品标准的践行者，新农业的电商平台建设者，新农人的系统化培训者，做新农业国际化的引领者。</dd>
+                                <dd class="more"><span><!--<a href="#" ><img src="img/more.png" width="44" height="10"></a>--></span>2015-04-30</dd>
+                            </dl>
+                        </div>
+                    </div>
+                    <div class="news_right" id="newslist">
+                        <div class="swiper-container" id="s1">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <span>2016-07-05</span><a href="javascript:void(0);" class="news_a" data-href="0" >全国区域电商联盟2016年度大会在大商集团总部召开</a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <span>2016-07-05</span><a href="javascript:void(0);" class="news_a" data-href="0" >全国区域电商联盟2016年度大会在大商集团总部召开</a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <span>2016-07-05</span><a href="javascript:void(0);" class="news_a" data-href="0" >全国区域电商联盟2016年度大会在大商集团总部召开</a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <span>2016-07-05</span><a href="javascript:void(0);" class="news_a" data-href="0" >全国区域电商联盟2016年度大会在大商集团总部召开</a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <span>2016-07-05</span><a href="javascript:void(0);" class="news_a" data-href="0" >全国区域电商联盟2016年度大会在大商集团总部召开</a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <span>2016-07-05</span><a href="javascript:void(0);" class="news_a" data-href="0" >全国区域电商联盟2016年度大会在大商集团总部召开</a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <span>2016-07-05</span><a href="javascript:void(0);" class="news_a" data-href="0" >全国区域电商联盟2016年度大会在大商集团总部召开</a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <span>2016-07-05</span><a href="javascript:void(0);" class="news_a" data-href="0" >全国区域电商联盟2016年度大会在大商集团总部召开</a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <span>2016-07-05</span><a href="javascript:void(0);" class="news_a" data-href="0" >全国区域电商联盟2016年度大会在大商集团总部召开</a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <span>2016-07-05</span><a href="javascript:void(0);" class="news_a" data-href="0" >全国区域电商联盟2016年度大会在大商集团总部召开</a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <span>2016-07-05</span><a href="javascript:void(0);" class="news_a" data-href="0" >全国区域电商联盟2016年度大会在大商集团总部召开</a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <span>2016-07-05</span><a href="javascript:void(0);" class="news_a" data-href="0" >全国区域电商联盟2016年度大会在大商集团总部召开</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-button-next" id="swiper-button-next1" style=" "></div>
+                        <div class="swiper-button-prev" id="swiper-button-prev1" style=" "></div>
+                    </div>
+                    <div class="window" id="window">
+                        <div class="inner">
+                            <h3><strong><span>媒体报道</span><span>OUR NEWS</span></strong><em class="con_tit">/2016味争鲜品牌建设公司销售网络</em><em class="h3_right">2016-07-05</em><em class="h3_bar"></em></h3>
+                            <div class="window_con">
+                                <!--内容start-->
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in ligula id sem tristique ultrices eget id neque. Duis enim turpis, tempus at accumsan vitae, lobortis id sapien. Pellentesque nec orci mi, in pharetra ligula. Nulla facilisi. Nulla facilisi. Mauris convallis venenatis massa, quis consectetur felis ornare quis. Sed aliquet nunc ac ante molestie ultricies. Nam pulvinar ultricies bibendum. Vivamus diam leo, faucibus et vehicula eu, molestie sit amet dui. Proin nec orci et elit
+                                    semper ultrices. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed quis urna mi, ac dignissim mauris. Quisque mollis ornare mauris, sed laoreet diam malesuada quis. Proin vel elementum ante. Donec hendrerit arcu ac odio tincidunt posuere. Vestibulum nec risus eu lacus semper viverra.
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in ligula id sem tristique ultrices eget id neque. Duis enim turpis, tempus at accumsan vitae, lobortis id sapien. Pellentesque nec orci mi, in pharetra ligula. Nulla facilisi. Nulla facilisi. Mauris convallis venenatis massa, quis consectetur felis ornare quis. Sed aliquet nunc ac ante molestie ultricies. Nam pulvinar ultricies bibendum. Vivamus diam leo, faucibus et vehicula eu, molestie sit amet dui. Proin nec orci et elit
+                                    semper ultrices. Cum sociis natoque penatibus et magnis dis parturient Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in ligula id sem tristique ultrices eget id neque. Duis enim turpis, tempus at accumsan vitae, lobortis id sapien. Pellentesque nec orci mi, in pharetra ligula. Nulla facilisi. Nulla facilisi. Mauris convallis venenatis massa, quis consectetur felis ornare quis. Sed aliquet nunc ac ante molestie ultricies. Nam pulvinar ultricies bibendum. Vivamus diam leo, faucibus et vehicula eu, molestie sit amet dui. Proin nec orci et elit
+                                    semper ultrices. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed quis urna mi, ac dignissim mauris. Quisque mollis ornare mauris, sed laoreet diam malesuada quis. Proin vel elementum ante. Donec hendrerit arcu ac odio tincidunt posuere. Vestibulum nec risus eu lacus semper viverra.montes, nascetur ridiculus mus. Sed quis urna mi, ac dignissim mauris. Quisque mollis ornare mauris, sed laoreet diam malesuada quis. Proin vel elementum ante. Donec hendrerit arcu ac odio tincidunt posuere. Vestibulum nec risus eu lacus semper viverra.
+
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in ligula id sem tristique ultrices eget id neque. Duis enim turpis, tempus at accumsan vitae, lobortis id sapien. Pellentesque nec orci mi, in pharetra ligula. Nulla facilisi. Nulla facilisi. Mauris convallis venenatis massa, quis consectetur felis ornare quis. Sed aliquet nunc ac ante molestie ultricies. Nam pulvinar ultricies bibendum. Vivamus diam leo, faucibus et vehicula eu, molestie sit amet dui. Proin nec orci et elit
+                                    semper ultrices. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed quis urna mi, ac dignissim mauris. Quisque mollis ornare mauris, sed laoreet diam malesuada quis. Proin vel elementum ante. Donec hendrerit arcu ac odio tincidunt posuere. Vestibulum nec risus eu lacus semper viverra.
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in ligula id sem tristique ultrices eget id neque. Duis enim turpis, tempus at accumsan vitae, lobortis id sapien. Pellentesque nec orci mi, in pharetra ligula. Nulla facilisi. Nulla facilisi. Mauris convallis venenatis massa, quis consectetur felis ornare quis. Sed aliquet nunc ac ante molestie ultricies. Nam pulvinar ultricies bibendum. Vivamus diam leo, faucibus et vehicula eu, molestie sit amet dui. Proin nec orci et elit
+                                    semper ultrices. Cum sociis natoque penatibus et magnis dis parturient Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in ligula id sem tristique ultrices eget id neque. Duis enim turpis, tempus at accumsan vitae, lobortis id sapien. Pellentesque nec orci mi, in pharetra ligula. Nulla facilisi. Nulla facilisi. Mauris convallis venenatis massa, quis consectetur felis ornare quis. Sed aliquet nunc ac ante molestie ultricies. Nam pulvinar ultricies bibendum. Vivamus diam leo, faucibus et vehicula eu, molestie sit amet dui. Proin nec orci et elit
+                                    semper ultrices. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed quis urna mi, ac dignissim mauris. Quisque mollis ornare mauris, sed laoreet diam malesuada quis. Proin vel elementum ante. Donec hendrerit arcu ac odio tincidunt posuere. Vestibulum nec risus eu lacus semper viverra.montes, nascetur ridiculus mus. Sed quis urna mi, ac dignissim mauris. Quisque mollis ornare mauris, sed laoreet diam malesuada quis. Proin vel elementum ante. Donec hendrerit arcu ac odio tincidunt posuere. Vestibulum nec risus eu lacus semper viverra.
+
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in ligula id sem tristique ultrices eget id neque. Duis enim turpis, tempus at accumsan vitae, lobortis id sapien. Pellentesque nec orci mi, in pharetra ligula. Nulla facilisi. Nulla facilisi. Mauris convallis venenatis massa, quis consectetur felis ornare quis. Sed aliquet nunc ac ante molestie ultricies. Nam pulvinar ultricies bibendum. Vivamus diam leo, faucibus et vehicula eu, molestie sit amet dui. Proin nec orci et elit
+                                    semper ultrices. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed quis urna mi, ac dignissim mauris. Quisque mollis ornare mauris, sed laoreet diam malesuada quis. Proin vel elementum ante. Donec hendrerit arcu ac odio tincidunt posuere. Vestibulum nec risus eu lacus semper viverra.
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in ligula id sem tristique ultrices eget id neque. Duis enim turpis, tempus at accumsan vitae, lobortis id sapien. Pellentesque nec orci mi, in pharetra ligula. Nulla facilisi. Nulla facilisi. Mauris convallis venenatis massa, quis consectetur felis ornare quis. Sed aliquet nunc ac ante molestie ultricies. Nam pulvinar ultricies bibendum. Vivamus diam leo, faucibus et vehicula eu, molestie sit amet dui. Proin nec orci et elit
+                                    semper ultrices. Cum sociis natoque penatibus et magnis dis parturient Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in ligula id sem tristique ultrices eget id neque. Duis enim turpis, tempus at accumsan vitae, lobortis id sapien. Pellentesque nec orci mi, in pharetra ligula. Nulla facilisi. Nulla facilisi. Mauris convallis venenatis massa, quis consectetur felis ornare quis. Sed aliquet nunc ac ante molestie ultricies. Nam pulvinar ultricies bibendum. Vivamus diam leo, faucibus et vehicula eu, molestie sit amet dui. Proin nec orci et elit
+                                    semper ultrices. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed quis urna mi, ac dignissim mauris. Quisque mollis ornare mauris, sed laoreet diam malesuada quis. Proin vel elementum ante. Donec hendrerit arcu ac odio tincidunt posuere. Vestibulum nec risus eu lacus semper viverra.montes, nascetur ridiculus mus. Sed quis urna mi, ac dignissim mauris. Quisque mollis ornare mauris, sed laoreet diam malesuada quis. Proin vel elementum ante. Donec hendrerit arcu ac odio tincidunt posuere. Vestibulum nec risus eu lacus semper viverra.
+                                </p>
+                                <!--内容end-->
+                            </div>
+                        </div>
+                        <div class="window_close" id="window_close"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="inner">
+            味争鲜（大连）科技有限公司辽ICP备13005630号-2 增值电信业务经营许可证： 辽B2-20140019
+        </div>
+    </div>
+    <script src="js/mousewheel.js"></script>
+    <script src="js/easyscroll.js"></script>
+    <script src="js/swiper.jquery.min.js"></script>
+    <script>
+        $(function () {
+ 
+            var swiper1 = new Swiper('#s1', {
+                direction: 'vertical',
+                slidesPerView: 10,
+                nextButton: '#swiper-button-next1',
+                prevButton: '#swiper-button-prev1',
+            });
+
+
+            $("#newslist").delegate(".news_a", "click", function () {
+                //异步加载新闻详情
+                setTimeout(function () {
+                    $("#window").show();
+                    $("#window .window_con").scroll_absolute({ arrows: false });
+                })
+            });
+            $("#window_close").click(function () {
+                $("#window").hide();
+            })
+
+        })
+
+    </script>
+
+
+</body>
+</html>

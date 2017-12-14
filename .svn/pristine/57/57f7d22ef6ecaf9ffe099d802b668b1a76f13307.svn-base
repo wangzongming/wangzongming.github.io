@@ -1,0 +1,122 @@
+﻿html { font-size: 62.5%; font-family: 'Microsoft Yahei', Helvetica, Arial, sans-serif; }
+body, ul, dl, h2, h3, dd { padding: 0; margin: 0; }
+img { display: block; width: 100%; }
+li { list-style: none; }
+a { text-decoration: none; color: inherit; }
+.clear:after { content: ""; display: block; height: 0; overflow: hidden; clear: both; }
+
+	
+		
+.float_l { float: left; }
+		
+.nav {
+	background-color: #00ADB1;
+	/* border-top: 3px solid #00aeb1; */
+	box-shadow: 0 0 5px #026567;
+	text-align: center;
+}
+
+.nav.nav_bottom {
+	border-bottom: 3px solid #00aeb1;
+	border-top: 0 none;
+	margin-top: 90px;
+}
+
+.nav .nav_tabOne {
+	position: relative;
+	cursor: pointer;
+}
+
+.nav .nav_tabOne+ .nav_tabOne {
+	margin-left: 1px;
+}
+
+.nav .nav_tabOne .nav_tabOne_tit {
+	display: block;
+	height: 54px;
+	line-height: 54px;
+	width: 148px;
+	color: #fff;
+	transition: background-color 0.12s;
+}
+
+.nav .nav_tabOne .nav_tabOne_tit>a {
+	display: block;
+}
+
+.nav .nav_tabOne:hover .nav_tabOne_tit {
+	background-color: #F5C500;
+}
+
+nav .nav_tabOne.cur .nav_tabOne_tit {
+	background-color: #F5C500;
+}
+
+.nav .nav_tabOne .nav_tabOne_tit+ ul {
+	display: none;
+	position: absolute;
+	left: 0;
+	top: 54px;
+	width: 100%;
+}
+
+.nav .nav_tabTwo .nav_tabTwo_tit {
+	display: block;
+	color: #333;
+	height: 46px;
+	line-height: 46px;
+	background-color: rgba(255, 255, 255, 0.38);
+	transition: all 0.12s;
+}
+
+.nav .nav_tabTwo:hover .nav_tabTwo_tit {
+	color: #00aeb1;
+	background-color: rgba(255, 255, 255, 0.88);
+}
+
+
+
+
+.active { border-bottom: 1px solid #919191; display: block; }
+
+.content { }
+    .content h2 { padding: 1rem 0; }
+    .content h3 { padding: .5rem 2rem; font-size: 1.6rem; }
+    .content ul.oneList { padding: 0 1.4rem; }
+        .content ul.oneList li { margin-bottom: 1.4rem; }
+    .content ul.twoList li { width: 50%; float: left; box-sizing: border-box; margin-bottom: .7rem; }
+        .content ul.twoList li:nth-child(2n+1) { padding: 0 .7rem 0 1.4rem; }
+        .content ul.twoList li:nth-child(2n+2) { padding: 0 1.4rem 0 .7rem; }
+
+        .content ul.twoList li .list_infoBox { height: 2rem; color: #585858; padding: .5rem 0; }
+            .content ul.twoList li .list_infoBox .list_info_l { float: left; width: 72%; }
+                .content ul.twoList li .list_infoBox .list_info_l dt { font-size: 1.2rem; white-space: nowrap; text-overflow: ellipsis; overflow: hidden; }
+                .content ul.twoList li .list_infoBox .list_info_l dd { font-size: .8rem; }
+            .content ul.twoList li .list_infoBox .list_info_r { float: right; width: 28%; text-align: right; font-size: 1.2rem; }
+
+    .content ul.threeList { padding: 0 2rem; }
+        .content ul.threeList li { line-height: 3rem; color: #2b86b3; font-size: 1.4rem; }
+            .content ul.threeList li a span { color: #ff0a07; }
+    .content .more { display: block; text-align: center; height: 4rem; line-height: 4rem; font-size: 1.4rem; border-top: .5px solid #919191; border-bottom: .5px solid #919191; }
+
+    .content .city_tabBox { text-align: center; margin-bottom: 1.4rem; }
+        .content .city_tabBox a { display: inline-block; height: 3rem; line-height: 3rem; padding: 0 1rem; margin: 0 .5rem; border: .5px solid #000; border-radius: .2rem; font-size: 1.4rem; }
+            .content .city_tabBox a.cur { color: #00adb1; border-color: #00adb1; }
+
+    .content .fyBox { text-align: center; margin-bottom: 1.4rem; }
+        .content .fyBox a { display: inline-block; height: 3rem; line-height: 3rem; margin: 0 .5rem; background-color: #ffbe00; border-radius: 1.5rem; font-size: 1.4rem;color:#fff }
+
+            .content .fyBox a.page_num { width: 3rem; }
+            .content .fyBox a.page_btn { padding: 0 1.5rem; }
+
+            .content .fyBox a.cur { background-color: #00adb1; }
+footer { margin-top: 1rem; }
+
+.floatBox { position: fixed; z-index: 3; width: 100%; bottom: 0; left: 0; box-shadow: 0 0 1rem rgba(52,52,52,.8); }
+    .floatBox .floatBox_abox { display: -webkit-box; width: 100%; height: 100%; position: absolute; left: 0; bottom: 0; }
+        .floatBox .floatBox_abox a { display: block; background-repeat: no-repeat; background-size: contain; }
+            .floatBox .floatBox_abox a.wb { -webkit-box-flex: 133; }
+            .floatBox .floatBox_abox a.tm { -webkit-box-flex: 131; }
+            .floatBox .floatBox_abox a.online { -webkit-box-flex: 211; }
+            .floatBox .floatBox_abox a.phone { -webkit-box-flex: 213; }
+            .floatBox .floatBox_abox a.returntop { -webkit-box-flex: 112; }

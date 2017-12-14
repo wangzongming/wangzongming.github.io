@@ -1,0 +1,43 @@
+@import "base.less";
+
+header {
+    nav.navbar{
+        border: 0px;
+        min-height: .52rem;
+        background-color: #333333;
+        margin-bottom: 0px;
+        
+        &.active{
+           background-color: #2e2e2e;
+           //background-color: #B84926;
+           
+           .navbar-collapse{
+                ul{
+                    li{
+                        a{
+                            background-color: #2e2e2e;
+                        }
+                    }
+                }
+            }
+        }
+        
+        .navbar-collapse{
+            ul{
+                li{
+                    a{
+                        padding-top: 0.14rem;
+                        padding-bottom: 0.14rem;
+                        line-height: 0.24rem;
+                        font-size: 0.24rem;
+                        background-color: #4d4d4d;
+                        color:#bdbdbd; 
+                        &:hover{
+                            background-color: @color-orange;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

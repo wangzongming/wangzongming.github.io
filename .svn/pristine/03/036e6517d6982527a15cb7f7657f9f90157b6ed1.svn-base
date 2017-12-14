@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>产品类别</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="css/idangerous.swiper.css" rel="stylesheet">
+  <link href="css/normalize.css" rel="stylesheet" />
+  <link href="css/main.css" rel="stylesheet" />
+</head>
+
+<body>
+  <!-- 头部开始  -->
+  <header>
+    <div class="wrapper clearfix">
+      <div class="header_l fl">
+        <img src="img/logo_blue.png" alt="誉程精密logo" class="fl logo" />
+        <div class="name_con fl">
+          <p class="ch_name">誉程精密</p>
+          <p class="eng_name">YUCHENG PRECISION MACHINING</p>
+        </div>
+      </div>
+      <div class="header_r fr">
+        <ul class="header_ul clearfix">
+          <li class="header_phone fl">400 877 3838</li>
+          <li class="header_email fl">sales@dalianhonour.com</li>
+          <li class="fl">语言切换</li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <nav>
+    <div class="wrapper clearfix">
+      <ul class="nav_ul fl">
+        <li class="fl"><a href="index.html">首页</a></li>
+        <li class="fl on"><a href="product.html">产品类别</a></li>
+        <li class="fl"><a href="service.html">服务领域</a></li>
+        <li class="fl"><a href="made.html">加工领域</a></li>
+        <li class="fl"><a href="success.html">服务案例</a></li>
+        <li class="fl"><a href="about.html">关于誉程</a></li>
+        <li class="fl"><a href="news.html">行业资讯</a></li>
+        <li class="fl"><a href="contact.html">联系我们</a></li>
+      </ul>
+      <div class="fr search_con">
+        <input type="text" class="search_input fl" />
+        <span class="search fl"></span>
+      </div>
+    </div>
+  </nav>
+   
+  <!-- banner -->
+  <div class="swiper-container banner">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"> <img src="img/banner3.png" /></div>
+      <div class="swiper-slide"> <img src="img/banner.png" /> </div>
+      <div class="swiper-slide"> <img src="img/banner3.png" /></div>
+    </div>
+    <div class="pagination banner-pagination"></div>
+    <div class="swiper-button-next swiper-button-next-banner swiper-button-white"></div> <!-- 白色 -->
+    <div class="swiper-button-prev swiper-button-prev-banner swiper-button-white"></div> <!-- 白色 -->
+
+  </div>
+  <!-- 头部结束 -->
+
+  <!-- 主体内容开始 -->
+  <div class="main">
+    <nav class="nav_list_con">
+      <div class="wrapper">
+      <ul class="nav_list clearfix">
+        <li class="fl on"><span>全部</span></li>
+        <li class="fl"><span>阀门</span></li>
+        <li class="fl"><span>过滤器</span></li>
+        <li class="fl"><span>仪器仪表壳体</span></li>
+        <li class="fl"><span>安全阀部件</span></li>
+        <li class="fl"><span>冲压磨具类工具</span></li>
+      </ul>
+      </div>
+    </nav>
+    <section>
+    <div class="wrapper">
+     
+      <ul class="clearfix list">
+        <li class="fl flip-container" ontouchstart="this.classList.toggle('hover');">
+            <div class="flipper">
+              <div class="product_con  front">
+                <!-- 前面内容 -->
+                <img src="img/product.png" />
+                <p class="size">20*30*40mm</p>
+                <p class="goods">PRODUCT CATEGORY</p>
+              </div>
+              <div class="mask back">
+                <!-- 背面内容 -->
+                <h3 class="mask_title">PUMP&VALUE</h3>
+                <div class="mask_back">
+                    smcsjndcsjdbchsbdchjnksndjcqhweuhewhddcjsdcsdcdcsdcsdcdc
+                </div>
+              </div>
+            </div>
+          </li>
+         <li class="fl flip-container" ontouchstart="this.classList.toggle('hover');">
+            <div class="flipper">
+              <div class="product_con  front">
+                <!-- 前面内容 -->
+                <img src="img/product.png" />
+                <p class="size">20*30*40mm</p>
+                <p class="goods">PRODUCT CATEGORY</p>
+              </div>
+              <div class="mask back">
+                <!-- 背面内容 -->
+                <h3 class="mask_title">PUMP&VALUE</h3>
+                <div class="mask_back">
+                    smcsjndcsjdbchsbdchjnksndjcqhweuhewhddcjsdcsdcdcsdcsdcdc
+                </div>
+              </div>
+            </div>
+          </li>
+           <li class="fl flip-container" ontouchstart="this.classList.toggle('hover');">
+            <div class="flipper">
+              <div class="product_con  front">
+                <!-- 前面内容 -->
+                <img src="img/product.png" />
+                <p class="size">20*30*40mm</p>
+                <p class="goods">PRODUCT CATEGORY</p>
+              </div>
+              <div class="mask back">
+                <!-- 背面内容 -->
+                <h3 class="mask_title">PUMP&VALUE</h3>
+                <div class="mask_back">
+                    smcsjndcsjdbchsbdchjnksndjcqhweuhewhddcjsdcsdcdcsdcsdcdc
+                </div>
+              </div>
+            </div>
+          </li>
+           <li class="fl flip-container" ontouchstart="this.classList.toggle('hover');">
+            <div class="flipper">
+              <div class="product_con  front">
+                <!-- 前面内容 -->
+                <img src="img/product.png" />
+                <p class="size">20*30*40mm</p>
+                <p class="goods">PRODUCT CATEGORY</p>
+              </div>
+              <div class="mask back">
+                <!-- 背面内容 -->
+                <h3 class="mask_title">PUMP&VALUE</h3>
+                <div class="mask_back">
+                    smcsjndcsjdbchsbdchjnksndjcqhweuhewhddcjsdcsdcdcsdcsdcdc
+                </div>
+              </div>
+            </div>
+          </li>
+      </ul>
+      <div class="clearfix">
+        <ol class="page fr">
+          <!-- <li class="fl dir">上一页</li> -->
+          <li class="page_li fl on">1</li>
+          <li class="page_li fl">2</li>
+          <li class="page_li fl">3</li>
+          <li class="page_li fl">4</li>
+          <li class="page_li fl">5</li>
+          <li class="page_li fl">6</li>
+          <li class="page_li fl">7</li>
+          <li class="fl">...</li>
+          <li class="fl dir">下一页</li>
+        </ol>
+      </div>
+    </div>
+    </section>
+  </div>
+ <!-- 主体内容结束 -->
+
+ <div class="down-page">
+    <div class="down-page-con">
+      <div class="down-page-con-con">
+        <div class="down-page-con-down-type">
+          <span>下载类别1</span>
+          <span>下载类别2</span>
+          <span>下载类别3</span>
+        </div>
+        <div class="down-page-con-down-tab">
+          <div class="down-page-con-list">
+            <!-- 每个ul就是一个下载类别 -->
+            <ul class="down-page-con-ul downloadTypeOne">
+              <!-- 一个li就是一个文件列表 -->
+              <li class="down-page-con-li">
+                <div class="down-page-con-icon"><img src="./img/down.png" alt=""></div>
+                <div class="down-page-con-text">
+                  <a href="">Jahresabschluss_Lagebericht_KUKA_AG_2010 - pdf,2138 kb </a>
+                </div>
+              </li>
+              <li class="down-page-con-li">
+                  <div class="down-page-con-icon"><img src="./img/down.png" alt=""></div>
+                  <div class="down-page-con-text">
+                    <a href="">Jahresabschluss_Lagebericht_KUKA_AG_2010 - pdf,2138 kb</a>
+                  </div>
+              </li>
+              <li class="down-page-con-li">
+                  <div class="down-page-con-icon"><img src="./img/down.png" alt=""></div>
+                  <div class="down-page-con-text">
+                    <a href="">Jahresabschluss_Lagebericht_KUKA_AG_2010 - pdf,2138 kb </a>
+                  </div>
+                </li>
+                <li class="down-page-con-li">
+                    <div class="down-page-con-icon"><img src="./img/down.png" alt=""></div>
+                    <div class="down-page-con-text">
+                      <a href="">Jahresabschluss_Lagebericht_KUKA_AG_2010 - pdf,2138 kb</a>
+                    </div>
+                </li>
+                <li class="down-page-con-li">
+                    <div class="down-page-con-icon"><img src="./img/down.png" alt=""></div>
+                    <div class="down-page-con-text">
+                      <a href="">Jahresabschluss_Lagebericht_KUKA_AG_2010 - pdf,2138 kb </a>
+                    </div>
+                  </li>
+                  <li class="down-page-con-li">
+                      <div class="down-page-con-icon"><img src="./img/down.png" alt=""></div>
+                      <div class="down-page-con-text">
+                        <a href="">Jahresabschluss_Lagebericht_KUKA_AG_2010 - pdf,2138 kb</a>
+                      </div>
+                  </li>
+            </ul>
+
+            <ul class="down-page-con-ul downloadTypeTwo">
+                <!-- 一个li就是一个文件列表 -->
+                <li class="down-page-con-li">
+                  <div class="down-page-con-icon"><img src="./img/down.png" alt=""></div>
+                  <div class="down-page-con-text">
+                    <a href="">222b </a>
+                  </div>
+                </li>
+                <li class="down-page-con-li">
+                    <div class="down-page-con-icon"><img src="./img/down.png" alt=""></div>
+                    <div class="down-page-con-text">
+                      <a href="">Jahresabschluss_Lagebericht_KUKA_AG_2010 - pdf,2138 kb</a>
+                    </div>
+                </li>
+            </ul>
+            <ul class="down-page-con-ul downloadTypeThree">
+                  <!-- 一个li就是一个文件列表 -->
+                  <li class="down-page-con-li">
+                    <div class="down-page-con-icon"><img src="./img/down.png" alt=""></div>
+                    <div class="down-page-con-text">
+                      <a href="">Jahresabschluss_Lagebericht_KUKA_AG_2010 - pdf,2138 kb </a>
+                    </div>
+                  </li>
+                  <li class="down-page-con-li">
+                      <div class="down-page-con-icon"><img src="./img/down.png" alt=""></div>
+                      <div class="down-page-con-text">
+                        <a href="">Jahresabschluss_Lagebericht_KUKA_AG_2010 - pdf,2138 kb</a>
+                      </div>
+                  </li>
+            </ul>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <!-- <div class="down-page-footer">
+      <div class="down-page-f-ziliao-down">
+        <img src="./img/question1.jpg" alt="">
+        <span class="ziliao-down">
+          资料下载
+        </span>
+      </div>
+      <div class="down-page-f-cjwt">
+        <img src="./img/question2.jpg" alt="">
+        <span>
+          <a href="">常见问题</a>
+        </span>
+      </div>
+    </div> -->
+</div>
+
+  <!-- 底部开始 -->
+  <footer>
+      <div class="footer_top">
+          <div class="wrapper clearfix">
+            <div class="fl footer_top_l">
+              <ul class="footer_about fl">
+                <li>
+                  <a href="">
+                    <h3>产品类型</h3>
+                  </a>
+                </li>
+                <br/>
+                <li><a href="">阀门</a></li>
+                <li><a href="">过滤器</a></li>
+                <li><a href="">仪器仪表壳体</a></li>
+                <li><a href="">安全阀部件</a></li>
+                <li><a href="">压冲磨具类</a></li>
+              </ul>
+              <ul class="footer_about fl">
+                <li>
+                  <a href="">
+                    <h3>服务领域</h3>
+                  </a>
+                </li>
+                <br/>
+                <li><a href="">石油行业</a></li>
+                <li><a href="">工业制冷</a></li>
+                <li><a href="">汽车零部件</a></li>
+                <li><a href="">船舶零部件</a></li>
+              </ul>
+              <ul class="footer_about fl">
+                <li>
+                  <a href="">
+                    <h3>关于誉程</h3>
+                  </a>
+                </li>
+                <br/>
+                <li><a href="">誉程发展历程</a></li>
+                <li><a href="">誉程企业实力</a></li>
+              </ul>
+              <ul class="footer_about fl">
+                <li>
+                  <a href="">
+                    <h3>语言</h3>
+                  </a>
+                </li>
+                <br/>
+                <li><a href="">中文</a></li>
+                <li><a href="">English</a></li>
+              </ul>
+            </div>
+            <div class="fr footer_top_r">
+              <ul class="footer_about fl">
+                <li class="down-icon">
+                  <p class="ziliao-down"><a onclick="javascript:;">资料下载</a></p>
+                  <!-- <div class="dowm-menu-con">
+                    <div><a href="#">文件名：12345678912345678900.zip &nbsp;&nbsp; 上传日期：2017/9/12</a></div>
+                    <div><a href="#">文件名：12345678912345678900.zip &nbsp;&nbsp; 上传日期：2017/9/12</a></div>
+                    <div><a href="#">文件名：12345678912345678900.zip &nbsp;&nbsp; 上传日期：2017/9/12</a></div>
+                    <div><a href="#">文件名：12345678912345678900.zip &nbsp;&nbsp; 上传日期：2017/9/12</a></div>
+                    <div><a href="#">文件名：12345678912345678900.zip &nbsp;&nbsp; 上传日期：2017/9/12</a></div>
+                    <div><a href="#">文件名：12345678912345678900.zip &nbsp;&nbsp; 上传日期：2017/9/12</a></div>
+                  </div> -->
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+    <div class="footer_bottom">
+      <div class="wrapper clearfix">
+        <div class="fl">
+          <ul class="footer_about fl">
+            <li class="footer_address fl">
+              <p class="footer_text">大连市金州区站前街道吴家屯机场</p>
+            </li>
+            <li class="footer_phone fl">
+              <p class="footer_text">400 877 3838<br/>400 877 3838</p>
+            </li>
+            <li class="footer_email fl">
+              <p class="footer_text">sales@dalianhonour.com<br/>sales@dalianhonour.com</p>
+            </li>
+            <li class="footer_search fl">
+              <input type="text" class="search_input fl" />
+              <span class="search fl"></span></li>
+          </ul>
+        </div>
+        <div class="fr">
+          <img src="img/logo_black.png" alt="誉程精密logo" class="fl logo" />
+        </div>
+
+      </div>
+    </div>
+
+  </footer>
+  <!-- 底部结束 -->
+</body>
+
+</html>
+<script src="js/jquery-1.10.1.min.js"></script>
+<script src="js/idangerous.swiper.min.js"></script>
+<script src="js/main.js"></script>

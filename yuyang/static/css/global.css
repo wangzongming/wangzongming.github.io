@@ -1,0 +1,23 @@
+.ls {
+  list-style: none;
+}
+.yuan {
+  border-radius: 50%;
+}
+.bs {
+  box-sizing: border-box;
+}
+.clearfix:after,
+.clearfix:before {
+  content: '';
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.bz {
+  box-sizing: border-box;
+}
+.cursor {
+  cursor: pointer;
+}

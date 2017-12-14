@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="keywords" content="">
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="format-detection" content="telephone=no" />
+		<meta name="x5-orientation" content="portrait">
+		<link href="../css/frtBase.css" rel="stylesheet" />
+
+		<script src="../js/jquery-2.1.0.js"></script>
+		<script src="../js/knowledge.js"></script>
+
+		<title>公文列表</title>
+	</head>
+
+	<body class="creambg">
+		<div class="path">
+			<span class="left">请选择文件路径</span>
+			<span class="right">&gt;</span>
+		</div>
+		<div class="searcharea">
+			<div class="search1">
+				<span></span>
+				<input type="text" placeholder="请输入关键字" id="mainSearchInput" />
+			</div>
+			<a class="filter" id="modaltrigger" onclick="showHidDIV('loginmodal')">筛选</a>
+		</div>
+
+		<div class="docList">
+			<ul class="docUl">
+				<li>
+					<div class="topBar">
+						<span class="docType">2016-06-11 22:11:11</span>
+						<span class="docType">系统管理员</span>
+					</div>
+					<div class="title1">材料管理类合同评审-碎石采购合同【1GS(J)-NMG-ZHLC-05-WZ-031】</div>
+				</li>
+
+				<li>
+					<div class="topBar">
+						<span class="docType">2016-06-11 22:11:11</span>
+						<span class="docType">系统管理员</span>
+					</div>
+					<div class="title1">中交一公局[2012]461号</div>
+				</li>
+			</ul>
+		</div>
+
+		<div id="loginmodal">
+
+			<div class="pop-search "> <i></i>
+				<div class="pop-search-text">
+					<input type="text" placeholder="请输入关键字" id="innerSearchInput">
+					<span></span>
+				</div> <i></i>
+			</div>
+
+			<form class="form-horizontal">
+				<!--
+					<div class="form-group">
+					<label class="control-label" id="lo">应用范围</label>
+					<div class="control-input">
+						<select class="form-control select-arrow">
+						<option>全部</option>
+					</select>
+					</div>
+				</div>
+                
+				<div class="form-group">
+					<label class="control-label"  id="ldate">生效时间</label>
+					<div class="control-input">
+						<ul class="date-choose">
+							<li>
+								<select class="form-control select-arrow">
+								<option>2016</option>
+							</select>
+							</li>
+							<li>
+								<select class="form-control select-arrow">
+								<option>6月</option>
+							</select>
+							</li>
+							<li>
+								<select class="form-control select-arrow">
+								<option>16日</option>
+							</select>
+							</li>
+						</ul>
+
+					</div>
+				</div>
+-->
+				<div class="form-group">
+					<label class="control-label">制度发布部门</label>
+					<div class="control-input">
+						<input type="text" class="form-control" id="txt1" name='inputTxt'>
+					</div>
+				</div>
+
+				<div class="form-group">
+					<label class="control-label">应用范围</label>
+					<div class="control-checkbox" id="cb1" name='checkboxField'>						
+						<span id="sp1" onclick="checkOrNot('sp1')">局</span>
+						<span id="sp2" onclick="checkOrNot('sp2')" class="checked">投资公司</span> 
+						<span id="sp3" onclick="checkOrNot('sp3')">总承包商</span> 
+						<span id="sp4" onclick="checkOrNot('sp4')">二级公司（施工）</span> 
+						<span id="sp5" onclick="checkOrNot('sp5')">二级公司（工贸）</span>
+						<span id="sp6" onclick="checkOrNot('sp6')">二级公司（咨询）</span>
+						<span id="sp7" onclick="checkOrNot('sp7')">三级公司（市政公路）</span>
+						<span id="sp8" onclick="checkOrNot('sp8')">三级公司（房建）</span>
+						<span id="sp8" onclick="checkOrNot('sp8')">三级公司（房建）</span>
+						<span id="sp8" onclick="checkOrNot('sp8')">三级公司（房建）</span>
+						<span id="sp8" onclick="checkOrNot('sp8')">三级公司（房建）</span>
+						<span id="sp8" onclick="checkOrNot('sp8')">三级公司（房建）</span>
+					</div>
+				</div>
+			</form>
+
+			<div class="clearfix"></div>
+			<div class="btn-action">
+
+				<button type="button" class="btn btn-orange" onclick="doSearch()">确 定</button>
+				<button type="button" class="btn btn-default hidemodal" onclick="hidDIV('loginmodal')">取 消</button>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+
+		<script type="text/javascript">
+		
+		function doSearch(){
+			hidDIV('loginmodal')
+			console.debug(getCondition());
+			
+		}
+		
+		
+
+			$(function() {
+
+				$('#loginform').submit(function(e) {
+
+					return false;
+
+				});
+				
+				var cond = "{txt1:'dsfs',cb1:'c1~c2'}";
+		
+		configCond("测试",cond);
+
+			});
+		</script>
+
+	</body>
+
+</html>

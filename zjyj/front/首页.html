@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="format-detection" content="telephone=no" />
+	<meta name="x5-orientation" content="portrait">
+	<link href="../css/frtBase.css" rel="stylesheet" />
+	<title>首页</title>
+	<script>
+		function invokeApp() {
+			var url = "https://ws.fsmeeting.com/roomMgr/entermeeting.jsp?roomId=212149&userType=0";
+
+			//	var url = "launcher.fsm://link=https://ws.fsmeeting.com/uname=encodeURIComponent('小张')/rid=encodeURIComponent(212149)/rpwd=encodeURIComponent('111111')/utype=0";
+			// alert(url);
+			window.location.href = url;
+		}
+	</script>
+</head>
+
+<body>
+	<style>
+		.index_header {
+			text-align: left;
+			position: relative;
+		}
+		
+		.index_header select {
+			background-color: transparent;
+			background-image: none;
+			background-repeat: no-repeat;
+			background-position: center right;
+			border: none;
+			-webkit-appearance: none;
+			outline: none;
+		}
+		
+		.index_pro {
+			height: 30px;
+			padding: 20px 0 30px 20px;
+		}
+		
+		.index_pro select {
+			font-size: 18px;
+			color: #fff;
+			padding-right: 20px;
+			background-image: url(../img/selectArrow.png);
+			background-size: 10px 10px;
+		}
+		
+		.index_pro select option {
+			color: #333;
+		}
+		
+		.index_pro select:focus {
+			border: none;
+		}
+		
+		.index_name {
+			height: 40px;
+			line-height: 40px;
+			font-size: 18px;
+			padding-left: 20px;
+			color: #333;
+		}
+		
+		.index_sec {
+			height: 20px;
+			line-height: 20px;
+			font-size: 14px;
+			padding-left: 20px;
+		}
+		
+		.index_sec select {
+			font-size: 14px;
+			color: #333;
+			padding-right: 20px;
+			background-image: url(../img/selectArrowGrey.png);
+			background-size: 10px 10px;
+		}
+		
+		.index_phone {
+			height: 20px;
+			line-height: 20px;
+			font-size: 14px;
+			padding-left: 20px;
+			color: #333;
+		}
+		
+		.index_avatar {
+			position: absolute;
+			right: 20px;
+			top: 20px;
+			width: 52px;
+			height: 52px;
+			background-color: #fff;
+		}
+		
+		.index_avatar img {
+			display: block;
+			width: 100%;
+			height: 100%;
+		}
+		
+		.index_sweep {
+			display: block;
+			position: absolute;
+			right: 10px;
+			bottom: 5px;
+			text-align: center;
+			font-size: 12px;
+			border: 1px solid #fff;
+			border-radius: 5px;
+			padding: 5px;
+			transform: scale(.5)
+		}
+		
+		.index_sweep img {
+			width: 40px;
+		}
+	</style>
+	<header class="index_header">
+		<div class="index_pro">
+			<select>
+				<option>中交第一公路局</option>
+				<option>中交第二公路局</option>
+			</select>
+		</div>
+		<div class="index_name">张三</div>
+		<div class="index_sec">
+			<select>
+				<option>某某部门</option>
+				<option>某某部门</option>
+				<option>某某部门</option>
+			</select>
+		</div>
+		<div class="index_phone">13478774512</div>
+		<div class="index_avatar">
+			<img src="../img/avatar.jpg" />
+		</div>
+		<a class="index_sweep">
+			<img src="../img/saoyisao.png" /><br/>
+			<span style="margin-top:0">扫一扫</span>
+		</a>
+
+
+		<!--<a class='sweep'>扫一扫</a>
+
+		<div class="avatar">
+			<img src="../img/avatar.jpg" />
+		</div>
+		<span>张三</span>
+		<span class="phone"><img src="../img/phone.png"/>13478774512</span>-->
+	</header>
+	<section class='main'>
+		<ul class="fucList">
+			<li>
+				<div>
+					<img src="../img/docWork.png" />
+					<span class="todo">公文处理</span>
+				</div>
+			</li>
+			<li>
+				<div>
+					<img src="../img/myDepartment.png" />
+					<span>我的部门</span>
+				</div>
+			</li>
+			<li>
+				<div>
+					<img src="../img/business.png" />
+					<span>业务办理</span>
+				</div>
+			</li>
+			<li>
+				<div>
+					<img src="../img/financalWork.png" />
+					<span>资金审批</span>
+				</div>
+			</li>
+			<!--
+                	greyMark表示该功能尚未开发完成
+                -->
+			<li>
+				<div>
+					<img src="../img/knowledge.png" />
+					<span>知识库</span>
+				</div>
+			</li>
+			<li>
+				<div>
+					<img src="../img/news.png" />
+					<span>新闻公告</span>
+				</div>
+			</li>
+			<li>
+				<div>
+					<img src="../img/vedio.png" />
+					<span onclick="invokeApp()">视频会议</span>
+				</div>
+			</li>
+		</ul>
+	</section>
+</body>
+
+</html>

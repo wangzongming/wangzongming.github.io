@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			<style>
+				div,h3,ul,li{margin:0;padding:0;}
+				h3{line-height:40px;font-size:14px;}
+				li{list-style:none;}
+				.box{width:500px;margin:0 auto;padding: 100px 0 500px;}
+				ul{background-color:#eee;}
+				.item{width:100px;height:100px;line-height:100px;font-size:12px;text-align:center;}
+				.d_l{background-color:#f00;}
+				.d_c{background-color:#ff0;}
+				.d_r{background-color:#00f;}
+				.clearfix:before,.clearfix:after{content:".";display:block;height:0;visibility:hidden;}
+				.clearfix:after{clear:both;}
+				.clearfix{zoom:1;}
+				.fl{float:left;}
+				.fr{float:right;}
+				.both{clear:both;}
+				.cl{clear:left;}
+				.cr{clear:right;}
+			</style>
+	</head>
+	
+	
+	
+	<body>
+	
+	
+<div class="box clearfix" id="box2">
+	<h3>左浮动，clear:both清除浮动</h3>
+	<ul>
+		<li class="item d_l fr">float:left;</li>
+		<li class="item d_c cr">float:left;</li>
+		<li class="item d_r fl">clear:both;</li>
+	</ul>
+</div>
+	
+	
+	</body>
+</html>

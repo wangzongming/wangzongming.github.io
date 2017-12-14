@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="keywords" content="">
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="format-detection" content="telephone=no" />
+		<meta name="x5-orientation" content="portrait">
+		<link href="../css/frtBase.css" rel="stylesheet" />
+		<title>公文列表</title>
+
+		<script type="text/javascript" src="../js/iscroll.js"></script>
+		<script type="text/javascript" src="../js/customscroll.js"></script>
+		<link href="../css/scroll.css" rel="stylesheet" />
+		<script type="text/javascript" src="../js/jquery-2.1.0.js"></script>
+
+		<script type="text/javascript">
+			var nodeNum = 1;
+			
+			$(document).ready(function() {
+				
+				setContent();
+				
+			});
+			
+			function setContent(){
+				
+				var htmlStr="";
+				
+				for(var i=0;i<10;i++){
+					
+					htmlStr += '<li><div class="topBar"><span class="docCode">[办结]</span><span class="docType">党委发文</span></div>'+
+							  '<div class="title">中国科学院昆明动物研究所党委学习实践活动</div><div class="time">更新时间：2016-06-15 11:45</div></li>'
+					
+				}
+				
+				$("#docUl").append(htmlStr);
+				
+				loaded();
+				
+                document.addEventListener('DOMContentLoaded', loaded, false);
+			}
+
+			function pullUpAction() {
+				setTimeout(function() {
+					$("#docUl").append("<li>" +
+						"<div class=\"topBar\">" +
+						"<span class=\"docCode\">[测试节点]" + (nodeNum++) +
+						"</span>" +
+						"<span class=\"docType\">党委发文</span>" +
+						"</div>" +
+						"<div class=\"title\">中国科学院昆明动物研究所党委学习实践活动</div>" +
+						"<div class=\"time\">更新时间：2016-06-15 11:45</div>" +
+						"</li>");
+					//在这里加载ajax
+					$("#docUl").height()
+					myScroll.refresh(); //这个方法在加载完成后调用
+				}, 500);
+
+			}
+			
+		   function pullDownAction(){
+		   	
+		   	alert("刷新");
+		   }
+		</script>
+	</head>
+
+	<body class="creambg">
+		<div class="topTab">
+			<ul class="twoTab">
+				<li class="active">待办公文</li>
+				<li>已办公文</li>
+			</ul>
+		</div>
+		<div class="search">
+			<input type="text" placeholder="请输入关键字" />
+			<span></span>
+		</div>
+		
+		<div id="wrapper">
+			<div id="scroller">
+				<div class="docList">
+					<div id="pullDown">
+						<span class="pullDownIcon"></span>
+						<span class="pullDownLabel">下拉刷新......</span>						
+					</div>
+					<ul class="docUl" id="docUl">
+						<li>
+							<div class="topBar">
+								<span class="docCode">[办结]</span>
+								<span class="docType">党委发文</span>
+							</div>
+							<div class="title">
+								中国科学院昆明动物研究所党委学习实践活动
+							</div>
+							<div class="time">
+								更新时间：2016-06-15 11:45
+							</div>
+						</li>
+										
+					</ul>
+					<div id="pullUp">
+						<span class="pullUpIcon"></span><span class="pullUpLabel">上拉加载更多......</span>
+					</div>
+				</div>
+			</div>
+		</div>
+			<div class="quickToHome"><img src="../img/quickBackHome.png"></div>
+	</body>
+
+</html>

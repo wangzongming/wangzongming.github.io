@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="keywords" content="">
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="format-detection" content="telephone=no" />
+		<meta name="x5-orientation" content="portrait">
+		<link href="../css/frtBase.css" rel="stylesheet" />
+		<script type="text/javascript" src="../js/jquery-2.1.0.js"></script>
+		<script type="text/javascript" src="../js/util.js"></script>
+		<script type="text/javascript" src="../js/docWorkDetail.js"></script>
+		<title>公文详情</title>
+	</head>
+
+	<body class="creambg">
+
+		<div class="docList">
+			<ul class="docUl align-l">
+				<li>
+					<div class="work-top">
+						<span>党委发文</span>
+						<span>
+						<img src="../img/time.png">办公进度</span>
+						<div class="work-title">
+							<h3>中交第一公路工程局有限公司</h3>
+							<h4>中交一公局党字2016XX号</h4>
+						</div>
+					</div>
+
+				</li>
+
+				<li>
+					<div class="work-list">
+
+						<div class="form-group">
+							<label class="control-label">流程名称一 ：</label>
+
+							<p class="form-control-static">XXXX</p>
+
+						</div>
+
+						<div class="form-group">
+							<label class="control-label-editText"><font>*</font>参与活动 ：</label>
+							<textarea name="textareaItem" id="tItemId1" req="1" rqLength='100'></textarea>
+						</div>
+
+						<div class="form-group">
+							<label class="control-label">字号 ：</label>
+							<select class='select-arrow-yellow' name="selectItem" id="itemId1" req="1">
+								<option value="optionId1">国字</option>
+								<option value="optionId2">纪字</option>
+							</select>
+						</div>
+
+						<div class="form-group">
+							<label class="control-label">主题词 ：</label>
+
+							<p class="form-control-static">XXXXXXXXXXXXXXXXffffffffffffffffffffffffffffffffffffffffffffffffffffff</p>
+
+						</div>
+
+						<div class="form-group">
+							<label class="control-label">主送机关 ：</label>
+
+							<p class="form-control-static" name="checkboxItem" id="cItemId1" req="1">
+								<input type="checkbox" id="checkBoxId1" />机关1
+								<input type="checkbox" id="checkBoxId2" />机关2
+							</p>
+
+						</div>
+						<div class="form-group">
+							<label class="control-label">超链样式：</label>
+							<p class="form-control-static">
+								<a href="javascript:void(0);">点击查看</a>
+							</p>
+						</div>
+						<div class="form-group">
+							<label class="control-label">单选样式：</label>
+							<p class="form-control-static" name="radioItem" id="rItem1" req="1">
+								<input type="radio" name="cs" value="radioId1" />选项1
+								<input type="radio" name="cs" value="radioId2" />选项2
+							</p>
+						</div>
+						<div class="form-group" name="timeItem" id="tItem1" req="1">
+							<label class="control-label">时间样式：</label>
+							<select class='select-arrow-yellow timeSelect' name="year">
+								<option>年</option>
+								<option>2016</option>
+								<option>2017</option>
+							</select>
+
+							<select class='select-arrow-yellow timeSelect' name="month">
+								<option>月</option>
+								<option>1</option>
+								<option>12</option>
+							</select>
+
+							<select class='select-arrow-yellow timeSelect' name="day">
+								<option>日</option>
+								<option>23</option>
+								<option>24</option>
+							</select>
+						</div>
+
+						<div class="form-group">
+							<label class="control-label">抄送机关 ：</label>
+
+							<p class="form-control-static">机关2</p>
+
+						</div>
+
+						<div class="form-group">
+							<label class="control-label">拟稿 ：</label>
+
+							<p class="form-control-static"></p>
+
+						</div>
+
+						<div class="form-group">
+							<label class="control-label">核稿 ：</label>
+
+							<p class="form-control-static">员工乙</p>
+
+						</div>
+
+						<div class="form-group">
+							<label class="control-label">审核 ：</label>
+
+							<p class="form-control-static">员工甲</p>
+
+						</div>
+
+						<div class="form-group">
+							<label class="control-label">校对 ：</label>
+
+							<p class="form-control-static">员工乙</p>
+						</div>
+						<div class="form-group">
+							<p class="arrrove-title">签 发</p>
+							<!-- 只读样式 -->
+							<div class="spack greyMark">
+								<div class="speak-key">
+									<div class="speak-btn">
+										<img src="../img/speak.png">
+										<span>点击说话</span>
+									</div>
+									<div class="speak-text">
+										<textarea disabled="true"></textarea>
+									</div>
+								</div>
+							</div>
+							<div class="approve-list">
+								<div class="approve-person">
+									<span class="name">张三</span>
+									<span class="date">2016-06-17 00:00:00</span>
+									<div class="approve-detail">同意按照公文执行</div>
+								</div>
+								<div class="approve-person">
+									<span class="name">李四</span>
+									<span class="date">2016-06-17 00:00:00</span>
+									<div class="approve-detail">同意按照公文执行同意按照公文执行同意按照公文执行同意按照公文执行同意按照公文执行同意按照公文执行</div>
+								</div>
+							</div>
+
+							
+						</div>
+						<div class="form-group">
+							<p class="arrrove-title">会 签</p>
+								<div class="spack">
+								<div class="speak-key">
+									<div class="speak-btn" id="speak1" onclick="recordVoice('1')">
+										<img src="../img/speak.png">
+										<span>点击说话</span>
+									</div>
+									<div class="speak-text">
+										<textarea name="opinionItem" id="opinionId1" req="1" rqLength='100'></textarea>
+									</div>
+									<div class="speak-sound" id="speakMask1" onclick="endRecord('1')">
+										<img src="../img/speak-sound.png" class="speak-img">
+										<img src="../img/speak-load.gif" class="speak-imgChange">
+										<p>点击此处，停止录音</p>
+									</div>
+								</div>
+							</div>
+							<div class="approve-list">
+								<div class="approve-person">
+									<span class="name">张三</span>
+									<span class="date">2016-06-17 00:00:00</span>
+									<div class="approve-detail">同意按照公文执行</div>
+								</div>
+								<div class="approve-person">
+									<span class="name">李四</span>
+									<span class="date">2016-06-17 00:00:00</span>
+									<div class="approve-detail">同意按照公文执行同意按照公文执行同意按照公文执行同意按照公文执行同意按照公文执行同意按照公文执行</div>
+								</div>
+
+							</div>						
+						</div>
+					</div>
+				</li>
+
+				<li>
+					<!--<div class="attachment">
+						<p class="attachment-title">附件 ：</p>
+
+						<div class="attachment-upload">
+
+							<input type="file" class="inputfile inputfile-1" id="file-1">
+
+							<div class="input-label-arrow"></div>
+							<label for="file-1" class="input-label">
+							<span>上传附件 +</span>
+						</label>
+						</div>
+
+						<ul class="attachment-list">
+							<li>
+								<img src="../img/attachment.png">
+								<a href="#">附件1.doc</a>
+							</li>
+							<li>
+								<img src="../img/attachment.png">
+								<a href="#">附件2.doc</a>
+							</li>
+							<li>
+								<img src="../img/attachment.png">
+								<a href="#">附件3.doc</a>
+							</li>
+						</ul>
+
+						<a href="#" class="attachment-more">更多附件>></a>
+					</div>-->
+
+					<div class="attachment">
+						
+						<div class="attachment-show"><img src="../img/attachment.png">点击查看附件</div>
+					</div>
+				</li>
+
+			</ul>
+
+			<div class="btn-one" onclick="newAction()">
+				<span class="blueButton fullRow wordspac">下一步</span>
+			</div>
+
+		</div>
+		<div id="pop-mask"></div>
+		<div class="popup" id="orgpop">
+			<div class="popup-head">请选择发文机构</div>
+			<ul>
+				<li onclick="chooseOrg('id1')">机构1</li>
+				<li onclick="chooseOrg('id2')">机构2</li>
+				<li>机构2</li>
+			</ul>
+			<div onclick="sbOrg()" class="popbtnarea">
+				<span class="popOKbtn">确 定</span>
+			</div>
+		</div>
+		<div class="popup" id="sendOrNotDiv">
+			<div class="popup-head"></div>
+			<div class="popup-info">当前处于多人处理状态，是否直接发送？</div>
+			<div class="popbtnarea">
+				<span class="popOKbtn" onclick="send()">发送</span>
+				<span class="popNotOKbtn" onclick="notSend()">不发送</span>
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript">
+		var chosnOrgId = "";
+
+		function chooseOrg(id) {
+
+			chosnOrgId = id;
+
+		}
+
+		function sbOrg() {
+			hidPopup();
+			showPopup('sendOrNotDiv');
+
+		}
+
+		function send() {
+			hidPopup();
+		}
+
+		function notSend() {
+			hidPopup();
+		}
+
+		function newAction() {
+
+			var JsonValue = getSbmtJsonValue();
+			
+			if(JsonValue != 0) {
+
+				showPopup('orgpop');
+
+			}
+
+		}
+
+		var recordFlag = 0;
+		//录音开始
+		function recordVoice(num) {
+
+			if(recordFlag == 1) {
+
+				return;
+
+			}
+
+			var speakCtl = document.getElementById("speak" + num);
+
+			document.getElementById("speakMask" + num).style.display = "block";
+
+			var textObj = $("#speakMask" + num).parent().find("textarea");
+
+			$(textObj).text("");
+
+			recordFlag = 1;
+
+			//TODO record voice
+
+		}
+
+		//录音结束
+		function endRecord(num) {
+
+			recordFlag = 0;
+
+			document.getElementById("speakMask" + num).style.display = "none";
+
+			//TODO end record
+
+			var textObj = $("#speak" + num).parent().find("textarea");
+
+			$(textObj).text("1111111");
+		}
+		
+		var jsonobj = {"itemId1":"optionId2","tItemId1":"测试","cItemId1":"checkBoxId1","rItem1":"radioId2","opinionId1":"才下GV股份","tItem1":"2016-12-23"};
+		
+		initDocForm(jsonobj);
+		
+	</script>
+
+</html>

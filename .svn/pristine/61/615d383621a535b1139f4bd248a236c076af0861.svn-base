@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+    <title>3</title>
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <link href="css/main.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/weui.min.css" />
+	<style>
+        .weui-loadmore { width: 65%; margin: 1.5em auto; line-height: 1.6em; font-size: 14px; text-align: center; list-style: none; }
+        .weui-loadmore__tips { display: inline-block; vertical-align: middle; }
+        .weui-loadmore_line { border-top: 1px solid #E5E5E5; margin-top: 2.4em; }
+            .weui-loadmore_line .weui-loadmore__tips { position: relative; top: -0.9em; padding: 0 .55em; background-color: #F1F0F6; color: #999999; }
+        .weui-loadmore_dot .weui-loadmore__tips { padding: 0 .16em; }
+            .weui-loadmore_dot .weui-loadmore__tips:before { content: " "; width: 4px; height: 4px; border-radius: 50%; background-color: #E5E5E5; display: inline-block; position: relative; vertical-align: 0; top: -0.16em; }
+    </style>
+</head>
+<body ontouchstart>
+    <div class="container" id="container">
+        <div class="weui_tab">
+            <div class="weui_search_bar" id="search_bar">
+                <form class="weui_search_outer">
+                    <div class="weui_search_inner">
+                        <i class="weui_icon_search"></i>
+                        <input type="search" class="weui_search_input" id="search_input" placeholder="搜索" required="">
+                        <a href="javascript:" class="weui_icon_clear" id="search_clear"></a>
+                    </div>
+                    <label for="search_input" class="weui_search_text" id="search_text">
+                        <i class="weui_icon_search"></i>
+                        <span>搜索</span>
+                    </label>
+                </form>
+                <a href="javascript:" class="weui_search_cancel" id="search_cancel">取消</a>
+            </div>
+			
+            <div class="weui_tab_bd" style="padding-top:44px;">
+			<div class="weui-loadmore weui-loadmore_line"><span class="weui-loadmore__tips">暂无数据，下拉刷新</span></div>
+                
+            </div>
+            <div class="weui_tabbar">
+                <div class="weui_tabbar_item" style="margin:0 15px;padding-bottom:7px;">
+                    <a class="weui_btn weui_btn_default" href="javascript:">关闭</a>
+                </div>
+                <div class="weui_tabbar_item" style="margin-right:15px;padding-bottom:7px;">
+                    <a class="weui_btn weui_btn_primary" href="javascript:">确定</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        $('#container').on('focus', '#search_input', function () {
+            var $weuiSearchBar = $('#search_bar');
+            $weuiSearchBar.addClass('weui_search_focusing');
+        }).on('blur', '#search_input', function () {
+            var $weuiSearchBar = $('#search_bar');
+            $weuiSearchBar.removeClass('weui_search_focusing');
+            if ($(this).val()) {
+                $('#search_text').hide();
+            } else {
+                $('#search_text').show();
+            }
+        }).on('touchend', '#search_cancel', function () {
+            $('#search_input').val('');
+        }).on('touchend', '#search_clear', function () {
+            $('#search_input').val('');
+        });
+    </script>
+</body>
+</html>

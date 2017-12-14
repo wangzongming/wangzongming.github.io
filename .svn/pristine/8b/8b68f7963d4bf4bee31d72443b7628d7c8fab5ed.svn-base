@@ -1,0 +1,230 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="keywords" content="">
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="format-detection" content="telephone=no" />
+<meta name="x5-orientation" content="portrait">
+<link href="css/normalize.css" rel="stylesheet" />
+<link href="css/swiper-3.3.1.min.css" rel="stylesheet" />
+<link href="css/main.css" rel="stylesheet" />
+<title>产品中心</title>
+</head>
+
+<body>
+<header>
+  <img src="img/logo.jpg" alt="誉洋LOGO" class="logo"/>
+  <div class="btn clear">
+  <span class="search fl"></span>
+  <span class="menu fl"></span>
+  </div>
+</header>
+<nav class="nav">
+     <ul class="nav_swift">
+       <li class="on" onclick="location.href='index.html'">主页</li>
+       <li onclick="location.href='product.html'">产品中心</li>
+       <li onclick="location.href='plan.html'">解决方案</li>
+       <li onclick="location.href='apply.html'">应用领域</li>
+       <li onclick="location.href='support.html'">服务支持</li>
+       <li onclick="location.href='news.html'">新闻中心</li>
+       <li onclick="location.href='aboutus.html'">关于我们</li>
+     </ul>
+</nav>
+<nav class="nav_code">
+  <div>
+  <img src="img/qrCode.png"/>
+  </div>
+</nav>
+<div class="content">
+  <div class="search_input" style="display:none;">
+    <input  type="text"/>
+    <span class="search_btn"><img src="img/search2.jpg"/></span> </div>
+  
+  <!-- banner开始-->
+  <div class="swiper-container" id="banner">
+    <div class="swiper-wrapper"> 
+      <!--<div class="swiper-slide">1</div>-->
+      <div class="swiper-slide"><img src="img/banner.jpg"/></div>
+      <div class="swiper-slide"><img src="img/banner2.jpg"/></div>
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+  </div>
+  <!-- banner结束-->
+  <section>
+    <h3 class="title">一站式服务</h3>
+    <p class="article">大连誉洋工业智能有限公司，专注于工业智能的研发、生产制造和服务，是中国领先的工业智能集成解决方案提供。誉洋（YUYANG）致力于为制造企业转型升级提供专业化的工业智能集成一站式解决方案，为用户提升产品质量，降低生产成本，提升运营效率，持续为用户创造最大价值。</p>
+  </section>
+  <nav>
+    <ul class="nav_bottom support">
+      <li><img src="img/onestop_b1.png"/>
+        <p>售前咨询</p>
+      </li>
+      <li><img src="img/onestop_b2.png"/>
+        <p>技术支持</p>
+      </li>
+      <li><img src="img/onestop_b3.png"/>
+        <p>培训中心</p>
+      </li>
+      <li><img src="img/onestop_b4.png"/>
+        <p>售后服务</p>
+      </li>
+    </ul>
+  </nav>
+  <section class="consult">
+    <h3 class="consult_title">售前咨询</h3>
+    <img src="img/sale.jpg"/> </section>
+  <section>
+    <h3 class="title">技术支持</h3>
+    <p class="article">大连誉洋工业智能有限公司，专注于工业智能的研发、生产制造和服务，是中国领先的工业智能集成解决方案提供。誉洋（YUYANG）致力于为制造企业转型升级提供专业化的工业智能集成一站式解决方案，为用户提升产品质量，降低生产成本，提升运营效率，持续为用户创造最大价值。</p>
+  </section>
+  <section class="area">
+    <ul class="area_ul">
+      <li class="area_li">
+        <h3 class="area_title">系统设计</h3>
+        <ol class="area_content">
+          <li>▪ 项目监管</li>
+          <li>▪ 机器人系统安全设计</li>
+          <li>▪ 自动化流程的设计</li>
+          <li>▪ CAD平面布局设计</li>
+          <li>▪ 3D仿真图像设计</li>
+          <li>▪ 机械结构设计</li>
+          <li>▪ 电气系统设计</li>
+          <li>▪ 硬件和软件设计</li>
+        </ol>
+      </li>
+      <li class="area_li">
+        <h3 class="area_title">技术支持</h3>
+        <ol class="area_content">
+          <li>▪ 被加工件作业技术服务</li>
+          <li>▪ 被加工件程序编辑</li>
+          <li> <span>▪
+            针对被加工件，提供优</span> <span>化设备运行的技术方案</span> <span>上门技术支持</span> </li>
+        </ol>
+      </li>
+      <li class="area_li">
+        <h3 class="area_title">安装调试</h3>
+        <ol class="area_content">
+          <li>▪ 编程调试</li>
+          <li>▪ 电气及机械安装</li>
+          <li>▪ 现场调试</li>
+        </ol>
+      </li>
+      <li class="area_li">
+        <h3 class="area_title">模拟仿真</h3>
+        <ol class="area_content">
+          <li><span>在产品设计阶段即对设</span> <span>备运行与工作状态进行</span> <span>仿真设计与模拟，使得</span> <span>难题与问题得以最有效</span> <span>的预测解决。</span> </li>
+        </ol>
+      </li>
+    </ul>
+  </section>
+  <section>
+    <h3 class="title">培训中心</h3>
+    <p class="article">大连誉洋工业智能有限公司，专注于工业智能的研发、生产制造和服务，是中国领先的工业智能集成解决方案提供。誉洋（YUYANG）致力于为制造企业转型升级提供专业化的工业智能集成一站式解决方案，为用户提升产品质量，降低生产成本，提升运营效率，持续为用户创造最大价值。</p>
+  </section>
+  <section class="train"> <img src="img/Training.png"/>
+    <ul class="train_ul">
+      <li class="train_li">
+        <h3 class="train_title"><img src="img/Training01.png"/>基础操作培训</h3>
+        <ol class="train_content">
+          <li>▪ 掌握智能设备日常使用操作的基本知识</li>
+          <li>▪ 维护保养</li>
+        </ol>
+      </li>
+      <li class="train_li">
+        <h3 class="train_title"><img src="img/Training02.png"/>定制化培训</h3>
+        <ol class="train_content">
+          <li>▪ 打磨、切割、抛光技术培训</li>
+          <li>▪ 定制的编程培训、生产成本规划培训</li>
+        </ol>
+      </li>
+      <li class="train_li">
+        <h3 class="train_title"><img src="img/Training03.png"/>机器人培训</h3>
+        <ol class="train_content">
+          <li>▪ 机器人编程、控制单元故障排除</li>
+        </ol>
+      </li>
+      <li class="train_li">
+        <h3 class="train_title"><img src="img/Training04.png"/>专项进阶培训</h3>
+        <ol class="train_content">
+          <li>▪ 针对特殊应用的专业化培训</li>
+        </ol>
+      </li>
+    </ul>
+  </section>
+  
+    <section class="after_sale">
+    <h3 class="after_sale_h3">售前咨询</h3>
+    <ul class="after_sale_ul">
+      <li class="train_li after">
+        <h3 class="train_title"><img src="img/Service01.png"/>基础操作培训</h3>
+        <ol class="after_sale_content">
+          <li>掌握智能设</li>
+          <li>维护保养</li>
+          <li>掌握智能设备</li>
+          <li>维护保养</li>
+        </ol>
+      </li>
+       <li class="train_li after">
+        
+        <ol class="after_sale_content">
+          <li>掌握智能设</li>
+          <li>维护保养</li>
+          <li>掌握智能设备</li>
+          <li>维护保养</li>
+        </ol>
+      </li>
+         <li class="train_li after">
+        <h3 class="train_title"><img src="img/Service02.png"/>基础操作培训</h3>
+        <ol class="after_sale_content">
+          <li>掌握智能设</li>
+          <li>维护保养</li>
+          <li>掌握智能设备</li>
+          <li>维护保养</li>
+        </ol>
+      </li>
+         <li class="train_li after">
+        <h3 class="train_title"><img src="img/Service03.png"/>基础操作培训</h3>
+        <ol class="after_sale_content">
+          <li>掌握智能设</li>
+          <li>维护保养</li>
+          <li>掌握智能设备</li>
+          <li>维护保养</li>
+        </ol>
+      </li>
+      
+    </ul>
+  </section>
+      <section>
+      <h3 class="title">服务团队</h3>
+      <p class="article">大连誉洋工业智能有限公司，专注于工业智能的研发、生产制造和服务，是中国领先的工业智能集成解决方案提供。誉洋（YUYANG）致力于为制造企业转型升级提供专业化的工业智能集成一站式解决方案，为用户提升产品质量，降低生产成本，提升运营效率，持续为用户创造最大价值。</p>
+   </section>
+   <nav>
+     <ul class="nav_bottom support_bottom">
+       <li><img src="img/team1.jpg"/><p>服务热线</p></li>
+       <li><img src="img/team2.jpg"/><p>专业工程师</p></li>
+       <li><img src="img/team3.jpg"/><p>在线支持</p></li>
+       <li><img src="img/team4.jpg"/><p>服务网络</p></li>
+     </ul>
+   </nav> 
+</div>
+<footer>
+  <ul class="footer_nav">
+    <li><img src="img/footer_nav1.jpg"/>一键通话</li>
+    <li class="follow"><img src="img/footer_nav2.jpg"/>关注订阅号</li>
+    <li onclick="location.href='contact.html'"><img src="img/footer_nav3.jpg"/>联系方式</li>
+    <li><img src="img/footer_nav4.jpg"/>地图导航</li>
+  </ul>
+</footer>
+</body>
+</html>
+<script src="js/size.js"></script>
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/swiper-3.3.1.jquery.min.js"></script>
+<script src="js/jquery.transit.min.js"></script>
+<script src="js/main.js"></script>

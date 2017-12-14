@@ -1,0 +1,71 @@
+.content{
+    min-height:750px;
+}
+.content-con{
+padding:20px;
+}
+.content-con-head {
+    padding:10px 0;
+    border-bottom:1px dashed #ccc;
+    position:relative;
+}
+.content-con-head::after,.content-con-t::after{
+    content: "";
+    display: table;
+    overflow: hidden;
+    clear: both;
+}
+.content-con-head .l{
+    float:left;
+    width:300px;
+}
+.content-con-head .r{
+    float: left;
+    width:550px;
+    padding-left:20px;
+    padding-bottom:30px;
+}
+.content-con-head .r h4{
+     font-size:20px;
+    color:#333;
+    font-weight:400;
+    margin-bottom: 10px;
+}
+.content-con-head .r p{
+font-size:16px;
+    color:#666;
+
+}
+
+.content-con-head .m{
+    position:absolute;
+    bottom:10px;
+    right: 10px;
+    text-decoration:none;
+    color:#333333;
+}
+
+/*页面里的p元素*/
+
+.content-con-t{
+    padding:10px 0;
+    box-sizing:border-box;
+    border-bottom:1px dashed #ccc;
+    font-size:15px;
+}
+.content-con-t span{
+    float:right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

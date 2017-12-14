@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="format-detection" content="telephone=no" />
+	<meta name="x5-orientation" content="portrait">
+	<link href="../css/frtBase.css" rel="stylesheet" />
+	<script src="../js/jquery-2.1.0.js" ></script>
+	<title>资料路径</title>
+</head>
+
+<body class="creambg">
+	<div class="breadcrumb">
+		<span>当前路径：...发文资料库 >营业员摇一摇摇一摇></span>
+
+	</div>
+	<div class="legend-section ">
+			<ul class="lib-list" id="libList">
+				<li class="current" id="1">
+					<span class="lib-btn" onclick="choseOrNotFolder1('1')">选 中</span>
+					<span class="lib-name">发文资料库</span>
+					<span class="lib-action">></span>
+				</li>
+				<li id="2">
+					<span class="lib-btn" onclick="choseOrNotFolder1('2')">选 中</span>
+					<span class="lib-name">收文资料库</span>
+					<span class="lib-action">></span>
+				</li>
+				<li id="3">
+					<span class="lib-btn" onclick="choseOrNotFolder1('3')">选 中</span>
+					<span class="lib-name">新闻归档资料库</span>
+					<span class="lib-action">></span>
+				</li>
+				<li id='4'>
+					<span class="lib-btn" onclick="choseOrNotFolder1('4')">选 中</span>
+					<span class="lib-name">发文资料库</span>
+					<span class="lib-action">></span>
+				</li>
+				<li id='5'>
+					<span class="lib-btn" onclick="choseOrNotFolder1('5')">选 中</span>
+					<span class="lib-name">收文资料库</span>
+					<span class="lib-action">></span>
+				</li>
+				
+			</ul>
+
+		</div>
+
+	 
+
+	<div class="btn-one">
+		<span class="blueButton fullRow wordspac">返回知识库</span>
+	</div>
+</body>
+<script>
+	function choseOrNotFolder1(_folderId) {
+
+		var obj = $("#" + _folderId);
+
+		if (obj.hasClass("current")) {
+
+			obj.removeClass("current");
+
+		} else {
+
+			$("#libList").find("li.current").removeClass("current");
+
+			obj.addClass("current");
+			
+			cfolderName = $(obj).parent().find("lib-name").text();
+		}
+
+	}
+	
+</script>
+</html>

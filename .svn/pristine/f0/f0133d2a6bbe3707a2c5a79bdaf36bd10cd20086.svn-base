@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="uth-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link href="css/normalize.css" rel="stylesheet" />
+    <link href="css/main.css" rel="stylesheet" />
+    <link href="css/swiper.min.css" rel="stylesheet"/>
+</head>
+<body>
+    <!--header start--> 
+    <header class="header grey">
+    
+      <img src="images/mobile_03.jpg" class="logo"/>
+     
+      <section class="swiper-container" id="s1">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="images/banner_03.jpg">
+            </div>
+            <div class="swiper-slide">
+                <img src="images/banner_03.jpg">
+            </div>
+           <div class="swiper-slide">
+                <img src="images/banner_03.jpg">
+            </div>
+        </div>
+        <!-- Add Pagination -->
+        <!--<div class="swiper-button-next swiper-button-white" id="swiper-button-next1"></div>
+        <div class="swiper-button-prev swiper-button-white" id="swiper-button-prev1"></div>-->
+    </section>
+    </header>
+
+   <!--招商加盟-->
+   <div class="tab-menu">
+   <ul class="invest_ul clear">
+   <li class="float_l invest_li">全部产品</li>
+   <li class="float_l invest_li checked">澳洲大陆系列</li>
+   <li class="float_l invest_li">阳光袋鼠系列</li>
+   </ul>
+   </div>
+   <div class="tab-box invest_container grey">
+     <div style="display:none;">
+        <ul class="all_product clear">
+          <li class="float_l"><img src="images/product_03.png"/></li>
+          <li class="float_l"><img src="images/product_03.png"/></li>
+          <li class="float_l"><img src="images/product_03.png"/></li>
+          <li class="float_l"><img src="images/product_03.png"/></li>
+        </ul>
+        <a class="more">查看更多</a>
+     </div>
+     <div><img src="images/m_product2_03.jpg"/>
+     <a class="more">查看更多</a>
+     </div>
+     <div style="display:none;">3333</div>
+   </div>
+   
+   <footer class="footer">
+   <p>烁州（上海）国际贸易有限公司</p>
+   </footer>
+   <div class="fixed_footer clear">
+   <a class="first float_l" href="index.html">首页</a>
+   <a class="telephone float_l"><img src="images/mobile_35.jpg"/></a>
+   <span>免费电话</span>
+   </div>
+    <script src="js/jquery-1.10.1.min.js"></script>
+    <script src="js/swiper.jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

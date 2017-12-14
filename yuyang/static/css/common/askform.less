@@ -1,0 +1,157 @@
+@import "base.less";
+@import "common.less";
+.modal#questionForm{
+    .modal-dialog{
+        position: absolute;
+        width: 13.22rem;
+        top: 50%;
+        left: 50%;
+        margin-top: -2.98rem;
+        margin-left: -6.61rem;
+        margin-bottom: 0px;
+        .modal-content{
+            background-color: @color-orange;
+            opacity: 0.9;
+            
+            
+            .modal-body{
+                height: 5.96rem;
+                padding: 0.90rem 0.48rem 0.60rem 0.48rem;
+                
+                .cust-form{
+                    width: 55.55%;
+                    padding-left: 0.50rem;
+                    padding-right: 0.50rem;
+                    .cust-text1{
+                        color: #FFFFFF;
+                        font-size: 0.20rem;
+                        line-height: 0.20rem;
+                        margin-bottom: 0.25rem;
+                        display: block;
+                    }
+                    
+                    form{
+                        textarea,
+                        input{
+                            &::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+                                color:    #FFFFFF;
+                            }
+                            &:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+                               color:    #FFFFFF;
+                               opacity:  1;
+                            }
+                            &::-moz-placeholder { /* Mozilla Firefox 19+ */
+                               color:    #FFFFFF;
+                               opacity:  1;
+                            }
+                            &:-ms-input-placeholder { /* Internet Explorer 10-11 */
+                               color:    #FFFFFF;
+                            }
+                        }
+                        .form-control{
+                            color: #FFFFFF;
+                            font-size: 0.18rem;
+                            line-height: 0.45rem;
+                            background-color: #e0794e;
+                            padding-top: 0px;
+                            padding-bottom: 0px;
+                            opacity: 0.8;
+                            border: 0px;
+                            border-radius: 0;
+                        } 
+                        input.form-control{
+                            height: 0.45rem;
+                            margin-bottom: 0.13rem;
+                        }
+                        textarea.form-control{
+                            height: 1.10rem;
+                            line-height: 0.25rem;
+                            padding-top: 0.14rem;
+                        }
+                        .cust-btn{
+                            .common-btn();
+                            margin:0.13rem 0 0.13rem auto;
+                            background-color: #FFFFFF;
+                            color: @color-orange;
+                            font-size: 0.18rem;
+                            line-height: 0.30rem;
+                            height: 0.30rem;
+                            padding-left: 0.38rem;
+                            padding-right: 0.38rem;
+                            &:focus,
+                            &:visited,
+                            &:hover{
+                                background-color: #FFFFFF;
+                                color: @color-orange;
+                            }
+                      
+                        }
+                    }
+                }
+                
+                .cust-info{
+                    width: 44.45%;
+                    color: #FFFFFF;
+                    .cust-one{
+                        display: block;
+                        text-align: center;
+                        font-size: 0.29rem;
+                        line-height: 0.29rem;
+                        margin-top: 0.48rem;
+                        margin-bottom: 0.21rem;
+                    }
+                    .cust-two{
+                        display: block;
+                        text-align: center;
+                        font-size: 0.18rem;
+                        line-height: 0.18rem;
+                        margin-bottom: 0.07rem;
+                        .fa{
+                            font-size: 0.10rem;
+                            line-height: 0.18rem;;
+                        }
+                    }
+                    .cust-three{
+                        display: block;
+                        text-align: center;
+                        font-size: 0.31rem;
+                        line-height: 0.31rem;
+                        margin-top: 0.30rem;
+                        margin-bottom: 0.28rem;
+                    }
+                    .cust-four{
+                        display: block;
+                        text-align: center;
+                        font-size: 0.19rem;
+                        line-height: 0.19rem;
+                        margin-bottom: 0.65rem;
+                    }
+                    .cust-five{
+                        display: block;
+                        text-align: center;
+                        font-size: 0.18rem;
+                        line-height: 0.18rem;
+                        margin-bottom: 0.23rem;
+                    }
+                    .cust-six{
+                        display: block;
+                        text-align: center;
+                        font-size: 0.16rem;
+                        line-height: 0.16rem;
+                        margin-bottom: 0.64rem;
+                    }
+                    img{
+                        position: absolute;
+                        top: 0px;
+                        width: 3.60rem;
+                        height: auto;
+                        display: block;
+                        left: 50%;
+                        margin-left: -1.80rem;
+                        z-index: -1;
+                    }
+                }
+            }
+        }
+    }
+}

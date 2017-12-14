@@ -1,0 +1,315 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="renderer" content="webkit|ie-comp|ie-stand">
+    <title>index</title>
+    <link rel="stylesheet" type="text/css" href="./css/reset200802.css">
+    <link rel="stylesheet" type="text/css" href="./lib/swiper/swiper.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
+    <script src="./lib/swiper/swiper.min.js"></script>
+    <script src="./js/jquery-1.11.0.min.js"></script>
+    <script src="./js/jquery.transit.min.js"></script>
+</head>
+
+<body>
+    <section class="wrap">
+        <header class="wrap-hd clear">
+            <a class="fl_l logo" href="#">
+                <img alt="" src="./img/logo.png" />
+            </a>
+            <nav class="fl_r nav">
+                <a class="fl_l cur" href="">HOME</a>
+                <a class="fl_l" href="">铭良产品</a>
+                <a class="fl_l" href="">旗下品牌</a>
+                <a class="fl_l" href="">加盟合作</a>
+                <a class="fl_l" href="">新闻动态</a>
+                <a class="fl_l" href="">联系我们</a>
+                <a class="fl_l" href="">招贤纳士</a>
+                <a class="fl_l" href="">铭良商城</a>
+            </nav>
+        </header>
+        <section class="wrap-bd">
+            <section class="mod">
+                <!--轮播展示-->
+                <div class="swiper-container index-swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img alt="" src="./img/banner.png" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img alt="" src="./img/banner.png" />
+                        </div>
+                    </div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+                <script language="javascript">
+                    var mySwiper = new Swiper('.index-swiper', {
+                        loop: true,
+                        prevButton: '.index-swiper .swiper-button-prev',
+                        nextButton: '.index-swiper .swiper-button-next',
+                    })
+                </script>
+            </section>
+            <section class="mod mod_character">
+                <!--特色展示-->
+                <ul class="mod-bd">
+                    <li class="imgBox"><img src="./img/character_1.png"></li>
+                    <li class="imgBox"><img src="./img/character_2.png"></li>
+                    <li class="imgBox"><img src="./img/character_3.png"></li>
+                    <li class="imgBox"><img src="./img/character_4.png"></li>
+                </ul>
+                <dl class="mod-ft">
+                    <dt>良心铸良品 百年筑铭良</dt>
+                    <dd>GIVE YOU THE BEST FOOD</dd>
+                </dl>
+            </section>
+            <section class="mod mod_brand">
+                <!--品牌展示-->
+                <h2><span>铭良旗下品牌</span><span>COMPANY BRAND</span></h2>
+                <ul class="mod-bd">
+                    <li class="imgBox"><img src="./img/brand_1.png"></li>
+                    <li class="line"></li>
+                    <li class="imgBox"><img src="./img/brand_2.png"></li>
+                    <li class="line"></li>
+                    <li class="imgBox"><img src="./img/brand_3.png"></li>
+                    <li class="line"></li>
+                    <li class="imgBox"><img src="./img/brand_4.png"></li>
+                </ul>
+                <dl class="mod-ft">
+                    <dt>
+                        铭良旗下现有“台湾风味香肠系列”、“酱辛派酱卤肉制品系列”、“椒货麻辣系列产品”、“鱼糜制品”等肉制品加工近百种优秀产品。产品主要销往东北三省、河北、山东等地区，主要渠道为：各地经销商、各大商超，如全国沃尔玛、家乐福、大润发等等
+                    </dt>
+                    <dd>
+                        Ming Liang's existing Taiwan flavor sausage series "," Taiwan sauced meat products series, spicy pepper goods products, surimi
+                        products "meat processing hundreds of excellent products. The products are mainly exported to the
+                        northeast, Hebei, Shandong and other regions, the main channel for dealers, supermarkets, such as
+                        WAL-MART, Carrefour, RT mart and so on.
+                    </dd>
+                </dl>
+            </section>
+            <section class="mod mod_video">
+                <!--视频展示-->
+                <ul class="clear video-top">
+                    <li class="fl_l">
+                        <img src="img/time.png" />4 Jan 2014
+                    </li>
+                    <li class="fl_l">
+                        <img src="img/video.png" />video
+                    </li>
+                </ul>
+                <div class="video-con">
+                    <video controls width="100%" height="450"></video>
+                </div>
+
+            </section>
+            <section class="mod mod_news">
+                <!--新闻动态-->
+                <script>
+                $(function(){
+                    $(".js_tabBox").on("click",".js_tab",function(){
+                        var me=this;
+                        var dir=$(me).attr("data-dir");//获取：prev or next
+                        var $tabBox=$(me).parents(".js_tabBox");//获取相应的新闻版块
+
+                        var arr=$tabBox.find(".js_tabItem");//相应的版块下，所有新闻$对象
+                        var $cur=$tabBox.find(".js_tabItem.cur");//相应的版块下，当前的$对象
+
+                        var length=arr.length;//相应的版块下，所有新闻$对象的总数值
+                        var curIndex=$cur.index();//相应的版块下，当前的$对象的索引值
+
+                        if(dir=="prev"){
+                            if(curIndex==0){
+                                return
+                            }else{
+                                curIndex--;
+                                $cur.removeClass("cur").animate({"left":"370px"});//旧新闻退出动画；                                
+                            }
+                        }else{
+                            if(curIndex==length-1){
+                                return
+                            }else{
+                                curIndex++;
+                                $cur.removeClass("cur").animate({"left":"-370px"});//旧新闻退出动画；
+                            }
+                        }                       
+
+                        //新新闻进入动画；
+                        arr.eq(curIndex).addClass("cur").animate({"left":"0px"}); 
+
+                        //更新日期；
+                        var dateY=arr.eq(curIndex).attr("data-dateY"); 
+                        var dateD=arr.eq(curIndex).attr("data-dateD");                        
+                        $tabBox.find(".js_dateD").html(dateD);
+                        $tabBox.find(".js_dateY").html(dateY); 
+                    })
+                })
+                </script>
+                <h2><span>新闻动态</span><span>NEWS INFORMATION</span></h2>
+                <ul class="mod-bd">
+                    <li class="newsBox js_tabBox">
+                        <dl class="newsBox_con js_tabItem cur" data-dateY="2015" data-dateD="7-30" style="left:0">
+                            <dt>鲜活食品 涨价最明显</dt>
+                            <dd>具体为,食品烟酒类价格上涨3.1%。其中,食品价格上涨4.2%、烟酒价格上涨0.6%、在外餐饮价格上涨1.5%、茶及饮料价格与去年同期持平。医疗保健价格上涨5.0%。其他用品</dd>
+                        </dl>
+                        <dl class="newsBox_con js_tabItem" data-dateY="2014" data-dateD="12-1">
+                            <dt>鲜活食品 涨价最明显</dt>
+                            <dd>具体为,食品烟酒类价格上涨3.1%。其中,食品价格上涨4.2%、烟酒价格上涨0.6%、在外餐饮价格上涨1.5%、茶及饮料价格与去年同期持平。医疗保健价格上涨5.0%。其他用品</dd>
+                        </dl>
+                        <div class="newsBox_ft clear">
+                            <dl class="newsBox_ft_l1 fl_l">
+                                <dt class="js_dateD">07-30</dt>
+                                <dd class="js_dateY">2015</dd>
+                            </dl>
+                            <div class="fl_l newsBox_ft_l2">行业新闻</div>
+                            <div class="fl_l newsBox_ft_l3">
+                                <a href="javascript:void(0);" class="js_tab" data-dir="prev"><</a>
+                                <a href="javascript:void(0);" class="js_tab" data-dir="next">></a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="newsBox js_tabBox">
+                        <dl class="newsBox_con js_tabItem cur" data-dateY="2015" data-dateD="7-30" style="left:0">
+                            <dt>鲜活食品 涨价最明显</dt>
+                            <dd>具体为,食品烟酒类价格上涨3.1%。其中,食品价格上涨4.2%、烟酒价格上涨0.6%、在外餐饮价格上涨1.5%、茶及饮料价格与去年同期持平。医疗保健价格上涨5.0%。其他用品</dd>
+                        </dl>
+                        <dl class="newsBox_con js_tabItem" data-dateY="2014" data-dateD="12-1"> 
+                            <dt>鲜活食品 涨价最明显</dt>
+                            <dd>具体为,食品烟酒类价格上涨3.1%。其中,食品价格上涨4.2%、烟酒价格上涨0.6%、在外餐饮价格上涨1.5%、茶及饮料价格与去年同期持平。医疗保健价格上涨5.0%。其他用品</dd>
+                        </dl>
+                        <div class="newsBox_ft clear">
+                            <dl class="newsBox_ft_l1 fl_l">
+                                <dt class="js_dateD">07-30</dt>
+                                <dd class="js_dateY">2015</dd>
+                            </dl>
+                            <div class="fl_l newsBox_ft_l2">行业新闻</div>
+                            <div class="fl_l newsBox_ft_l3">
+                                <a href="javascript:void(0);" class="js_tab" data-dir="prev"><</a>
+                                <a href="javascript:void(0);" class="js_tab" data-dir="next">></a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="newsBox js_tabBox">
+                        <dl class="newsBox_con js_tabItem cur" data-dateY="2015" data-dateD="7-30" style="left:0">
+                            <dt>鲜活食品 涨价最明显</dt>
+                            <dd>具体为,食品烟酒类价格上涨3.1%。其中,食品价格上涨4.2%、烟酒价格上涨0.6%、在外餐饮价格上涨1.5%、茶及饮料价格与去年同期持平。医疗保健价格上涨5.0%。其他用品</dd>
+                        </dl>
+                        <dl class="newsBox_con js_tabItem" data-dateY="2014" data-dateD="12-1">
+                            <dt>鲜活食品 涨价最明显</dt>
+                            <dd>具体为,食品烟酒类价格上涨3.1%。其中,食品价格上涨4.2%、烟酒价格上涨0.6%、在外餐饮价格上涨1.5%、茶及饮料价格与去年同期持平。医疗保健价格上涨5.0%。其他用品</dd>
+                        </dl>
+                        <div class="newsBox_ft clear">
+                            <dl class="newsBox_ft_l1 fl_l">
+                                <dt class="js_dateD">07-30</dt>
+                                <dd class="js_dateY">2015</dd>
+                            </dl>
+                            <div class="fl_l newsBox_ft_l2">行业新闻</div>
+                            <div class="fl_l newsBox_ft_l3">
+                                <a href="javascript:void(0);" class="js_tab" data-dir="prev"><</a>
+                                <a href="javascript:void(0);" class="js_tab" data-dir="next">></a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+            <section class="mod mod_league">
+                <!--加盟合作-->
+                <h2><span>加盟合作</span><span>LEAGUE COOPERATION</span></h2>
+                <ul class="mod-bd">
+                    <li class="linkBox cur">加盟须知</li>
+                    <li class="linkBox">营销网站</li>
+                    <li class="linkBox">品牌优势</li>
+                    <li class="linkBox">品牌门店</li>
+                </ul>
+            </section>
+            <section class="mod mod_contact">
+                <!--联系我们-->
+                <h2><span>联系我们</span><span>CONTACT US</span></h2>
+                <div class="mod-bd">
+                    <ul class="clear contact-top">
+                        <li class="fl_l">
+                            <img src="img/contact_1.png" />
+                        </li>
+                        <li class="fl_l">
+                            <img src="img/contact_2.png" />
+                        </li>
+                        <li class="fl_l">
+                            <img src="img/contact_3.png" />
+                        </li>
+                    </ul>
+                    <div class="contact-map">
+                        <iframe src="http://c.dituhui.com/maps/895951/embed" width="100%" height="500" frameborder="0"></iframe>
+                    </div>
+                    <div class="contact-tableBox">
+                        <ul class="tbody">
+                            <li class="th">
+                                <div class="td">序号</div>
+                                <div class="td">招聘职位</div>
+                                <div class="td">招聘部门</div>
+                                <div class="td">发布时间</div>
+                                <div class="td">详情信息</div>
+                            </li>
+                            <li class="tr">
+                                <div class="td">1</div>
+                                <div class="td">业务经理</div>
+                                <div class="td">营销部门</div>
+                                <div class="td">2016-10-14</div>
+                                <div class="td"><a href="#">详情</a></div>
+                            </li>
+                        </ul>
+                        <a class="more" href="#">
+                            <img src="img/more.png" />
+                        </a>
+                    </div>
+                    <ul class="contact-formBox">
+                        <li class="clear">
+                            <span class="fl_l tit">姓名*</span>
+                            <input class="fl_l txt" type="text" />
+                        </li>
+                        <li class="clear">
+                            <span class="fl_l tit">事情职位*</span>
+                            <input class="fl_l txt" type="text" />
+                        </li>
+                        <li class="clear">
+                            <span class="fl_l tit">联系方式*</span>
+                            <input class="fl_l txt" type="text" />
+                        </li>
+                        <li class="clear">
+                            <span class="fl_l tit">自我介绍*</span>
+                            <textarea class="fl_l txt"></textarea>
+                        </li>
+                        <li class="submit" onclick="javascript:;"></li>
+                    </ul>
+                </div>
+            </section>
+        </section>
+        <footer class="wrap-ft">
+            <div class="clear wrap-ft_con">
+                <div class="l1 fl_l">大连铭良食品有限公司</div>
+                <ul class="l2 fl_l">
+                    <li>辽宁省大连市金州区站前街道金泉路970号</li>
+                    <li>电话：0411-87660868</li>
+                    <li>邮箱：ds@dlmlfood.com</li>
+                    <li>版权所有 辽 ICP 备16011558号</li>
+                </ul>
+                <ul class="fl_r l3">
+                    <li class="fl_l" onclick="javascript:;">
+                        <img src="img/ft_wx.png" />
+                    </li>
+                    <li class="fl_l" onclick="javascript:;">
+                        <img src="img/ft_qq.png" />
+                    </li>
+                    <li class="fl_l" onclick="javascript:;">
+                        <img src="img/ft_email.png" />
+                    </li>
+                </ul>
+
+            </div>
+        </footer>
+    </section>
+</body>
+
+</html>

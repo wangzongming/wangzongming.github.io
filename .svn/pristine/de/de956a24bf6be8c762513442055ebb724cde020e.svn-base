@@ -1,0 +1,179 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="x5-orientation" content="portrait">
+    <link href="../css/frtBase.css" rel="stylesheet" />
+    <title>资料详情</title>
+
+</head>
+<body class="creambg">
+    <div class="legend-section ">
+        <div class="l-title"><span style="width:100%;font-size: 20px;">设备资料</span><!--<i></i>--></div>
+        <ul class="lib-list">
+            <li>
+                <span class="att-name">标题:XXXXXX</span>
+            </li>
+            <li>
+                <span class="att-name">拟稿人：XXX</span>
+            </li>
+            <li>
+                <span class="att-name">主题词:XXXX XX XX</span>
+            </li>
+            <li>
+                <span class="att-name">发文单位:XXXXXXXXX</span>
+            </li>
+            <li>
+                <span class="att-name">发文编号:XXXXXX</span>
+            </li>
+            <li>
+                <span class="att-name">发送日期:2016-01-13</span>
+            </li>
+            <li>
+                <span class="att-name">公文类别：XXXXXX</span>
+            </li>
+            <li>
+                <span class="att-name">发文单位：XXXXXXXXXXXXXX</span>
+            </li>
+            <li>
+                <span class="att-name">发文单位：XXXXXXXXXXXXXX</span>
+            </li>
+            <li>
+                <span class="att-name">发文单位：XXXXXXXXXXXXXX</span>
+            </li>
+            <li>
+                <span class="att-name">发文单位：XXXXXXXXXXXXXX</span>
+            </li>
+            <li>
+                <span class="att-name">发文单位：XXXXXXXXXXXXXX</span>
+            </li>
+            <li>
+                <span class="att-name">发文单位：XXXXXXXXXXXXXX</span>
+            </li>
+            <li>
+                <span class="att-name">发文单位：XXXXXXXXXXXXXX</span>
+            </li>
+            <li>
+                <span class="att-name">发文单位：XXXXXXXXXXXXXX</span>
+            </li>
+            <li>
+                <span class="att-name">发文单位：XXXXXXXXXXXXXX</span>
+            </li>
+            <li>
+                <span class="att-name">发文单位：XXXXXXXXXXXXXX</span>
+            </li>
+        </ul>
+    </div>
+    <!--<div class="btn-one">
+        <span class="blueButton fullRow wordspac">返 回</span>
+    </div>-->
+
+    <div id="psbtn" class="psbtn">
+        <a href=""><img src="../img/imgbtn.png" /></a>
+    </div>
+    <!-- Root element of PhotoSwipe. Must have class pswp. -->
+    <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+        <!-- Background of PhotoSwipe.
+             It's a separate element, as animating opacity is faster than rgba(). -->
+        <div class="pswp__bg"></div>
+
+        <!-- Slides wrapper with overflow:hidden. -->
+        <div class="pswp__scroll-wrap">
+
+            <!-- Container that holds slides. PhotoSwipe keeps only 3 slides in DOM to save memory. -->
+            <div class="pswp__container">
+                <!-- don't modify these 3 pswp__item elements, data is added later on -->
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+            </div>
+
+            <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+            <div class="pswp__ui pswp__ui--hidden">
+
+                <div class="pswp__top-bar">
+
+                    <!--  Controls are self-explanatory. Order can be changed. -->
+
+                    <div class="pswp__counter"></div>
+
+                    <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                    <!--<button class="pswp__button pswp__button--share" title="Share"></button>-->
+
+                    <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                    <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                    <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                    <!-- element will get class pswp__preloader--active when preloader is running -->
+                    <div class="pswp__preloader">
+                        <div class="pswp__preloader__icn">
+                            <div class="pswp__preloader__cut">
+                                <div class="pswp__preloader__donut"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                    <div class="pswp__share-tooltip"></div>
+                </div>
+
+                <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button>
+
+                <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button>
+
+                <div class="pswp__caption">
+                    <div class="pswp__caption__center"></div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!--photoswipe需要引入文件-->
+    <link href="../lib/photoswipe.css" rel="stylesheet" />
+    <link href="../lib/default-skin/default-skin.css" rel="stylesheet" />
+    <script src="../lib/photoswipe.min.js"></script>
+    <script src="../lib/photoswipe-ui-default.min.js"></script>
+    <!--photoswipe需要js代码-->
+    <script>
+        var openPhotoSwipe = function () {
+            var pswpElement = document.querySelectorAll('.pswp')[0];
+            // build items array
+            var items = [
+                {
+                    src: 'https://farm2.staticflickr.com/1043/5186867718_06b2e9e551_b.jpg',
+                    w: 964,
+                    h: 1024
+                },
+                {
+                    src: 'https://farm7.staticflickr.com/6175/6176698785_7dee72237e_b.jpg',
+                    w: 1024,
+                    h: 683
+                }
+            ];
+            // define options (if needed)
+            var options = {
+                index: 0,
+                closeOnVerticalDrag: false,
+            };
+
+            var gallery = new PhotoSwipe(pswpElement, PhotoSwipeUI_Default, items, options);
+            gallery.init();
+        };
+        document.getElementById('psbtn').onclick = openPhotoSwipe;
+    </script>
+</body>
+</html>

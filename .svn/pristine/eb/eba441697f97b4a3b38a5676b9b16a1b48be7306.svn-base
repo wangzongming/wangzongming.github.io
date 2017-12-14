@@ -1,0 +1,483 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>首页</title>
+    <link href="css/reset200802.css" rel="stylesheet" />
+    <link href="css/swiper-3.4.1.min.css" rel="stylesheet" />
+    <link href="css/main.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="page">
+        <header class="hd">
+            <div class="hd_con clear">
+                <a href="#" class="f_l hd_logo">
+                    <img class="f_l" src="img/logo_ico.png" width="30" alt="易家宝" />
+                    <img class="f_l" src="img/logo_word.png" width="72" alt="易家宝" />
+                </a>
+                <nav class="f_l">
+                    <div class="f_l navBtn">
+                        <a href="#" class="on">关于易家宝</a>
+                        <ul class="subNav">
+                            <li><a href="#">关于易家宝</a></li>
+                            <li><a href="#">关于易家宝</a></li>
+                        </ul>
+                    </div>
+                    <div class="f_l navBtn">
+                        <a href="#">产品中心</a>
+                        <ul class="subNav">
+                            <li><a href="#">关于易家宝</a></li>
+                            <li><a href="#">关于易家宝</a></li>
+                        </ul>
+                    </div>
+                    <div class="f_l navBtn">
+                        <a href="#">使用方式</a>
+                        <ul class="subNav">
+                            <li><a href="#">关于易家宝</a></li>
+                            <li><a href="#">关于易家宝</a></li>
+                        </ul>
+                    </div>
+                    <div class="f_l navBtn">
+                        <a href="#">创新优势</a>
+                        <ul class="subNav">
+                            <li><a href="#">关于易家宝</a></li>
+                            <li><a href="#">关于易家宝</a></li>
+                        </ul>
+                    </div>
+                    <div class="f_l navBtn">
+                        <a href="#">易家宝智能安防系统</a>
+                        <ul class="subNav">
+                            <li><a href="#">关于易家宝</a></li>
+                            <li><a href="#">关于易家宝</a></li>
+                        </ul>
+                    </div>
+                    <div class="f_l navBtn">
+                        <a href="#">加入我们</a>
+                        <ul class="subNav">
+                            <li><a href="#">关于易家宝</a></li>
+                            <li><a href="#">关于易家宝</a></li>
+                        </ul>
+                    </div>
+                    <div class="f_l navBtn">
+                        <a href="#">荣誉资质</a>
+                        <ul class="subNav">
+                            <li><a href="#">关于易家宝</a></li>
+                            <li><a href="#">关于易家宝</a></li>
+                        </ul>
+                    </div>
+                    <div class="f_l navBtn">
+                        <a href="#">联系我们</a>
+                        <ul class="subNav">
+                            <li><a href="#">关于易家宝</a></li>
+                            <li><a href="#">关于易家宝</a></li>
+                        </ul>
+                    </div>
+                </nav>
+                <div class="f_r call">咨询电话：0411-88867770</div>
+            </div>
+        </header>
+        <div class="bd">
+            <!-- banner 开始-->
+            <div class="wrap index_banner">
+                <div class="swiper-container con">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide" style="background-image:url(img/banner.jpg)">
+                            <div class="mid ban_con">
+                                <div class="mid_con">
+                                    <div class="ban_logo mid">
+                                        <div class="mid_con">
+                                            <img src="img/logo_ico.png" width="90" alt="易家宝" /><br />
+                                            <img src="img/logo_word.png" width="140" alt="易家宝" />
+                                        </div>
+                                    </div>
+                                    <div class="ban_tit">每户人家的未来之锁</div>
+                                    <div class="ban_tel">400-615-1561</div>
+                                    <img class="ban_telicon" src="img/icon_phone.png" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide" style="background-image:url(img/banner2.jpg)"></div>
+                        <div class="swiper-slide" style="background-image:url(img/banner.jpg)"></div>
+                        <div class="swiper-slide" style="background-image:url(img/banner2.jpg)"></div>
+                    </div>
+                    <!-- 如果需要分页器 -->
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+            <!-- banner 结束 -->
+            <!-- 产品中心 开始 -->
+            <div class="wrap index_productCenter">
+                <h2>产品中心<br /><span>PRODUCT CENTER</span></h2>
+                <div class="swiper-container con">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="img/pro_1.jpg" />
+                            <div class="mark mid">
+                                <div class="mid_con">
+                                    <p>
+                                        锁控和门磁<br />suikong and mensuo
+                                    </p>
+                                    <img src="img/icon_jia.png" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/pro_2.jpg" />
+                            <div class="mark mid">
+                                <div class="mid_con">
+                                    <p>
+                                        锁控和门磁<br />suikong and mensuo
+                                    </p>
+                                    <img src="img/icon_jia.png" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/pro_3.jpg" />
+                            <div class="mark mid">
+                                <div class="mid_con">
+                                    <p>
+                                        锁控和门磁<br />suikong and mensuo
+                                    </p>
+                                    <img src="img/icon_jia.png" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/pro_4.jpg" />
+                            <div class="mark mid">
+                                <div class="mid_con">
+                                    <p>
+                                        锁控和门磁<br />suikong and mensuo
+                                    </p>
+                                    <img src="img/icon_jia.png" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/pro_5.jpg" />
+                            <div class="mark mid">
+                                <div class="mid_con">
+                                    <p>
+                                        锁控和门磁<br />suikong and mensuo
+                                    </p>
+                                    <img src="img/icon_jia.png" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/pro_6.jpg" />
+                            <div class="mark mid">
+                                <div class="mid_con">
+                                    <p>
+                                        锁控和门磁<br />suikong and mensuo
+                                    </p>
+                                    <img src="img/icon_jia.png" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/pro_1.jpg" />
+                            <div class="mark mid">
+                                <div class="mid_con">
+                                    <p>
+                                        锁控和门磁<br />suikong and mensuo
+                                    </p>
+                                    <img src="img/icon_jia.png" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/pro_2.jpg" />
+                            <div class="mark mid">
+                                <div class="mid_con">
+                                    <p>
+                                        锁控和门磁<br />suikong and mensuo
+                                    </p>
+                                    <img src="img/icon_jia.png" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/pro_3.jpg" />
+                            <div class="mark mid">
+                                <div class="mid_con">
+                                    <p>
+                                        锁控和门磁<br />suikong and mensuo
+                                    </p>
+                                    <img src="img/icon_jia.png" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/pro_4.jpg" />
+                            <div class="mark mid">
+                                <div class="mid_con">
+                                    <p>
+                                        锁控和门磁<br />suikong and mensuo
+                                    </p>
+                                    <img src="img/icon_jia.png" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/pro_5.jpg" />
+                            <div class="mark mid">
+                                <div class="mid_con">
+                                    <p>
+                                        锁控和门磁<br />suikong and mensuo
+                                    </p>
+                                    <img src="img/icon_jia.png" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/pro_6.jpg" />
+                            <div class="mark mid">
+                                <div class="mid_con">
+                                    <p>
+                                        锁控和门磁<br />suikong and mensuo
+                                    </p>
+                                    <img src="img/icon_jia.png" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="swiper-mybuttonBox">
+                    <div class="swiper-mybutton-prev"><</div>
+                    <div class="swiper-mybutton-next">></div>
+                </div>
+            </div>
+            <!-- 产品中心 结束 -->
+            <!-- 使用方法 开始 -->
+            <div class="wrap index_method">
+                <h2>使用方法<br /><span>Method of use</span></h2>
+                <div class="con">
+                    <div class="method_con">
+                        <ul class="method_btnBox clear">
+                            <li class="f_l method_btn on" data-index="1"></li>
+                            <li class="f_l method_btn" data-index="2"></li>
+                            <li class="f_l method_btn" data-index="3"></li>
+                            <li class="f_l method_btn" data-index="4"></li>
+                        </ul>
+                        <div class="method_imgBox">
+                            <img class="method_img" data-index="1" style="display:block;background-color:red""/>
+                            <img class="method_img" data-index="2" style="background-color:green"/>
+                            <img class="method_img" data-index="3" style="background-color:yellow"/>
+                            <img class="method_img" data-index="4" style="background-color:blue" />
+                        </div>
+                        <div class="method_pBox">
+                            <p class="method_p" data-index="1" style="display:block">
+                                目前市场上安全系数最高的锁具，每套设备拥有自己独立的二维码。购买后以家庭为
+                                单位微信扫码关注，时刻监控家里的安全状况。出现一切警情，系统提示第一时间
+                                报警到您的手机微信端，与您视频互动，让您随时随地对家里的状况了如指掌。
+                            </p>
+                            <p class="method_p" data-index="2">
+                                目前市场上安全系数最高的锁具，每套设备拥有自己独立的二维码。购买后以家庭为
+                                单位微信扫码关注，时刻监控家里的安全状况。出现一切警情，系统提示第一时间。
+                            </p>
+                            <p class="method_p" data-index="3">
+                                报警到您的手机微信端，与您视频互动，让您随时随地对家里的状况了如指掌。
+                            </p>
+                            <p class="method_p" data-index="4">
+                                目前市场上安全系数最高的锁具，每套设备拥有自己独立的二维码。购买后以家庭为
+                            </p>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 使用方法 结束 -->
+            <!-- 安防系统 开始 -->
+            <div class="wrap index_eaf">
+                <h2>易家宝智能安防系统<br /><span>ZHI NENG AN FANG XI TONG</span></h2>
+                <img src="img/E_t.jpg" />
+                <div class="con clear">
+                    <div class="f_l">
+                        <img src="img/E_l.jpg" />
+                        <div class="mark mid">
+                            <div class="mid_con">
+                                <img src="img/icon_lock.png" />
+                                <h3>
+                                    E安防优势
+                                </h3>
+                                <p>
+                                    目前市场上大多数安防产品的探测器是进入室内或门非法开启时，才能触发报警。E安防锁具做到技术开锁，破坏开锁的初期阶段，就是在门外对锁使用非法手段开启就会报警。
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="f_l">
+                        <img src="img/E_c.jpg" />
+                        <div class="mark mid">
+                            <div class="mid_con">
+                                <img src="img/icon_lock.png" />
+                                <h3>
+                                    E安防特点
+                                </h3>
+                                <p>
+                                    E安防系统是大连易家宝安防科技有限公司为私人用户设计、基于互联网+思维研制的一款生命、财产安全保障产品，让每一位客户感受【回家温馨，离家安心】的高品质生活。
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="f_l">
+                        <img src="img/E_r.jpg" />
+                        <div class="mark mid">
+                            <div class="mid_con">
+                                <img src="img/icon_lock.png" />
+                                <h3>
+                                    E安防科技
+                                </h3>
+                                <p>
+                                    E安防又叫GH安防系统。系统利用无线设计原理；稳定的信号传输系统；云计算科技，使管理平台的服务系统，对目标住宅实施有效监测控制，从室外到室内双层防护，全方位保障客户的生命财产安全。
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 安防系统 结束 -->
+            <!-- 加入我们 开始 -->
+            <div class="wrap index_joinus">
+                <h2>加入我们<br /><span>JOIN US</span></h2>
+                <div class="con">
+                    <div class="joinus_con mid">
+                        <div class="mid_con">
+                            <div class="joinus_logo mid">
+                                <div class="mid_con">
+                                    <img src="img/logo_ico.png" width="60" alt="易家宝" /><br />
+                                    <img src="img/logo_word.png" width="100" alt="易家宝" />
+                                </div>
+                            </div>
+                            <div class="joinus_tit">欢迎加入大连易家宝</div>
+                            <div class="joinus_l joinus_lr clear">
+                                <img class="f_l joinus_img" src="img/icon_yy.png" />
+<div class="f_l">
+                                    <div class="joinus_t">易家宝运营方式介绍</div>
+				    <ul class="joinus_ul">
+                                    <li>招商代理</li>
+                                    <li>申请代理</li>
+					</ul>
+                                </div>
+                            </div>
+                            <div class="joinus_r joinus_lr clear">
+                                <img class="f_l joinus_img" src="img/icon_zs.png" />
+                                <div class="f_l">
+                                    <div class="joinus_t">招商流程介绍 </div>
+				    <ul class="joinus_ul">
+                                    <li>招商代理</li>
+                                    <li>申请代理</li>
+					</ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 加入我们 结束 -->
+            <!-- 专利 开始 -->
+            <div class="wrap index_patented">
+                <h2>易家宝专利<br /><span>PATENTED</span></h2>
+                <div class="con">
+                    <div class="swiper-container con">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="img/patented.jpg" /><br />
+                                <span>智能化报警防盗产品专利</span>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/patented.jpg" /><br />
+                                <span>智能化报警防盗产品专利</span>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/patented.jpg" /><br />
+                                <span>智能化报警防盗产品专利</span>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/patented.jpg" /><br />
+                                <span>智能化报警防盗产品专利</span>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/patented.jpg" /><br />
+                                <span>智能化报警防盗产品专利</span>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/patented.jpg" /><br />
+                                <span>智能化报警防盗产品专利</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </div>
+            <!-- 专利 结束 -->
+        </div>
+        <footer class="ft">
+            <div class="ft_tit">
+                您的24小时卫士   能管住每户人家的锁<br />
+                <span>THE MARKETING MARKETING PACKAGING DESIGN OPERATION</span>
+            </div>
+            <ul class="ft_nav clear">
+                <li class="f_l">
+                    <img class="f_l" src="img/ft_navBtn1.png" />
+                    <dl class="f_l">
+                        <dt>产品中心</dt>
+                        <dd>机械锁</dd>
+                        <dd>机械锁</dd>
+                        <dd>配件</dd>
+                    </dl>
+                </li>
+                <li class="f_l">
+                    <img class="f_l" src="img/ft_navBtn2.png" />
+                    <dl class="f_l">
+                        <dt>招商加盟</dt>
+                        <dd>市场前景</dd>
+                        <dd>易家宝运营方式介绍 </dd>
+                        <dd>招商流程介绍</dd>
+                        <dd>政府用ppt</dd>
+                        <dd>此类针对招商代理</dd>
+                    </dl>
+                </li>
+                <li class="f_l">
+                    <img class="f_l" src="img/ft_navBtn3.png" />
+                    <dl class="f_l">
+                        <dt>创新优势</dt>
+                        <dd>对于家庭用户的优势 </dd>
+                        <dd>对于小区物业的优势   </dd>
+                        <dd>商业用户优势</dd>
+                    </dl>
+                </li>
+                <li class="f_l">
+                    <img class="f_l" src="img/ft_navBtn4.png" />
+                    <dl class="f_l">
+                        <dt>易家宝智能安防系统</dt>
+                        <dd>物业系统介绍</dd>
+                        <dd>民用系统介绍</dd>
+                        <dd>商业用户系统介绍</dd>
+                    </dl>
+                </li>
+                <li class="f_l">
+                    <img class="f_l" src="img/ft_navBtn5.png" />
+                    <dl class="f_l">
+                        <dt>联系我们</dt>
+                        <dd>大连市沙河口区绿波路43-7</dd>
+                        <dd>电话：0411-88867770</dd>
+                        <dd>QQ   : 5616478798</dd>
+                    </dl>
+                </li>
+            </ul>
+            <div class="ft_copyright">DALIAN 123123123KLJ12KL3KL12J3KL12JKL3J</div>
+        </footer>
+    </div>
+</body>
+</html>
+<script src="js/jquery.min.js"></script>
+<script src="js/swiper-3.4.1.jquery.min.js"></script>
+<script src="js/main.js"></script>

@@ -1,0 +1,96 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="uth-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link href="css/normalize.css" rel="stylesheet" />
+    <link href="css/main.css" rel="stylesheet" />
+    <link href="css/swiper.min.css" rel="stylesheet"/>
+</head>
+<body>
+    <!--header start--> 
+    <header class="header grey">
+    
+      <img src="images/mobile_03.jpg" class="logo"/>
+     
+      <section class="swiper-container" id="s1">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="images/banner_03.jpg">
+            </div>
+            <div class="swiper-slide">
+                <img src="images/banner_03.jpg">
+            </div>
+           <div class="swiper-slide">
+                <img src="images/banner_03.jpg">
+            </div>
+        </div>
+        <!-- Add Pagination -->
+        <!--<div class="swiper-button-next swiper-button-white" id="swiper-button-next1"></div>
+        <div class="swiper-button-prev swiper-button-white" id="swiper-button-prev1"></div>-->
+    </section>
+    </header>
+         
+   <!--公司--> 
+   <div class="tab-menu">
+   <ul class="company_ul clear">
+   <li class="float_l company_li checked">公司简介</li>
+   <li class="float_l company_li">品牌含义</li>
+   <li class="float_l company_li">组织架构</li>
+   <li class="float_l company_li">企业使命</li>
+   </ul>
+   </div>
+  <div class="tab-box company_con">
+        <div class="brief">
+        <h3 class="company_title">公司简介</h3>
+          <p class="text3">澳洲大陆酒业集团现已成为澳洲葡萄酒产业的新锐。澳洲大陆酒业集团秉承品质第一的理念，扎根于南澳大利亚州。</p>
+          <p class="text3">澳洲大陆酒业集团现已成为澳洲葡萄酒产业的新锐。澳洲大陆酒业集团秉承品质第一的理念，扎根于南澳大利亚州。</p>
+          <p class="text3">澳洲大陆酒业集团现已成为澳洲葡萄酒产业的新锐。澳洲大陆酒业集团秉承品质第一的理念，扎根于南澳大利亚州。</p>
+          <p class="text3">澳洲大陆酒业集团现已成为澳洲葡萄酒产业的新锐。澳洲大陆酒业集团秉承品质第一的理念，扎根于南澳大利亚州。</p>
+      </div>
+      <div style="display:none" class="brand">
+      <img src="images/logo2_06.png"/>
+      <h3>品牌含义</h3>
+          <p>LOGO以古兵器三把矛头为主题，相互交叉搭接，象征着团队的信仰宣誓。</p>
+          <p> 三把矛头各指向不同方向，显示着团队以轴心多结合，多能力，多方向的事业发展</p>
+          <p> 两颗对称的双星代表着团队，皇冠代表心中的信仰，双星要为皇冠披荆斩棘。</p>
+          <p>双环、英文澳洲大陆把三支矛更有力的聚在一起，把团队的信仰和事业更好的围在心中。</p>
+
+      <h3 class="brandmean">品牌含义</h3>
+          <p class="brandmeaning">勇往直前，敢于做行业领路人！ </p>
+          <p class="brandmeaning"> 突破桎梏，敢于创新商业战略！ </p>
+          <p class="brandmeaning"> 开拓勇者，团结信仰坚不可摧！</p>
+   
+      </div>
+      <div style="display:none" class="framework">
+        <p class="company_title">公司组织架构</p>
+        <img src="images/company2_03.png"/>
+         </div>
+      <div style="display:none" class="mission">
+        <h3 class="company_title">企业使命</h3>
+        <p><b>企业使命：国际品质 全球共享 </b></p>
+        <p>企业愿景：打造葡萄酒行业领先品牌，把世界优质的葡萄酒带到中国的每个城市，成为备受尊重的进口葡萄酒俱乐部。</p>
+          <p>企业宗旨：世界名酿卓越品质 真诚奉献与众共享</p>
+          <p>企业精神：开拓创新 精益求精 言行必果 敢于负责 待客如友 精诚服务</p>
+          <p class="text4">开拓创新、精益求精是德威堡的工作精神。澳洲大陆酒业人必须开拓视野、不断创新、 关注细节、持续学习、博采众长、融会贯通、为我所用。</p>
+          <p class="text4">言行必果、敢于负责是澳洲大陆酒业的执行精神。澳洲大陆酒业人必须不折不扣执行公司的各种规章制度，决策果断，执行坚定。做到言必信，行必果，敢于负责。 </p>
+          <p class="text4">待客如友、精诚服务是澳洲大陆酒业的服务精神。澳洲大陆酒业人视客户为朋友，以服务客户为最大的快乐，坦诚相待，求同存异、共进共赢，以主动、细致、严谨、周到的服务赢得客户的信任。
+           </p>
+          <p>企业价值观：敬业感恩 诚信正直 知行合一 立规兴业 追求卓越</p>
+      </div>
+   
+   </div>
+   <footer class="footer">
+   <p>烁州（上海）国际贸易有限公司</p>
+   </footer>
+   <div class="fixed_footer clear">
+   <a class="first float_l" href="index.html">首页</a>
+   <a class="telephone float_l"><img src="images/mobile_35.jpg"/></a>
+   <span>免费电话</span>
+   </div>
+    <script src="js/jquery-1.10.1.min.js"></script>
+    <script src="js/swiper.jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

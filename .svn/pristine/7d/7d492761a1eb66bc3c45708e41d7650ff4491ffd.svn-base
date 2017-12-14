@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./style/css/main.css">
+    <title>新闻内嵌页</title>
+</head>
+
+<body class="">
+    <div class="main">
+        <!-- header -->
+        <div class="header leftArr">
+            <div class="header-l">
+                <img class="leftArr-img" src="./img/home/leftArr.jpg" alt="">
+                <img src="./img/home/logo.gif" alt="">
+            </div>
+            <div class="header-r">
+                <img src="./img/home/home_06.gif" alt="">
+                <img src="./img/home/home_08.gif" alt="">
+                <!-- 下拉菜单 -->
+                <div class="down_menu">
+                    <ul class="down_menu-ul">
+                        <li>
+                            <a href="./index.html">
+                                    <div class="left">主页</div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./product_category.html">
+                                <div class="left">产品类别</div>
+                                <div class="right"><img src="./img/rightArr.jpg" alt=""></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./service_field.html">
+                                <div class="left">服务领域</div>
+                                <div class="right"><img src="./img/rightArr.jpg" alt=""></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./machining_field.html">
+                                <div class="left">加工领域</div>
+                                <div class="right"><img src="./img/rightArr.jpg" alt=""></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./service_dome.html">
+                                <div class="left">服务案列</div>
+                                <div class="right"><img src="./img/rightArr.jpg" alt=""></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./about.html">
+                                <div class="left">关于誉程</div>
+                                <div class="right"><img src="./img/rightArr.jpg" alt=""></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./industry.html">
+                                <div class="left">行业咨询</div>
+                                <div class="right"><img src="./img/rightArr.jpg" alt=""></div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>  
+            </div>
+        </div>
+
+        <div class="news_detail-content">
+            <div class="content">
+                <div class="label">
+                    <span>2017.9.19</span>
+                    <span>公司咨询</span>
+                    <div class="icon">
+                        <img src="./img/home/fenxiang.jpg" alt="">
+                    </div>
+                </div>
+                <ul class="content-ul">
+                    <li>
+                        <h3 class="title">配备和互转工作台的柱式压机</h3>
+                        <div class="text">
+                                <div>
+                                        50 年前，KUKA 的旋转摩擦焊就已作为工业接合工艺
+                                        得到了全面应用。随着1994 年收购机器制造商汤普
+                                        森摩擦焊有限公司(英国)，产品组合得以进一步扩
+                                        展。自此之后，KUKA
+                                        成为了该领域的全球市场领导
+                                        者，在超过44 个国家安装了1200 台以上的旋转摩
+                                        擦焊接机。使用摩擦焊接机可以制造不同行业所需的
+                                        多样化工件，如汽车、建筑、石油和天然气、航空航
+                                        天和电气行业。 
+                                </div>
+                                <div>
+                                        一直以来，我们位于奥格斯堡(德国)和黑尔斯欧文
+                                        (英国)的独一无二的KUKA 技术中心都致力于在目
+                                        前就研究未来各种创新方案的实用性。此外，我们还
+                                        提供多种其他服务，如工艺验证、样机制造或小批量
+                                        生产，另外也能够打造整套多班制制造流程。
+                                </div>
+                        </div>
+                        <div class="img">
+                            <img src="./img/home/home_50.gif" alt="">
+                        </div>
+                    </li>
+                    <li>
+                        <h3 class="title">根据您的需求量身定制机器</h3>
+                        <div class="text">
+                            <div>
+                                KUKA 开发了各种旋转摩擦焊接机，在其产品组合中，
+                                顶锻力涵盖了1至10000 千牛顿的广泛区间。这一范
+                                围即使对于最重的零件接合工作也能胜任。无论您是选
+                                择我们新的紧凑通用型Genius 系列，还是寻求适用于
+                                特殊工件的专用机- 具有两种不同结构设计的多样化机
+                                器都可满足您的特定需求。特殊尺寸和规格，如双主轴
+                                机器和垂直结构机器，也可根据要求提供。
+                            </div>
+                        </div>
+                        <div class="img">
+                            <img src="./img/home/home_50.gif" alt="">
+                        </div>
+                        <div class="text">
+                            <div>
+                                一直以来，我们位于奥格斯堡(德国)和黑尔斯欧文(英
+                                国)的独一无二的KUKA 技术中心都致力于在目前就研
+                                究未来各种创新方案的实用性。此外，我们还提供多种其
+                                他服务，如工艺验证、样机制造或小批量生产，另外也能
+                                够打造整套多班制制造流程。
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- footer -->
+        <div class="footer">
+            <ul class="footer-ul">
+                <li>
+                    <a href="#">
+                        <div>
+                            <img src="./img/home/home_60.gif" alt="">
+                        </div>
+                        <div>一键通话</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="./contact.html">
+                        <div>
+                            <img src="./img/home/home_63.gif" alt="">
+                        </div>
+                        <div>联系方式</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="./download.html">
+                        <div>
+                            <img src="./img/home/home_66.gif" alt="">
+                        </div>
+                        <div>资料下载</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div>
+                            <img src="./img/home/home_68.gif" alt="">
+                        </div>
+                        <div>地图导航</div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>
+<script src="./js/font.js"></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/main.js"></script>

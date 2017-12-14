@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./style/css/main.css">
+    <title>铸件介绍</title>
+</head>
+
+<body class="hui">
+    <div class="main">
+        <!-- header -->
+        <div class="header leftArr">
+            <div class="header-l">
+                <img class="leftArr-img" src="./img/home/leftArr.jpg" alt="">
+                <a href="./index.html">
+                    <img src="./img/home/logo.gif" alt="">
+                </a>
+            </div>
+            <div class="header-r">
+                <img src="./img/home/home_06.gif" alt="">
+                <img src="./img/home/home_08.gif" alt="">
+                <!-- 下拉菜单 -->
+                <div class="down_menu">
+                    <ul class="down_menu-ul">
+                        <li>
+                            <a href="./index.html">
+                                    <div class="left">主页</div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./product_category.html">
+                                <div class="left">产品类别</div>
+                                <div class="right"><img src="./img/rightArr.jpg" alt=""></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./service_field.html">
+                                <div class="left">服务领域</div>
+                                <div class="right"><img src="./img/rightArr.jpg" alt=""></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./machining_field.html">
+                                <div class="left">加工领域</div>
+                                <div class="right"><img src="./img/rightArr.jpg" alt=""></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./service_dome.html">
+                                <div class="left">服务案列</div>
+                                <div class="right"><img src="./img/rightArr.jpg" alt=""></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./about.html">
+                                <div class="left">关于誉程</div>
+                                <div class="right"><img src="./img/rightArr.jpg" alt=""></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./industry.html">
+                                <div class="left">行业咨询</div>
+                                <div class="right"><img src="./img/rightArr.jpg" alt=""></div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>  
+            </div>
+        </div>
+
+        <div class="introduce-content">
+            <div class="content">
+                <ul class="content-ul">
+                    <li>
+                        <div class="left">产品名称:</div>
+                        <div class="right">仪表座</div>
+                    </li>
+                    <li>
+                        <div class="left">尺&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;寸:</div>
+                        <div class="right">330 X 270</div>
+                    </li>
+                    <li>
+                        <div class="left">产品类别:</div>
+                        <div class="right">仪器仪表壳体</div>
+                    </li>
+                    <li>
+                        <div class="left">服务领域:</div>
+                        <div class="right">石化行业</div>
+                    </li>
+                    <li>
+                        <div class="left">加工领域:</div>
+                        <div class="right">碳钢</div>
+                    </li>
+                    <li>
+                        <div class="left">制造工艺:</div>
+                        <div class="right">精密铸造，机械加工</div>
+                    </li>
+                    <li>
+                        <div class="left">产品要求:</div>
+                        <div class="right">位置0.03mm,气压测试3.1/6.2Mpa</div>
+                    </li>
+                    <li>
+                        <div class="left">产品重量:</div>
+                        <div class="right">24.5-40.5kgs ,出口美国</div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- footer -->
+        <div class="footer">
+            <ul class="footer-ul">
+                <li>
+                    <a href="#">
+                        <div>
+                            <img src="./img/home/home_60.gif" alt="">
+                        </div>
+                        <div>一键通话</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="./contact.html">
+                        <div>
+                            <img src="./img/home/home_63.gif" alt="">
+                        </div>
+                        <div>联系方式</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="./download.html">
+                        <div>
+                            <img src="./img/home/home_66.gif" alt="">
+                        </div>
+                        <div>资料下载</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div>
+                            <img src="./img/home/home_68.gif" alt="">
+                        </div>
+                        <div>地图导航</div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>
+<script src="./js/font.js"></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/main.js"></script>

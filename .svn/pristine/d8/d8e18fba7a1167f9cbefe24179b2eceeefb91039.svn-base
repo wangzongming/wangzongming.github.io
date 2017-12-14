@@ -1,0 +1,88 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="keywords" content="">
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="format-detection" content="telephone=no" />
+<meta name="x5-orientation" content="portrait">
+<link href="css/normalize.css" rel="stylesheet" />
+<link href="css/swiper-3.3.1.min.css" rel="stylesheet" />
+<link href="css/main.css" rel="stylesheet" />
+<title>联系我们</title>
+</head>
+
+<body>
+<header>
+  <img src="img/logo.jpg" alt="誉洋LOGO" class="logo"/>
+  <div class="btn clear">
+  <span class="search fl"></span>
+  <span class="menu fl"></span>
+  </div>
+</header>
+<nav class="nav">
+     <ul class="nav_swift">
+       <li class="on" onclick="location.href='index.html'">主页</li>
+       <li onclick="location.href='product.html'">产品中心</li>
+       <li onclick="location.href='plan.html'">解决方案</li>
+       <li onclick="location.href='apply.html'">应用领域</li>
+       <li onclick="location.href='support.html'">服务支持</li>
+       <li onclick="location.href='news.html'">新闻中心</li>
+       <li onclick="location.href='aboutus.html'">关于我们</li>
+     </ul>
+</nav>
+<nav class="nav_code">
+  <div>
+  <img src="img/qrCode.png"/>
+  </div>
+</nav>
+<div class="content">
+ <div class="search_input" style="display:none;">
+    <input  type="text"/>
+    <span class="search_btn"><img src="img/search2.jpg"/></span>
+  </div>
+ 
+ <div class="contact">
+    <h3 class="ch_contact">联系我们</h3>
+    <h3 class="eng_contact">CONTACT US</h3>
+    <ul class="contact_ul">
+     <li>
+       <p class="name">Hotline</p>
+       <p class="detail"><img src="img/contact1.jpg"/>400 877 3838</p>
+     </li>
+      <li>
+       <p class="name">E-mail</p>
+       <p class="detail"><img src="img/contact2.jpg"/>info@dalianyuanyang.com</p>
+     </li>
+      <li>
+       <p class="name">Web</p>
+       <p class="detail"><img src="img/contact3.jpg"/>www.dalianyuanyang.com</p>
+     </li>
+      <li>
+       <p class="name">Add</p>
+       <p class="detail"><img src="img/contact4.jpg"/>大连七贤岭汇贤街5号</p>
+     </li>
+    </ul>
+ </div>
+  
+  
+</div>
+<footer>
+ <ul class="footer_nav">
+   <li><img src="img/footer_nav1.jpg"/>一键通话</li>
+   <li  class="follow"><img src="img/footer_nav2.jpg"/>关注订阅号</li>
+   <li onclick="location.href='contact.html'"><img src="img/footer_nav3.jpg"/>联系方式</li>
+   <li><img src="img/footer_nav4.jpg"/>地图导航</li>
+ </ul>
+</footer>
+</body>
+</html>
+<script src="js/size.js"></script>
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/swiper-3.3.1.jquery.min.js"></script>
+<script src="js/jquery.transit.min.js"></script>
+<script src="js/main.js"></script>

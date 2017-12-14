@@ -1,0 +1,91 @@
+﻿ 
+//兼容IE9翻转动画
+var browser = navigator.appName;
+var b_version = navigator.appVersion;
+var version = b_version.split(";");
+ if(version[1]){
+  var trim_Version = version[1].replace(/[ ]/g, "");
+  if (browser == "Microsoft Internet Explorer" && trim_Version == "MSIE9.0") {
+    $(".mask").hide();
+    $(".flip-container").hover(function(){
+      $(this).find(".mask").toggle();
+    })
+  }
+ }
+
+
+//banner
+  var mySwiperBanner = new Swiper('.banner',{
+    pagination: '.banner-pagination',
+    loop:true,
+    prevButton:'.swiper-button-prev-banner',
+    nextButton:'.swiper-button-next-banner',
+    paginationClickable: true,
+  })
+
+  $(".swiper-button-prev-banner").eq(0).on('click', function(e){
+    e.preventDefault()
+    mySwiperBanner.swipePrev()
+  })
+  $(".swiper-button-next-banner").eq(0).on('click', function(e){
+    e.preventDefault()
+    mySwiperBanner.swipeNext()
+  })
+
+//产品展示
+var swiperParent = new Swiper('.swiper-parent',{
+    slidesPerView: 4,
+	  grabCursor: true,
+  })
+ $('.arrow-left').on('click', function(e){
+    e.preventDefault()
+    swiperParent.swipePrev()
+  })
+  $('.arrow-right').on('click', function(e){
+    e.preventDefault()
+    swiperParent.swipeNext()
+  })
+
+//服务案例--图片展示，有几组图片展示，就要new一遍，相对应的class名也要更换
+ var mySwiper = new Swiper('.show-product1',{
+    pagination: '.show-product-pagination1',
+    loop:true,
+    paginationClickable: true
+  })
+
+var mySwiper = new Swiper('.show-product2',{
+    pagination: '.show-product-pagination2',
+    loop:true,
+    paginationClickable: true
+  })
+
+  var mySwiper = new Swiper('.show-product3',{
+    pagination: '.show-product-pagination3',
+    loop:true,
+    paginationClickable: true
+  })
+
+//news页面tab切换
+$(".info_title li").on("click",function(e){
+  $(this).addClass("on").siblings().removeClass("on");
+  var data = $(this).attr("data-name");
+  $(".info_list[data-name="+data+"]").show().siblings().hide();
+})
+
+
+//资料下载js代码
+$('.ziliao-down').on('click',function(){
+  $('.down-page').toggle('slow');
+})
+
+$('.main').click(function(event){
+  event.stopPropagation(); 
+  $('.down-page').hide('slow');
+})
+
+$.each($('.down-page-con-down-type span'),function(i,v){
+  $(this).click(function(){
+    $(this).addClass('blue').siblings().removeClass('blue');
+    $('.down-page-con-ul').eq(i).show().siblings().hide()
+  })
+})

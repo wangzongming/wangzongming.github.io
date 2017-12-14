@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+    <title>4</title>
+    <link href="css/main.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/weui.min.css" />
+</head>
+<body ontouchstart>
+    <div class="container">
+        <div class="weui_panel">
+            <div class="weui_panel_bd">
+                <a href="javascript:void(0);" class="weui_media_box weui_media_appmsg">
+                    <div class="weui_media_hd">
+                        <img class="weui_media_appmsg_thumb" src="http://shp.qpic.cn/weixinsrc_pic/pScBR7sbqjOBJomcuvVJ6iacVrbMJaoJZkFUIq4nzQZUIqzTKziam7ibg/" alt="">
+                    </div>
+                    <div class="weui_media_bd">
+                        <h4 class="weui_media_title">王永安</h4>
+                        <p class="weui_media_desc">2016-08-30 20:11:22</p>
+                    </div>
+                </a>
+            </div>
+            <div class="weui_panel_ft title">图文组合列表</div>
+            <div class="weui_panel_ft msg"><i class="weui_icon_waiting_circle"></i>最近信息：2016-08-30 20:11:22</div>
+        </div>
+        <div class="weui_cells_title">
+            特定部门
+        </div>
+        <div class="weui_cells weui_cells_access">
+            <div class="weui_cell">
+                <div class="weui_cell_bd  weui_cell_primary">
+                    <div class="imgCon">
+                        <ul class="imgCon_ul">
+                            <li class="imgCon_li">
+                                <a class="imgCon_img" style="background-image:url(http://shp.qpic.cn/weixinsrc_pic/pScBR7sbqjOBJomcuvVJ6iacVrbMJaoJZkFUIq4nzQZUIqzTKziam7ibg/)"></a>
+                                <div class="imgCon_name">王永安</div>
+                                <a class="imgCon_clear"><i class="weui_icon_clear"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="weui_cell_ft">
+                </div>
+            </div>
+            <div class="weui_cell">
+                <div class="weui_cell_primary" style="margin-right:10px;">
+                    <a class="weui_btn weui_btn_warn" href="javascript:">退出该群聊</a>
+                </div>
+                <div class="weui_cell_primary">
+                    <a class="weui_btn weui_btn_primary" href="javascript:">进入群聊</a>
+                </div>
+            </div>
+        </div>
+</body>
+</html>

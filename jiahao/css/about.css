@@ -1,0 +1,11 @@
+.content{
+    height:800px;
+}
+.content-text{
+    display:inline-block;
+    font-size:15px;
+    /*letter-spacing:10px;*/
+    line-height:30px;
+    text-indent:30px;
+}
+

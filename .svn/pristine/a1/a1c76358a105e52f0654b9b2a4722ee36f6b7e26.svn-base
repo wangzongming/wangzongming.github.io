@@ -1,0 +1,411 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="format-detection" content="telephone=no" />
+    <title></title>
+    <script src="javascript/lib/jquery-1.11.1.min.js"></script>
+    <script src="javascript/lib/jquery.transit.min.js"></script>
+    <script src="javascript/lib/iscroll-probe.js"></script>
+    <script src="javascript/lib/swiper.min.js"></script>
+    <script src="javascript/main.js"></script>
+    <link href="stylesheel/css/normalize.min.css" rel="stylesheet">
+    <link href="stylesheel/css/swiper.min.css" rel="stylesheet" />
+    <link href="stylesheel/css/main.css" rel="stylesheet" />
+
+</head>
+<body>
+    <div class="swiper-container banner_swiper" id="banner_swiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <a href="#">
+                    <img src="images/banner.jpg" />
+                </a>
+            </div>
+            <div class="swiper-slide">
+                <a href="#">
+                    <img src="images/banner.jpg" />
+                </a>
+            </div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+    </div>
+    <div class="page">
+        <div class="nav">
+            <div class="tit">宝宝：<span>贝贝</span></div>
+            <ul>
+                <li data-name="喂奶">
+                    <img src="stylesheel/img/wn.png" />
+                    <div>喂奶</div>
+                </li>
+                <li data-name="臭臭">
+                    <img src="stylesheel/img/cc.png" />
+                    <div>臭臭</div>
+                </li>
+
+                <!--<li data-name="睡觉">
+                    <img src="stylesheel/img/sj.png" />
+                    <div>睡觉</div>
+                </li>-->
+                <li data-name="药">
+                    <img src="stylesheel/img/y.png" />
+                    <div>药</div>
+                </li>
+                <li data-name="其余">
+                    <img src="stylesheel/img/qy.png" />
+                    <div>其余</div>
+                </li>
+            </ul>
+        </div>
+        <div class="con">
+            <div class="wrapper" id="wrapper">
+                <ul class="scroller" id="scroller">
+                    <li style='opacity: 1;text-align:center;line-height:3rem;'>暂无数据，向下滑屏尝试刷新</li>
+                </ul>
+            </div>
+            <div id="refresh" class="refresh">
+                <img src="stylesheel/img/np.png" />
+            </div>
+            <div class="side-page" id="side-page">
+                <div class="side-bg"></div>
+                <div class="side-dialog" data-name="喂奶">
+                    <div class="side-bd">
+                        <div class="side-bar">
+                            <div class="side-bar_tit">
+                                <span>喂养方式</span>
+                            </div>
+                            <ul class="side-bar_ul">
+                                <li class="side-bar_li">
+                                    <div class="side-inputBox side-inputBox_select">
+                                        <select>
+                                            <option>母乳</option>
+                                            <option>奶粉</option>
+                                            <option>母乳奶粉混合</option>
+                                        </select>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="side-bar">
+                            <div class="side-bar_tit">
+                                <span>母乳时长</span>
+                            </div>
+                            <ul class="side-bar_ul">
+                                <li class="side-bar_li">
+                                    <div class="side-inputBox side-inputBox_number">
+                                        <a href="javascript:void(0);" data-type="0">-</a>
+                                        <input value="1" type="number" readonly />
+                                        <a href="javascript:void(0);" data-type="1">+</a>
+                                    </div>
+                                    <div class="side-inputBox">
+                                        分钟
+                                    </div>
+                                </li>
+
+                            </ul>
+                        </div>
+                        <div class="side-bar">
+                            <div class="side-bar_tit">
+                                <span>奶粉品牌</span>
+                            </div>
+                            <ul class="side-bar_ul">
+                                <li class="side-bar_li">
+
+                                    <div class="side-inputBox side-inputBox_select">
+                                        <select>
+                                            <option>牛栏</option>
+                                            <option>飞鹤</option>
+                                            <option>雀巢</option>
+                                            <option>毅力毅力毅力</option>
+                                        </select>
+                                    </div>
+                                    <div class="side-inputBox side-inputBox_number">
+                                        <a href="javascript:void(0);" data-type="0">-</a>
+                                        <input value="1" type="number" readonly />
+                                        <a href="javascript:void(0);" data-type="1">+</a>
+                                    </div>
+                                    <div class="side-inputBox">
+                                        ml
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="side-bar">
+                            <div class="side-bar_tit">
+                                <span>溢奶</span>
+                            </div>
+                            <ul class="side-bar_ul">
+                                <li class="side-bar_li">
+                                    <div class="side-inputBox side-inputBox_number">
+                                        <a href="javascript:void(0);" data-type="0">-</a>
+                                        <input value="1" type="number" readonly />
+                                        <a href="javascript:void(0);" data-type="1">+</a>
+                                    </div>
+                                    <div class="side-inputBox">
+                                        ml
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="side-bar">
+                            <div class="side-bar_tit">
+                                <span>备注</span>
+                            </div>
+                            <ul class="side-bar_ul">
+                                <li class="side-bar_li">
+                                    <textarea class="side-textBox"></textarea>
+                                </li>
+                                <li class="side-bar_li">
+                                    <div class="side-fileBox">
+                                        <a class="imgfile">
+                                            <img src="images/banner.jpg" />
+                                        </a>
+                                        <a class="imgfile">
+                                            <img src="images/banner.jpg" />
+                                        </a>
+                                        <a class="imgfile"><input type="file" /><span>+</span></a>
+                                        <a class="imgfile"><span>-</span></a>
+                                    </div>
+
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="side-ft">
+                        <a href="javascript:void(0);" class="side-ft_btn" data-name="喂奶">完成</a>
+                    </div>
+                </div>
+                <div class="side-dialog" data-name="臭臭">
+                    <div class="side-bd">
+                        <div class="color_yellow">
+                            <div class="side-bar">
+                                <div class="side-bar_tit">
+                                    <span>大便颜色</span>
+                                </div>
+                                <ul class="side-bar_ul">
+                                    <li class="side-bar_li">
+                                        <div class="side-inputBox side-inputBox_select">
+                                            <select>
+                                                <option>浅黄</option>
+                                                <option>黄色</option>
+                                                <option>深黄</option>
+                                            </select>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="side-bar">
+                                <div class="side-bar_tit">
+                                    <span>形状</span>
+                                </div>
+                                <ul class="side-bar_ul">
+                                    <li class="side-bar_li">
+                                        <div class="side-inputBox side-inputBox_select">
+                                            <select>
+                                                <option>稀</option>
+                                                <option>稠</option>
+                                            </select>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="side-bar">
+                                <div class="side-bar_tit">
+                                    <span>大便次数</span>
+                                </div>
+                                <ul class="side-bar_ul">
+                                    <li class="side-bar_li">
+                                        <div class="side-inputBox side-inputBox_number">
+                                            <a href="javascript:void(0);" data-type="0">-</a>
+                                            <input value="1" type="number" readonly />
+                                            <a href="javascript:void(0);" data-type="1">+</a>
+                                        </div>
+                                        <div class="side-inputBox">
+                                            回
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="color_blue">
+                            <div class="side-bar">
+                                <div class="side-bar_tit">
+                                    <span>小便颜色</span>
+                                </div>
+                                <ul class="side-bar_ul">
+                                    <li class="side-bar_li">
+
+                                        <div class="side-inputBox side-inputBox_select">
+                                            <select>
+                                                <option>白</option>
+                                                <option>黄</option>
+                                            </select>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="side-bar">
+                                <div class="side-bar_tit">
+                                    <span>小便次数</span>
+                                </div>
+                                <ul class="side-bar_ul">
+                                    <li class="side-bar_li">
+                                        <div class="side-inputBox side-inputBox_number">
+                                            <a href="javascript:void(0);" data-type="0">-</a>
+                                            <input value="1" type="number" readonly />
+                                            <a href="javascript:void(0);" data-type="1">+</a>
+                                        </div>
+                                        <div class="side-inputBox">
+                                            ml
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="side-bar">
+                            <div class="side-bar_tit">
+                                <span>备注</span>
+                            </div>
+                            <ul class="side-bar_ul">
+                                <li class="side-bar_li">
+                                    <textarea class="side-textBox"></textarea>
+                                </li>
+                                <li class="side-bar_li">
+                                    <div class="side-fileBox">
+                                        <a class="imgfile">
+                                            <img src="images/banner.jpg" />
+                                        </a>
+                                        <a class="imgfile"><input type="file" /><span>+</span></a>
+                                        <a class="imgfile"><span>-</span></a>
+                                    </div>
+
+                                </li>
+                            </ul>
+                        </div>
+                        <style>
+                        </style>
+                    </div>
+                    <div class="side-ft">
+                        <a href="javascript:void(0);" class="side-ft_btn" data-name="臭臭">完成</a>
+                    </div>
+                </div>
+                <!--<div class="side-dialog" data-name="睡觉">
+                    <div class="side-bd">
+                    </div>
+                    <div class="side-ft">
+                        <a href="javascript:void(0);" class="side-ft_btn" data-name="睡觉">完成</a>
+                    </div>
+                </div>-->
+                <div class="side-dialog" data-name="药">
+                    <div class="side-bd">
+                        <div class="side-bar">
+                            <div class="side-bar_tit">
+                                <span>药名</span>
+                            </div>
+                            <ul class="side-bar_ul">
+                                <li class="side-bar_li">
+                                    <div class="side-inputBox side-inputBox_select">
+                                        <select>
+                                            <option>感冒药</option>
+                                            <option>消炎药</option>
+                                        </select>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="side-bar">
+                            <div class="side-bar_tit">
+                                <span>药量</span>
+                            </div>
+                            <ul class="side-bar_ul">
+                                <li class="side-bar_li">
+                                    <div class="side-inputBox side-inputBox_number">
+                                        <a href="javascript:void(0);" data-type="0">-</a>
+                                        <input value="1" type="number" readonly />
+                                        <a href="javascript:void(0);" data-type="1">+</a>
+                                    </div>
+                                    <div class="side-inputBox">
+                                        回
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="side-bar">
+                            <div class="side-bar_tit">
+                                <span>备注</span>
+                            </div>
+                            <ul class="side-bar_ul">
+                                <li class="side-bar_li">
+                                    <textarea class="side-textBox"></textarea>
+                                </li>
+                                <li class="side-bar_li">
+                                    <div class="side-fileBox">
+                                        <a class="imgfile">
+                                            <img src="images/banner.jpg" />
+                                        </a>
+                                        <a class="imgfile"><input type="file" /><span>+</span></a>
+                                        <a class="imgfile"><span>-</span></a>
+                                    </div>
+
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="side-ft">
+                        <a href="javascript:void(0);" class="side-ft_btn" data-name="药">完成</a>
+                    </div>
+                </div>
+                <div class="side-dialog" data-name="其余">
+                    <div class="side-bd">
+                        <div class="side-bar">
+                            <div class="side-bar_tit">
+                                <span>种类</span>
+                            </div>
+                            <ul class="side-bar_ul">
+                                <li class="side-bar_li">
+                                    <div class="side-inputBox side-inputBox_select">
+                                        <select>
+                                            <option>洗浴</option>
+                                            <option>抚摸</option>
+                                            <option>做操</option>
+                                        </select>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="side-bar">
+                            <div class="side-bar_tit">
+                                <span>备注</span>
+                            </div>
+                            <ul class="side-bar_ul">
+                                <li class="side-bar_li">
+                                    <textarea class="side-textBox"></textarea>
+                                </li>
+                                <li class="side-bar_li">
+                                    <div class="side-fileBox">
+                                        <a class="imgfile">
+                                            <img src="images/banner.jpg" />
+                                        </a>
+                                        <a class="imgfile"><input type="file" /><span>+</span></a>
+                                        <a class="imgfile"><span>-</span></a>
+                                    </div>
+
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="side-ft">
+                        <a href="javascript:void(0);" class="side-ft_btn" data-name="其余">完成</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
+<script>
+</script>

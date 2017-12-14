@@ -1,0 +1,16 @@
+﻿@charset "utf-8";
+
+
+     .scroll_container { overflow: hidden; position: relative; }
+
+     .scroll_absolute { position: absolute; }
+
+     .scroll_vertical_bar { position: absolute; top: 0; right: -50px; width: 8px; height: 100%; margin: 0; padding: 0; }
+
+     .scroll_track { position: relative; background:url(../img/scroll_bg.gif) repeat-y center;border-radius:4px; }
+
+     .scroll_drag { position: relative; top: 0; left: -10px;width:30px; cursor: pointer; background:url(../img/btn.png) no-repeat; }
+
+     .scroll_arrow { text-indent: -20000px; display: block; cursor: pointer; background-color: #369DB4; }
+
+     .scroll_vertical_bar .scroll_arrow { height: 16px; }

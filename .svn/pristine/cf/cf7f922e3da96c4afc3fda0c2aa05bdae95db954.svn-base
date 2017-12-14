@@ -1,0 +1,473 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="keywords" content="">
+<meta name="description" content="">
+<link href="css/normalize.css" rel="stylesheet" />
+<link href="css/swiper-3.3.1.min.css" rel="stylesheet" />
+<link href="css/main.css" rel="stylesheet" />
+<link href="css/jquery.fancybox.css" rel="stylesheet" type="text/css" />
+<title>首页</title>
+</head>
+
+<body>
+<!--头部-->
+<header class="header">
+  <ul class="wrapper clearfix top_nav">
+    <li class="fr phone">服务热线：400-000-00000</li>
+    <li class="fr weixin">官方微信</li>
+    <li class="fr weibo">官方微博</li>
+  </ul>
+  <!--导航-->
+  <nav class="nav">
+    <div class="wrapper clearfix"> <img src="img/logo.png" alt="广深堂海参" class="fl"/>
+      <ul class="fr nav_ul">
+        <li class="fl nav_li  on">
+          <p class="ch">首页</p>
+          <p class="eng">HOME</p>
+        </li>
+        <li class="fl nav_li">
+          <p class="ch">公司简介</p>
+          <p class="eng">COMPANY PROFILE</p>
+        </li>
+        <li class="fl nav_li">
+          <p class="ch">产品介绍</p>
+          <p class="eng">PRODUCT</p>
+          <div class="down-menu">
+						<ul>
+							<li><a href="">淡干海参</a></li>
+							<li><a href="">即食海参</a></li>
+							<li><a href="">速发海参</a></li>
+							<li><a href="">鲜蒸海参</a></li>
+						</ul>
+		 </div>
+        </li>
+        <li class="fl nav_li">
+          <p class="ch">新闻中心</p>
+          <p class="eng">NEWS</p>
+        </li>
+        <li class="fl nav_li">
+          <p class="ch">关于我们</p>
+          <p class="eng">ABOUT US</p>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  
+  <!--banner-->
+  <div class="banner"> <img src="img/banner.jpg" alt="banner"/> </div>
+</header>
+
+<!--各种海参-->
+<section class="rel"> 
+  <!-- Swiper -->
+  <div class="swiper-container wrapper haishen">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide on"> <img src="img/haishen_big.jpg" class="haishen_img"/>
+        <div class="mask"> <img src="img/haishen.png"/>
+          <p class="pro_name">葱油海参</p>
+          <p class="pro_eng_name">GUANGSHENTANG</p>
+        </div>
+      </div>
+      <div class="swiper-slide"> <img src="img/haishen_big.jpg"/>
+        <div class="mask"> <img src="img/haishen.png"/>
+          <p class="pro_name">葱油海参</p>
+          <p class="pro_eng_name">GUANGSHENTANG</p>
+        </div>
+      </div>
+      <div class="swiper-slide"> <img src="img/haishen_big.jpg"/>
+        <div class="mask"> <img src="img/haishen.png"/>
+          <p class="pro_name">葱油海参</p>
+          <p class="pro_eng_name">GUANGSHENTANG</p>
+        </div>
+      </div>
+      <div class="swiper-slide"> <img src="img/haishen_big.jpg"/>
+        <div class="mask"> <img src="img/haishen.png"/>
+          <p class="pro_name">葱油海参</p>
+          <p class="pro_eng_name">GUANGSHENTANG</p>
+        </div>
+      </div>
+      <div class="swiper-slide"> <img src="img/haishen_big.jpg"/>
+        <div class="mask"> <img src="img/haishen.png"/>
+          <p class="pro_name">葱油海参</p>
+          <p class="pro_eng_name">GUANGSHENTANG</p>
+        </div>
+      </div>
+      <div class="swiper-slide"> <img src="img/haishen_big.jpg"/>
+        <div class="mask"> <img src="img/haishen.png"/>
+          <p class="pro_name">葱油海参</p>
+          <p class="pro_eng_name">GUANGSHENTANG</p>
+        </div>
+      </div>
+      <div class="swiper-slide"> <img src="img/haishen_big.jpg"/>
+        <div class="mask"> <img src="img/haishen.png"/>
+          <p class="pro_name">葱油海参</p>
+          <p class="pro_eng_name">GUANGSHENTANG</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Add Arrows -->
+  <div class="swiper-button-next red_next_btn" id="haishen_next_btn"></div>
+  <div class="swiper-button-prev red_prev_btn" id="haishen_prev_btn"></div>
+</section>
+
+<!--产品承诺-->
+<section class="quality">
+  <div class="wrapper clearfix">
+    <div class="fl quality_l">
+      <h3 class="quality_title">好吃 源自营养丰富</h3>
+      <p class="slogan">非养殖、真底播、黄金海域营养高</p>
+      <p class="slogan">不含沙、免清洗、多重检验无添加</p>
+    </div>
+    <div class="fl quality_r">
+      <h3 class="quality_title">中国人寿品质承保</h3>
+      <p class="slogan">非养殖、真底播、黄金海域营养高</p>
+      <p class="slogan">不含沙、免清洗、多重检验无添加</p>
+    </div>
+  </div>
+</section>
+
+<!--产品分类-->
+<section class="wrapper">
+  <div class="headline">
+    <p class="headline_grey">CLASSIFICATION</p>
+    <p class="headline_content"> <span class="content"><img src="img/line-l.png" class="line_l"/>产品分类<img src="img/line-r.png" class="line_r"/></span> </p>
+    <p class="headline_grey">30万顾客的共同选择</p>
+  </div>
+  <ul class="clearfix group1">
+    <li class="fl"> <img src="img/pro_heng.jpg"/>
+      <div class="mask_pro">
+        <div class="border">
+          <h3 class="brand"><span>广参堂</span></h3>
+          <h4 class="name">总裁定制</h4>
+          <a class="more">点击查看详情>></a> </div>
+      </div>
+    </li>
+    <li class="fl"> <img src="img/pro_heng.jpg"/>
+      <div class="mask_pro">
+        <div class="border">
+          <h3 class="brand"><span>广参堂</span></h3>
+          <h4 class="name">总裁定制</h4>
+          <a class="more">点击查看详情>></a> </div>
+      </div>
+    </li>
+  </ul>
+  <ul class="clearfix group2">
+    <li class="fl"> <img src="img/pro_shu.jpg"/>
+      <div class="mask_pro">
+        <div class="border">
+          <h3 class="brand"><span>广参堂</span></h3>
+          <h4 class="name">总裁定制</h4>
+          <a class="more">点击查看详情>></a> </div>
+      </div>
+    </li>
+    <li class="fl"> <img src="img/pro_shu.jpg"/>
+      <div class="mask_pro">
+        <div class="border">
+          <h3 class="brand"><span>广参堂</span></h3>
+          <h4 class="name">总裁定制</h4>
+          <a class="more">点击查看详情>></a> </div>
+      </div>
+    </li>
+    <li class="fl"> <img src="img/pro_shu.jpg"/>
+      <div class="mask_pro">
+        <div class="border">
+          <h3 class="brand"><span>广参堂</span></h3>
+          <h4 class="name">总裁定制</h4>
+          <a class="more">点击查看详情>></a> </div>
+      </div>
+    </li>
+  </ul>
+</section>
+
+<!--全网销售-->
+<section>
+  <div class="headline">
+    <p class="headline_grey">WHOLE NETWORK SALES</p>
+    <p class="headline_content"> <span class="content"><img src="img/line-l.png" class="line_l"/>全网销售<img src="img/line-r.png" class="line_r"/></span> </p>
+    <p class="headline_grey">大连海参 用我们的产品 让您的生活更健康</p>
+  </div>
+  <div class="net">
+    <div class="wrapper net_data">
+      <div class="net_top clearfix">
+        <ul class="clearfix fl net_top_ul">
+          <li class="fl">3<span class="unit">座城</span></li>
+          <li class="fl">4<span class="unit">年</span></li>
+          <li class="fl">23<span class="unit">店</span></li>
+        </ul>
+        <p class="fr">广参堂累计销售大连海参</p>
+      </div>
+      <p class="count">186,665,265<span class="unit">根</span></p>
+      <a class="more">每天，刷新健康指数上限</a> </div>
+  </div>
+</section>
+
+<!--精选店铺-->
+<section class="rel">
+  <div class="headline">
+    <p class="headline_grey">SELECT SHOP</p>
+    <p class="headline_content"> <span class="content"><img src="img/line-l.png" class="line_l"/>精选店铺<img src="img/line-r.png" class="line_r"/></span> </p>
+    <p class="headline_grey">四年坚守只做好海参只做大连参</p>
+  </div>
+  
+  <!-- Swiper -->
+  <div class="swiper-container shop  wrapper">
+    <div class="swiper-wrapper ">
+      <div class="swiper-slide"> <img src="img/store.jpg" class="shop_img"/>
+        <div class="mask_pro">
+          <div class="border">
+            <h3 class="brand">广参堂</h3>
+            <h4 class="name">辽宁·大连</h4>
+            <a class="more">点击查看详情>></a> </div>
+        </div>
+      </div>
+      <div class="swiper-slide"> <img src="img/store.jpg" class="shop_img"/>
+        <div class="mask_pro">
+          <div class="border">
+            <h3 class="brand">广参堂</h3>
+            <h4 class="name">总裁定制</h4>
+            <a class="more">点击查看详情>></a> </div>
+        </div>
+      </div>
+      <div class="swiper-slide"> <img src="img/store.jpg" class="shop_img"/>
+        <div class="mask_pro">
+          <div class="border">
+            <h3 class="brand"><span>广参堂</span></h3>
+            <h4 class="name">总裁定制</h4>
+            <a class="more">点击查看详情>></a> </div>
+        </div>
+      </div>
+      <div class="swiper-slide"> <img src="img/store.jpg" class="shop_img"/>
+        <div class="mask_pro">
+          <div class="border">
+            <h3 class="brand"><span>广参堂</span></h3>
+            <h4 class="name">总裁定制</h4>
+            <a class="more">点击查看详情>></a> </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Add Arrows -->
+  <div class="swiper-button-next red_next_btn" id="haishen_next_btn1"></div>
+  <div class="swiper-button-prev red_prev_btn" id="haishen_prev_btn1"></div>
+</section>
+
+<!-- 客户评价 -->
+<section class="evaluate">
+  <div class="headline">
+    <p class="headline_grey">CUSTOMER EVALUATION</p>
+    <p class="headline_content"> <span class="content"><img src="img/line-l.png" class="line_l"/>客户评价<img src="img/line-r.png" class="line_r"/></span> </p>
+    <p class="headline_grey">每一个数字的背后，都寄托着一份沉淀的信任</p>
+  </div>
+<div class="rel">  
+  <!-- Swiper -->
+  <div class="swiper-container wrapper customer">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <div class="swiper-slide_item">
+          <div class="show_img_con">
+            <div class="show_img"><img src="img/pro_shu.jpg"/></div>
+          </div>
+          <div class="message_con">
+            <p class="message">已经是老顾客了，已经买了三年了，产品质量一如既往的好好好好好好</p>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="swiper-slide_item">
+          <div class="show_img_con">
+            <div class="show_img"><img src="img/pro_shu.jpg"/></div>
+          </div>
+          <div class="message_con">
+            <p class="message">已经是老顾客了，已经买了三年了，产品质量一如既往的好</p>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="swiper-slide_item">
+          <div class="show_img_con">
+            <div class="show_img"><img src="img/pro_shu.jpg"/></div>
+          </div>
+          <div class="message_con">
+            <p class="message">已经是老顾客了，已经买了三年了，产品质量一如既往的好</p>
+          </div>
+        </div>
+      </div>
+       <div class="swiper-slide">
+        <div class="swiper-slide_item">
+          <div class="show_img_con">
+            <div class="show_img"><img src="img/pro_shu.jpg"/></div>
+          </div>
+          <div class="message_con">
+            <p class="message">已经是老顾客了，已经买了三年了，产品质量一如既往的好</p>
+          </div>
+        </div>
+      </div>
+       <div class="swiper-slide">
+        <div class="swiper-slide_item">
+          <div class="show_img_con">
+            <div class="show_img"><img src="img/pro_shu.jpg"/></div>
+          </div>
+          <div class="message_con">
+            <p class="message">已经是老顾客了，已经买了三年了，产品质量一如既往的好</p>
+          </div>
+        </div>
+      </div>
+       <div class="swiper-slide">
+        <div class="swiper-slide_item">
+          <div class="show_img_con">
+            <div class="show_img"><img src="img/pro_shu.jpg"/></div>
+          </div>
+          <div class="message_con">
+            <p class="message">已经是老顾客了，已经买了三年了，产品质量一如既往的好</p>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="swiper-slide_item">
+          <div class="show_img_con">
+            <div class="show_img"><img src="img/pro_shu.jpg"/></div>
+          </div>
+          <div class="message_con">
+            <p class="message">已经是老顾客了，已经买了三年了，产品质量一如既往的好</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Add Arrows -->
+  <div class="swiper-button-next black_next_btn" id="black_next_btn"></div>
+  <div class="swiper-button-prev black_prev_btn" id="black_prev_btn"></div>
+</div>
+</section>
+<!-- 极致服务 -->
+<section class="wrapper">
+  <div class="headline">
+    <p class="headline_grey">GOOD SERVICE</p>
+    <p class="headline_content"> <span class="content"><img src="img/line-l.png" class="line_l"/>极致服务<img src="img/line-r.png" class="line_r"/></span> </p>
+    <p class="headline_grey">广参堂 坚持优质服务 让您无后顾之忧</p>
+  </div>
+  <img src="img/promise.png" class="service_img"/>
+  <p class="service">广参堂海参与大连海岛生物有限公司强强联手，成立了大连广参堂海洋珍品有限公司</p>
+  <p class="service">成为集深海养殖、深海捕捞、精深加工、产品研发生产及品牌营销为一体的综合性海产品公司</p>
+</section>
+<!-- 视频 -->
+<section class="video_box">
+  <div class=" swf_r "> <img src="img/poster.jpg" /> <a class="fancybox_swf" href="http://cloud.video.taobao.com/play/u/1910949384/p/1/e/1/t/1/34400483.swf"></a> </div>
+</section>
+<!-- 新闻中心-->
+<section class="wrapper">
+  <div class="headline">
+    <p class="headline_grey">GOOD NEWS</p>
+    <p class="headline_content"> <span class="content"><img src="img/line-l.png" class="line_l"/>新闻中心<img src="img/line-r.png" class="line_r"/></span> </p>
+    <p class="headline_grey">广参堂 坚持优质服务 让您无后顾之忧</p>
+  </div>
+  <ul class="news_list clearfix">
+    <li class="fl news_list_li"> <img src="img/product.jpg"/>
+      <div class="news_content">
+        <dl class="news_content_dl">
+          <dt class="time">2017-6-8</dt>
+          <dt class="about">关于海参</dt>
+          <dt class="detail_content">关于海参关于海参关于海参关于海参关于海参关于海参关于海参关于海参关于海参关于海参关于海参关于海参关于海参关于海参关于海参关于海参关于海参关于海参</dt>
+          <dt class="more_detail">查看详情>></dt>
+        </dl>
+      </div>
+      <i class="tri"></i> </li>
+    <li class="fl news_list_li"> <img src="img/product.jpg"/>
+      <div class="news_content">
+        <dl class="news_content_dl">
+          <dt class="time">2017-6-8</dt>
+          <dt class="about">关于海参</dt>
+          <dt class="detail_content">关于海参关于海参关于海参关于海参关于海参关于海参关于海参关于海参关于海参关于海参关于海参关于海参关于海参关于海参关于海参关于海参关于海参关于海参</dt>
+          <dt class="more_detail">查看详情>></dt>
+        </dl>
+      </div>
+      <i class="tri"></i> </li>
+    <li class="fl news_list_li"> <img src="img/product.jpg"/>
+      <div class="news_content">
+        <dl class="news_content_dl">
+          <dt class="time">2017-6-8</dt>
+          <dt class="about">关于海参</dt>
+          <dt class="detail_content">关于海参关于海参关于海参关于海参关于海参关于海参关于海参关于海参关于海参关于海参关于海参关于海参关于海参关于海参关于海参关于海参关于海参关于海参</dt>
+          <dt class="more_detail">查看详情>></dt>
+        </dl>
+      </div>
+      <i class="tri"></i> </li>
+  </ul>
+  <a class="news_more">查看更多</a> </section>
+
+<!--底部信息-->
+<footer>
+  <div class="footer-container">
+    <div class="footer-left">
+      <ul class="footer-about">
+        <li> <a href="">
+          <h3>
+          关于嘉豪
+          <h3>
+          </a> </li>
+        <li><a href="">品牌介绍</a></li>
+        <li><a href="">特色商品</a></li>
+        <li><a href="">社会责任</a></li>
+        <li><a href="">嘉豪海产</a></li>
+        <li><a href="">沙中岛品牌</a></li>
+      </ul>
+      <ul class="footer-server">
+        <li> <a href="">
+          <h3>
+          服务支持
+          <h3>
+          </a> </li>
+        <li><a href="">会员尊享</a></li>
+        <li><a href="">精彩活动</a></li>
+        <li><a href="">营销渠道</a></li>
+        <li><a href="">留言反馈</a></li>
+      </ul>
+      <ul class="footer-zs">
+        <li> <a href="">
+          <h3>
+          招商加盟
+          <h3>
+          </a> </li>
+        <li><a href="">客服中心</a></li>
+        <li><a href="">代理经销</a></li>
+        <li><a href="">渠道合作</a></li>
+        <li><a href="">团购政策</a></li>
+        <li><a href="">加入我们</a></li>
+      </ul>
+      <ul class="footer-call">
+        <li> <a href="">
+          <h3>
+          联系方式
+          <h3>
+          </a> </li>
+        <li><a href="">座机</a></li>
+        <li><a href="">邮件</a></li>
+        <li><a href="">手机</a></li>
+        <li><a href="">微信</a></li>
+        <li><a href="">QQ</a></li>
+      </ul>
+    </div>
+    <div class="footer-right">
+      <p class="footer-title"> 关注我们 </p>
+      <ul  class="clearfix footer_contact">
+        <li class="fl"><a href="#"><img src="img/pro_heng.jpg"></a>
+          <p>广参堂官方微信</p>
+        </li>
+        <li class="fl"><a href="#"><img src="img/pro_heng.jpg"></a>
+          <p>广参堂官方微博</p>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom"></div>
+</footer>
+</body>
+</html>
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/jquery.fancybox.pack.js" type="text/javascript"></script>
+<script src="js/swiper-3.3.1.jquery.min.js"></script>
+<script src="js/main.js"></script>

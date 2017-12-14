@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="x5-orientation" content="portrait">
+    <link href="../css/frtBase.css" rel="stylesheet" />
+    <title>首页</title>
+    <script src="../js/jquery-2.1.0.js"></script>
+    <script src="../js/iscroll.js"></script>
+</head>
+
+<body>
+    <style>
+        /*--add style by Lny-start--*/
+        
+        html,
+        body {
+            height: 100%;
+            overflow: hidden;
+        }
+        
+        .l-page {
+            height: 100%;
+            display: -webkit-box;
+            display: flex;
+            font-size: 14px;
+            position: relative;
+        }
+        
+        .l-page_navBox {
+            width: 80px;
+            background-color: #f4f4f4;
+        }
+        
+        .l-page_navBox ul {}
+        
+        .l-page_navBox li {
+            line-height: 44px;
+            border-bottom: 1px solid #dedede;
+            border-right: 1px solid #dedede;
+            border-left: 0px solid #FFAF02;
+            transition: border-left-width .08s;
+        }
+        
+        .l-page_navBox li:nth-child(odd) {
+            border-left: 0px solid #FF3F01;
+        }
+        
+        .l-page_navBox li.cur {
+            border-left-width: 4px;
+            border-right: 0 none;
+            background-color: #fff;
+        }
+        
+        .l-page_conBox {
+            -webkit-box-flex: 1;
+            flex: 1;
+            width: 0%;
+            background-color: #fff;
+            position: relative;
+        }
+        
+        .l-page_con {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            box-sizing: border-box;
+            padding: 5px;
+            opacity: 0;
+            z-index: 1;
+            transition: all .3s;
+            overflow-y: auto;
+            overflow-x: hidden;
+        }
+        
+        .l-page_con.cur {
+            opacity: 1;
+            z-index: 2;
+        }
+        
+        .l-base_list li {
+            border-bottom: #0ebcfb 1px dashed;
+            display: -webkit-box;
+            display: flex;
+            -webkit-box-align: start;
+            justify-content: flex-start;
+            -webkit-box-pack: center;
+            align-items: center;
+            height: 40px;
+            padding: 0 10px;
+            text-align: left;
+        }
+        
+        .l-page_downBox {
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            z-index: 99;       
+            display: none;
+        }
+        .l-page_downBg {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, .6);
+        }
+        .l-page_down {
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: -121px;
+            max-height: 100px;
+            overflow-x: hidden;
+            overflow-y: auto; 
+            padding: 10px 20px;
+            background: #fff;
+            border-top: 1px solid #dedede;
+        }
+        /*wrapper_table*/
+        
+        #wrapper_table {
+            height: 100%;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .l-scroller {
+            position: absolute;
+            z-index: 1;
+            -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+            width: auto;
+            background-color: #a00;
+            -webkit-transform: translateZ(0);
+            -moz-transform: translateZ(0);
+            -ms-transform: translateZ(0);
+            -o-transform: translateZ(0);
+            transform: translateZ(0);
+            -webkit-touch-callout: none;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            -webkit-text-size-adjust: none;
+            -moz-text-size-adjust: none;
+            -ms-text-size-adjust: none;
+            -o-text-size-adjust: none;
+            text-size-adjust: none;
+            background-color: transparent;
+            border-radius: 4px;
+            box-shadow: 0 0 2px rgba(204, 204, 204, 0.60);
+            min-width: 100%;
+            overflow: hidden;
+        }
+        
+        .l-scroller ul {
+            box-sizing: border-box;
+        }
+        
+        .l-scroller ul:nth-child(3n+1) {
+            position: absolute;
+            width: 40px;
+            left: 0px;
+            top: 0px;
+            border-right: 1px solid rgba(204, 204, 204, 0.60);
+            ;
+        }
+        
+        .l-scroller ul:nth-child(3n+2) {
+            position: relative;
+            padding-left: 40px;
+            padding-right: 40px;
+            -moz-column-count: 2;
+            -webkit-column-count: 2;
+            column-count: 2;
+            -moz-column-gap: 1px;
+            -webkit-column-gap: 1px;
+            column-gap: 1px;
+            -moz-column-rule: 1px solid rgba(204, 204, 204, 0.60);
+            -webkit-column-rule: 1px solid rgba(204, 204, 204, 0.60);
+            column-rule: 1px solid rgba(204, 204, 204, 0.60);
+        }
+        
+        .l-scroller ul:nth-child(3n+3) {
+            position: absolute;
+            width: 40px;
+            right: 0px;
+            top: 0px;
+            border-left: 1px solid rgba(204, 204, 204, 0.60);
+            ;
+        }
+        
+        .l-scroller li {
+            display: -webkit-box;
+            display: flex;
+            -webkit-box-align: center;
+            justify-content: center;
+            -webkit-box-pack: center;
+            align-items: center;
+            overflow: hidden;
+            white-space: nowrap;
+            box-sizing: border-box;
+            border-bottom: 1px solid rgba(204, 204, 204, 0.60);
+            height: 40px;
+            padding: 0 10px;
+        }
+        
+        .l-scroller .l-th {
+            background-color: #0ebcfb;
+            color: #fff;
+        }
+        /*--add style by Lny-end--*/
+    </style>
+    <section class="l-page">
+        <nav class="l-page_navBox">
+            <ul>
+                <li class="cur" l-index="基本信息">基本信息</li>
+                <li l-index="分类附件">分类附件</li>
+                <li l-index="业绩荣耀">业绩荣耀</li>
+                <li l-index="专业类别">专业类别</li>
+            </ul>
+        </nav>
+        <section class="l-page_conBox">
+            <section class="l-page_con cur" l-index="基本信息">
+                <ul class="l-base_list">
+                    <li>所在公司：桥隧公司</li>
+                    <li>注册资本金（元）：500000</li>
+                    <li>法定代表人电话：xxxxxxxx</li>
+                </ul>
+            </section>
+            <section class="l-page_con" l-index="分类附件">
+                <div class="l-wrapper" id="wrapper_table">
+                    <div class="l-scroller">
+                        <!--按照列遍历-->
+                        <ul>
+                            <!--头一列：NO.，固定宽度40px-->
+                            <li class="l-th">No.</li>
+                            <li>1</li>
+                            <li>2</li>
+                            <li>3</li>
+                            <li>4</li>
+                            <li>5</li>
+                            <li>6</li>
+                            <li>7</li>
+                            <li>8</li>
+                            <li>9</li>
+                            <li>10</li>
+                            <li>11</li>
+                            <li>12</li>
+                        </ul>
+                        <ul style="-moz-column-count: 2; /* Firefox */ -webkit-column-count: 2; /* Safari 和 Chrome */ column-count: 2;">
+                            <!--这ul里的列，列宽随内容自适应，默认两列，想增加列请在设置行内样式column-count-->
+                            <!--第二列：名称-->
+                            <li class="l-th">名称</li>
+                            <li>名称名称名称名称1</li>
+                            <li>名称名称名称名称2</li>
+                            <li>名称名称名称名称3</li>
+                            <li>名称名称名称名称4</li>
+                            <li>名称名称名称名称5</li>
+                            <li>名称名称名称名称6</li>
+                            <li>名称名称名称名称7</li>
+                            <li>名称名称名称名称8</li>
+                            <li>名称名称名称名称9</li>
+                            <li>名称名称名称名称10</li>
+                            <li>名称名称名称名称11</li>
+                            <li>名称名称名称名称12</li>
+                            <!--第三列：编号-->
+                            <li class="l-th">编号</li>
+                            <li>编号1</li>
+                            <li>编号2</li>
+                            <li>编号3</li>
+                            <li>编号4</li>
+                            <li>编号5</li>
+                            <li>编号6</li>
+                            <li>编号7</li>
+                            <li>编号8</li>
+                            <li>编号9</li>
+                            <li>编号10</li>
+                            <li>编号11</li>
+                            <li>编号12</li>
+                        </ul>
+                        <ul>
+                            <!--末一列：编号，固定宽度40px-->
+                            <li class="l-th">附件</li>
+                            <li><img class="fj_btn" data-fjid="1" width="16" src="../img/2.png" /></li>
+                            <li><img class="fj_btn" data-fjid="2" width="16" src="../img/2.png" /></li>
+                            <li><img class="fj_btn" data-fjid="3" width="16" src="../img/2.png" /></li>
+                            <li><img class="fj_btn" data-fjid="4" width="16" src="../img/2.png" /></li>
+                            <li><img class="fj_btn" data-fjid="5" width="16" src="../img/2.png" /></li>
+                            <li><img class="fj_btn" data-fjid="6" width="16" src="../img/2.png" /></li>
+                            <li><img class="fj_btn" data-fjid="7" width="16" src="../img/2.png" /></li>
+                            <li><img class="fj_btn" data-fjid="8" width="16" src="../img/2.png" /></li>
+                            <li><img class="fj_btn" data-fjid="9" width="16" src="../img/2.png" /></li>
+                            <li><img class="fj_btn" data-fjid="10" width="16" src="../img/2.png" /></li>
+                            <li><img class="fj_btn" data-fjid="11" width="16" src="../img/2.png" /></li>
+                            <li><img class="fj_btn" data-fjid="12" width="16" src="../img/2.png" /></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section class="l-page_con" l-index="业绩荣耀"></section>
+            <section class="l-page_con" l-index="专业类别"></section>
+        </section>
+        <section class="l-page_downBox">
+            <section class="l-page_downBg"></section>
+            <ul class="l-page_down" id="downBox">
+                <li><a href="#">xxxxxx.pdf</a></li>
+                <li><a href="#">xxxxxx.pdf</a></li>
+                <li><a href="#">xxxxxx.pdf</a></li>
+                <li><a href="#">xxxxxx.pdf</a></li>
+                <li><a href="#">xxxxxx.pdf</a></li>
+                <li><a href="#">xxxxxx.pdf</a></li>
+            </ul>
+        </section>
+    </section>
+    <script>
+        var myScroll_table;
+        function updateFun(index) {
+            switch (index) {
+                case "基本信息":
+                    console.log("“" + index + "”数据更新");
+                    break;
+                case "分类附件":
+                    console.log("“" + index + "”数据更新");
+                    myScroll_table.refresh();//ajax回调后执行myScroll.refresh();
+                    break;
+                case "业绩荣耀":
+                    console.log("“" + index + "”数据更新");
+                    break;
+                case "专业类别":
+                    console.log("“" + index + "”数据更新");
+                    break;
+            }
+            $(".l-page_navBox li[l-index=" + index + "]").addClass("cur").siblings().removeClass("cur")
+            $(".l-page_conBox .l-page_con[l-index=" + index + "]").addClass("cur").siblings().removeClass("cur");
+            console.log("“" + index + "”打开");
+        }
+        $(function () {
+            myScroll_table = new iScroll('wrapper_table', {
+                useTransition: true,
+                scrollX: true,
+                scrollY: true,
+                momentum: false,
+                snap: "li"
+            });
+            updateFun("基本信息");
+            $(".l-page_navBox").on("click", "li", function () {
+                var me = this;
+                var index = $(me).attr("l-index");
+                updateFun(index);
+            })
+            $(".l-page_conBox").on("click", ".fj_btn", function () {
+                var me = this;
+                var fjid = $(me).attr("data-fjid");
+                console.log(fjid);
+                $(".l-page_downBox").fadeIn("fast")
+                 $(".l-page_downBox").children(".l-page_down").animate({bottom: 0},"fast")
+            })
+            $(".l-page_downBox").on("click", ".l-page_downBg", function () {
+                $(".l-page_downBox").fadeOut("fast");
+                $(".l-page_downBox").children(".l-page_down").animate({bottom: "-121px"},"fast")            
+            })
+        })
+    </script>
+</body>
+
+</html>

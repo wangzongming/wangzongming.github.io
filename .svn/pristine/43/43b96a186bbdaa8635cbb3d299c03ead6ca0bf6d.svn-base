@@ -1,0 +1,103 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="keywords" content="">
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="format-detection" content="telephone=no" />
+<meta name="x5-orientation" content="portrait">
+<link href="css/normalize.css" rel="stylesheet" />
+<link href="css/swiper.min.css" rel="stylesheet" />
+<link href="css/main.css" rel="stylesheet" />
+<title>月子餐详情</title>
+</head>
+
+<body>
+<div class="main"> 
+  <!--logo-->
+  <div class="logo"><img src="img/logo.png" alt="慧雅logo"/></div>
+  <!--头部导航-->
+  <nav class="nav_con">
+    <ul class="nav">
+      <li class="nav_li" onclick="location.href='recommand.html'">推荐</li>
+      <li class="nav_li on" onclick="location.href='moon.html'">月子餐</li>
+      <li class="nav_li">孕期常识</li>
+      <li class="nav_li">胎教歌曲</li>
+      <li class="nav_li">产科常识</li>
+    </ul>
+    <p class="search"> </p>
+  </nav>
+  <!--搜索框开始-->
+ <div class="search_input" style="display:none;">
+    <input  type="text"/>
+    <span class="search_btn"></span>
+ </div>
+  <!--搜索框结束-->
+  <!--banner开始-->
+  <div class="swiper-container" id="banner">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><img src="img/banner.jpg"/></div>
+      <div class="swiper-slide"><img src="img/banner.jpg"/></div>
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination" id="banner-pagination"></div>
+  </div>
+
+  <!--月子餐-->
+  <section class="p5 package">
+    <h3 class="title">月子餐 </h3>
+    <h4 class="title_eng2">LILI PACKAGE</h4>
+    <img src="img/video.jpg"/>
+   
+     
+      
+         <ul class="moon_detail">
+            <li class="moon_detail_title">产后第一周的饮食（表）：</li>
+            <li><strong>分娩后第1—2天</strong>：富有营养、易于消化、流质牛奶、粥、面条</li>
+            <li><strong>次日起</strong>：富含蛋白质、碳水化合物蛋、鱼和各种汤汁
+              如肉汤、排骨汤</li>
+            <li><strong>产后第一周</strong>：饮食催乳牛肉、猪肝、猪肾、鸡蛋、猪
+              蹄、鲫鱼及海带</li>
+            <li><strong>温馨提醒</strong>：少食多餐，以利于消化吸收而又不会给胃肠道带来负担</li>
+          </ul>
+        
+          <video  controls="controls" poster="img/video.jpg" class="moon_video"></video>
+   
+    
+  </section>
+  <!--联系方式-->
+  <section class="p5 contact"> 
+    <img src="img/logo2.png" class="logo2"/>
+    <p class="slogan">用心 关爱 安全 健康</p>
+    <p class="tel">联系电话：</p>
+    <p class="number">0411-82677888 </p>
+    <p class="address">公司地址：大连市中山区滨海中路108号</p>
+  </section>
+</div>
+<!--底部导航-->
+<footer>
+  <ul class="footer_nav">
+    <li><img src="img/footer_nav1.png"/>
+      <p>月子餐</p>
+    </li>
+    <li><img src="img/footer_nav2.png"/>
+      <p>待产包</p>
+    </li>
+    <li class="person"><img src="img/footer_nav3.png"/>
+      <p>人工咨询</p>
+    </li>
+    <li class="about"><img src="img/footer_nav4.png"/>
+      <p>关于慧雅</p>
+    </li>
+  </ul>
+</footer>
+</body>
+</html>
+<script src="js/size.js"></script>
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/swiper.min.js"></script>
+<script src="js/main.js"></script>

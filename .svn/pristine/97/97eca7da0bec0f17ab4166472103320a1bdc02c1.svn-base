@@ -1,0 +1,97 @@
+.content{
+padding-bottom: 50px;
+}
+.content-time{
+    margin-top:130px;
+    width:439px;
+    padding-left: 20px;
+    border-right:2px dashed #ccc;
+}
+.content-time ul{
+    margin: 0;
+}
+.content-time ul li{
+    list-style:none;
+    margin:0;
+    transform: translate(0px,-70px);
+}
+.content-time>ul>li::after{
+    content:"";
+    display:table;
+    clear:both;
+}
+
+.img{
+    float: left;
+    width:70px;
+    height:70px;
+    background: url(../img/logo.png);
+    transform: translateX(35px);
+}
+.infor{
+  
+    float:left;
+    width: 369px;
+    border:1px solid #ccc;
+    line-height: 19px;
+    box-sizing: border-box;
+    padding:20px;
+    padding-top:5px;
+    background:#E7E5E6;
+    font-size:14px;
+    border-radius:10px;
+    position: relative; 
+    transform: translateY(-50px);     
+}
+.infor p{
+  text-indent: 28px;
+}
+.infor::after{
+    content: "";
+    position: absolute;
+    background: #E7E5E6;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #ccc;
+    border-color: transparent #ccc #ccc transparent;
+    transform: rotate(-45deg);
+    top: 72px;
+    right: -11px;
+}
+
+
+
+
+
+
+
+
+
+/*奇数*/
+.content-time>ul>li:nth-child(odd){
+    transform: translate(440px,-70px);
+}
+.content-time>ul>li:nth-child(odd) .img{
+    float:right;
+    transform: translateX(-35px);
+}
+.content-time>ul>li:nth-child(odd) .infor{
+    float:right;
+}
+
+.content-time>ul>li:nth-child(odd) .infor::after{
+    left: -11px;
+    right: auto;
+    border-color:  #ccc transparent transparent #ccc ;
+}
+.content-time .infor h4{
+    font-size:18px;
+    font-weight:400;
+    line-height: 30px;
+}
+
+
+
+
+
+

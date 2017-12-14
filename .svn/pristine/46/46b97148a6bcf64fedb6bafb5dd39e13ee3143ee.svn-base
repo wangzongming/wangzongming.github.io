@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://www.weidingplus.com/fuwu.html -->
+<html lang="zh-cn"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>服务_大连微钉科技有限公司</title>
+<meta name="keywords" content="">
+<meta name="description" content="">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="renderer" content="webkit">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="container">
+  <div class="naver">
+    <p><img src="image/tel.jpg"></p>
+    <div class="logo"><a href="http://www.weidingplus.com/" title="大连微钉科技有限公司"><img src="image/logo1.png" alt="大连微钉科技有限公司"></a></div>
+    <ul>
+      <li><a class="navlink" href="http://www.weidingplus.com">+ 首页</a></li>
+      <li class="drop"> <a class="navlink" href="http://www.weidingplus.com/fangan.html">+ 方案</a>
+        <div class="menu">
+          <div class="menu-body">
+            <ul>
+              <li><a href="#weixindingzhi"><span>微信定制</span><img src="image/b6.png"></a></li>
+			  <li><a href="#yidongjinrong"><span>企业号</span><img src="image/b4.png"></a></li>
+			  <li><a href="#yidongdianshang"><span>移动电商</span><img src="image/b2.png"></a></li>
+              <li><a href="#qiyefenxiao"><span>企业分销</span><img src="image/b5.png"></a></li>
+			  <li><a href="#yidongshequ"><span>移动社区</span><img src="image/b3.png"></a></li>
+            </ul>
+          </div>
+        </div>
+      </li>
+      <li class="active"><a class="navlink" href="http://www.weidingplus.com/fuwu.html">+ 服务</a></li>
+      <li><a class="navlink" href="http://www.weidingplus.com/anli.html">+ 案例</a></li>
+      <li><a class="navlink" href="http://www.weidingplus.com/guanyu.html">+ 关于</a></li>
+      <li><a class="navlink" href="http://www.weidingplus.com/lianxi.html">+ 联系</a></li>
+    </ul>
+  </div>
+</div>
+<div class="layout"> <img src="image/services.jpg" class="img"> </div>
+<div class="layout services banner-bg">
+  <div class="main800"><img src="image/services-1.jpg" class="img"></div>
+</div>
+<div class="layout bg-gray article">
+  <h3 align="center">定制服务</h3>
+  <h5 align="center">· Custom services ·</h5>
+  <div class="container">
+	<ul class="list services first line3">
+		<li>
+			<div class="box opacity">
+				<img src="image/55407459a80aa.jpg"><br>
+				<strong>微信定制</strong>
+				<p>
+					"微钉科技"微信定制解决方案可以为客户提供全面的咨询、定制、开发等系列服务, 能够为您打造全新的一站式多元化微信营销解决方案...</p>
+			</div>
+		</li>
+		<li>
+			<div class="box opacity">
+				<img src="image/services-4.jpg"><br>
+				<strong>微信办公</strong>
+				<p>
+					"微钉科技"基于微信企业号、阿里·钉钉的API接口之上，进行二次定制化开发，为客户提供稳定、高效企业移动化解决方案...</p>
+			</div>
+		</li>
+		<li>
+			<div class="box opacity">
+				<img src="image/services-2.jpg"><br>
+				<strong>移动电商</strong>
+				<p>
+					"微钉科技"电子商务行业解决方案中规划的app应用核心产品能够帮助商家快速占有市场，通过良好的用户体验以及清晰的产品定位设计...</p>
+			</div>
+		</li>
+		
+		
+	</ul>
+	<ul class="list services second line3">		
+		<li>
+			<div class="box opacity">
+				<img src="image/5540741f76a25.jpg"><br>
+				<strong>企业分销</strong>
+				<p>
+					针对企业营销过程中的弊端和痛点，微钉科技提供一套移动分销解决方案，通过移动互联网对企业分销渠道中的各级经销单位进行高效管理...</p>
+			</div>
+		</li>
+		<li>
+			<div class="box opacity">
+				<img src="image/services-3.jpg"><br>
+				<strong>移动社区</strong>
+				<p>
+					"微钉科技"基于对社区服务的深度理解和分析，为客户提供整套的智慧社区解决方案。智慧社区"是一款深度构建化定制的社区服务平台...</p>
+			</div>
+		</li>		
+		<li>
+			<div class="box opacity">
+				<img src="image/5540746f6d60a.jpg"><br>
+				<strong>其他</strong>
+				<p>
+					我们应该看到移动网络和移动应用还有足够的潜力和市场可供挖掘，移动网络是迎来商机的大门，而移动应用则是专门为忠实的客户准备的。</p>
+			</div>
+		</li>
+	</ul>
+</div>
+ </div>
+<div class="layout"> <img src="image/services-8.jpg" class="img"></div>
+<div class="layout footer">
+  <div class="container">
+    <div class="foot-about"> <strong>我们是谁</strong> <img src="image/logo-foot.png"> <br>
+      <br>
+      <p>大连微钉科技有限公司专注于微信服务号、微信企业号、阿里·钉钉、手机APP等应用软件及企业网站定制开发。</br>咨询热线：15242686163<br>
+        <br>
+      </p>
+      <br>
+      <!-- <p align="right"><a href="#">了解详情 →</a></p> -->
+      <br>
+    </div>
+    <div class="foot-case"> <strong>合作案列</strong>
+      <ul class="foot-img">
+        <li class="opacity"><a href="#"><img src="image/1-15062Z95933200.jpg" width="125" height="98"></a></li>
+<li class="opacity"><a href="#"><img src="image/1-15062Z95FX02.jpg" width="125" height="98"></a></li>
+<li class="opacity"><a href="#"><img src="image/1-15062Z95630343.jpg" width="125" height="98"></a></li>
+<li class="opacity"><a href="#"><img src="image/1-15062Z95613559.jpg" width="125" height="98"></a></li>
+
+      </ul>
+      <br>
+    </div>
+
+    <div class="foot-contact"> <strong>联系我们</strong>
+      <h4>大连微钉科技有限公司</h4>
+      <br>
+      <br>
+      <p><span><img src="image/f1.png"></span> 大连·高新园区创业e港 2号Y03</p>
+      <p><span><img src="image/f2.png"></span> 15242686163</p>
+      <p><span><img src="image/f3.png"></span> info@weidingplus.com</p>
+      <br>
+    </div>
+    <div class="foot-follow"> <strong>关注我们</strong>
+      <p> <img src="image/weixin.png" width="119" height="119" title="大连微钉科技有限公司" alt="大连微钉科技有限公司"> </p>
+      <p> 微信扫一扫<br>
+        更多关注“微钉科技“ </p>
+      <br>
+    </div>
+  </div>
+</div>
+<div class="layout copyright"> <img src="image/top.jpg" class="backtop">
+  <div class="container">
+    <p class="copy-right">© Copyright @2015 微钉科技  All Rights Reserved&nbsp;&nbsp;</p>
+    <p class="copy-nav" style="float: right;width: 250px;">
+   	  <a href="http://www.weidingplus.com/guanyu.html">关于我们</a>
+      <!--<a href="http://www.weidingplus.com/xinwenzixun.html">资讯&amp;分享</a>-->
+      <a href="http://www.weidingplus.com/lianxi.html">联系我们</a>
+	  <!--<a href="javascript:void(0);">加入我们</a>-->
+	  <!--<a href="http://wx.weidingplus.com/" target="_blank">微信平台</a> </p>-->
+    <img align="top" src="image/html5tel.jpg"> </div>
+</div>
+<script src="image/jquery.js"></script> 
+<script src="image/app.js></script> 
+<!--[if lt IE 9]><script src="/skin/js/ie8.js"></script><![endif]-->
+
+<script type="text/javascript">
+$(function(){
+	$('#banner').carousel({
+		'auto':'true',
+		'triggers':'#bpoint',
+		'scroll':500
+	});
+	$('#icase').carouselx({
+		'auto':'true',
+		'triggers':'#cpoint',
+		'scroll':500
+	});
+		$(window).load(function(){
+			var h1=$('#banner-body li').outerHeight();
+			var h2=$('#case-body .item').outerHeight();
+			$('#banner-body').css('height',h1);
+			$('#case-body').css('height',h2);
+		});
+});
+</script> 
+
+
+</body></html>

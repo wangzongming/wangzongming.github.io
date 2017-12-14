@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>首页</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="css/idangerous.swiper.css" rel="stylesheet">
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+</head>
+
+<body>
+  <!-- 头部开始  -->
+  <header>
+    <div class="wrapper clearfix">
+      <div class="header_l fl">
+        <img src="img/logo_blue.png" alt="誉程精密logo" class="fl logo" />
+        <div class="name_con fl">
+          <p class="ch_name">誉程精密</p>
+          <p class="eng_name">YUCHENG PRECISION MACHINING</p>
+        </div>
+      </div>
+      <div class="header_r fr">
+        <ul class="header_ul clearfix">
+          <li class="header_phone fl">400 877 3838</li>
+          <li class="header_email fl">sales@dalianhonour.com</li>
+          <li class="fl">语言切换</li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <nav>
+    <div class="wrapper clearfix">
+      <ul class="nav_ul fl">
+        <li class="fl on"><a href="index.html">首页</a></li>
+        <li class="fl"><a href="product.html">产品类别</a></li>
+        <li class="fl"><a href="service.html">服务领域</a></li>
+        <li class="fl"><a href="made.html">加工领域</a></li>
+        <li class="fl"><a href="success.html">服务案例</a></li>
+        <li class="fl"><a href="about.html">关于誉程</a></li>
+        <li class="fl"><a href="news.html">行业资讯</a></li>
+        <li class="fl"><a href="contact.html">联系我们</a></li>
+      </ul>
+      <div class="fr search_con">
+        <input type="text" class="search_input fl" />
+        <span class="search fl"></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- banner -->
+  <div class="swiper-container banner">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"> <img src="img/banner3.png" /></div>
+      <div class="swiper-slide"> <img src="img/banner.png" /> </div>
+      <div class="swiper-slide"> <img src="img/banner3.png" /></div>
+    </div>
+    <div class="pagination banner-pagination"></div>
+  </div>
+  <!-- 头部结束 -->
+
+  <!-- 主体内容开始 -->
+  <div class="main">
+    <section class="product">
+      <div class="wrapper">
+        <div class="title">
+          <h3 class="ch_title"><span>产品分类</span></h3>
+          <h4 class="eng_title">PRODUCT CATEGORY</h3>
+        </div>
+
+  
+        <a class="arrow-left" href="#"></a>
+        <a class="arrow-right" href="#"></a>
+        <div class="swiper-container swiper-parent">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="flip-container"  ontouchstart="this.classList.toggle('hover');">
+                <div class="flipper">
+                  <div class="product_con  front">
+                    <!-- 前面内容 -->
+                    <img src="img/product.png" />
+                    <p class="size">20*30*40mm</p>
+                    <p class="goods">PRODUCT CATEGORY</p>
+                  </div>
+                  <div class="mask back">
+                    <!-- 背面内容 -->
+                    <h3 class="mask_title">PUMP&VALUE</h3>
+                    <p class="mask_content">sadhasdhaskjdhasjk</p>
+                    <p class="mask_content">sadhasdhaskjdhasjk</p>
+                  </div>
+                </div>
+              </div>
+              <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                <div class="flipper">
+                  <div class="product_con  front">
+                    <!-- 前面内容 -->
+                    <img src="img/product.png" />
+                    <p class="size">20*30*40mm</p>
+                    <p class="goods">PRODUCT CATEGORY</p>
+                  </div>
+                  <div class="mask back">
+                    <!-- 背面内容 -->
+                    <h3 class="mask_title">PUMP&VALUE</h3>
+                    <p class="mask_content">sadhasdhaskjdhasjk</p>
+                    <p class="mask_content">sadhasdhaskjdhasjk</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <!-- 上面内容 -->
+              <div class="flip-container"  ontouchstart="this.classList.toggle('hover');">
+                <div class="flipper">
+                  <div class="product_con  front">
+                    <!-- 前面内容 -->
+                    <img src="img/product.png" />
+                    <p class="size">200*30*40mm</p>
+                    <p class="goods">PRODUCT CATEGORY</p>
+                  </div>
+                  <div class="mask back">
+                    <!-- 背面内容 -->
+                    <h3 class="mask_title">PUMP&VALUE</h3>
+                    <p class="mask_content">sadhasdhaskjdhasjk</p>
+                    <p class="mask_content">sadhasdhaskjdhasjk</p>
+                  </div>
+                </div>
+              </div>
+              <!-- 下面内容 -->
+              <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                <div class="flipper">
+                  <div class="product_con  front">
+                    <!-- 前面内容 -->
+                    <img src="img/product.png" />
+                    <p class="size">200*30*40mm</p>
+                    <p class="goods">PRODUCT CATEGORY</p>
+                  </div>
+                  <div class="mask back">
+                    <!-- 背面内容 -->
+                    <h3 class="mask_title">PUMP&VALUE</h3>
+                    <p class="mask_content">sadhasdhaskjdhasjk</p>
+                    <p class="mask_content">sadhasdhaskjdhasjk</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+             <div class="swiper-slide">
+              <!-- 上面内容 -->
+              <div class="flip-container"  ontouchstart="this.classList.toggle('hover');">
+                <div class="flipper">
+                  <div class="product_con  front">
+                    <!-- 前面内容 -->
+                    <img src="img/product.png" />
+                    <p class="size">2000*30*40mm</p>
+                    <p class="goods">PRODUCT CATEGORY</p>
+                  </div>
+                  <div class="mask back">
+                    <!-- 背面内容 -->
+                    <h3 class="mask_title">PUMP&VALUE</h3>
+                    <p class="mask_content">sadhasdhaskjdhasjk</p>
+                    <p class="mask_content">sadhasdhaskjdhasjk</p>
+                  </div>
+                </div>
+              </div>
+              <!-- 下面内容 -->
+              <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                <div class="flipper">
+                  <div class="product_con  front">
+                    <!-- 前面内容 -->
+                    <img src="img/product.png" />
+                    <p class="size">2000*30*40mm</p>
+                    <p class="goods">PRODUCT CATEGORY</p>
+                  </div>
+                  <div class="mask back">
+                    <!-- 背面内容 -->
+                    <h3 class="mask_title">PUMP&VALUE</h3>
+                    <p class="mask_content">sadhasdhaskjdhasjk</p>
+                    <p class="mask_content">sadhasdhaskjdhasjk</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="swiper-slide">
+              <!-- 上面内容 -->
+              <div class="flip-container"  ontouchstart="this.classList.toggle('hover');">
+                <div class="flipper">
+                  <div class="product_con  front">
+                    <!-- 前面内容 -->
+                    <img src="img/product.png" />
+                    <p class="size">20000*30*40mm</p>
+                    <p class="goods">PRODUCT CATEGORY</p>
+                  </div>
+                  <div class="mask back">
+                    <!-- 背面内容 -->
+                    <h3 class="mask_title">PUMP&VALUE</h3>
+                    <p class="mask_content">sadhasdhaskjdhasjk</p>
+                    <p class="mask_content">sadhasdhaskjdhasjk</p>
+                  </div>
+                </div>
+              </div>
+              <!-- 下面内容 -->
+              <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                <div class="flipper">
+                  <div class="product_con  front">
+                    <!-- 前面内容 -->
+                    <img src="img/product.png" />
+                    <p class="size">20000*30*40mm</p>
+                    <p class="goods">PRODUCT CATEGORY</p>
+                  </div>
+                  <div class="mask back">
+                    <!-- 背面内容 -->
+                    <h3 class="mask_title">PUMP&VALUE</h3>
+                    <p class="mask_content">sadhasdhaskjdhasjk</p>
+                    <p class="mask_content">sadhasdhaskjdhasjk</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <!-- 上面内容 -->
+              <div class="flip-container"  ontouchstart="this.classList.toggle('hover');">
+                <div class="flipper">
+                  <div class="product_con  front">
+                    <!-- 前面内容 -->
+                    <img src="img/product.png" />
+                    <p class="size">200000*30*40mm</p>
+                    <p class="goods">PRODUCT CATEGORY</p>
+                  </div>
+                  <div class="mask back">
+                    <!-- 背面内容 -->
+                    <h3 class="mask_title">PUMP&VALUE</h3>
+                    <p class="mask_content">sadhasdhaskjdhasjk</p>
+                    <p class="mask_content">sadhasdhaskjdhasjk</p>
+                  </div>
+                </div>
+              </div>
+              <!-- 下面内容 -->
+              <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                <div class="flipper">
+                  <div class="product_con  front">
+                    <!-- 前面内容 -->
+                    <img src="img/product.png" />
+                    <p class="size">20000*30*40mm</p>
+                    <p class="goods">PRODUCT CATEGORY</p>
+                  </div>
+                  <div class="mask back">
+                    <!-- 背面内容 -->
+                    <h3 class="mask_title">PUMP&VALUE</h3>
+                    <p class="mask_content">sadhasdhaskjdhasjk</p>
+                    <p class="mask_content">sadhasdhaskjdhasjk</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <section class="service">
+      <div class="wrapper">
+        <div class="title">
+          <h3 class="ch_title"><span>服务领域</span></h3>
+          <h4 class="eng_title">PRODUCT CATEGORY</h3>
+        </div>
+        <ul class="clearfix service_ul">
+          <li class="fl"><img src="img/service.jpg" />
+            <p>石化行业</p>
+          </li>
+          <li class="fl"><img src="img/service.jpg" />
+            <p>工业制冷</p>
+          </li>
+          <li class="fl"><img src="img/service.jpg" />
+            <p>汽车零部件</p>
+          </li>
+          <li class="fl"><img src="img/service.jpg" />
+            <p>船舶零部件</p>
+          </li>
+        </ul>
+    </section>
+    <section class="made">
+      <div class="wrapper">
+        <div class="title">
+          <h3 class="ch_title"><span>加工材质</span></h3>
+          <h4 class="eng_title">PRODUCT CATEGORY</h3>
+        </div>
+        <ul class="clearfix made_ul">
+          <li class="fl">
+            <img src="img/made1.jpg" />
+            <h3 class="made_title">THE AREA</h3>
+            <p class="made_content">made ch_title made ch_title made ch_title one of reciving a gift from a special person</p>
+          </li>
+          <li class="fl">
+            <img src="img/made2.jpg" />
+            <h3 class="made_title">THE AREA</h3>
+            <p class="made_content">made ch_title made ch_title made ch_title one of reciving a gift from a special person</p>
+          </li>
+          <li class="fl">
+            <img src="img/made3.jpg" />
+            <h3 class="made_title">THE AREA</h3>
+            <p class="made_content">made ch_title made ch_title made ch_title one of reciving a gift from a special person</p>
+          </li>
+          <li class="fl">
+            <img src="img/made4.jpg" />
+            <h3 class="made_title">THE AREA</h3>
+            <p class="made_content">made ch_title made ch_title made ch_title one of reciving a gift from a special person</p>
+          </li>
+          <li class="fl">
+            <img src="img/made5.jpg" />
+            <h3 class="made_title">THE AREA</h3>
+            <p class="made_content">made ch_title made ch_title made ch_title one of reciving a gift from a special person</p>
+          </li>
+          <li class="fl">
+            <img src="img/made6.jpg" />
+            <h3 class="made_title">THE AREA</h3>
+            <p class="made_content">made ch_title made ch_title made ch_title one of reciving a gift from a special person</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="intro">
+      <div class="wrapper">
+        <h3 class="intro_title">PRODUCT CATEGORY</h3>
+        <p class="intro_content">made ch_title made ch_title made ch_title one of reciving a gift from a special person made ch_title made ch_title
+          made ch_title one of reciving a gift from a special person</p>
+        <button class="more">learn more  &gt;</button>
+      </div>
+
+    </section>
+    <section class="eg">
+      <div class="wrapper">
+        <div class="title">
+          <h3 class="ch_title"><span>服务案例</span></h3>
+          <h4 class="eng_title">PRODUCT CATEGORY</h3>
+        </div>
+        <ul class="clearfix eg_ul">
+          <li class="fl">
+            <img src="img/about1.jpg" />
+            <p class="eg_content">
+              made ch_title made ch_title ma
+            </p>
+            <button class="more">learn more</button>
+          </li>
+          <li class="fl">
+            <img src="img/about1.jpg" />
+            <p class="eg_content">made ch_title made ch_title made ch_title one of reciving a gift from a special person made ch_title made ch_title
+              made ch_title one of reciving a gift from a special person</p>
+            <button class="more">learn more</button>
+          </li>
+          <li class="fl">
+            <img src="img/about1.jpg" />
+            <p class="eg_content">made ch_title made ch_title made ch_title one of reciving a gift from a special person made ch_title made ch_title
+              made ch_title one of reciving a gift from a special person</p>
+            <button class="more">learn more</button>
+          </li>
+          <li class="fl">
+            <img src="img/about1.jpg" />
+            <p class="eg_content">made ch_title made ch_title made ch_title one of reciving a gift from a special person made ch_title made ch_title
+              made ch_title one of reciving a gift from a special person</p>
+            <button class="more">learn more</button>
+          </li>
+        </ul>
+    </section>
+    </div>
+
+
+
+    <!-- 主体内容结束 -->
+    <!-- 底部开始 -->
+    <footer>
+      <div class="footer_top">
+        <div class="wrapper clearfix">
+          <div class="fl footer_top_l">
+            <ul class="footer_about fl">
+              <li>
+                <a href="">
+                  <h3>About</h3>
+                </a>
+              </li>
+              <li><a href="">Help</a></li>
+              <li><a href="">Submit content</a></li>
+              <li><a href="">RFE community</a></li>
+              <li><a href="">Report abuse</a></li>
+              <li><a href="">Third-party notice</a></li>
+            </ul>
+            <ul class="footer_about fl">
+              <li>
+                <a href="">
+                  <h3>Join</h3>
+                </a>
+              </li>
+              <li><a href="">Help</a></li>
+              <li><a href="">Submit content</a></li>
+              <li class="m40"><a href="">RFE community</a></li>
+              <li><a href="">中文</a></li>
+              <li><a href="">English</a></li>
+            </ul>
+          </div>
+          <div class="fr footer_top_r">
+            <ul class="footer_about fl">
+              <li>
+                <img src="img/footer_l1.png" />
+                <p>DEVELOPMENT</p>
+              </li>
+              <li><img src="img/footer_l2.png" />
+                <p>DEVELOPMENT</p>
+              </li>
+              <li><img src="img/footer_l3.png" />
+                <p>DEVELOPMENT</p>
+              </li>
+            </ul>
+            <ul class="footer_about fl">
+              <li><img src="img/footer_r1.png" />
+                <p>DEVELOPMENT</p>
+              </li>
+              <li><img src="img/footer_r2.png" />
+                <p>DEVELOPMENT</p>
+              </li>
+              <li><img src="img/footer_r3.png" />
+                <p>DEVELOPMENT</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer_bottom">
+        <div class="wrapper clearfix">
+          <div class="fl">
+            <ul class="footer_about fl">
+              <li class="footer_address fl">
+                <p class="footer_text">大连市金州区站前街道吴家屯机场</p>
+              </li>
+              <li class="footer_phone fl">
+                <p class="footer_text">400 877 3838<br/>400 877 3838</p>
+              </li>
+              <li class="footer_email fl">
+                <p class="footer_text">sales@dalianhonour.com<br/>sales@dalianhonour.com</p>
+              </li>
+              <li class="footer_search fl">
+                <input type="text" class="search_input fl" />
+                <span class="search fl"></span></li>
+            </ul>
+          </div>
+          <div class="fr">
+            <img src="img/logo_black.png" alt="誉程精密logo" class="fl logo" />
+          </div>
+
+        </div>
+      </div>
+
+    </footer>
+    <!-- 底部结束 -->
+</body>
+
+</html>
+
+<script src="js/jquery-1.10.1.min.js"></script>
+<script src="js/idangerous.swiper.min.js"></script>
+<script src="js/main.js"></script>
+<script>  
+  // var aa=new Swiper(".test",{
+  //   nextButton: '.swiper-button-next222',
+  //   prevButton: '.swiper-button-prev222'
+  // })
+</script>

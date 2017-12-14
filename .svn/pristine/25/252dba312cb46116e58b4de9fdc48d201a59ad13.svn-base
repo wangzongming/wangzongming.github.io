@@ -1,0 +1,217 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>大连泓巨联合会计师事务所</title>
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all">
+</head>
+<body>
+    <div class="header">
+        <div class="top">
+            <div class="wrap clearfix">
+                <span class="tel fr">0411-82632760</span>
+            </div>
+        </div>
+        <div class="header-main">
+            <div class="header-content  wrap clearfix">
+                <a class="logo fl" href="index.html" title="大连泓巨联合会计师事务所">
+                    <img src="images/logo.jpg" alt="大连泓巨联合会计师事务所" />
+                </a>
+                <span class="fl title_l">大连泓巨联合会计师事务所</span><!--字体不是雅黑 -->
+                <span class="fl title_r">信永华（大连）税务师事务所</span><!--字体不是雅黑 -->
+                <span class="fr basis">客观<i>•</i>公正<i>•</i>独立<i>•</i>诚信</span><!--字体不是雅黑 -->
+            </div>
+        </div>
+
+        <nav class="nav wrap">
+            <ul class="nav_ul clearfix">
+                <li class="nav_li fl"><a href="index.html" class="nav_a">主页</a></li>
+                <li class="nav_li fl"><a href="about_us.html" class="nav_a">关于我们</a></li>
+                <li class="nav_li fl"><a href="service.html" class="nav_a">服务项目</a>
+                    <div class="second_nav_con" style="display:none;">
+                        <ol class="second_nav_ul">
+                            <li class="second_nav_li"><a href="##">审计服务</a><a href="##">验资服务</a></li>
+                            <li class="second_nav_li"><a href="##">税务服务</a><a href="##">代理服务</a></li>
+                        </ol>
+                    </div>
+                </li>
+                <li class="nav_li fl"><a href="news.html" class="nav_a">新闻动态</a></li>
+                <li class="nav_li fl"><a href="tax.html" class="nav_a">财税快递</a></li>
+                <li class="nav_li fl"><a href="job.html" class="nav_a">诚聘英才</a></li>
+                <li class="nav_li fl selected "><a href="download.html" class="nav_a">下载中心</a></li>
+                <li class="nav_li fl"><a href="contact.html" class="nav_a">联系我们</a></li>
+            </ul>
+        </nav>
+        <div class="wrap banner">
+            <img src="images/download_03.jpg" />
+        </div>
+    </div>
+
+
+    <!--内容首页-->
+    <section class="wrap m30">
+        <div class="list_con clearfix">
+            <div class="tab-menu fl">
+                <h3 class="list_title">下载中心</h3>
+                <ul class="list_ul clearfix">
+                    <li class="list_li selected fl"><i></i>声明书<img src="images/list_06.png" /></li>
+                    <li class="list_li fl"><i></i>约定书<img src="images/list_06.png" /></li>
+                    <li class="list_li fl"><i></i>声明书<img src="images/list_06.png" /></li>
+                    <li class="list_li fl"><i></i>工商局表格<img src="images/list_06.png" /></li>
+                </ul>
+            </div>
+            <div class="tab-box fr">
+               
+                    <h3 class="tab-box_title">
+                        服务书文件
+                        <span><a class="first">首页&gt;</a><a>材料下载</a></span>
+                    </h3>
+                    <ul class="list_news">
+                        <li class="list_news_li clearfix">
+                            <ol class="fl date">
+
+                                <li class="date_year">2016.12<img src="images/list_11.png" /></li>
+                                <li class="date_day">01</li>
+                            </ol>
+                            <div class="fl news_detail">
+                                <h4 class="news_detail_title">管理层声明书2016</h4>
+                                <div class="news_detail_con">
+                                    <p>本声明书是针对你们审计xx公司截止xx年xx月xx日的年度财务报表而提供的。审计的目的是对财务报表发表意见，以确定财务报表是否审计的目的是对财务报表发表意见，以确定财务报表是否审计的目的是对财务报表发表意见.</p>
+                                    <a class="more">点击下载</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list_news_li clearfix">
+                            <ol class="fl date">
+
+                                <li class="date_year">2016.12<img src="images/list_11.png" /></li>
+                                <li class="date_day">01</li>
+                            </ol>
+                            <div class="fl news_detail">
+                                <h4 class="news_detail_title">管理层声明书2016</h4>
+                                <div class="news_detail_con">
+                                    <p>本声明书是针对你们审计xx公司截止xx年xx月xx日的年度财务报表而提供的。审计的目的是对财务报表发表意见，以确定财务报表是否审计的目的是对财务报表发表意见，以确定财务报表是否审计的目的是对财务报表发表意见.</p>
+                                    <a class="more">点击下载</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list_news_li clearfix">
+                            <ol class="fl date">
+
+                                <li class="date_year">2016.12<img src="images/list_11.png" /></li>
+                                <li class="date_day">01</li>
+                            </ol>
+                            <div class="fl news_detail">
+                                <h4 class="news_detail_title">管理层声明书2016</h4>
+                                <div class="news_detail_con">
+                                    <p>本声明书是针对你们审计xx公司截止xx年xx月xx日的年度财务报表而提供的。审计的目的是对财务报表发表意见，以确定财务报表是否审计的目的是对财务报表发表意见，以确定财务报表是否审计的目的是对财务报表发表意见.</p>
+                                    <a class="more">点击下载</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list_news_li clearfix">
+                            <ol class="fl date">
+
+                                <li class="date_year">2016.12<img src="images/list_11.png" /></li>
+                                <li class="date_day">01</li>
+                            </ol>
+                            <div class="fl news_detail">
+                                <h4 class="news_detail_title">管理层声明书2016</h4>
+                                <div class="news_detail_con">
+                                    <p>本声明书是针对你们审计xx公司截止xx年xx月xx日的年度财务报表而提供的。审计的目的是对财务报表发表意见，以确定财务报表是否审计的目的是对财务报表发表意见，以确定财务报表是否审计的目的是对财务报表发表意见.</p>
+                                    <a class="more">点击下载</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list_news_li clearfix">
+                            <ol class="fl date">
+
+                                <li class="date_year">2016.12<img src="images/list_11.png" /></li>
+                                <li class="date_day">01</li>
+                            </ol>
+                            <div class="fl news_detail">
+                                <h4 class="news_detail_title">管理层声明书2016</h4>
+                                <div class="news_detail_con">
+                                    <p>本声明书是针对你们审计xx公司截止xx年xx月xx日的年度财务报表而提供的。审计的目的是对财务报表发表意见，以确定财务报表是否审计的目的是对财务报表发表意见，以确定财务报表是否审计的目的是对财务报表发表意见.</p>
+                                    <a class="more">点击下载</a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <p class="record">3页30条记录</p>
+                    <div class="clearfix font16 page_con">
+                        <ol class="page fl clearfix">
+                            <li class="page_l fl">&lt;</li>
+                            <li class="num fl selected">1</li>
+                            <li class="num fl">2</li>
+                            <li class="num fl">3</li>
+                            <li class="num fl">4</li>
+                            <li class="num fl">5</li>
+                            <li class="num fl">6</li>
+                            <li class="num fl">7</li>
+                            <li class="num fl">8</li>
+                            <li class="num fl">9</li>
+                            <li class="page_r fl">&gt;</li>
+                        </ol>
+                        <div class="fl go_con">
+                            <span class="fl">跳转</span>
+                            <input type="text" value="1" class="fl"/>
+                            <span class="fl">页</span>
+                            <a class="go fl">GO</a>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </section>
+    <footer>
+        <div class="contact">
+            <div class="wrap clearfix">
+                <div class="contact_l fl">
+                    <h4 class="footer_title">联系我们</h4>
+                    <ul class="footer_ul">
+                        <li class="clearfix"><p class="fl" style="width:170px;">座机：0411-82632760</p>
+                        <p class="fl">QQ：
+                        <span class="qq"><img src="images/QQ.jpg"/></span><span class="qq"><img src="images/QQ.jpg"/></span></p></li>
+                        
+                  <li class="clearfix"><p class="fl" style="width:170px;">手机：13840886041</p><p class="fl">18640928497</p></li>
+                        <li>地址：辽宁省大连市中山区涟景园2号6单元-1号</li>
+                    </ul>
+                </div>
+                <div class="contact_r fr">
+                    <h4 class="footer_title">网站地图</h4>
+                    <ul class="footer_ul">
+                        <li><a>&gt;&gt;关于我们</a><a>&gt;&gt;审计验资</a><a>&gt;&gt;税务服务</a></li>
+                        <li><a>&gt;&gt;代理咨询</a><a>&gt;&gt;新闻动态</a><a>&gt;&gt;典型客户</a></li>
+                        <li><a>&gt;&gt;下载中心</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="links">
+            <div class="wrap clearfix">
+                <div class="links_l fl">
+                    <h5>友情链接<span class="eng">Links</span></h5>
+                </div>
+                <div class="links_r fr">
+                    <a href="##">大连市注册税务协会</a>
+                    <a href="##">辽宁省会计师协会</a>
+                    <a href="##">大连市注册税务协会</a>
+                    <a href="##">大连市注册税务师管理中心</a>
+                    <a href="##">大连市注册税务师管理中心</a>
+                    <a href="##">大连市注册税务师管理中心</a>
+                    <a href="##">大连市注册税务师管理中心</a>
+                    <a href="##">大连市注册税务师管理中心</a>
+                    <a href="##">大连市注册税务师管理中心</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Swiper JS -->
+    <script src="js/swiper.min.js"></script>
+    <script src="js/jquery-1.11.0.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

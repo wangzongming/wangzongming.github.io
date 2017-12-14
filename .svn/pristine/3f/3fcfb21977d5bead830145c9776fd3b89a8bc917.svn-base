@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+	<head>
+		<!-- Meta, title, CSS, favicons, etc. -->
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		<meta name="author" content="">
+
+		<title></title>
+
+		<!-- Bootstrap core CSS -->
+		<link href="../static/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="../static/lib/font-awesome/css/font-awesome.min.css"/>
+          <link rel="stylesheet" href="../static/css/visualSystem.css">
+		<link rel="stylesheet" type="text/css" href="../static/css/common/common.css" />
+
+		<!--[if lt IE 9]>
+			<script src="../static/js/common/ie8-responsive-file-warning.js"></script>
+		<![endif]-->
+		<script src="../static/js/common/ie-emulation-modes-warning.js"></script>
+		<script src="../static/js/common/jquery-1.8.3.min.js"></script>
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!--[if lt IE 9]>
+		  <script src="../static/lib/html5shiv/html5shiv.min.js"></script>
+		  <script src="../static/lib/respond.js/respond.min.js"></script>
+		<![endif]-->
+		<link rel="icon" href="/favicon.ico">
+		 <script>
+			$(function(){
+				var thisId = window.location.hash;
+				
+				$("#liskxl").click(function (){
+					$("#skxl").attr("class","active");
+					$("#head-two").attr("aria-expanded","true")
+					$("#content-two").attr("class","tab-pane fade active in");
+					$("#all").removeClass("active");
+					$("#content-one").attr("class","tab-pane fade");
+				})
+				$("#lijqrxl").click(function (){
+					$("#jqrxl").attr("class","active");
+					$("#head-three").attr("aria-expanded","true")
+					$("#content-three").attr("class","tab-pane fade active in");
+					$("#all").removeClass("active");
+					$("#content-one").attr("class","tab-pane fade");
+				})
+				$("#lizhzx").click(function (){
+					$("#zhzx").attr("class","active");
+					$("#head-four").attr("aria-expanded","true")
+					$("#content-four").attr("class","tab-pane fade active in");
+					$("#all").removeClass("active");
+					$("#content-one").attr("class","tab-pane fade");
+				})
+				
+			})
+			
+		</script> 
+	</head>
+
+	<body>
+
+		<header>
+			<nav class="navbar">
+				<div class="container">
+
+					<nav class="collapse navbar-collapse">
+						<ul class="nav navbar-nav navbar-right">
+							<li><a href="http://www.bootcss.com/" target="_blank"><span class="fa fa-weibo"></span></a></li>
+							<li id="weixinicon1">
+								<a href="http://www.bootcss.com/" target="_blank">
+									<span class="fa fa-weixin"></span></a>
+								<div class="qrCode">
+									<img src='../static/img/index/qrCode1.png' />
+								</div>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</nav>
+        </header>
+        
+		<div class="container-fluid cust-logo-area">
+			<nav class="navbar cust-logo">
+				<div class="container">
+					<div class="navbar-header">
+						<a class="navbar-brand" href="#">
+							<img alt="LOGO 400*94" src="../static/img/common/logo1.png">
+						</a>
+					</div>
+					<div class="collapse navbar-collapse" >
+						<ul class="nav navbar-nav navbar-right">
+							<li><a href="#"><span class="fa fa-phone"></span> 400 877 3838</a></li>
+							<li><a>|</a></li>
+							<li><a href="#"><span class="fa fa-envelope-o"></span> info@dalianyuyang.com</a></li>
+							<li><a>|</a></li>
+							<li><a href="#"> 中文</a></li>
+							<li><a>|</a></li>
+							<li><a href="#"> English</a></li>
+							<!--
+							<li>
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">语言切换 <span class="caret"></span></a>
+								<ul class="dropdown-menu">
+					                <li><a href="#"><img src="../static/img/flags/chinese.png">&nbsp;&nbsp;中文</a></li>
+					                <li role="separator" class="divider"></li>
+					                <li><a href="#"><img src="../static/img/flags/english.png">&nbsp;&nbsp;英文</a></li>
+					            </ul>
+							</li>
+                            -->
+						</ul>
+					</div>
+				</div>
+			</nav>
+			<nav class="navbar cust-menu">
+				<div class="container">
+					<div class="collapse navbar-collapse" >
+						<ul class="nav navbar-nav">
+							<li><a href="index.html">首页</a></li>
+							<li class="dropdown cust-dropdown">
+								<a href="iproduct.html" class="dropdown-toggle">智能产品 <span class="caret"></span></a>
+								<div class="dropdown-menu cust-sub-menu">
+									<div class="container">
+										<ul class="cust-dropdown-submenu">
+											<li class="" id="liskxl">
+												<a href="iproduct.html#skxl" class="common-grayimg-hover common-grayText-hover" >
+													<img alt="IMG 130*130" src="../static/img/common/pro01.png" />
+													<span class="cust-fir-span">KINMAC</span>
+													<span class="cust-sec-span">数控机床系列</span>
+												</a>
+											</li>
+											<li id="lijqrxl">
+												<a href="iproduct.html#jqrxl" class="common-grayimg-hover common-grayText-hover">
+													<img alt="IMG 130*130" src="../static/img/common/pro02.png" />
+													<span class="cust-fir-span">KINROBOTICS</span>
+													<span class="cust-sec-span">机器人系列</span>
+												</a>
+											</li>
+											<li id="lizhzx">
+												<a href="iproduct.html#zhzx" class="common-grayimg-hover common-grayText-hover">
+													<img alt="IMG 130*130" src="../static/img/common/pro03.png" />
+													<span class="cust-fir-span">KINHYBRID</span>
+													<span class="cust-sec-span">组合中心</span>
+												</a>
+											</li>
+										</ul><!--/ul-->
+										
+									</div>
+								</div>	
+								
+							</li>
+							<li><a href="solution.html">解决方案</a></li>
+							<li><a href="application.html">应用领域</a></li>
+							<li><a href="services.html">服务支持</a></li>
+							<li class="dropdown cust-dropdown2">
+								<a href="aboutyuyang.html" class="dropdown-toggle" >关于誉洋 <span class="caret"></span></a>
+					          <ul class="dropdown-menu cust-sub-menu2">
+					            <li><a href="aboutus.html">
+								<!--<img src="../static/img/flags/chinese.png" />-->
+								关于我们</a></li>
+					            <!--<li><a href="aboutyuyang.html"><img src="../static/img/flags/chinese.png"/>YUANG实验室</a></li>-->
+					            <li><a href="aboutyuyang.html">
+								<!--<img src="../static/img/flags/chinese.png"/>-->
+								新闻动态</a></li>
+					          </ul>
+							</li>
+							
+						</ul>
+						<ul class="nav navbar-nav navbar-right">
+							<li><div class="fa fa-edit cust-icon"></div></li>
+							<li><button class="btn cust-btn1" data-toggle="modal" data-target="#questionForm">我要咨询</button></li>
+						</ul>
+					</div>
+					<!-- /.navbar-collapse -->
+				</div>
+				<!-- /.container-fluid -->
+			</nav>
+			</div>
+		</div>
+		
+		<div class="container-fluid cust-ad-area">
+			<img src="../static/img/visual-system/head.png" alt="img 2842*602"/>
+		</div>
+		
+		<!-- 内容 -->
+		<div class="container-fluid cust-onestop-services">
+			<div class="container">
+                <div class="brief">
+                    荣洋与英国科研机构联科研发的KINEYE&reg;机器视觉系统，可明显改善所有制造流程，在产品生产和配送过程中
+                    引导、测量、识别产品并确保其质量，以跟高的速度和更低的成本帮助企业生产出无缺陷的产品。帮组制造企业
+                    提升产品质量、升高生产率而增加市场竞争力。
+                </div>
+                <!-- 分割线 -->
+                <span class="cust-longline-span"></span>
+                <!-- /分割线 -->
+                <div class="detection">
+                    <div class="detection-l">
+                        <ul>
+                            <li>
+                                <h3>机器视觉识别系统</h3>
+                                <span>
+                                    机器人增加3D视觉识别系统，利用机器视觉对图像进行处理、分析和理解，
+                                    以各种不同模式的目标和对象，实现精准的智能化作业
+                                </span>
+                            </li>
+                            <li>
+                                 <h3>铸件外观质量检测</h3>
+                                <span>
+                                    检测生产线上的产品有无质量问题，该环节也是取代人工最多的环节  。
+                                    其主要检测包括尺寸检测、外观缺陷检测等。
+                                </span>
+                            </li>
+                            <li>
+                                 <h3>铸件在线检测</h3>
+                                <span>
+                                   KINEYE&reg;机器视觉系统可在生产过程中，实现对所有产品在线检测，
+                                   确保产品质量与提高生产效率。
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="detection-r">
+                        <ul>
+                             <li>
+                                 <h3>铸造砂芯定位检测</h3>
+                                <span>
+                                    视觉系统以其便捷和高精度性，为复杂砂型检测，分析与修正，提供一种新型且
+                                    实用的方法。识别得到数据与砂型经CAD设计得到的原始数据同时输入计算机，
+                                    并以原始数据作为基准来进行数据对比，在计算机中很直观的就可以看出来。同时，
+                                    可以达到数据的追溯和采集的目的。
+                                </span>
+                            </li>
+                            <li>
+                                <img src="../static/img/visual-system/person.png" alt="">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- 分割线 -->
+                <span class="cust-longline-span"></span>
+                <!-- /分割线 -->
+
+                <!-- 应用场景 -->
+                <div class="scene">
+                    <h3>应用场景<span>APPLICATION  SCENARLOS</span></h3>
+                    <ul>
+                        <li>
+                            <div>
+                                <img src="../static/img/visual-system/ball.png" alt="">
+                            </div>
+                            <div align="center">
+                                <img src="../static/img/visual-system/jiance.png" alt="">
+                            </div>
+                            <div class="text">
+                                <h4>产品检测</h4>
+                                <span>
+                                    可对制造产品的外观、结构、尺寸进行精准检测
+                                </span>
+                            </div>
+                        </li>
+                        <li>
+                           <div>
+                                <img src="../static/img/visual-system/ball2.png" alt="">
+                            </div>
+                            <div align="center">
+                                <img src="../static/img/visual-system/fenjian.png" alt="">
+                            </div>
+                            <div class="text">
+                                <h4>工件分拣</h4>
+                                <span>
+                                    可对散乱无序堆叠的零件进行准确抓取
+                                </span>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <img src="../static/img/visual-system/ball3.png" alt="">
+                            </div>
+                            <div align="center">
+                                <img src="../static/img/visual-system/jichuang.png" alt="">
+                            </div>
+                            <div class="text">
+                                <h4>数控机床上下料</h4>
+                                <span>
+                                    可对散乱部件进行准确抓取放入机床加工及下料
+                                </span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+
+            </div>
+		</div>
+		<!-- /内容 -->
+		
+		
+		<!--底部  -->
+		<div class="container-fluid cust-area7">
+			<div class="container">
+				<div class="row cust-area7-row">
+					<div class="col-md-1 col-lg-1 col-xs-1 col-xs-1">
+						<img src="../static/img/common/help01.png" alt="img 130*130"/>
+						<span class="cust-title">帮助中心</span>
+						<span class="cust-title2">立即获得您有关YUYANG产品</span>
+						<span class="cust-title2">和服务的帮助</span>
+						<a class="cust-title3">前往帮助中心 <span class="fa fa-angle-right"></span></a>
+					</div>
+					<div class="col-md-1 col-lg-1 col-xs-1 col-xs-1">
+						<img src="../static/img/common/help02.png" alt="img 130*130"/>
+						<span class="cust-title">售前咨询</span>
+						<span class="cust-title2">销售助理为您解答工业智能产品、</span>
+						<span class="cust-title2">集成解决方案的各种问题</span>
+						<a class="cust-title3">400 877 3838</a>
+					</div>
+					<div class="col-md-1 col-lg-1 col-xs-1 col-xs-1">
+						<img src="../static/img/common/help03.png" alt="img 130*130"/>
+						<span class="cust-title">技术支持</span>
+						<span class="cust-title2">使用YUYANG产品时，遇到任</span>
+						<span class="cust-title2">何技术上的问题，</span>
+						<span class="cust-title2">直接致电技术支持专线</span>
+						<a class="cust-title3">15566971838</a>
+					</div>
+					<div class="col-md-1 col-lg-1 col-xs-1 col-xs-1">
+						<img src="../static/img/common/help04.png" alt="img 130*130"/>
+						<span class="cust-title">关注微信</span>
+						<span class="cust-title2">关注YUYANG最新动态和技术</span>
+						<span class="cust-title2">请关注微信公众号</span>
+						<a class="cust-title3" id="weixinicon2">订阅微信
+							<span class="fa fa-angle-right"></span>
+							<div class="qrCode">
+								<img src='../static/img/index/qrCode1.png' id='imgQRCode2' />
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="cust-long-line"></div>
+				<div class="row cust-area-77-23">
+					<div class="col-md-1 col-lg-1 col-xs-1 col-xs-1 cust-area-77">
+						<div class="row">
+							<div class="col-md-1 col-lg-1 col-xs-1 col-xs-1">
+								<span class="cust-title1">发现</span>
+								<span class="cust-title2">智能产品</span>
+								<span class="cust-title2">解决方案</span>
+								<span class="cust-title2">应用领域</span>
+							</div>
+							<div class="col-md-1 col-lg-1 col-xs-1 col-xs-1">
+								<span class="cust-title1">支持</span>
+								<span class="cust-title2">在线咨询</span>
+								<span class="cust-title2">技术支持</span>
+								<span class="cust-title2">常见问题</span>
+								<span class="cust-title2">资料下载</span>
+							</div>
+							<div class="col-md-1 col-lg-1 col-xs-1 col-xs-1">
+								<span class="cust-title1">关于</span>
+								<span class="cust-title2">关于誉洋</span>
+								<span class="cust-title2">热点新闻</span>
+								<span class="cust-title2">加入我们</span>
+							</div>
+							<div class="col-md-1 col-lg-1 col-xs-1 col-xs-1">
+								<span class="cust-title1">语言</span>
+								<span class="cust-title2">中文</span>
+								<span class="cust-title2">English</span>
+							</div>
+						</div>
+						<span class="cust-title3">联系我们</span>
+						<!--div class="cust-app">
+							<span class="fa fa-weibo"></span>
+							<span class="fa fa-weixin"></span>
+							
+						</div-->
+						<div class="cust-address">
+							<span class="fa fa-map-marker cust-block"></span>
+							<span class="cust-block">中国 大连七贤岭汇贤街5号</span>
+							<span class="cust-block">|</span>
+							<span class="fa fa-phone"></span>
+							<span class="cust-block">400 877 3838</span>
+							<span class="cust-block">|</span>
+							<span class="fa fa-envelope cust-block"></span>
+							<span class="cust-block">info@dalianyuyang.com</span>
+							<span class="cust-block">|</span>
+							<span class="cust-block">
+								<div class="cust-app">
+									<span class="fa fa-weibo"></span>
+									<span class="fa fa-weixin" id="weixinicon3">
+						        <div class="qrCode">
+								  <img src='../static/img/index/qrCode2.png' />
+							    </div>								
+							</span>
+								</div>
+								<span>关注YUYANG最新资讯</span>
+							</span>
+						</div>
+						
+						
+					</div>
+					<div class="col-md-1 col-lg-1 col-xs-1 col-xs-1 cust-area-23">
+						<span class="cust-title1">订阅电子邮件</span>
+						<form class="cust-form2">
+							<input type="email" class="form-control" name="email" placeholder="Email">
+							<input type="text" class="form-control" name="name" placeholder="Name">
+							
+							<button type="submit" class="btn cust-btn3">立即订阅</button>
+						</form>
+						
+						
+						<ul class="cust-ask-area">
+							<li>
+								<span class="fa fa-edit"></span>
+							</li>
+							<li>
+								<button class="btn cust-ask-btn">我要咨询</button>
+							</li>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>		
+		
+		<footer>
+		   <div class="cust-gotop pull-right">
+		   	<span class="fa fa-angle-up"></span>
+		   </div>
+			<div class="container">
+				<nav class="navbar cust-navbar">
+			      <div class="container-fluid">
+			        <div class="navbar-header">
+			          <span class="navbar-brand">誉洋工业智能有限公司（中国）版权所有 | 本网站刊载图片及技术仅供参考</span>
+			        </div>
+			        <div class="collapse navbar-collapse">
+			          <form class="navbar-form navbar-right" role="search">
+			            <div class="input-group">
+					      <input type="text" class="form-control">
+					      <div class="input-group-addon"><span class="fa fa-search"></span></div>
+					    </div>
+			          </form>
+			        </div>
+			      </div>
+			    </nav>
+		   </div>
+		</footer>
+				
+		
+		<div class="modal fade" id="questionForm" tabindex="-1" role="dialog" >
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content">
+		      <div class="modal-body">
+				<div class="row">
+					<div class="col-md-1 cust-form">
+						<span class="cust-text1">为了我们能更好的服务您，请您填写以下信息，我们将会严格保密！</span>
+						<form class="form-horizontal">
+							<input type="text" class="form-control" placeholder="公司名称">
+							<input type="text" class="form-control" placeholder="姓名">
+							<input type="text" class="form-control" placeholder="Mail">
+							<input type="text" class="form-control" placeholder="Phone">
+							<textarea class="form-control" rows="3" placeholder="咨询内容"></textarea>
+   							<button class="btn cust-btn">提交</button>
+						</form>
+					</div>
+					<div class="col-md-1 cust-info">
+						<!--<span class="fa fa-map-marker cust-one"></span>-->
+						<br><br><br><br><br>
+						<span class="cust-two">中国·大连</span>
+						<span class="cust-two">七贤岭汇贤街5号</span>
+						<span class="fa fa-phone cust-three"></span>
+						<span class="cust-four">400 877 3838</span>
+						<span class="fa fa-envelope cust-five"></span>
+						<span class="cust-six">info@dalianyuyang.com</span>
+						<img src="../static/img/map.png"/>
+					</div>
+				</div>	
+		      </div>
+		    </div>
+		  </div>
+		</div>	
+		
+		
+		
+		
+
+		<!-- Bootstrap core JavaScript ================================================== -->
+		<!-- Placed at the end of the document so the pages load faster -->
+		<script src="../static/lib/jquery/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../static/lib/bootstrap/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript" src="../static/js/common.js" ></script>
+		<script src="../static/js/index.js" type="text/javascript" charset="utf-8"></script>
+			
+		<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+		<script src="../static/js/common/ie10-viewport-bug-workaround.js"></script>
+
+	</body>
+
+</html>

@@ -1,0 +1,103 @@
+html, body {  width: 100%;  position: relative;height: 100%;}
+html { font-family: "微软雅黑";-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; font-size: 62.5%; height:100%;
+overflow-y:auto; }
+body {position:absolute; margin: 0; font-size: 1.25rem; line-height: 1.5; color: #050505; background-color: #fff; min-height: 100;box-sizing:border-box;  overflow-x: hidden; -webkit-overflow-scrolling: touch;  }
+p,ul,h3,h4{ margin:0; padding:0;}
+h3,h4{ font-weight:normal;}
+a{ text-decoration:none; color:inherit;}
+li{ list-style:none;}
+img {max-width: 100%;vertical-align: middle;margin: 0;padding: 0;border: 0;}
+.clearfix:after, .clearfix:before {
+    content: " ";
+    display: block;
+    clear: both;
+    height: 0;
+}
+.float-right {
+    float: right;
+}
+
+.footer{display: -webkit-box; display: -ms-flexbox; display: -webkit-flex; display: flex;}
+.footer li{flex:1;}
+
+.swiper-container {
+        width: 100%;
+        height: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+.swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+.swiper-slide > img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.bottom li span {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: 700;
+    font-size: 0.22rem;
+}
+ .bottom {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    left: 0px;
+    z-index: 2;
+    background: rgb(255, 255, 255);
+    padding: 0.1rem 0px;
+    box-shadow: silver 0px 1px 6px 0px;
+}
+ 
+.icon-svg>img {
+    display: block;
+    width: .5rem;
+    margin: auto;
+}   
+
+.slider, .slider span {
+    position: absolute;
+    left: 50%;
+} 
+.slider {
+    width: 36px;
+    height: 36px;
+    margin-left: -18px;
+    bottom: 1.3rem;
+    z-index: 2;
+}
+.slider span {
+    width: 24px;
+    height: 35px;
+    top: 50%;
+    margin: -17px 0px 0px -12px;
+    background-position: -158px -46px;
+    animation: slide_up 2s ease-out infinite;
+    -webkit-animation: slide_up 2s ease-out infinite;
+}
+@keyframes slide_up{0%,30%{opacity:0;transform:translate3d(0,10px,0)}60%{opacity:1;transform:translateZ(0)}to{opacity:0;transform:translate3d(0,-8px,0)}}
+
+@-webkit-keyframes slide_up{0%,30%{opacity:0;-webkit-transform:translate3d(0,10px,0)}60%{opacity:1;-webkit-transform:translateZ(0)}to{opacity:0;-webkit-transform:translate3d(0,-8px,0)}}
+    
+    
+        

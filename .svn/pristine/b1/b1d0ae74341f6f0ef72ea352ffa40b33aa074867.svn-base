@@ -1,0 +1,128 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="keywords" content="">
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="format-detection" content="telephone=no" />
+<meta name="x5-orientation" content="portrait">
+<link href="css/normalize.css" rel="stylesheet" />
+<link href="css/swiper-3.3.1.min.css" rel="stylesheet" />
+<link href="css/main.css" rel="stylesheet" />
+<title>城市主流</title>
+</head>
+
+<body>
+  <header class="header">
+  <ul class="header_ul">
+      <li class="logo"><img  src="images/logo.jpg"/></li>
+      <li class="home on"></li>
+      <li class="search"></li>
+      <li class="city  "></li>
+  </ul>
+</header>
+  <div class="search_input" style="display:none;">
+    <input  type="text"/>
+    <span class="search_btn"><img src="images/search.jpg"/></span>
+  </div>
+
+ <h3 class="title">城市主流</h3>
+ <section class="city_detail">
+ <div class="mask">
+   <div class="left">
+     <h4 class="left_title">[万科翡翠天誉]</h4>
+     <p class="left_content">高新·高层·高端住宅产品（在高新进阶翡翠生活）</p>
+   </div>
+   
+   <a class="know">了解详情>></a>
+  
+ </div>
+ </section>
+  <section class="city_detail">
+ <div class="mask">
+   <div class="left">
+     <h4 class="left_title">[万科翡翠天誉]</h4>
+     <p class="left_content">高新·高层·高端住宅产品（在高新进阶翡翠生活）</p>
+   </div>
+  
+   <a class="know">了解详情>></a>
+ 
+ </div>
+ </section>
+  <section class="city_detail">
+ <div class="mask">
+   <div class="left">
+     <h4 class="left_title">[万科翡翠天誉]</h4>
+     <p class="left_content">高新·高层·高端住宅产品（在高新进阶翡翠生活）</p>
+   </div>
+  
+   <a class="know">了解详情>></a>
+ 
+ </div>
+ </section>
+   <section class="city_detail">
+ <div class="mask">
+   <div class="left">
+     <h4 class="left_title">[万科翡翠天誉]</h4>
+     <p class="left_content">高新·高层·高端住宅产品（在高新进阶翡翠生活）</p>
+   </div>
+  
+   <a class="know">了解详情>></a>
+  
+ </div>
+ </section>
+<nav class="home_nav" style="display:none;">
+     <div class="home_bg"></div>
+     <div class="home_content">
+        <h3 class="home_title">北京万科<a class="hide_btn"><img src="images/icon.jpg"/></a></h3>
+        <ul>
+          <li onclick="javascript:window.location.href='#';"> 
+           <p class="menu">导航菜单</p>
+           <span class="arrow"><img src="images/arrow.jpg"/></span>
+          </li>
+          <li onclick="javascript:window.location.href='index.html';"> 
+           <p class="index">网站首页</p>
+           <span class="arrow"><img src="images/arrow.jpg"/></span>
+          </li>
+          <li onclick="javascript:window.location.href='#';"> 
+           <p class="main">城市主流</p>
+           <span class="arrow"><img src="images/arrow.jpg"/></span>
+          </li>
+          <li onclick="javascript:window.location.href='#';"> 
+           <p class="change">高端改善</p>
+           <span class="arrow"><img src="images/arrow.jpg"/></span>
+          </li>
+          <li onclick="javascript:window.location.href='#';"> 
+           <p class="series">商办产品系</p>
+           <span class="arrow"><img src="images/arrow.jpg"/></span>
+          </li>
+          <li onclick="javascript:window.location.href='#';"> 
+           <p class="house">商业物业</p>
+           <span class="arrow"><img src="images/arrow.jpg"/></span>
+          </li>
+          <li onclick="javascript:window.location.href='#';"> 
+           <p class="tel">销售热线</p>
+           <span class="arrow"><img src="images/arrow.jpg"/></span>
+          </li>
+          <li onclick="javascript:window.location.href='#';"> 
+           <p class="band">万科品牌</p>
+           <span class="arrow"><img src="images/arrow.jpg"/></span>
+          </li>
+          <li onclick="javascript:window.location.href='#';"> 
+           <p class="act">最新活动</p>
+           <span class="arrow"><img src="images/arrow.jpg"/></span>
+          </li>
+        </ul>
+      </div>
+  </nav>
+
+</body>
+</html>
+<script src="js/jquery-1.10.1.min.js"></script>
+<script src="js/swiper-3.3.1.jquery.min.js"></script>
+<script src="js/size.js"></script>
+<script src="js/main.js"></script>

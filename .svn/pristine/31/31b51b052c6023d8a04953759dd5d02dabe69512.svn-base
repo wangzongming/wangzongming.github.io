@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="keywords" content="">
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="format-detection" content="telephone=no" />
+		<meta name="x5-orientation" content="portrait">
+		<link href="../css/frtBase.css" rel="stylesheet" />
+		<script type="text/javascript" src="../js/jquery-2.1.0.js"></script>
+		<script type="text/javascript" src="../js/util.js"></script>
+		<script type="text/javascript" src="../js/video.js"></script>
+		<title>更多人选</title>
+
+	</head>
+
+	<body class="creambg">
+
+		<div class="legend-section full99" id="chosePersonDiv">
+
+			<div class="l-title">
+				<span>选择主席</span><i></i>
+			</div>
+
+			<div id="startMeetingContentDiv">
+				<div class="search b-gray mt20">
+					<input type="text" placeholder="请输入搜索关键字">
+					<span></span>
+				</div>
+				<div class="l-content">
+					<ul class="col-4s col-4s-smail" id='chairmanList'>
+						<li onclick="chosenChairman('chairmanList','personId1')">
+							<span id="personId1">张三(17709886330)</span>
+						</li>
+						<li onclick="chosenChairman('chairmanList','personId2')">
+							<span id="personId2">李毅家(13415541245)</span>
+						</li>
+						<li onclick="chosenChairman('chairmanList','personId3')">
+							<span id="personId3">黄兴(13415541245)</span>
+						</li>
+						<li onclick="chosenChairman('chairmanList','personId4')">
+							<span id="personId4">黄兴(13415541245)</span>
+						</li>
+						<li onclick="chosenChairman('chairmanList','personId5')">
+							<span id="personId5">黄兴(13415541245)</span>
+						</li>
+						<li onclick="chosenChairman('chairmanList','personId5')">
+							<span id="personId5">黄兴(13415541245)</span>
+						</li>
+						<li onclick="chosenChairman('chairmanList','personId5')">
+							<span id="personId5">黄兴(13415541245)</span>
+						</li>
+						<li onclick="chosenChairman('chairmanList','personId5')">
+							<span id="personId5">黄兴(13415541245)</span>
+						</li>
+						<li onclick="chosenChairman('chairmanList','personId5')">
+							<span id="personId5">黄兴(13415541245)</span>
+						</li>
+						<li onclick="chosenChairman('chairmanList','personId5')">
+							<span id="personId5">黄兴(13415541245)</span>
+						</li>
+						<li onclick="chosenChairman('chairmanList','personId5')">
+							<span id="personId5">黄兴(13415541245)</span>
+						</li>
+						
+
+					</ul>
+
+				</div>
+				<div class="btn-two" onclick="subtWork()">
+					<span class="blueButton fullRow wordspac">返 回</span>
+				</div>
+			</div>
+	</body>
+
+</html>

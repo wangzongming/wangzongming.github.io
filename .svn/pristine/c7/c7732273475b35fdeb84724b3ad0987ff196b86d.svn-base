@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="keywords" content="">
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="format-detection" content="telephone=no" />
+		<meta name="x5-orientation" content="portrait">
+		<link href="../css/frtBase.css" rel="stylesheet" />
+		<title>新闻</title>
+	</head>
+	<body class="creambg">
+		<div class="topTab">
+			<ul class="twoTab wordspac">
+				<li class="active">新 闻</li>
+				<li class="wordspac">公 告</li>
+			</ul>
+		</div>
+		
+		<div class="docList">
+			<ul class="newsUl">
+				<li>
+					<div class="topLabel">
+						<span>企业新闻</span>
+					</div>
+					<div class="title">
+						二公司温州绕城8标仙降大桥主桥连续箱梁顺利合龙
+					</div>
+					<div class="content">
+						<div class="left">
+							<img src="../img/newsOrange.png"/>
+							<span>2016-06-05  11:22:33</span>
+						</div>
+						<div class="right">
+							<p>
+							仙降大桥长873.3米，上跨五级航道飞云江，为温州绕城高速公路......
+						    </p>						    
+						    <span>管理员sfdsfsfsfsffsf</span>
+						    <span>企业规划部-企管处sdfsdfdsfdsfDd</span>
+						</div>
+					</div>
+				</li>
+				<li class="extendMargin">
+					<div class="topLabel">
+						<span >企业新闻</span>
+					</div>
+					<div class="title1">
+						二公司温州绕城8标仙降大桥主桥连续箱梁顺利合龙
+					</div>
+					<div class="content">
+						<div class="left">
+							<img src="../img/sampleData/newsExsample.png"/>
+							<span>2016-06-05  11:22:33</span>
+						</div>
+						<div class="right">
+							<p class="brief">
+							仙降大桥长873.3米，上跨五级航道飞云江，为温州绕城高速公路西......
+						    </p>						    
+						    <span>管理员</span>
+						    <span>企业规划部-企管处</span>
+						</div>
+						
+						
+					</div>
+				</li>
+			</ul>
+		</div>
+	
+	</body>
+</html>

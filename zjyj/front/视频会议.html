@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="keywords" content="">
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="format-detection" content="telephone=no" />
+		<meta name="x5-orientation" content="portrait">
+		<link href="../css/frtBase.css" rel="stylesheet" />
+		<script type="text/javascript" src="../js/jquery-2.1.0.js"></script>
+		<script type="text/javascript" src="../js/util.js"></script>
+		<script type="text/javascript" src="../js/video.js"></script>
+		<title>视频会议</title>
+		<script type="text/javascript">
+			
+			function goToMeeting(pid,id,inptId){
+				
+				singleChosen(pid,id);
+				
+				$("#"+inptId).val("");
+			}
+			
+		</script>
+	</head>
+
+	<body class="creambg">
+		<div class="legend-section ">
+			<div class="l-title">
+				<span>参加会议</span> <i></i>
+			</div>
+
+			<div class="l-content">
+				<ul class="col-4s col-4s-smail" id='roomUl'>
+					<li>
+						<span id="room1" class="current" onclick="goToMeeting('roomUl','room1','rmidInput')">会议室1</span>
+					</li>
+					<li>
+						<span id="room2" onclick="goToMeeting('roomUl','room2','rmidInput')">会议室2</span>
+					</li>
+				</ul>
+				<div class="roomInpt"><span>会议室Id</span><input id="rmidInput" type="text" onfocus="clearRoom('roomUl')"/><a>进入</a></div>
+			</div>
+			
+		</div>
+
+		<div class="legend-section" id="chosePersonDiv">
+
+			<div class="l-title">
+				<span>发起会议</span><i></i>
+			</div>
+			<div class="noAuthInfo" style="display:none">您还没有发起视频会议得权限！</div>
+			<div id="startMeetingContentDiv">
+			<div class="l-content">
+				<ul class="col-4s col-4s-smail" id='roomUl1'>
+					<li>
+						<span id="room1" class="current" onclick="singleChosen('roomUl1','room1')">会议室1</span>
+					</li>
+					<li>
+						<span id="room2" onclick="singleChosen('roomUl1','room2')">会议室2</span>
+					</li>
+				</ul>
+				<div class="roomInpt"><span>会议室Id</span><input id="rmidInput1" type="text" onfocus="clearRoom('roomUl')"/></div>
+				<div class="row-writen">
+					<span>会议说明&nbsp;<font style="color:red">*</font></span>
+					<textarea></textarea>
+				</div>
+			</div>
+			<div class="dashed-line"></div>
+			<div class="title-decoration">
+				<h3>选 择 主 席</h3>
+				<i></i>
+			</div>
+			<div class="zxchosen" id="chosenChairMam" personId=""><span>主席人选：张三</span><span class="rightArrow">></span></div>
+			<div class="search b-gray mt20">
+				<input type="text" placeholder="请输入搜索关键字">
+				<span></span>
+			</div>
+		<!--	<div class="person-choose">
+				<span>常用人员</span>
+				<a href="＃">更多 ></a>
+			</div>
+-->
+			<div class="l-content">
+			<!--	<ul class="col-4s col-4s-smail" id='chairmanList'>
+					<li onclick="chosenChairman('chairmanList','personId1')">
+						<span id="personId1">张三(17709886330)</span>
+					</li>
+					<li onclick="chosenChairman('chairmanList','personId2')">
+						<span id="personId2">李毅家(13415541245)</span>
+					</li>
+					<li onclick="chosenChairman('chairmanList','personId3')">
+						<span id="personId3">黄兴(13415541245)</span>
+					</li>
+					<li onclick="chosenChairman('chairmanList','personId4')">
+						<span id="personId4">黄兴(13415541245)</span>
+					</li>
+					<li onclick="chosenChairman('chairmanList','personId5')">
+						<span id="personId5">黄兴(13415541245)</span>
+					</li>
+
+			</ul>-->
+				<!-- 用于没有常用人员的时候 -->
+				<div class="noData1" style="display:none">您还没有常用人员列表!</div>
+			</div>
+			<div class="dashed-line"></div>
+			<div class="title-decoration">
+				<h3>参 会 人 员</h3>
+				<i></i>
+			</div>
+			<div class="search b-gray mt20">
+				<input type="text" placeholder="请输入搜索关键字">
+				<span></span>
+			</div>
+			<div class="person-choose">
+				<span>常用人员</span>
+				<a href="＃">更多 ></a>
+			</div>
+
+			<div class="l-content">
+				<ul class="col-4s col-4s-smail" id="particiList">
+					<li onclick="chosenPartis('particiList','personId1')">
+						<span id="personId1">张三(17709886330)</span>
+					</li>
+					<li onclick="chosenPartis('particiList','personId2')">
+						<span id="personId2">李毅家(13415541245)</span>
+					</li>
+					<li onclick="chosenPartis('particiList','personId3')">
+						<span id="personId3">黄兴(13415541245)</span>
+					</li>
+					<li onclick="chosenPartis('particiList','personId4')">
+						<span id="personId4">黄兴(13415541245)</span>
+					</li>
+				</ul>
+
+			</div>
+			<div class="person-choose">
+				<span>选中人员</span><span class="rightArrow">></span>
+			</div>
+			<div class="l-content">
+				<ul class="col-3s" id="chosnPartisList">
+					
+				</ul>
+			</div>
+			<div class="btn-two" onclick="subtWork()">
+				<span class="blueButton fullRow wordspac">发起会议</span>
+			</div>
+			
+			</div>
+	</body>
+</html>

@@ -1,0 +1,300 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="format-detection" content="telephone=no" />
+    <title></title>
+    <script src="javascript/lib/jquery-1.11.1.min.js"></script>
+    <script src="javascript/lib/jquery.transit.min.js"></script>
+    <script src="javascript/lib/swiper.min.js"></script>
+    <script src="javascript/list.js"></script>
+    <link href="stylesheel/css/normalize.min.css" rel="stylesheet">
+    <link href="stylesheel/css/swiper.min.css" rel="stylesheet" />
+    <link href="stylesheel/css/main.css" rel="stylesheet" />
+
+</head>
+<body>
+    <div class="swiper-container banner_swiper" id="banner_swiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <a href="#">
+                    <img src="images/banner.jpg" />
+                </a>
+            </div>
+            <div class="swiper-slide">
+                <a href="#">
+                    <img src="images/banner.jpg" />
+                </a>
+            </div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+    </div>
+    <div class="list-page">
+        <div class="search">
+            <div class="side-bar_li">
+                <div class="side-inputBox side-inputBox_date">
+                    <input type="date" />
+                </div>
+                <div class="side-inputBox side-inputBox_date">
+                    <input type="date" />
+                </div>
+                <div class="side-inputBox side-inputBox_btn">
+                    查询
+                </div>
+            </div>
+        </div>
+        <div class="list-con">
+            <table class="list-table">
+                <thead>
+                    <tr>
+                        <th>No.</th>
+                        <th>时间</th>
+                        <th>饮食</th>
+                        <th>大便</th>
+                        <th>详情</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>
+                            <ul style="background-image:url(stylesheel/img/qy_smart.png)">
+                                <li>2016-12-1</li>
+                                <li>15:30</li>
+                            </ul>
+                        </td>
+                        <td>
+                            <ul style="background-image:url(stylesheel/img/wn_smart.png)">
+                                <li>饮食</li>
+                            </ul>
+                        </td>
+                        <td>
+                            <ul style="background-image:url(stylesheel/img/cc_smart.png)">
+                                <li>
+                                    大便
+                                </li>
+                            </ul>
+                        </td>
+                        <td><a href="javascript:void(0);" class="list-add" data-id="1">+</a></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>
+                            <ul style="background-image:url(stylesheel/img/qy_smart.png)">
+                                <li>2016-12-1</li>
+                                <li>15:30</li>
+                            </ul>
+                        </td>
+                        <td>
+                            <ul style="background-image:url(stylesheel/img/wn_smart.png)">
+                                <li>饮食</li>
+                            </ul>
+                        </td>
+                        <td>
+                            <ul style="background-image:url(stylesheel/img/cc_smart.png)">
+                                <li>
+                                    大便
+                                </li>
+                            </ul>
+                        </td>
+                        <td><a href="javascript:void(0);" class="list-add" data-id="2">+</a></td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>
+                            <ul style="background-image:url(stylesheel/img/qy_smart.png)">
+                                <li>2016-12-1</li>
+                                <li>15:30</li>
+                            </ul>
+                        </td>
+                        <td>
+                            <ul style="background-image:url(stylesheel/img/wn_smart.png)">
+                                <li>饮食</li>
+                            </ul>
+                        </td>
+                        <td>
+                            <ul style="background-image:url(stylesheel/img/cc_smart.png)">
+                                <li>
+                                    大便
+                                </li>
+                            </ul>
+                        </td>
+                        <td><a href="javascript:void(0);" class="list-add" data-id="3">+</a></td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>
+                            <ul style="background-image:url(stylesheel/img/qy_smart.png)">
+                                <li>2016-12-1</li>
+                                <li>15:30</li>
+                            </ul>
+                        </td>
+                        <td>
+                            <ul style="background-image:url(stylesheel/img/wn_smart.png)">
+                                <li>饮食</li>
+                            </ul>
+                        </td>
+                        <td>
+                            <ul style="background-image:url(stylesheel/img/cc_smart.png)">
+                                <li>
+                                    大便
+                                </li>
+                            </ul>
+                        </td>
+                        <td><a href="javascript:void(0);" class="list-add" data-id="4">+</a></td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>
+                            <ul style="background-image:url(stylesheel/img/qy_smart.png)">
+                                <li>2016-12-1</li>
+                                <li>15:30</li>
+                            </ul>
+                        </td>
+                        <td>
+                            <ul style="background-image:url(stylesheel/img/wn_smart.png)">
+                                <li>饮食</li>
+                            </ul>
+                        </td>
+                        <td>
+                            <ul style="background-image:url(stylesheel/img/cc_smart.png)">
+                                <li>
+                                    大便
+                                </li>
+                            </ul>
+                        </td>
+                        <td><a href="javascript:void(0);" class="list-add" data-id="5">+</a></td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>
+                            <ul style="background-image:url(stylesheel/img/qy_smart.png)">
+                                <li>2016-12-1</li>
+                                <li>15:30</li>
+                            </ul>
+                        </td>
+                        <td>
+                            <ul style="background-image:url(stylesheel/img/wn_smart.png)">
+                                <li>饮食</li>
+                            </ul>
+                        </td>
+                        <td>
+                            <ul style="background-image:url(stylesheel/img/cc_smart.png)">
+                                <li>
+                                    大便
+                                </li>
+                            </ul>
+                        </td>
+                        <td><a href="javascript:void(0);" class="list-add" data-id="6">+</a></td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>
+                            <ul style="background-image:url(stylesheel/img/qy_smart.png)">
+                                <li>2016-12-1</li>
+                                <li>15:30</li>
+                            </ul>
+                        </td>
+                        <td>
+                            <ul style="background-image:url(stylesheel/img/wn_smart.png)">
+                                <li>饮食</li>
+                            </ul>
+                        </td>
+                        <td>
+                            <ul style="background-image:url(stylesheel/img/cc_smart.png)">
+                                <li>
+                                    大便
+                                </li>
+                            </ul>
+                        </td>
+                        <td><a href="javascript:void(0);" class="list-add" data-id="7">+</a></td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>
+                            <ul style="background-image:url(stylesheel/img/qy_smart.png)">
+                                <li>2016-12-1</li>
+                                <li>15:30</li>
+                            </ul>
+                        </td>
+                        <td>
+                            <ul style="background-image:url(stylesheel/img/wn_smart.png)">
+                                <li>饮食</li>
+                            </ul>
+                        </td>
+                        <td>
+                            <ul style="background-image:url(stylesheel/img/cc_smart.png)">
+                                <li>
+                                    大便
+                                </li>
+                            </ul>
+                        </td>
+                        <td><a href="javascript:void(0);" class="list-add" data-id="8">+</a></td>
+                    </tr>
+                    <tr>
+                        <td>9</td>
+                        <td>
+                            <ul style="background-image:url(stylesheel/img/qy_smart.png)">
+                                <li>2016-12-1</li>
+                                <li>15:30</li>
+                            </ul>
+                        </td>
+                        <td>
+                            <ul style="background-image:url(stylesheel/img/wn_smart.png)">
+                                <li>饮食</li>
+                            </ul>
+                        </td>
+                        <td>
+                            <ul style="background-image:url(stylesheel/img/cc_smart.png)">
+                                <li>
+                                    大便
+                                </li>
+                            </ul>
+                        </td>
+                        <td><a href="javascript:void(0);" class="list-add" data-id="9">+</a></td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="side-page" id="side-page">
+                <div class="side-bg"></div>
+                <div class="side-dialog smart">
+                    <div class="side-bar">
+                        <ul class="side-bar_ul">
+                            <li class="side-bar_li">
+                                <ul class="side-detailBox">
+                                    <li class="detail_li">
+                                        <img src="stylesheel/img/cc_smart.png" /><span>体温:</span>36<span>度</span>
+                                    </li>
+                                    <li class="detail_li">
+                                        <img src="stylesheel/img/cc_smart.png" /><span>体温:</span>36<span>度</span>
+                                    </li>
+                                    <li class="detail_li">
+                                        <img src="stylesheel/img/cc_smart.png" /><span>体温:</span>36<span>度</span>
+                                    </li>
+
+                                </ul>
+                            </li>
+                            <li class="side-bar_li">
+                                <div class="side-fileBox">
+                                    <a class="imgfile">
+                                        <img src="images/banner.jpg" />
+                                    </a>
+                                    <a class="imgfile">
+                                        <img src="images/banner.jpg" />
+                                    </a>
+                                    <a class="imgfile"><input type="file" /><span>+</span></a>
+                                    <a class="imgfile"><span>-</span></a>
+                                </div>
+
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>

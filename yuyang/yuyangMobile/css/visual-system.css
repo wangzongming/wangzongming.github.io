@@ -1,0 +1,80 @@
+/* 公司简介 */
+/* @color1:#595758;
+@color2:#231814; */
+.w-brief{
+    font-size:.9rem;
+    padding-top:2rem;
+    color:#595758;
+}
+.w-top-img img{
+    display: block;
+    margin:1rem auto;
+    width:90%;
+}
+.w-desc{
+    font-size:.95rem;
+    color:#595758;
+}
+
+/* 难点攻克 */
+.bg-white{
+    background: #eeeef0;
+    width:100%;
+}
+
+.title-orange{
+     font-size:1.4rem; color:#e95515; position:relative; padding-left:1.2rem; padding-top:1rem; padding-bottom:0rem;
+} 
+.noline-title{
+    font-size:1.2rem; font-weight: 500; color:#595758; position:relative; padding-left:1.2rem; padding-top:1rem; padding-bottom:0.5rem;
+}
+.title-orange:after{
+    content: '';
+    display: inline-block;
+    height:2px;
+    width:1.2rem;
+    margin-left:.8rem;
+    background:#e95515;
+    transform: translateY(-.3rem);
+}
+.w-tit{
+    font-size:1.2rem;
+    color:#231814;
+    padding:.5rem 0;
+    padding-top:1rem;
+}
+.padding-b-2{
+    padding-bottom:2rem;
+}
+.padding-b-3{
+    padding-bottom:1rem;
+}
+.w-bottom-img{
+    display: block;
+    margin:1rem auto;
+    width:90%; 
+}
+.num {
+    display: inline-block;
+    border-radius: 50%;
+    width: 1.5rem;
+    height: 1.5rem;
+    background: #ea5511;
+    color: white;
+    line-height: 1.5rem;
+    text-align: center;
+    font-size: .8rem;
+    font-weight: 100;
+    transform: translateY(-.2rem);
+    -ms-transform: translateY(-.2rem);
+    -o-transform: translateY(-.2rem);
+    -webkit-transform: translateY(-.2rem);
+    -moz-transform: translateY(-.2rem);
+  }
+
+  .white{
+      background: white;
+  }
+  .hui{
+    background: #eeeef0;
+}

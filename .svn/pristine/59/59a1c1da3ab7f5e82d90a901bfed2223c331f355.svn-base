@@ -1,0 +1,252 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="x5-orientation" content="portrait">
+    <link href="css/normalize.css" rel="stylesheet" />
+    <link href="css/swiper.min.css" rel="stylesheet" />
+    <link href="css/main.css" rel="stylesheet" />
+    <title>首页</title>
+</head>
+<body>
+    <div class="page">
+        <!--顶部动画 START-->
+        <div>
+            <img class="lazy" src="img/top.jpg" />
+        </div>
+        <!--顶部动画 END-->
+        <!--头部 START-->
+        <header class="header-wrap">
+            <!--通用_主导航 START-->
+            <nav class="nav-wrap">
+                <div class="nav-bor"></div>
+                <ul class="nav-ul">
+                    <li class="nav-li cur"><a href="index.html">首页</a></li>
+                    <li class="nav-li"><a href="int.html">简介</a></li>
+                    <li class="nav-li"><a href="project.html">方案</a></li>
+                    <li class="nav-li"><a href="service.html">服务</a></li>
+                    <li class="nav-li"><a href="case.html">案例</a></li>
+                </ul>
+            </nav>
+            <!--通用_主导航 END-->
+            <!--首页_banner START-->
+            <div class="swiper-container" id="banner_swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <img src="img/banner/banner_1.jpg" />
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <img src="img/banner/banner_2.jpg" />
+                        </a>
+                    </div>
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+            <!--首页_banner END-->
+            <!--首页_公告 START-->
+            <div class="newsFlip-wrap">
+                <ul class="newsFlip-ul">
+                    <li class="newsFlip-li cur" onclick="javascript:window.location.href='#';"><img class="news_icon" src="img/news.png" /><span>我是新闻123123123123123</span></li>
+                    <li class="newsFlip-li" onclick="javascript:window.location.href='##';"><img class="news_icon" src="img/news.png" /><span>我不是新闻我不是新闻我不是新闻我不是新闻我不是新闻我不是新闻</span></li>
+                    <li class="newsFlip-li" onclick="javascript:window.location.href='###';"><img class="news_icon" src="img/news.png" /><span>我不是新闻2222222222222222</span></li>
+                </ul>
+            </div>
+            <!--首页_公告 END-->
+        </header>
+        <!--头部 END-->
+        <!--主体 START-->
+        <section class="main-wrap">
+
+            <!--服务模块 START-->
+            <section class="module-wrap">
+                <div class="module-wrap_hd"><h2>我们的服务</h2><a>电商加速的首选合作伙伴 〉</a></div>
+                <div class="module-wrap_bd">
+                    <ul class="service-ul">
+                        <li class="service-li" onclick="javascript:window.location.href='#';">
+                            <div class="service-li_hd">
+                                <img class="lazy" src="img/service/service_1.png" />
+                            </div>
+                            <dl class="service-li_bd">
+                                <dt class="service-li_bd-hd">互联网媒体广告服务互联网媒体广告服务</dt>
+                                <dd class="service-li_bd-bd">大巴科技成为百度、新浪微博等互联网媒体广告核心代理，为企业提供全方位的网络广告资源与服务。</dd>
+                            </dl>
+                        </li>
+                        <li class="service-li" onclick="javascript:window.location.href='#';">
+                            <div class="service-li_hd">
+                                <img class="lazy" src="img/service/service_2.png" />
+                            </div>
+                            <dl class="service-li_bd">
+                                <dt class="service-li_bd-hd">互联网媒体广告服务</dt>
+                                <dd class="service-li_bd-bd">大巴科技成为百度、新浪微博等互联网媒体广告核心代理，为企业提供全方位的网络广告资源与服务。</dd>
+                            </dl>
+                        </li>
+                        <li class="service-li" onclick="javascript:window.location.href='#';">
+                            <div class="service-li_hd">
+                                <img class="lazy" src="img/service/service_3.png" />
+                            </div>
+                            <dl class="service-li_bd">
+                                <dt class="service-li_bd-hd">互联网媒体广告服务</dt>
+                                <dd class="service-li_bd-bd">大巴科技成为百度、新浪微博等互联网媒体广告核心代理，为企业提供全方位的网络广告资源与服务。</dd>
+                            </dl>
+                        </li>
+                        <li class="service-li" onclick="javascript:window.location.href='#';">
+                            <div class="service-li_hd">
+                                <img class="lazy" src="img/service/service_4.png" />
+                            </div>
+                            <dl class="service-li_bd">
+                                <dt class="service-li_bd-hd">互联网媒体广告服务</dt>
+                                <dd class="service-li_bd-bd">大巴科技成为百度、新浪微博等互联网媒体广告核心代理，为企业提供全方位的网络广告资源与服务。</dd>
+                            </dl>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <!--服务模块 END-->
+            <!--新闻模块 START-->
+            <section class="module-wrap">
+                <div class="module-wrap_hd"><h2>大巴动态</h2><a href="news.html">了解我们最新的动态 〉</a></div>
+                <div class="module-wrap_bd">
+                    <ul class="news-ul">
+                        <li class="news-li"><a href="news_detail.html"><span>『精选』</span>远程调试阿里云远程调试阿里云远程调试阿里云远程调试阿里云</a></li>
+                        <li class="news-li"><a href="news_detail.html"><span>『精选』</span>远程调试阿里云远程调试阿里云远程调试阿里云远程调试阿里云远程调试阿里云</a></li>
+                        <li class="news-li"><a href="news_detail.html"><span>『精选』</span>远程调试阿里云远程调试阿里云。</a></li>
+                        <li class="news-li"><a href="news_detail.html"><span>『精选』</span>远程调试阿里云远程调试阿里云。</a></li>
+                        <li class="news-li"><a href="news_detail.html"><span>『精选』</span>远程调试阿里云远程调试阿里云远程调试阿里云远程调试阿里云</a></li>
+                        <li class="news-li"><a href="news_detail.html"><span>『精选』</span>远程调试阿里云远程调试阿里云远程调试阿里云远程调试阿里云</a></li>
+                    </ul>
+                </div>
+                <a href="news.html" class="module-wrap_ft">更多动态 〉〉</a>
+            </section>
+            <!--新闻模块 END-->
+            <!--广告模块 START-->
+            <section class="module-wrap swiper-container" id="advert_swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <img src="img/advert/advert_1.jpg" />
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <img src="img/advert/advert_1.jpg" />
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <img src="img/advert/advert_1.jpg" />
+                        </a>
+                    </div>
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+            </section>
+            <!--广告模块 END-->
+            <!--案例模块 START-->
+            <section class="module-wrap">
+                <div class="module-wrap_hd"><h2>成功案例</h2><a>我们服务过的企业 〉</a></div>
+                <div class="module-wrap_bd">
+                    <section class="swiper-container" id="case_swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <img src="img/case/case_1.png" />
+                                    <p>金色家园</p>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <img src="img/case/case_2.png" />
+                                    <p>金色家园</p>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <img src="img/case/case_3.png" />
+                                    <p>金色家园</p>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <img src="img/case/case_3.png" />
+                                    <p>金色家园</p>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <img src="img/case/case_2.png" />
+                                    <p>金色家园</p>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <img src="img/case/case_4.png" />
+                                    <p>金色家园</p>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <img src="img/case/case_1.png" />
+                                    <p>金色家园</p>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <img src="img/case/case_3.png" />
+                                    <p>金色家园</p>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- Add Pagination -->
+                        <div class="swiper-pagination"></div>
+                    </section>
+                </div>
+            </section>
+            <!--案例模块 END-->
+        </section>
+        <!--主体 END-->
+        <!--底部 START-->
+        <footer class="footer-wrap">
+            <!--关于我们 START-->
+            <section class="footer-wrap_about">
+                <img class="lazy" src="img/about.jpg" />
+            </section>
+            <!--关于我们 END-->
+            <!--通用_主导航 START-->
+            <nav class="nav-wrap">
+                <div class="nav-bor"></div>
+                <ul class="nav-ul">
+                    <li class="nav-li cur"><a href="index.html">首页</a></li>
+                    <li class="nav-li"><a href="int.html">简介</a></li>
+                    <li class="nav-li"><a href="project.html">方案</a></li>
+                    <li class="nav-li"><a href="service.html">服务</a></li>
+                    <li class="nav-li"><a href="case.html">案例</a></li>
+                </ul>
+            </nav>
+            <!--通用_主导航 END-->
+            <!--联系我们 START-->
+            <section class="footer-wrap_contact">
+                <img class="lazy" src="img/contact.jpg" />
+            </section>
+            <!--联系我们 END-->
+        </footer>
+        <!--底部 START-->
+    </div>
+    <div class="return_top"></div>
+    <script src="js/jquery-2.1.0.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/dataLazy.js"></script>
+</body>
+</html>

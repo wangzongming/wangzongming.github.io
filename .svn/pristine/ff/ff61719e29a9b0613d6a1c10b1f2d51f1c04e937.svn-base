@@ -1,0 +1,220 @@
+@import "common/base.less";
+@import "common/common.less";
+@import "common/modal.less";
+@import "common/header.less";
+@import "common/logo.less"; 
+@import "common/menu.less";  
+@import "common/footer.less";  
+@import "common/askform.less"; 
+.cust-ad-area{
+    padding: 0px;
+    position: relative;
+    img{
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+    
+    .cust-play-area{
+        font-size: 0px;
+        position: absolute;
+        top: 50%;
+        display: block;
+        margin-top: -0.50rem;
+        width: 5.81rem;
+        margin-left: -1.9rem;
+        left: 50%;
+        
+        .cust-title1-span{
+            line-height: 1rem;
+            font-size: 0.38rem;
+            color: #FFFFFF;
+            display: block;
+            float: left;
+            
+        }
+        .cust-play-btn{
+            margin-left: 0.44rem;
+            margin-right: 0.44rem;
+            float: left;
+            padding: 0px;
+            background-color: transparent;
+            display: block;
+            border: 0px;
+            &:focus{
+                outline: none;
+            }
+            &
+            .fa{
+                font-size: 1rem;
+                
+                color: #FFFFFF;
+                
+            }
+        }
+    }
+}
+
+
+.cust-about-yuyang{
+    min-height: 12.72rem;
+    background-color: #FFFFFF;
+    padding-top: 1.09rem;    
+    >.container{
+        padding: 0px;
+        
+        max-width: 17.00rem;
+
+        .cust-more-btn{
+            .common-btn();
+            margin-top: 0.63rem;
+            margin-bottom: 1.64rem;
+        }
+        
+        
+        .cust-people-options{
+            margin-top: 0.76rem;
+            
+            .cust-people-option1{
+                width: 33.33%;
+                img{
+                    width: 5.20rem;
+                    height: 3.62rem;
+                    display: block;
+                    margin-bottom: 0.62rem;
+                }
+                
+                
+            }
+        }
+        
+        .cust-more2-btn{
+            .common-btn();
+            margin-top: 1.25rem;
+            margin-bottom: 1.60rem;
+        }
+        
+        .cust-morenew-btn{
+            .common-btn();
+            margin-top: 0.31rem;
+            margin-bottom: 1.63rem;
+        }
+        
+        
+        
+        .cust-new-block{
+            position: relative;
+            width: 100%;
+            min-height: 3.32rem;
+            border:1px solid #7e7e7e;
+            padding-top: 0.74rem;
+            padding-left: 6.01rem;
+            padding-bottom: 0.68rem;
+            padding-right: 1.2rem;
+            margin-bottom: 0.43rem;
+            
+            .cust-new-month{
+                position: absolute;
+                top: 0.74rem;
+                left: 0.58rem;
+                font-size: 0.16rem;
+                color: #606060;
+            }
+            .cust-new-date{
+                position: absolute;
+                top: 1.52rem;
+                left: 0.58rem;
+                font-size: 0.38rem;
+                color: #313131;
+            }
+            .cust-new-year{
+                position: absolute;
+                top: 2.40rem;
+                left: 0.58rem;
+                font-size: 0.20rem;
+                color: #606060;
+            }
+            .cust-new-image{
+                position: absolute;
+                top: 0.64rem;
+                left: 1.65rem;
+                width: 3.80rem;
+                height: 2.04rem;
+            }
+            .cust-new-title1{
+                display: block;
+                font-size: 0.31rem;
+                line-height: 0.31rem;
+                margin-bottom: 0.54rem;
+                color: #5e5e5e;
+            }
+            .cust-new-text{
+                display: block;
+                font-size: 0.24rem;
+                line-height: 0.39rem;
+                color: #818181;
+            }
+        }
+        
+        .form-horizontal{
+            width: 50%;
+            margin-left: auto;
+            margin-right: auto;
+            
+            .form-group{
+                margin-bottom: 0.31rem;
+                >label{
+                    width: 27%;
+                }
+                >div{
+                    width: 60%;
+                }
+            }
+            
+            label.control-label{
+                font-size: 0.28rem;
+                font-weight: normal;
+                
+            }
+            
+            input{
+                height: 0.48rem;
+                font-size: 0.28rem;
+                padding-top: 0px;
+                padding-bottom: 0px;
+            }
+            
+            .cust-form-warning{
+                .common-p-base();
+                font-size: 0.22rem;
+                line-height: 0.22rem;
+                margin-top: 0.95rem;
+                margin-bottom: 0.97rem;
+                color: #888888;
+            }
+            
+            .cust-submit-btn{
+                .common-btn();
+                margin-top: 0rem;
+                margin-bottom: 0.97rem;
+                color: #FFFFFF;
+                background-color: @color-orange;
+            }
+            
+            .cust-form-phone{
+                .common-p-base();
+                font-size: 0.33rem;
+                line-height: 0.33rem;
+                margin-bottom: 1.22rem;
+                color: @color-orange;
+            }
+        }
+    }
+    
+}
+
+
+
+
+
+  

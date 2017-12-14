@@ -1,0 +1,126 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Map</title>
+    <link href="reset200802.css" rel="stylesheet" />
+    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=1mlecnISTulyA7Tyev5hNt25"></script>
+    <script type="text/javascript" src="http://api.map.baidu.com/library/DrawingManager/1.4/src/DrawingManager_min.js"></script>
+    <link rel="stylesheet" href="http://api.map.baidu.com/library/DrawingManager/1.4/src/DrawingManager_min.css" />
+    <link href="lmap.css" rel="stylesheet" />   
+</head>
+<body>
+    <div id="mymap" class="mymap"></div>
+    <div id="mylist" class="mylist">
+        <div class="inputBox">
+            <input type="text" placeholder="公路/办公室" />
+        </div>
+        <ul class="ulBox"></ul>
+    </div>
+    
+    <script src="lmap.js"></script>
+    <script>
+        //服务端处理数据start
+        var jsonData = {
+            "result": "1",//成功为1，失败为0；
+            "data": {//result为1时，返回所需正确数据data；
+                "area": "河北",//初始化地图定位，如果为空，则为全国；
+                "roads": [//所有道路集合
+                    {
+                        "id": "001",//道路唯一识别ID；
+                        "name": "绕北高速",//道路名称；
+                        "tip": "G70",//G；
+                        "date": "2016-7-8",//date；
+                        "office": "绕城分公司办公室",//道路所属办公室；
+                        "position": "116.624929,38.280622",//所属办公室坐标；
+                        "phone": "0411-8888888",//办公室联系电话；
+                        "remarks": "无备注",//备注信息，暂时无用；
+                        "details": "",//详情信息，暂时无用；
+                        "sections": [//道路分段，如果不分段，数组放一个对象信息即可；
+                            {
+                                "name": "sec_1",//标段名称
+                                "polyline": ["116.509946,38.284927", "116.520294,38.28674", "116.536679,38.285607", "116.557089,38.284248", "116.584972,38.282208", "116.624929,38.280622"],
+                                "content": "<div><span style='font-weight:bold'>起点：</span>无</div><div><span style='font-weight:bold'>终点：</span>无</div>"//标段信息
+                            }, {
+                                "name": "sec_2",
+                                "polyline": ["116.624929,38.280622", "116.668622,38.27813", "116.709729,38.27541", "116.7379,38.274277", "116.756009,38.273597", "116.768945,38.274504", "116.768945,38.274504"],
+                                "content": "section信息2"
+                            }],
+                        "markers": [//道路周边的点，如果没有要显示的点，为空数组即可，暂时无用；
+                            {
+                                "name": "mar_1",//周边点名称
+                                "position": "116.520294,38.28674",
+                                "content": "marker信息1"//周边点信息
+                            }, {
+                                "name": "mar_2",
+                                "position": "116.520294,38.28674",
+                                "content": "marker信息2"
+                            }]
+                    }, {
+                        "id": "002",
+                        "name": "迎宾大道",
+                        "tip": "G70",//G；
+                        "date": "2016-7-8",//date；
+                        "office": "眼睛分公司办公室",//道路所属办公室；
+                        "position": "116.798409,38.269405",//所属办公室坐标；
+                        "phone": "0411-8888888",//办公室联系电话；
+                        "remarks": "无备注",//备注信息；
+                        "details": "",
+                        "sections": [//道路分段，如果不分段，数组放一个对象信息即可；
+                            {
+                                "name": "sec_1",
+                                "polyline": ["116.769664,38.274504", "116.776131,38.275297", "116.781881,38.275184", "116.787342,38.274051", "116.792517,38.272464", "116.798409,38.269405", "116.804733,38.265552", "116.812782,38.260792", "116.819681,38.257846", "116.826149,38.255919", "116.832904,38.253765", "116.838653,38.251385", "116.84469,38.247531", "116.85087,38.243791", "116.854751,38.242544", "116.859782,38.241297", "116.865818,38.240617"],
+                                "content": "section信息1"
+                            }],
+                        "markers": []//道路周边的点，如果没有要显示的点，为空数组即可，暂时无用；
+                    }, {
+                        "id": "003",
+                        "name": "绕南高速",
+                        "tip": "G70",//G；
+                        "date": "2016-7-8",//date；
+                        "office": "绕城分公司办公室",//道路所属办公室；
+                        "position": "116.931071,38.242544",//所属办公室坐标；
+                        "phone": "0411-8888888",//办公室联系电话；
+                        "remarks": "无备注",//备注信息；
+                        "details": "",
+                        "sections": [
+                            {
+                                "name": "XX大道一段",
+                                "polyline": ["116.865818,38.240617", "116.872717,38.240163", "116.87976,38.23971", "116.888959,38.239143", "116.898301,38.23937", "116.907931,38.240163", "116.919285,38.241297", "116.931071,38.242544", "116.939982,38.242884", "116.952056,38.242997", "116.960536,38.244131", "116.969303,38.245944", "116.977639,38.248098"],
+                                "content": "第一标段信息"
+                            }]
+                    }]
+            },
+            "err": {}//result为0时，返回错误对象；
+
+        };
+        jsonData = JSON.stringify(jsonData);//发送json字符串
+        console.log(typeof jsonData);//string
+        //服务端处理数据end
+
+
+
+
+
+        var lmap = lMap("mymap", "mylist");//初始lMap应用；参数说明:lMap(mapName,listName);mapName: 地图容器的id; listName: 列表容器id;
+        //$.ajax({//ajax获取数据
+        //    url: url,
+        //    success: function(jsonData){
+        jsonData = JSON.parse(jsonData);//json字符串转json对象
+        console.log(typeof jsonData);//object
+        if (jsonData.result == "0") {
+            console.log("[get错误]");
+            console.log(jsonData.err);
+        } else {
+            console.log("[get成功]");
+            console.log(jsonData.data);
+            lmap.load(jsonData.data);//参数说明:load(data);data: 所需数据;
+        }
+        //      },
+        //    dataType: "json"
+        //});
+    </script>
+
+</body>
+</html>

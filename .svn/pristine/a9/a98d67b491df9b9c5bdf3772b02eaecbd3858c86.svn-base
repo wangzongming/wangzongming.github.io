@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./style/css/main.css">
+    <title>关于誉程</title>
+</head>
+
+<body>
+    <div class="main">
+        <!-- header -->
+        <div class="header">
+            <div class="header-l">
+                <img src="./img/home/logo.gif" alt="">
+            </div>
+            <div class="header-r">
+                <img src="./img/home/home_06.gif" alt="">
+                <img src="./img/home/home_08.gif" alt="">
+                <!-- 下拉菜单 -->
+                <div class="down_menu">
+                    <ul class="down_menu-ul">
+                        <li>
+                            <a href="./index.html">
+                                    <div class="left">主页</div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./product_category.html">
+                                <div class="left">产品类别</div>
+                                <div class="right"><img src="./img/rightArr.jpg" alt=""></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./service_field.html">
+                                <div class="left">服务领域</div>
+                                <div class="right"><img src="./img/rightArr.jpg" alt=""></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./machining_field.html">
+                                <div class="left">加工领域</div>
+                                <div class="right"><img src="./img/rightArr.jpg" alt=""></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./service_dome.html">
+                                <div class="left">服务案列</div>
+                                <div class="right"><img src="./img/rightArr.jpg" alt=""></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./about.html">
+                                <div class="left">关于誉程</div>
+                                <div class="right"><img src="./img/rightArr.jpg" alt=""></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./industry.html">
+                                <div class="left">行业咨询</div>
+                                <div class="right"><img src="./img/rightArr.jpg" alt=""></div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="about-content">
+            <div class="content">
+                <div class="banner">
+                    <img src="./img/about/about_02.jpg" alt="">
+                </div>
+                <div class="con">
+                    <div class="desc">
+                        <h3 class="title">誉程企业简介</h3>
+                        <div class="text">
+                            <div>
+                                    大连誉程精密机械有限公司成立于2012年3
+                                    月。现有员工40人,设备50余台。加工车间
+                                    配有加工中心、全机能精密数控、NC自动车
+                                    床、数控车床、摇臂钻、台钻、攻丝机及其他
+                                    焊接、修理设备和三坐标、高压气密检测试验
+                                    台等先进的生产、检查设备。可根据客户订单
+                                    需求对各类铸件/锻件/棒、板型材等金属制品
+                                    进行精密机械加工。
+                                                                   
+                            </div>
+                            <div>
+                                    公司于2012年10月通过1S09001质量体系认
+                                    证。2014年3月，通过TUV PED质量认证。     
+                            </div>
+                        </div>
+                        <div class="img">
+                            <img src="./img/about/about_05.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="desc">
+                        <h3 class="title">服务世界500强企业</h3>
+                        <div class="text">
+                            <div>
+                                    20多年来，誉程长期与国内外众多零部件厂
+                                    商保持合作关系，提供优质、
+                                    高效、
+                                    精密的
+                                    产品加工方案。
+                                    在今天，
+                                    随着制造技术和工
+                                    业自动化的深度融合，，誉程以精益的制造管
+                                    理和精湛的专业技术，
+                                    为客户的发展持续贡
+                                    献力量。
+                                         
+                            </div>
+                        </div>
+                        <div class="img">
+                            <img src="./img/about/about_08.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="time-line">
+                        <h3 class="title">20年行业经验</h3>
+                        <div class="time-line-con">
+                            <ul class="time-line-con-ul">
+                                <li>
+                                    <!-- 小圆点 -->
+                                    <div class="dot"><span></span></div>
+                                    <div class="time">1992</div>
+                                    <div class="txt">
+                                        公司创始人李文军先生毕业于辽宁
+                                        工程技术大学商务英语专业
+                                    </div>                                     
+                                </li>
+                                <li>
+                                    <!-- 小圆点 -->                                    
+                                    <div class="dot"><span></span></div>
+                                    <div class="time">1998</div>
+                                    <div class="txt">
+                                        创建大连省荣新实业有限公司出口
+                                        各种铸件和锻件产品到美国市场，
+                                        开始给美国DANA和HENI DR CKSON
+                                        公司供货   
+                                    </div>                
+                                </li>
+                                <li>
+                                    <!-- 小圆点 -->                                    
+                                    <div class="dot"><span></span></div>
+                                    <div class="time">2000</div>
+                                    <div class="txt">
+                                            在BVI注册Carill Worldwide inco                                            
+                                    </div>                
+                                </li>
+                                <li>
+                                    <!-- 小圆点 -->                                    
+                                    <div class="dot"><span></span></div>
+                                    <div class="time">2003</div>
+                                    <div class="txt">
+                                            大连普荣新实业有限公司和cali
+                                            公司获得TUV领发的1S090 10质量
+                                            管理体系证书                                                                             
+                                    </div>                
+                                </li>
+                                <li>
+                                    <!-- 小圆点 -->                                    
+                                    <div class="dot"><span></span></div>
+                                    <div class="time">2004</div>
+                                    <div class="txt">
+                                            开始给英国阿斯顿马丁供货                                            
+                                    </div>                
+                                </li>
+                                <li>
+                                    <!-- 小圆点 -->                                    
+                                    <div class="dot"><span></span></div>
+                                    <div class="time">2007</div>
+                                    <div class="txt">
+                                            开始给德国PARKER(HERL)供货                                            
+                                    </div>                
+                                </li>
+                                <li>
+                                    <!-- 小圆点 -->                                    
+                                    <div class="dot"><span></span></div>
+                                    <div class="time">2011 </div>
+                                    <div class="txt">
+                                            获得合作的精密铸造厂20%股份                                            
+                                    </div>                
+                                </li>
+                                <li>
+                                    <!-- 小圆点 -->                                    
+                                    <div class="dot"><span></span></div>
+                                    <div class="time">2012  </div>
+                                    <div class="txt">
+                                            创建大连普程精密机械有限公司l。
+                                            主营铸件。锻件和棒材等的机械加
+                                            工，装配和测试，开始给长春一汽
+                                            供应自动打磨设备                                                                                       
+                                    </div>                
+                                </li>
+                                <li>
+                                    <!-- 小圆点 -->                                    
+                                    <div class="dot"><span></span></div>
+                                    <div class="time">2014  </div>
+                                    <div class="txt">
+                                            创建大连誉洋工业智能有限公司,
+                                            主要经营自动打磨中心机器人打
+                                            磨单元，生产线的设计和制造
+                                            创建大连金翰阳智能科技研究院有
+                                                                                                                            
+                                    </div>             
+                                </li>
+                                <li>
+                                    <!-- 小圆点 -->                                    
+                                    <div class="dot"><span></span></div>
+                                    <div class="time">2015</div>
+                                    <div class="txt">
+                                           限公司专门从事工业自动化方向
+                                           的技术研究和开发                                                                                                                       
+                                    </div>   
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="img-desc">
+                        <img src="./img/about/about_10.jpg" alt="">
+                        <div class="text">
+                            我司现有员工40，人其中铸造工程师2 名，
+                            机械工程师2名质量工程师3名从业经
+                            验均为10年以上
+                        </div>
+                    </div>
+                    <div class="map-img">
+                        <img src="./img/about/about_13.jpg" alt="">
+                    </div>
+                    <div class="jiagong">
+                        <h3 class="title">生产加工管理</h3>
+                        <div class="jiagong-con">
+                            <ul class="jiagong-con-ul">
+                                <li>
+                                    <div class="left">
+                                        <img src="./img/about/about_18.jpg" alt="">
+                                    </div>
+                                    <div class="right">
+                                        <div class="title">精益求精</div>
+                                        <div class="desc">
+                                            采用先进的ERP系统，避免生产环节不
+                                                必要的良费
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="left">
+                                        <img src="./img/about/about_21.jpg" alt="">
+                                    </div>
+                                    <div class="right">
+                                        <div class="title">产品全歼</div>
+                                        <div class="desc">
+                                                采用产品全品检查的验收方针，产品
+                                                质量精益求精                                                
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="left">
+                                        <img src="./img/about/about_24.jpg" alt="">
+                                    </div>
+                                    <div class="right">
+                                        <div class="title">极速交货 </div>
+                                        <div class="desc">
+                                                短交货期是普程的一大优势，利于客
+                                                户减少周转成本                                               
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="left">
+                                        <img src="./img/about/about_28.jpg" alt="">
+                                    </div>
+                                    <div class="right">
+                                        <div class="title">技术创新 </div>
+                                        <div class="desc">
+                                                誉程不断总结经验为客户开发新技术，以
+                                                此提高加工效率和减少生产成本                                              
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="line"></div>
+                    </div>
+                    <div class="rongyu">
+                        <h3 class="title">资质荣誉</h3>
+                        <ul class="rongyu-ul">
+                            <li>
+                                <div class="desc">
+                                    1S09000Certificate:
+                                    IS O90C 0证 书
+                                </div>
+                                <img src="./img/about/about_33.jpg" alt="">
+                                <img src="./img/about/about_40.jpg" alt="">
+                            </li>
+                            <li>
+                                <div class="desc">
+                                        PEDcertifcate:
+                                        PED压力容器认证证书
+                                </div>
+                                <img src="./img/about/about_35.jpg" alt="">
+                                <img src="./img/about/about_41.jpg" alt="">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- footer -->
+        <div class="footer">
+            <ul class="footer-ul">
+                <li>
+                    <a href="#">
+                        <div>
+                            <img src="./img/home/home_60.gif" alt="">
+                        </div>
+                        <div>一键通话</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="./contact.html">
+                        <div>
+                            <img src="./img/home/home_63.gif" alt="">
+                        </div>
+                        <div>联系方式</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="./download.html">
+                        <div>
+                            <img src="./img/home/home_66.gif" alt="">
+                        </div>
+                        <div>资料下载</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div>
+                            <img src="./img/home/home_68.gif" alt="">
+                        </div>
+                        <div>地图导航</div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>
+<script src="./js/font.js"></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/main.js"></script>

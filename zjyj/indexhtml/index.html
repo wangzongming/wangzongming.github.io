@@ -1,0 +1,419 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/idangerous.swiper2.7.6.css" rel="stylesheet">
+    <script src="js/idangerous.swiper2.7.6.min.js"></script>
+</head>
+
+<body style="padding:5px 10px">
+    <table cellspacing="10px" cellpadding="0">
+        <tr>
+            <td rowspan="2" style="border:none">
+
+                <table cellspacing="0px" style=" border-collapse:collapse;">
+                    <tr>
+                        <td colspan="2" style="background-color:#f2f2f2;border: 1px solid #98b8d6!important;">
+                            <div class="ny_header" ><strong>办事大厅</strong></div>
+                            <div class="ny_tab">
+                                <div class="ny_tabBox" id="tabBox">
+                                    <div class="ny_tabItem cur" tab-index="0">议题审批</div>
+                                    <div class="ny_tabItem" tab-index="1">公文办理</div>
+                                    <div class="ny_tabItem" tab-index="2">部门公文</div>
+                                    <!-- <div class="ny_tabItem" tab-index="3">项目公文</div> -->
+                                    <div class="ny_tabItem" tab-index="4">事项申请</div>
+                                </div>
+                            </div>
+                            <div class="swiper-container" id="swiper0" tab-index="0">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <table cellspacing="10px" class="ny_bsTable">
+                                            <tr>
+                                                <td class="ny_bsItem"><img src="img/zongbanyiti.png"><br>总办议题</td>
+                                                <td class="ny_bsItem"><img src="img/dangweichangwei.png"><br>党委常委扩大会议题</td>
+												<td class="ny_bsItem"><img src="img/qianbao.png"><br>签报</td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="pagination" id="pagination0"></div>
+                            </div>
+                            <div class="swiper-container" id="swiper1" tab-index="1" style="display:none">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <table cellspacing="10px" class="ny_bsTable">
+                                            <tr>
+                                                <td class="ny_bsItem"><img src="img/xingzhengfawen.png"><br>行政办公发文</td>
+                                                <td class="ny_bsItem"><img src="img/xingzhengshouwen.png"><br>行政办公收文</td>
+                                                <td class="ny_bsItem"><img src="img/dangweifawen.png"><br>党委发文</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="ny_bsItem"><img src="img/jiweifawen.png"><br>纪委发文</td>
+                                                <td class="ny_bsItem"><img src="img/gonghuifawen.png"><br>工会发文</td>
+                                                <td class="ny_bsItem"><img src="img/jiweidangweigonghuishouwen.png"><br>纪委·党委·工会收文</td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </div>
+                                <div class="pagination" id="pagination1"></div>
+                            </div>
+                            <div class="swiper-container" id="swiper2" tab-index="2" style="display:none">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <table cellspacing="10px" class="ny_bsTable">
+                                            <tr>
+                                                <td class="ny_bsItem"><img src="img/neibugongzuoliucheng.png"><br>内部工作流程</td>
+                                                <td class="ny_bsItem"><img src="img/bumenshouwen.png"><br>部门收文</td>
+                                                <td class="ny_bsItem"><img src="img/bumenfawen.png"><br>部门发文</td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </div>
+                                <div class="pagination" id="pagination2"></div>
+                            </div>
+                            <div class="swiper-container" id="swiper3" tab-index="3" style="display:none">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <table cellspacing="10px" class="ny_bsTable">
+                                            <tr>
+                                                <td class="ny_bsItem"><img src="img/daiban_date.png"><br>项目发</td>
+                                                <td class="ny_bsItem"><img src="img/daiban_date.png"><br>项目收</td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </div>
+                                <div class="pagination" id="pagination3"></div>
+                            </div>
+                            <div class="swiper-container" id="swiper4" tab-index="4" style="display:none;text-align: center;font-size: 24px;">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide"></br>
+									<span style="text-align:center;">系统建设中... ...</span>
+									
+									<!--
+                                        <table cellspacing="10px" class="ny_bsTable">
+                                            <tr>
+                                                <td class="ny_bsItem"><img src="img/daiban_date.png"><br>用车</td>
+                                                <td class="ny_bsItem"><img src="img/daiban_date.png"><br>会议室</td>
+                                                <td class="ny_bsItem"><img src="img/daiban_date.png"><br>用餐</td>
+                                            </tr>
+                                        </table>
+										-->
+                                    </div>
+                                </div>
+                                <div class="pagination" id="pagination4"></div>
+                            </div>
+                            <script type="text/javascript">
+                                window.onload = function () {
+                                    var mySwiper = new Swiper('#swiper0', {
+                                        pagination: '#pagination0',
+                                        paginationClickable: true,
+                                    });
+                                    var mySwiper = new Swiper('#swiper1', {
+                                        pagination: '#pagination1',
+                                        paginationClickable: true,
+                                    });
+                                    var mySwiper = new Swiper('#swiper2', {
+                                        pagination: '#pagination2',
+                                        paginationClickable: true,
+                                    });
+                                    var mySwiper = new Swiper('#swiper3', {
+                                        pagination: '#pagination3',
+                                        paginationClickable: true,
+                                    });
+                                    var mySwiper = new Swiper('#swiper4', {
+                                        pagination: '#pagination4',
+                                        paginationClickable: true,
+                                    });
+                                    var tabArr = document.getElementsByClassName("ny_tabItem");
+                                    var tableArr = document.getElementsByClassName("swiper-container");
+                                    var tab = document.getElementById("tabBox");
+                                    for (var i = 0; i < tabArr.length; i++) {
+                                        tabArr[i].style.width = (tab.offsetWidth - 20 - (tabArr.length - 1) * 5) / tabArr.length + "px";
+                                    }
+                                    tab.onclick = function (e) {
+                                        if (e.target.attributes["tab-index"]) {
+                                            var index = e.target.attributes["tab-index"].nodeValue;
+                                            for (var i = 0; i < tabArr.length; i++) {
+                                                if (tabArr[i].attributes["tab-index"].nodeValue == index) {
+                                                    tabArr[i].className = "ny_tabItem cur";
+                                                } else {
+                                                    tabArr[i].className = "ny_tabItem";
+                                                }
+                                            }
+                                            for (var i = 0; i < tableArr.length; i++) {
+                                                if (tableArr[i].attributes["tab-index"].nodeValue == index) {
+                                                    tableArr[i].style.display = "block";
+                                                } else {
+                                                    tableArr[i].style.display = "none";
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            </script>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="ny_indexItem ny_color_blue1" style="background-image: url(img/shortmenu_ap.png);background-size:28px;">
+                            <span class="ny_indexItemText">
+                                核算支付<br><b>Accounting Payment</b>
+                            </span>
+                        </td>
+                        <td rowspan="2" class="ny_indexItem ny_color_blue1" style="background-image: url(img/shortmenu_ar.png);background-size:50px;background-color: #DDEEFE;">
+                            <span class="ny_indexItemText" style="color: #002FAB;">
+                                资产资源 <br><b>Assets Resources</b>
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="ny_indexItem ny_color_blue2" style="background-image: url(img/shortmenu_cs.png);background-size:28px;background-color: #bcd5f0">
+                            <span class="ny_indexItemText" style="color: #002FAB;">
+                                合同结算<br><b>Contract Settiement</b>
+                            </span>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+            <td rowspan="2" style="width:40%">
+                <div class="ny_module">
+                    <div class="ny_header"><strong>公告</strong><a class="ny_more">更多 >></a></div>
+                    <div class="ny_body">
+                        <ul class="ny_list">
+                            <li class="ny_listItem">
+                                <div class="ny_itemCon"><span class="ny_itemLabel">[局发公告]</span>关于2016年元旦的一些事情123456789012345678901234567890</div>
+                                <div class="ny_itemTag">[2015-12-25]</div>
+                            </li>
+                            <li class="ny_listItem">
+                                <div class="ny_itemCon"><span class="ny_itemLabel">[局发公告]</span>关于2016年元旦的一些事情</div>
+                                <div class="ny_itemTag">[2015-12-25]</div>
+                            </li>
+                            <li class="ny_listItem">
+                                <div class="ny_itemCon"><span class="ny_itemLabel">[局发公告]</span>关于2016年元旦的一些事情</div>
+                                <div class="ny_itemTag">[2015-12-25]</div>
+                            </li>
+							<li class="ny_listItem">
+                                <div class="ny_itemCon"><span class="ny_itemLabel">[局发公告]</span>关于2016年元旦的一些事情</div>
+                                <div class="ny_itemTag">[2015-12-25]</div>
+                            </li>
+							<li class="ny_listItem">
+                                <div class="ny_itemCon"><span class="ny_itemLabel">[局发公告]</span>关于2016年元旦的一些事情</div>
+                                <div class="ny_itemTag">[2015-12-25]</div>
+                            </li>
+							<li class="ny_listItem">
+                                <div class="ny_itemCon"><span class="ny_itemLabel">[局发公告]</span>关于2016年元旦的一些事情</div>
+                                <div class="ny_itemTag">[2015-12-25]</div>
+                            </li>
+							<li class="ny_listItem">
+                                <div class="ny_itemCon"><span class="ny_itemLabel">[局发公告]</span>关于2016年元旦的一些事情</div>
+                                <div class="ny_itemTag">[2015-12-25]</div>
+                            </li>
+							<li class="ny_listItem">
+                                <div class="ny_itemCon"><span class="ny_itemLabel">[局发公告]</span>关于2016年元旦的一些事情</div>
+                                <div class="ny_itemTag">[2015-12-25]</div>
+                            </li>
+							<li class="ny_listItem">
+                                <div class="ny_itemCon"><span class="ny_itemLabel">[局发公告]</span>关于2016年元旦的一些事情</div>
+                                <div class="ny_itemTag">[2015-12-25]</div>
+                            </li>
+							<li class="ny_listItem">
+                                <div class="ny_itemCon"><span class="ny_itemLabel">[局发公告]</span>关于2016年元旦的一些事情</div>
+                                <div class="ny_itemTag">[2015-12-25]</div>
+                            </li>
+							<li class="ny_listItem">
+                                <div class="ny_itemCon"><span class="ny_itemLabel">[局发公告]</span>关于2016年元旦的一些事情</div>
+                                <div class="ny_itemTag">[2015-12-25]</div>
+                            </li>
+							<li class="ny_listItem">
+                                <div class="ny_itemCon"><span class="ny_itemLabel">[局发公告]</span>关于2016年元旦的一些事情</div>
+                                <div class="ny_itemTag">[2015-12-25]</div>
+                            </li>
+							<li class="ny_listItem">
+                                <div class="ny_itemCon"><span class="ny_itemLabel">[局发公告]</span>关于2016年元旦的一些事情</div>
+                                <div class="ny_itemTag">[2015-12-25]</div>
+                            </li>
+							<li class="ny_listItem">
+                                <div class="ny_itemCon"><span class="ny_itemLabel">[局发公告]</span>关于2016年元旦的一些事情</div>
+                                <div class="ny_itemTag">[2015-12-25]</div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </td>
+            <td style="width:30%">
+                <div class="ny_module">
+                    <div class="ny_header"><strong>领导查询</strong></div>
+                    <div class="ny_body">
+                        <embed src="proj.swf" width="100%" height="auto"></embed>
+                    </div>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="ny_module">
+                    <div class="ny_header"><strong>常用链接</strong><a class="ny_more">更多 >></a></div>
+                    <div class="ny_body">
+                        <ul class="ny_list">
+                            <li class="ny_listItem">
+                                <div class="ny_itemCon icon">关于2016年元旦的一些事情</div>
+                                <div class="ny_itemTag">[2015-12-25]</div>
+                            </li>
+                            <li class="ny_listItem">
+                                <div class="ny_itemCon icon">关于2016年元旦的一些事情</div>
+                                <div class="ny_itemTag icon">[2015-12-25]</div>
+                            </li>
+                            <li class="ny_listItem">
+                                <div class="ny_itemCon icon">关于2016年元旦的一些事情</div>
+                                <div class="ny_itemTag">[2015-12-25]</div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td rowspan="2">
+                <div class="ny_module">
+                    <div class="ny_header">
+                        <!--<img style="vertical-align: middle;margin-right:5px;" src="img/daiban_date.png">-->
+                        <strong>任务中心</strong>
+                        <a class="ny_more">更多 >></a>
+                    </div>
+                    <div class="ny_body">
+                        <div class="ny_task_l1">您有<span>19</span>条待办任务需要处理</div>
+                        <div class="ny_task_l2"><a href="#">点击打开待办树进行办理</a></div>
+                    </div>
+                </div>
+            </td>
+            <td rowspan="3">
+                <div class="ny_module">
+                    <div class="ny_header"><strong>新闻</strong><a class="ny_more">更多 >></a></div>
+                    <div class="ny_body">
+                        <ul class="ny_list">
+                            <li class="ny_listItem">
+                                <div class="ny_itemCon"><span class="ny_itemLabel">[局发公告]</span>关于2016年元旦的一些事情</div>
+                                <div class="ny_itemTag">[2015-12-25]</div>
+                            </li>
+                            <li class="ny_listItem">
+                                <div class="ny_itemCon"><span class="ny_itemLabel">[局发公告]</span>关于2016年元旦的一些事情</div>
+                                <div class="ny_itemTag">[2015-12-25]</div>
+                            </li>
+                            <li class="ny_listItem">
+                                <div class="ny_itemCon"><span class="ny_itemLabel">[局发公告]</span>关于2016年元旦的一些事情</div>
+                                <div class="ny_itemTag">[2015-12-25]</div>
+                            </li>
+							<li class="ny_listItem">
+                                <div class="ny_itemCon"><span class="ny_itemLabel">[局发公告]</span>关于2016年元旦的一些事情</div>
+                                <div class="ny_itemTag">[2015-12-25]</div>
+                            </li>
+							<li class="ny_listItem">
+                                <div class="ny_itemCon"><span class="ny_itemLabel">[局发公告]</span>关于2016年元旦的一些事情</div>
+                                <div class="ny_itemTag">[2015-12-25]</div>
+                            </li>
+							<li class="ny_listItem">
+                                <div class="ny_itemCon"><span class="ny_itemLabel">[局发公告]</span>关于2016年元旦的一些事情</div>
+                                <div class="ny_itemTag">[2015-12-25]</div>
+                            </li>
+							<li class="ny_listItem">
+                                <div class="ny_itemCon"><span class="ny_itemLabel">[局发公告]</span>关于2016年元旦的一些事情</div>
+                                <div class="ny_itemTag">[2015-12-25]</div>
+                            </li>
+							<li class="ny_listItem">
+                                <div class="ny_itemCon"><span class="ny_itemLabel">[局发公告]</span>关于2016年元旦的一些事情</div>
+                                <div class="ny_itemTag">[2015-12-25]</div>
+                            </li>
+							<li class="ny_listItem">
+                                <div class="ny_itemCon"><span class="ny_itemLabel">[局发公告]</span>关于2016年元旦的一些事情</div>
+                                <div class="ny_itemTag">[2015-12-25]</div>
+                            </li>
+							<li class="ny_listItem">
+                                <div class="ny_itemCon"><span class="ny_itemLabel">[局发公告]</span>关于2016年元旦的一些事情</div>
+                                <div class="ny_itemTag">[2015-12-25]</div>
+                            </li>
+							<li class="ny_listItem">
+                                <div class="ny_itemCon"><span class="ny_itemLabel">[局发公告]</span>关于2016年元旦的一些事情</div>
+                                <div class="ny_itemTag">[2015-12-25]</div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div class="ny_module">
+                    <div class="ny_header"><strong>个人常用链接</strong><a class="ny_more">更多 >></a></div>
+                    <div class="ny_body">
+                        <ul class="ny_list">
+                            <li class="ny_listItem">
+                                <div class="ny_itemCon icon">关于2016年元旦的一些事情</div>
+                                <div class="ny_itemTag">[2015-12-25]</div>
+                            </li>
+                            <li class="ny_listItem">
+                                <div class="ny_itemCon icon">关于2016年元旦的一些事情</div>
+                                <div class="ny_itemTag icon">[2015-12-25]</div>
+                            </li>
+                            <li class="ny_listItem">
+                                <div class="ny_itemCon icon">关于2016年元旦的一些事情</div>
+                                <div class="ny_itemTag">[2015-12-25]</div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="ny_module">
+                    <div class="ny_header"><strong>网上调查</strong><a class="ny_more">更多 >></a></div>
+                    <div class="ny_body">
+                    </div>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td style="border:none">
+                <table cellspacing="0px" style=" border-collapse:collapse;table-layout: fixed;">
+                    <tr>
+                        <td class="ny_indexItem2 ny_color_blue1" style="background-image: url(img/shortmenu_pm.png);background-size:50px;">
+                            <span class="ny_indexItemText">
+                                项目管理<br><b>Project Management</b>
+                            </span>
+                        </td>
+                        <td class="ny_indexItem2 ny_color_blue2" style="background-image: url(img/shortmenu_im.png);background-size:50px;background-color: #DDEEFE;">
+                            <span class="ny_indexItemText" style="color: #002FAB;">
+                                综合管理<br><b>Integrated Management</b>
+                            </span>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+            <td>
+                <div class="ny_module">
+                    <div class="ny_header"><strong>论坛</strong><a class="ny_more">更多 >></a></div>
+                    <div class="ny_body">
+                        <ul class="ny_list">
+                            <li class="ny_listItem">
+                                <div class="ny_itemCon icon">关于2016年元旦的一些事情</div>
+                                <div class="ny_itemTag">[2015-12-25]</div>
+                            </li>
+                            <li class="ny_listItem">
+                                <div class="ny_itemCon icon">关于2016年元旦的一些事情</div>
+                                <div class="ny_itemTag icon">[2015-12-25]</div>
+                            </li>
+                            <li class="ny_listItem">
+                                <div class="ny_itemCon icon">关于2016年元旦的一些事情</div>
+                                <div class="ny_itemTag">[2015-12-25]</div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>

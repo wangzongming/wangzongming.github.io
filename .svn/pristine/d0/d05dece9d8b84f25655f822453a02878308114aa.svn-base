@@ -1,0 +1,290 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="keywords" content="">
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="format-detection" content="telephone=no" />
+<meta name="x5-orientation" content="portrait">
+<link href="css/normalize.css" rel="stylesheet" />
+<link href="css/swiper-3.3.1.min.css" rel="stylesheet" />
+<link href="css/main.css" rel="stylesheet" />
+<link href="css/visual-system.css" rel="stylesheet" />
+<title>视觉系统</title>
+</head>
+
+<body class="hui">
+<header>
+  <img src="img/logo.jpg" alt="誉洋LOGO" class="logo"/>
+  <div class="btn">
+  <span class="search"></span>
+  <span class="menu"></span>
+  </div>
+</header>
+<nav class="nav">
+     <ul class="nav_swift">
+       <li class="on" onclick="location.href='index.html'">主页</li>
+       <li onclick="location.href='product.html'">产品中心</li>
+       <li onclick="location.href='plan.html'">解决方案</li>
+       <li onclick="location.href='apply.html'">应用领域</li>
+       <li onclick="location.href='support.html'">服务支持</li>
+       <li onclick="location.href='news.html'">新闻中心</li>
+       <li onclick="location.href='aboutus.html'">关于我们</li>
+     </ul>
+</nav>
+<nav class="nav_code">
+  <div>
+  <img src="img/qrCode.png"/>
+  </div>
+</nav>
+<div class="content" style="padding-bottom:0;">
+ <div class="search_input" style="display:none;">
+    <input  type="text"/>
+    <span class="search_btn"><img src="img/search2.jpg"/></span>
+ </div>
+ 
+  <!-- banner开始-->
+  <div class="swiper-container" id="banner">
+        <div class="swiper-wrapper">
+            <!--<div class="swiper-slide">1</div>-->
+            <div class="swiper-slide"><img src="img/visual-system-1/w-banner.png"/></div>
+        </div>
+        <!-- Add Pagination -->
+        <!-- <div class="swiper-pagination"></div> -->
+    </div>
+   <!-- banner结束--> 
+   
+   <!-- 内容 -->
+   <!-- 公司简介 -->
+   <section>
+      <p class="article border w-brief">
+            荣洋与英国科研机构联科研发的KINEYE&reg;机器视觉系统，可明显改善所有制造流程，在产品生产和配送过程中
+            引导、测量、识别产品并确保其质量，以跟高的速度和更低的成本帮助企业生产出无缺陷的产品。帮组制造企业
+            提升产品质量、升高生产率而增加市场竞争力。
+      </p>
+   </section>
+
+   <!-- 功能简介 -->
+   <section>
+        <div class="w-top-img">
+            <img src="./img/visual-system-1/img20.gif" alt="">
+        </div>
+        <h3 class="title">精准定位、抓取、码垛</h3>
+        <p class="article border w-desc">
+            机器人增加3D视觉识别系统，
+            利用机器视觉对图像进行处理、分析和理解，
+            以各种不同模式的目标和对象，
+            能够快速准确的找到被测零件并确认其位置，
+            上下料使用机器视觉来定位，
+            引导机器手臂精确抓取，
+            实现精准的智能化作业
+        </p>
+   </section>
+
+   <section>
+        <div class="w-top-img">
+            <img src="./img/visual-system-1/img1.gif" alt="">
+        </div>
+        <h3 class="title">产品外观、尺寸,360&deg;在线100%检测</h3>
+        <p class="article border w-desc">
+            KINEYE&reg;3D视觉系统以其便捷性和高精度性，
+            为复杂产品的检测、分析与修正，提供一种新型且实用的方法。
+            对产品尺寸检测、部件外观缺陷检测等、不仅可完全代替人工，而且
+            能实现360&deg;在线100%检测，KINEYE&reg;3D视觉系统，
+            精度能够达到0.01~0.02m甚至达到u级，同时，可以到达数据的追溯
+            和采集的目的。
+        </p>
+   </section>
+
+   <section>
+        <div class="w-top-img">
+            <img src="./img/visual-system-1/img3.gif" alt="">
+        </div>
+        <h3 class="title">ORC转码识别</h3>
+        <p class="article padding-b-2 w-desc">
+            在任何应用和环境下，均可快速、准确地完成光学字符识别。
+            全方位识别技术，可实现ICR（手写）、条码、Form表单识别以及
+            区域识别等，并将各种扫描文件和图片变为可搜索、
+            可编辑的格式，超快速的识别速度下仍可达到接近100%的识别精度
+            ，8秒内即可识别完一张A4纸的内容。多种识别语言支持，更容易
+            满足全球客户的需求
+        </p>
+   </section>
+
+   <!-- 难点攻克 -->
+   <section class="bg-white">
+        <h3 class="title-orange">难点攻克</h3>
+        <p class="article  w-desc">
+            <ul>
+                <li  class="article border w-desc">
+                    <h3 class="w-tit">不受环境光线干扰</h3>
+                    能够可靠地测具有各种色彩和表面的物体；即使物体的色彩和表面不断变化，
+                    较强的环境光也不影响测量。
+                </li>
+                <li  class="article border w-desc">
+                    <h3 class="w-tit">精准几何数据，可达到u级</h3>
+                    能完成边缘定位、测量面间隙差、测量宽度、高度、间距、定位孔距
+                    、表面质量等类特征，检测精度可达到u级
+                </li>
+                <li  class="article padding-b-2 w-desc">
+                    <h3 class="w-tit">设备使用要求限制低</h3>
+                    <div>
+                        只要对准物体拍摄图像即可，具有高精度，非接触，高便捷。智能处理等优点。
+                    </div>
+                </li>
+            </ul>
+        </p>
+   </section>
+
+   <!-- 部件以及零部件制造 -->
+   <section>
+        <h3 class="title-orange">汽车及零部件制造</h3>
+        <div>
+            <h3 class="noline-title">各类代码自动识别</h3>
+            <p class="article  w-desc">
+                气缸盖、凸轮轴、曲轴上的数据矩阵代码读出，各种
+                部件的OCR分析，各类部件上的生产数字代码验证曲轴上的数据矩阵代
+            </p>
+            <div class="w-bottom-img">
+                <img src="./img/visual-system-1/other.jpg" alt="">
+            </div>
+        </div>
+        
+        <div>
+            <h3 class="noline-title">各类部件自动抓取、装卸</h3>
+            <p class="article  w-desc">
+                    在生产线各流转工序之间，取卸
+                    各类部件时3D位置识别对在各种
+                    状态下的各类部件的精准抓取、
+                    分配、摆放	
+            </p>
+            <div class="w-bottom-img">
+                <img src="./img/visual-system-1/img22.gif" alt="">
+            </div>
+        </div>
+
+        <div>
+            <h3 class="noline-title">部件在线测量</h3>
+            <p class="article  w-desc">
+                    不运转和运转的生产工序中用固定的或者安装在机器人的灵活传感器准确的
+                    测出部件的几何图形，可实现100%在线测量
+            </p>
+            <div class="w-bottom-img">
+                <img src="./img/visual-system-1/img21.gif" alt="">
+            </div>
+        </div>
+        <div>
+            <h3 class="noline-title">各类部件装配</h3>
+            <p class="article  w-desc">
+                    列如汽车门，车盖，车顶和其他部件的自动化装配的3D位置识别
+            </p>
+            <div class="w-bottom-img">
+                <img src="./img/visual-system-1/img23.gif" alt="">
+            </div>
+        </div>
+        <div class="">
+            <h3 class="noline-title">表面在线检测</h3>
+            <p class="article  w-desc">
+                    各种凹凸痕的检测、控制、可实现在线100%检测
+            </p>
+            <div class="w-bottom-img">
+                <img src="./img/visual-system-1/img5.gif" alt="">
+            </div>
+        </div>
+   </section>
+
+   <!-- 食品医药行业 -->
+   <section  class="bg-white">
+        <h3 class="title-orange">食品/医药行业	</h3>
+        <div>
+            <h3 class="noline-title"> <div class="num">01</div> 胶囊外观检测 </h3>
+            <div class="w-bottom-img">
+                <img src="./img/visual-system-1/img6.gif" alt="">
+            </div>
+        </div>
+        <div>
+            <h3 class="noline-title"> <div class="num">02</div> 玻璃瓶口缺陷检测 </h3>
+            <div class="w-bottom-img">
+                <img src="./img/visual-system-1/img7.gif" alt="">
+            </div>
+        </div>
+        <div>
+            <h3 class="noline-title"> <div class="num">03</div> 药片表面黑点破损检测 </h3>
+            <div class="w-bottom-img" style="margin-bottom:0;padding-bottom:1rem;">
+                <img src="./img/visual-system-1/img8.gif" alt="">
+            </div>
+        </div>
+        
+    </section>
+     <!-- 电子行业 -->
+    <section  class="bg-white" style="padding-bottom:3.5rem;">
+        <h3 class="title-orange">电子产品行业	</h3>
+        <div>
+            <h3 class="noline-title"> <div class="num">01</div> 形状检测 </h3>
+            <div class="w-bottom-img">
+                <img src="./img/visual-system-1/img14.gif" alt="">
+            </div>
+        </div>
+        <div>
+            <h3 class="noline-title"> <div class="num">02</div> 表面检测 </h3>
+            <div class="w-bottom-img">
+                <img src="./img/visual-system-1/img15.gif" alt="">
+            </div>
+        </div>
+        <div>
+            <h3 class="noline-title"> <div class="num">03</div> 字符检测 </h3>
+            <div class="w-bottom-img">
+                <img src="./img/visual-system-1/img16.gif" alt="">
+            </div>
+        </div>
+    
+     <!-- 工厂自动化应用 -->
+        <h3 class="title-orange">工厂自动化应用</h3>
+        <div>
+            <h3 class="noline-title"> <div class="num">01</div> 自动堆垛和卸垛 </h3>
+            <div class="w-bottom-img">
+                <img src="./img/visual-system-1/img17.gif" alt="">
+            </div>
+        </div>
+        <div>
+            <h3 class="noline-title"> <div class="num">02</div> 传送带追踪 </h3>
+            <div class="w-bottom-img">
+                <img src="./img/visual-system-1/img18.gif" alt="">
+            </div>
+        </div>
+        <div class="padding-b-3">
+            <h3 class="noline-title"> <div class="num">03</div> 组件装配 </h3>
+            <div class="w-bottom-img">
+                <img src="./img/visual-system-1/img2.png" alt="">
+            </div>
+        </div>
+        
+    </section>
+
+
+
+
+
+<!-- /内容 -->
+
+</div>
+<footer>
+ <ul class="footer_nav">
+   <li><img src="img/footer_nav1.jpg"/>一键通话</li>
+   <li class="follow"><img src="img/footer_nav2.jpg"/>关注订阅号</li>
+   <li onclick="location.href='contact.html'"><img src="img/footer_nav3.jpg"/>联系方式</li>
+   <li><img src="img/footer_nav4.jpg"/>地图导航</li>
+ </ul>
+</footer>
+
+</body>
+</html>
+<script src="js/size.js"></script>
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/swiper-3.3.1.jquery.min.js"></script>
+<script src="js/jquery.transit.min.js"></script>
+<script src="js/main.js"></script>

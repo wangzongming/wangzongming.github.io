@@ -1,0 +1,101 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title></title>
+    <link href="css/main.css" rel="stylesheet" />
+    <script src="js/jquery-1.9.1.min.js"></script>
+    <script src="js/index.js"></script>
+    <link href="css/swiper.min.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="header">
+        <div class="inner">
+            <div class="top">
+                <span>
+                    <a href="javascript:void(0)" onclick="shoucang(document.title,window.location)"><em class="collection">收藏味争鲜</em></a>|<em class="weixin" id="weixin">
+                        <strong>关注微信</strong><dl id="weixin_code" style="display: none;">
+                            <dt>味争鲜微信公众号</dt>
+                            <dd><img src="img/pr_weixin_top.png" width="105" height="105"></dd>
+                        </dl>
+                    </em>
+                </span>hi，欢迎光临味争鲜！
+            </div>
+            <a href="index.html" class="logo">
+                <img src="img/logo.png" width="350" height="105" alt="味争鲜" id="home" class="logo_img">
+            </a>
+
+            <div class="nav" id="nav">
+                <ul>
+                    <li class=""><a href="index.html">首页<span>HOME</span></a></li>
+                    <li class=""><a href="aboutUs.html">关于我们<span>ABOUT US</span></a></li>
+                    <li class=""><a href="ournews.html">媒体报道<span>OUR NEWS</span></a></li>
+                    <li class=""><a href="base.html">契约基地<span>BASE</span></a></li>
+                    <li class=""><a href="onlineSale.html">销售网络<span>ONLINE SALE</span></a></li>
+                    <li class=""><a href="partner.html">合作伙伴<span>PARTNER</span></a></li>
+                    <li class="current"><a href="contact.html">联系我们<span>CONTACT</span></a></li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+
+    <!--联系我们-->
+    <div class="contain">
+        <div class="contactus">
+            <div class="inner">
+                <h2><strong><span>联系我们</span><span>CONTACT US</span></strong><em class="h2_bar"></em></h2>
+                <div class="contact">
+                    <div class="swiper-container" id="s3">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="img/map.jpg"/>
+                            </div><div class="swiper-slide">
+                                <img src="img/map.jpg"/>
+                            </div><div class="swiper-slide">
+                                <img src="img/map.jpg"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next" id="swiper-button-next3" style=" "></div>
+                    <div class="swiper-button-prev" id="swiper-button-prev3" style=" "></div>
+                </div>
+                <div class="contact_msg" id="contact_msg">
+                    <span>地址：辽宁省大连市高新园区高新街3号楼</span><em>|</em><span>电话：0411-86897887</span><em>|</em><span>邮编：116001</span>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="inner">
+            味争鲜（大连）科技有限公司辽ICP备13005630号-2 增值电信业务经营许可证： 辽B2-20140019
+        </div>
+    </div>
+    <script src="js/swiper.jquery.min.js"></script>
+    <script>
+        $(function () {
+            var swiper3 = new Swiper('#s3', {
+                nextButton: '#swiper-button-next3',
+                prevButton: '#swiper-button-prev3',
+                onSlideChangeEnd: function (swiper) {
+                    switch (swiper.activeIndex) {
+                        case 0:
+                            $("#contact_msg").html("<span>地址1：辽宁省大连市高新园区高新街3号楼</span><em>|</em><span>电话1：0411-86897887</span><em>|</em><span>邮编：116001</span>")
+                            break;
+                        case 1:
+                            $("#contact_msg").html("<span>地址2：辽宁省大连市高新园区高新街3号楼</span><em>|</em><span>电话2：0411-86897887</span><em>|</em><span>邮编：116001</span>")
+                            break;
+                        case 2:
+                            $("#contact_msg").html("<span>地址3：辽宁省大连市高新园区高新街3号楼</span><em>|</em><span>电话3：0411-86897887</span><em>|</em><span>邮编：116001</span>")
+                            break;
+                    }
+                }
+            });
+        })
+    </script>
+
+
+</body>
+</html>

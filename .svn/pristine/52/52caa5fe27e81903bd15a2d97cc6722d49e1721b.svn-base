@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="zh_CN">
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Set render engine for 360 browser -->
+    <meta name="renderer" content="webkit">
+    <meta charset="utf-8">
+    <title>网络营销管理系统</title>
+    <meta name="keywords" content="大巴科技网络营销管理系统">
+    <meta name="description" content="大巴科技网络营销管理系统">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="statics/lny/normalize.css" rel="stylesheet">
+    <link href="statics/lny/main.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="page cl">
+        <!--页面左部分-->
+        <section class="page-l">
+            <!--顶部start-->
+            <section class="tj-hd mb-10 cl">
+                <!--账号粉丝start-->
+                <section class="tj-hd-l">
+                    <article class="panel cl">
+
+                        <!--账号start-->
+                        <section class="f-l" style="width:60%">
+                            <header class="panel-h"><span>账号概况</span></header>
+                            <article class="panel-c pt-0">
+                                <div class="tj-zh corFt-white">
+                                    <div>总粉丝数</div>
+                                    <div class="nowrap" style="font-size:50px;">25869</div>
+                                    <div class="nowrap">距离10万粉丝还差<span class="corFt-yellow" style="font-size:20px">74131</span>个粉丝</div>
+                                </div>
+                            </article>
+                        </section>
+                        <!--账号end-->
+                        <!--粉丝start-->
+                        <section class="f-l" style="width:40%">
+                            <header class="panel-h pl-0"><span>粉丝变化</span></header>
+                            <article class="panel-c pl-0 pt-0">
+                                <ul class="tj-fs">
+                                    <li class="cl corFt-white corBg-blue">
+                                        <div class="f-l nowrap">今日新增粉丝</div>
+                                        <div class="f-l nowrap">
+                                            <span class="num">1234</span>个
+                                        </div>
+                                    </li>
+                                    <li class="cl">
+                                        <div class="f-l nowrap">今日取消粉丝</div>
+                                        <div class="f-l nowrap">
+                                            <span class="corFt-red num">1</span>个
+                                        </div>
+                                    </li>
+                                    <li class="cl">
+                                        <div class="f-l nowrap">净增粉丝</div>
+                                        <div class="f-l nowrap">
+                                            <span class="corFt-gray num">0</span>个
+                                        </div>
+                                    </li>
+                                </ul>
+                            </article>
+                        </section>
+                        <!--粉丝end-->
+                    </article>
+                </section>
+                <!--账号粉丝end-->
+                <!--待办start-->
+                <section class="tj-hd-r">
+                    <section class="panel">
+                        <header class="panel-h"><span>待办事项</span></header>
+                        <article class="panel-c pt-0">
+                            <ul class="tj-db">
+                                <li class="cl">
+                                    <div class="f-l nowrap">待联络</div>
+                                    <div class="f-l">
+                                        <a href="#" class="corFt-blue num">1234</a>
+                                    </div>
+                                </li>
+                                <li class="cl">
+                                    <div class="f-l nowrap">待支付</div>
+                                    <div class="f-l">
+                                        <a href="#" class="corFt-blue num">1</a>
+                                    </div>
+                                </li>
+                                <li class="cl">
+                                    <div class="f-l nowrap">待兑换</div>
+                                    <div class="f-l">
+                                        <a href="#" class="corFt-gray num">0</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </article>
+                    </section>
+                </section>
+                <!--待办end-->
+            </section>
+            <!--顶部end-->
+            <!--分析图表start-->
+            <section class="panel tab-box mb-10" id="lnyTab2">
+                <header class="panel-n">
+                    <ul class="cl" style="width:400px">
+                        <li class="f-l tab-btn cur">用户分析</li>
+                        <li class="f-l tab-btn">报名分析</li>
+                        <li class="f-l tab-btn">支付分析</li>
+                        <li class="f-l tab-btn">兑换分析</li>
+                    </ul>
+                </header>
+                <article class="panel-c">
+                    <div class="tab-con">
+                        用户分析图表内容<br>
+                        <img width="100%" src="tempImg/123.png" />
+                    </div>
+                    <div class="tab-con">
+                        报名分析图表内容<br>
+                        <img width="100%" src="tempImg/123.png" />
+                    </div>
+                    <div class="tab-con">
+                        支付分析图表内容<br>
+                        <img width="100%" src="tempImg/123.png" />
+                    </div>
+                    <div class="tab-con">
+                        兑换分析图表内容<br>
+                        <img width="100%" src="tempImg/123.png" />
+                    </div>
+                </article>
+            </section>
+            <!--分析图表end-->
+            <!--表格start-->
+            <section class="panel mb-10">
+                <article class="panel-c">
+                    <form class="cl formBox">
+                        <div class="f-l formItem">
+                            <label>产品分类</label>
+                            <select>
+                                <option value="0">产品分类</option>
+                                <option value="1">产品分类</option>
+                            </select>
+                            <select>
+                                <option value="0">产品分类</option>
+                                <option value="1">产品分类</option>
+                            </select>
+                        </div>
+                        <div class="f-l formItem">
+                            <label>产品分类</label>
+                            <select>
+                                <option value="0">产品分类</option>
+                                <option value="1">产品分类</option>
+                            </select>
+                        </div>
+                        <div class="f-l formItem">
+                            <label>产品分类</label>
+                            <select>
+                                <option value="0">产品分类</option>
+                                <option value="1">产品分类</option>
+                            </select>
+                        </div>
+                        <div class="f-l formItem">
+                            <button onclick="">查询</button>
+                        </div>
+                        <div class="f-l formItem">
+                            <button class="btn-default" onclick="">导出</button>
+                        </div>
+                    </form>
+                    <div class="tableBox">
+                        <table class="table">
+                            <thead class="thead">
+                                <tr>
+                                    <th align="left" class="th">订单号</th>
+                                    <th align="left" class="th">产品</th>
+                                    <th align="right" class="th">原价</th>
+                                    <th align="right" class="th">应付金额</th>
+                                    <th align="right" class="th">操作</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td align="left" class="td">200889238900466</td>
+                                    <td align="left" class="td">云服务器</td>
+                                    <td align="right" class="td corFt-orange">62.3</td>
+                                    <td align="right" class="td corFt-orange">62.3</td>
+                                    <td align="right" class="td corFt-blue"><a href="#">详情</a></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </article>
+            </section>
+            <!--表格end-->
+        </section>
+        <!--页面右部分-->
+        <aside class="page-r">
+            <!--动态start-->
+            <section class="panel tab-box mb-10" id="lnyTab1">
+                <header class="panel-n">
+                    <ul class="cl">
+                        <li class="f-l tab-btn fs-12">新产品快报</li>
+                        <li class="f-l tab-btn fs-12">最新课程</li>
+                        <li class="f-l tab-btn fs-12">工具下载</li>
+                        <li class="f-l tab-btn fs-12">大巴动态</li>
+                    </ul>
+                </header>
+                <article class="panel-c">
+                    <div class="tab-con tj-dt">
+                        <ul>
+                            <li class="nowrap"><a href="#">6月16日，SHOW&秀功能通过内部测试正式上线</a></li>
+                            <li class="nowrap"><a href="#">6月26日，疯狂的海报对接红包</a></li>
+                            <li class="nowrap"><a href="#">6月29日，超集团功能</a></li>
+                        </ul>
+                        <a class="c-more corFt-blue">更多</a>
+                    </div>
+                    <div class="tab-con tj-dt">
+                        <ul>
+                            <li class="nowrap"><a href="#">6月16日，SHOW&秀功能通过内部测试正式上线</a></li>
+                            <li class="nowrap"><a href="#">6月29日，超集团功能</a></li>
+                        </ul>
+                        <a class="c-more corFt-blue">更多</a>
+                    </div>
+                    <div class="tab-con tj-dt">
+                        <ul>
+                            <li class="nowrap"><a href="#">6月26日，疯狂的海报对接红包</a></li>
+                            <li class="nowrap"><a href="#">6月29日，超集团功能</a></li>
+                        </ul>
+                        <a class="c-more corFt-blue">更多</a>
+                    </div>
+                    <div class="tab-con tj-dt">
+                        <ul>
+                            <li class="nowrap"><a href="#">6月16日，SHOW&秀功能通过内部测试正式上线</a></li>
+                        </ul>
+                        <a class="c-more corFt-blue">更多</a>
+                    </div>
+                </article>
+            </section>
+            <!--动态end-->
+            <!--常用功能start-->
+            <section class="panel">
+                <header class="panel-h">
+                    <span>常用功能</span>
+                    <a href="#" class="h-more corFt-blue">查看更多</a>
+                </header>
+                <article class="panel-c">
+                    <ul class="tj-cy">
+                        <li class="mb-10">
+                            <img src="tempImg/123.png" />
+                        </li>
+                        <li class="mb-10">
+                            <img src="tempImg/123.png" />
+                        </li>
+                        <li class="mb-10">
+                            <img src="tempImg/123.png" />
+                        </li>
+                    </ul>
+                </article>
+            </section>
+            <!--常用功能end-->
+        </aside>
+    </div>
+    <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.js"></script>
+    <script src="statics/lny/main.js"></script>
+    <script>
+        $("#lnyTab1").LnyTab()
+        $("#lnyTab2").LnyTab()
+    </script>
+</body>
+
+</html>

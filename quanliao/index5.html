@@ -1,0 +1,156 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+    <title>5</title>
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/iscroll-probe.js"></script>
+    <link href="css/main.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/weui.min.css" />
+    <style>
+        .weui-loadmore { width: 65%; margin: 1.5em auto; line-height: 1.6em; font-size: 14px; text-align: center; list-style: none; }
+        .weui-loadmore__tips { display: inline-block; vertical-align: middle; }
+        .weui-loadmore_line { border-top: 1px solid #E5E5E5; margin-top: 2.4em; }
+            .weui-loadmore_line .weui-loadmore__tips { position: relative; top: -0.9em; padding: 0 .55em; background-color: #FFFFFF; color: #999999; }
+        .weui-loadmore_dot .weui-loadmore__tips { padding: 0 .16em; }
+            .weui-loadmore_dot .weui-loadmore__tips:before { content: " "; width: 4px; height: 4px; border-radius: 50%; background-color: #E5E5E5; display: inline-block; position: relative; vertical-align: 0; top: -0.16em; }
+    </style>
+    <script type="text/javascript">
+        var myScroll;
+        var updatenum;
+        var updatenum_max = 100;//下拉触发update状态更新的最大值
+        var update = false;//是否可以刷新
+        var ahref = true;//是否可以跳转页面
+
+        function updatePosition() {//这个方法只是文字提示更新
+            updatenum = this.y >> 0
+            if (!update) {
+                if (updatenum > updatenum_max) {
+                    $("#tip").html("松手刷新")
+                } else {
+                    $("#tip").html("下拉刷新")
+                }
+            } else {
+                $("#tip").html("正在刷新...")
+            }
+        }
+
+        function loaded() {
+            myScroll = new IScroll('#wrapper', { probeType: 3 });
+            myScroll.on('scroll', updatePosition);
+            myScroll.on('scrollEnd', function () { update = false; ahref = true; });
+        }
+
+        document.addEventListener('touchmove', function (e) { e.preventDefault(); ahref = false; }, false);
+        document.addEventListener('touchend', function (e) {
+            if (updatenum > updatenum_max) {
+                update = true;
+                //刷新事件在这里写；
+                myScroll.refresh()
+            }
+        }, false);
+    </script>
+    <style>
+        #tip { position: absolute; width: 100%; text-align: center; top: 44px; line-height: 44px; }
+        #scroller { position: absolute; z-index: 5; width: 100%; -webkit-transform: translateZ(0); -moz-transform: translateZ(0); -ms-transform: translateZ(0); -o-transform: translateZ(0); transform: translateZ(0); -webkit-touch-callout: none; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; -webkit-text-size-adjust: none; -moz-text-size-adjust: none; -ms-text-size-adjust: none; -o-text-size-adjust: none; text-size-adjust: none; }
+    </style>
+</head>
+<body ontouchstart onload="loaded()">
+    <div class="container" id="container">
+        <div class="weui_tab">
+            <div class="weui_search_bar" id="search_bar" style="z-index:10;">
+                <form class="weui_search_outer">
+                    <div class="weui_search_inner">
+                        <i class="weui_icon_search"></i>
+                        <input type="search" class="weui_search_input" id="search_input" placeholder="搜索" required="">
+                        <a href="javascript:" class="weui_icon_clear" id="search_clear"></a>
+                    </div>
+                    <label for="search_input" class="weui_search_text" id="search_text">
+                        <i class="weui_icon_search"></i>
+                        <span>搜索</span>
+                    </label>
+                </form>
+                <a href="javascript:" class="weui_search_cancel" id="search_cancel">取消</a>
+            </div>
+            <div class="weui_tab_bd" style="position:absolute;top:44px;bottom:0;width:100%;height:auto;padding:0;" id="wrapper">
+
+                <div class="weui_media_box weui_media_middle_appmsg" id="scroller" style="min-height:101%;">
+                    <ul class="weui_cells weui_cells_access">
+                        <li class="weui-loadmore weui-loadmore_line"><span class="weui-loadmore__tips">暂无数据，下拉刷新</span></li>
+                        <li class="weui_cell" ontouchend="javascript: if (ahref) { location.href = '#' };">
+                            <!--ontouchend事件来代替onclick来执行跳转等操作-->
+                            <div class="weui_cell_hd"><img src="http://shp.qpic.cn/weixinsrc_pic/pScBR7sbqjOBJomcuvVJ6iacVrbMJaoJZkFUIq4nzQZUIqzTKziam7ibg/"></div>
+                            <div class="weui_cell_bd weui_cell_primary">
+                                <h4 class="weui_media_title">大连智慧林</h4>
+                                <p class="weui_media_desc">吴宏全</p>
+                            </div>
+                            <span class="weui_cell_ft">09.13</span>
+                        </li>
+
+
+
+                        <li class="weui_cell">
+                            <div class="weui_cell_hd"><img src="http://shp.qpic.cn/weixinsrc_pic/pScBR7sbqjOBJomcuvVJ6iacVrbMJaoJZkFUIq4nzQZUIqzTKziam7ibg/"></div>
+                            <div class="weui_cell_bd weui_cell_primary">
+                                <h4 class="weui_media_title">大连智慧林</h4>
+                                <p class="weui_media_desc">吴宏全</p>
+                            </div>
+                            <span class="weui_cell_ft">09.13</span>
+                        </li>
+                        <li class="weui_cell">
+                            <div class="weui_cell_hd"><img src="http://shp.qpic.cn/weixinsrc_pic/pScBR7sbqjOBJomcuvVJ6iacVrbMJaoJZkFUIq4nzQZUIqzTKziam7ibg/"></div>
+                            <div class="weui_cell_bd weui_cell_primary">
+                                <h4 class="weui_media_title">大连智慧林</h4>
+                                <p class="weui_media_desc">吴宏全</p>
+                            </div>
+                            <span class="weui_cell_ft">09.13</span>
+                        </li>
+                        <li class="weui_cell">
+                            <div class="weui_cell_hd"><img src="http://shp.qpic.cn/weixinsrc_pic/pScBR7sbqjOBJomcuvVJ6iacVrbMJaoJZkFUIq4nzQZUIqzTKziam7ibg/"></div>
+                            <div class="weui_cell_bd weui_cell_primary">
+                                <h4 class="weui_media_title">大连智慧林</h4>
+                                <p class="weui_media_desc">吴宏全</p>
+                            </div>
+                            <span class="weui_cell_ft">09.13</span>
+                        </li>
+                        <li class="weui_cell">
+                            <div class="weui_cell_hd"><img src="http://shp.qpic.cn/weixinsrc_pic/pScBR7sbqjOBJomcuvVJ6iacVrbMJaoJZkFUIq4nzQZUIqzTKziam7ibg/"></div>
+                            <div class="weui_cell_bd weui_cell_primary">
+                                <h4 class="weui_media_title">大连智慧林</h4>
+                                <p class="weui_media_desc">吴宏全</p>
+                            </div>
+                            <span class="weui_cell_ft">09.13</span>
+                        </li>
+                    </ul>
+                    <a style="padding: 10px 15px;display:block;text-align:center;background-color:#fff;">点击查看更多</a>
+                </div>
+                <div id="tip">继续下拉刷新</div>
+            </div>
+        </div>
+    </div>
+    <script>
+        $('#search_input').on('focus', function () {
+            var $weuiSearchBar = $('#search_bar');
+            $weuiSearchBar.addClass('weui_search_focusing');
+        })
+
+
+        $('#search_input').on('blur', function () {
+            var $weuiSearchBar = $('#search_bar');
+            $weuiSearchBar.removeClass('weui_search_focusing');
+            if ($(this).val()) {
+                $('#search_text').hide();
+            } else {
+                $('#search_text').show();
+            }
+        })
+        $('#search_cancel').on('touchend', function () {
+            $('#search_input').val('');
+        })
+        $('#search_clear').on('touchend', function () {
+            $('#search_input').val('');
+        });
+    </script>
+</body>
+</html>

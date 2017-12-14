@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="x5-orientation" content="portrait">
+    <link href="../css/frtBase.css" rel="stylesheet" />
+    <title>首页</title>
+    <script src="../js/jquery-2.1.0.js"></script>
+</head>
+
+<body>
+    <style>
+        /*--add style by Lny-start--*/
+
+        body {
+            background-color: #FBF7F5;
+            padding: 10px;
+            font-size: 15px;
+            color: #111;
+        }
+
+        .pro_info li,
+        .per_info_t,
+        .per_info_base li,
+        .que_item dd,
+        .que_item dd label,
+        .con_box {
+            display: -wekit-box;
+            display: flex;
+        }
+
+        .per_info_base,
+        .que_item dd label,
+        .que_item dd label>span.que_opt,
+        .que_item dd label>input.que_text,
+        .con_box .con_item {
+            width: 0;
+            -webkit-box-flex: 1;
+            flex: 1
+        }
+
+        .top_img {
+            display: block;
+            width: 100%;
+            margin-bottom: 8px;
+            box-shadow: 0 0 20px #DED8D1;
+            border-bottom: 2px solid #ddd;
+        }
+
+        .sec_box {
+            background-color: white;
+            padding: 5px 15px;
+            margin-bottom: 8px;
+            border-left: 2px solid #0ebcfb;
+            box-shadow: 0 0 20px #DED8D1;
+            border-bottom: 2px solid #ddd;
+        }
+
+        .pro_h1 {
+            margin: 0;
+            font-weight: bold;
+            font-size: 16px;
+            text-align: center;
+            padding-top: 10px;
+        }
+
+        .pro_info {
+            padding: 10px 0;
+        }
+
+        .pro_info li {
+            line-height: 20px;
+            padding: 2px 0;
+        }
+
+        .pro_info_tit {
+            white-space: nowrap;
+            letter-spacing: 3px;
+        }
+
+        .pro_info_con {
+            color: #333;
+            font-size: 13px;
+        }
+
+        .per_info_t {
+            padding: 5px 0;
+        }
+
+        .per_info_base li {
+            line-height: 24px;
+        }
+
+        .per_info_img {
+            background-color: #FBF7F5;
+            height: 120px;
+            width: 90px;
+            margin-right: 10px;
+        }
+
+        .per_info_img img {
+            display: block;
+            width: 90px;
+            height: 120px;
+        }
+
+        .per_info_tit {
+            white-space: nowrap;
+            letter-spacing: 3px;
+        }
+
+        .per_info_con {
+            text-align: left;
+            color: #333;
+            font-size: 14px;
+        }
+
+        .per_info_m {
+            border-top: 1px dashed #ccc;
+            border-bottom: 1px dashed #ccc;
+            padding: 10px 0;
+            margin: 5px 0;
+        }
+
+        .per_info_mt {
+            font-weight: 500;
+            margin-bottom: 10px;
+            letter-spacing: 3px;
+        }
+
+        .per_info_mp {
+            margin: 0;
+            color: #333;
+            font-size: 12px;
+            line-height: 18px;
+        }
+
+        .per_info_m.hide .per_info_mp {
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+
+        .per_info_b {
+            padding: 10px 0;
+            text-align: center;
+            color: #999;
+            font-size: 14px;
+            -webkit-user-select: none;
+            user-select: none;
+        }
+
+        .per_info_b:active {
+            -webkit-transition: background-color .3s;
+            transition: background-color .3s;
+            background-color: rgba(14, 188, 251, .4);
+        }
+
+        .que_list {
+            padding: 5px 0;
+        }
+
+        .que_item {
+            padding-bottom: 10px;
+            margin-bottom: 10px;
+            border-bottom: 1px dashed #ccc;
+            -webkit-transition: all .3s;
+            transition: all .3s;
+        }
+
+        .que_item.unfilled {
+            background-color: rgba(255, 0, 0, .2);
+            box-shadow: 0 0 5px rgba(255, 0, 0, .2)
+        }
+
+        .que_item dl {
+            margin: 0;
+            text-align: left;
+        }
+
+        .que_item dt.que_tit {
+            padding: 5px 0;
+            position: relative;
+            line-height: 18px;
+        }
+
+        .que_item.must dt.que_tit::before {
+            content: "*";
+            color: red;
+            position: absolute;
+            top: 3px;
+            left: -8px;
+        }
+
+        .que_item dt.que_tit i {
+            font-weight: normal;
+            color: #999;
+            font-style: normal;
+            font-size: 12px;
+        }
+
+        .que_item dd {
+            margin: 0;
+            padding: 4px 15px;
+        }
+
+        .que_item dd label {
+            line-height: 20px;
+        }
+
+
+        .que_item dd label>input,
+        .que_item dd label>span {
+            display: block;
+            font-size: 12px;
+        }
+
+        .que_item dd label>span.que_sub {
+            color: #333;
+        }
+
+        .que_item dd label>span.que_rem {
+            margin-right: 10px;
+        }
+
+        .que_item dd label>input {
+            margin: 0;
+            position: relative;
+            top: 2px;
+            margin-right: 10px;
+        }
+
+        .que_text {
+            outline: none;
+            background-color: transparent;
+        }
+
+        .que_item dd label>input.que_text {
+            border: 0 none;
+            border-bottom: 1px solid #999;
+            margin: 0;
+        }
+
+
+        .con_box .con_item+.con_item {
+            border-left: 1px dashed #ccc;
+        }
+
+        .con_box .con_item .con_btn {
+            padding: 10px 0;
+            text-align: center;
+            margin: 0 5px;
+        }
+
+        .con_box .con_item .con_btn:active {
+            -webkit-transition: background-color .3s;
+            transition: background-color .3s;
+            background-color: rgba(14, 188, 251, .4);
+        }
+        /*--add style by Lny-end--*/
+    </style>
+    <!--顶部图片-->
+    <img src="../img/bg/bg1.jpg" class="top_img" />
+    <!--项目信息-->
+    <section class="sec_box">
+        <h1 class="pro_h1">项目名称</h1>
+        <ul class="pro_info">
+            <li>
+                <div class="pro_info_tit">投票时间:</div>
+                <div class="pro_info_con">2016-02-01-2016-02-10</div>
+            </li>
+            <li>
+                <div class="pro_info_tit">投票规则:</div>
+                <div class="pro_info_con"><a href="">点击查看</a></div>
+            </li>
+            <li>
+                <div class="pro_info_tit">参与人数:</div>
+                <div class="pro_info_con">10/20</div>
+            </li>
+        </ul>
+    </section>
+    <!--参选人信息-->
+    <section class="sec_box">
+        <div class="per_info_t">
+            <div class="per_info_img">
+                <img/>
+            </div>
+            <ul class="per_info_base">
+                <li>
+                    <div class="per_info_tit">姓名:</div>
+                    <div class="per_info_con">王永安</div>
+                </li>
+                <li>
+                    <div class="per_info_tit">项目:</div>
+                    <div class="per_info_con">项目名称项目名称项目名称项目名称项目名称项目名称</div>
+                </li>
+                <li>
+                    <div class="per_info_tit">职务:</div>
+                    <div class="per_info_con">部门主管</div>
+                </li>
+            </ul>
+        </div>
+        <div class="per_info_m hide">
+            <div class="per_info_mt">个人简介:</div>
+            <p class="per_info_mp">
+                个人简介个人简介个人简介个人简介个人简介个人简介个人简介个人简介个人简介个人简介个人简介个人简介个人简介个人简介个人简介个人简介个人简介个人简介个人简介个人简介个人简介个人简介个人简介个人简介个人简介个人简介个人简介个人简介个人简介个人简介个人简介个人简介个人简介个人简介个人简介个人简介个人简介个人简介个人简介个人简介个人简介个人简介个人简介个人简介个人简介个人简介个人简介个人简介个人简介个人简介个人简介个人简介个人简介个人简介个人简介个人简介个人简介个人简介个人简介个人简介个人简介个人简介个人简介个人简介个人简介个人简介
+            </p>
+        </div>
+        <div class="per_info_b" data-state="0">展开更多</div>
+    </section>
+    <!--参选人信息-->
+    <section class="sec_box">
+        <div class="per_info_t">
+            <!--<div class="per_info_img">
+                <img/>
+            </div>-->
+            <ul class="per_info_base">
+                <li>
+                    <div class="per_info_tit">姓名:</div>
+                    <div class="per_info_con"><strong>王永安</strong></div>
+                </li>
+                <li>
+                    <div class="per_info_tit">项目:</div>
+                    <div class="per_info_con">项目名称项目名称项目名称项目名称项目名称项目名称</div>
+                </li>
+                <li>
+                    <div class="per_info_tit">职务:</div>
+                    <div class="per_info_con">部门主管</div>
+                </li>
+            </ul>
+        </div>
+        <div class="per_info_m hide">
+            <div class="per_info_mt">个人简介:</div>
+            <p class="per_info_mp">
+                个人简介个人简介个人简介个人简介个人简介个人简介个人简介个人简介个人简介个人简介个人简介个人简介个人简介个人简介个人简介个人简介个人简介个人简介个人简介个人简介个人简介个人简介个人简介个人简介个人简介个人简介个人简介个人简介个人简介个人简介个人简介个人简介个人简介个人简介个人简介个人简介个人简介个人简介个人简介个人简介个人简介个人简介个人简介个人简介个人简介个人简介个人简介个人简介个人简介个人简介个人简介个人简介个人简介个人简介个人简介个人简介个人简介个人简介个人简介个人简介个人简介个人简介个人简介个人简介个人简介个人简介
+            </p>
+        </div>
+        <div class="per_info_b" data-state="0">展开更多</div>
+    </section>
+    <!--投票选题区-->
+    <section class="sec_box">
+        <ul class="que_list">
+            <!--单选-->
+            <li class="que_item must">
+                <dl>
+                    <dt class="que_tit">1、单选题<i>（单选）</i></dt>
+                    <dd>
+                        <label><input type="radio" name="0" value="0"><span class="que_opt">选项一</span></label>
+                    </dd>
+                    <dd>
+                        <label><input type="radio" name="0" value="1"><span class="que_opt">选项二选项二选项二选项二选项二选项二选项二选项二选项二选项二选项二选项二选项二选项二选项二选项二选项二选项二</span></label>
+                    </dd>
+                    <dd>
+                        <label><input type="radio" name="0" value="2"><span class="que_opt">选项三</span></label>
+                    </dd>
+                </dl>
+            </li>
+            <!--单选-->
+            <li class="que_item must">
+                <dl>
+                    <dt class="que_tit">2、单选题-其他<i>（单选）</i></dt>
+                    <dd>
+                        <label><input type="radio" name="1" value="0"><span class="que_opt">选项一</span></label>
+                    </dd>
+                    <dd>
+                        <label><input type="radio" name="1" value="1"><span class="que_opt">选项二</span></label>
+                    </dd>
+                    <dd>
+                        <label><input type="radio" name="1" value="3"><span class="que_opt">其他</span></label>
+                    </dd>
+                    <dd>
+                        <label><span class="que_rem">其他:</span><input class="que_text" name="1" placeholder="其他" /></label>
+                    </dd>
+                </dl>
+            </li>
+            <!--单选-->
+            <li class="que_item must">
+                <dl>
+                    <dt class="que_tit">3、单选题-副标题<i>（单选）</i></dt>
+                    <dd>
+                        <label><span class="que_sub">说明说明说明说明说明说明说明说明</span></label>
+                    </dd>
+                    <dd>
+                        <label><input type="radio" name="2" value="0"><span class="que_opt">选项一</span></label>
+                    </dd>
+                    <dd>
+                        <label><input type="radio" name="2" value="1"><span class="que_opt">选项二</span></label>
+                    </dd>
+                </dl>
+            </li>
+            <!--单选-->
+            <li class="que_item must">
+                <dl>
+                    <dt class="que_tit">4、单选题-分列<i>（单选）</i></dt>
+
+                    <dd>
+                        <label><input type="radio" name="3" value="0"><span class="que_opt">0分</span></label>
+                        <label><input type="radio" name="3" value="1"><span class="que_opt">1分</span></label>
+                        <label><input type="radio" name="3" value="2"><span class="que_opt">2分</span></label>
+                    </dd>
+                    <dd>
+                        <label><input type="radio" name="3" value="3"><span class="que_opt">3分</span></label>
+                        <label><input type="radio" name="3" value="4"><span class="que_opt">4分</span></label>
+                        <label><input type="radio" name="3" value="5"><span class="que_opt">5分</span></label>
+                    </dd>
+                    <dd>
+                        <label><input type="radio" name="3" value="6"><span class="que_opt">6分</span></label>
+                        <label><input type="radio" name="3" value="7"><span class="que_opt">7分</span></label>
+                        <label><!--其他行都是3个，该行不满3个，留空label占位--></label>
+                    </dd>
+                </dl>
+            </li>
+            <!--多选-->
+            <li class="que_item must">
+                <dl>
+                    <dt class="que_tit">5、多选题-必选<i>（多选）</i></dt>
+                    <dd>
+                        <label><input type="checkbox" name="4"><span>选项一</span></label>
+                    </dd>
+                    <dd>
+                        <label><input type="checkbox" name="4"><span>选项二</span></label>
+                    </dd>
+                    <dd>
+                        <label><span class="que_rem">备注:</span><input class="que_text" placeholder="备注" /></label>
+                    </dd>
+                </dl>
+            </li>
+            <!--多选-->
+            <li class="que_item">
+                <dl>
+                    <dt class="que_tit">6、多选题-非必选<i>（多选）</i></dt>
+                    <dd>
+                        <label><input type="checkbox" name="5"><span>选项一</span></label>
+                    </dd>
+                    <dd>
+                        <label><input type="checkbox" name="5"><span>选项二</span></label>
+                    </dd>
+                    <dd>
+                        <label><span class="que_rem">备注:</span><input class="que_text" name="4" placeholder="备注" /></label>
+                    </dd>
+                </dl>
+            </li>
+            <!--简答-->
+            <li class="que_item">
+                <dl>
+                    <dt class="que_tit">7、问答题<i>（问答）</i></dt>
+                    <dd>
+                        <label><span class="que_sub">副标题副标题副标题副标题副标题副标题副标题副标题副标题副标题副标题副标题副标题副标题副标题</span></label>
+                    </dd>
+                    <dd>
+                        <label><textarea class="que_text" rows="4" cols="100%" name="6" placeholder="请输入内容"></textarea></label>
+                    </dd>
+                </dl>
+            </li>
+        </ul>
+    </section>
+    <!--控制按钮区-->
+    <section class="sec_box">
+        <div class="con_box">
+            <div class="con_item">
+                <div class="con_btn">重答</div>
+            </div>
+            <div class="con_item">
+                <div class="con_btn con_submit">下一页</div>
+            </div>
+        </div>
+    </section>
+    <!--控制按钮区-->
+    <section class="sec_box">
+        <div class="con_box">
+            <div class="con_item">
+                <div class="con_btn">上一页</div>
+            </div>
+            <div class="con_item">
+                <div class="con_btn">重答</div>
+            </div>
+            <div class="con_item">
+                <div class="con_btn con_submit">下一页</div>
+            </div>
+        </div>
+    </section>
+    <!--控制按钮区-->
+    <section class="sec_box">
+        <div class="con_box">
+            <div class="con_item">
+                <div class="con_btn con_submit">提交</div>
+            </div>
+        </div>
+    </section>
+    <script>
+        $(function () {
+            var unfilled = [];//未选题目的索引值
+
+            $(".per_info_b").click(function () {
+                if ($(this).attr("data-state") == 0) {
+                    $(this).attr("data-state", "1").text("收起更多")
+                    $(this).prev(".per_info_m").removeClass("hide")
+                } else {
+                    $(this).attr("data-state", "0").text("展开更多")
+                    $(this).prev(".per_info_m").addClass("hide")
+                }
+
+            })
+            $(".que_item").click(function () {
+                $(this).removeClass("unfilled")
+            })
+            $(".con_submit").click(function () {
+                unfilled = [];
+                // 判断是否成果获取答题数据，把没有填写的题目push进unfilled,例如unfilled.push(0)
+                unfilled.push(0)//第1个未选
+                unfilled.push(1)//第2个未选
+                unfilled.push(6)//第7个未选
+
+
+                var items = $(".que_item");
+                items.removeClass("unfilled")
+                for (var i = 0; i < unfilled.length; i++) {
+                    items.eq(unfilled[i]).addClass("unfilled");
+                }
+                var h = items.eq(unfilled[0]).offset().top - 50;
+                $("html, body").animate({ scrollTop: h }, 300);
+            })
+        })
+    </script>
+</body>
+
+</html>

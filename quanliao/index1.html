@@ -1,0 +1,111 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+    <title>1</title>
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <link href="css/main.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/weui.min.css" />
+</head>
+<body ontouchstart>
+    <div class="container">
+        <div class="weui_cells " style="margin-top:0;">
+            <div class="weui_cell">
+                <div class="weui_cell_bd  weui_cell_primary">
+                    <input class="weui_input" placeholder="请输入聊天室名称" />
+                </div>
+            </div>
+        </div>
+        <div class="weui_cells_title">
+            创建人
+        </div>
+        <div class="weui_cells weui_cells_access ">
+            <div class="weui_cell">
+                <div class="weui_cell_bd  weui_cell_primary">
+                    <div class="imgCon">
+                        <ul class="imgCon_ul">
+                            <li class="imgCon_li">
+                                <a class="imgCon_img" style="background-image:url(http://shp.qpic.cn/weixinsrc_pic/pScBR7sbqjOBJomcuvVJ6iacVrbMJaoJZkFUIq4nzQZUIqzTKziam7ibg/)"></a>
+                                <div class="imgCon_name">王永安</div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <a class="weui_cell" href="javascript:;">
+                <div class="weui_cell_bd weui_cell_primary">
+                    <p>群聊成员</p>
+                </div>
+                <div class="weui_cell_ft">所有人</div>
+            </a>
+        </div>
+        <div class="weui_cells_title">
+            群管理员
+        </div>
+        <div class="weui_cells weui_cells_form">
+            <div class="weui_cell">
+                <div class="weui_cell_bd  weui_cell_primary">
+                    <div class="imgCon">
+                        <ul class="imgCon_ul" id="imgCon_ul1">
+                            <li class="imgCon_li">
+                                <a class="imgCon_img" style="background-image:url(http://shp.qpic.cn/weixinsrc_pic/pScBR7sbqjOBJomcuvVJ6iacVrbMJaoJZkFUIq4nzQZUIqzTKziam7ibg/)"></a>
+                                <div class="imgCon_name">王永安</div>
+                                <a class="imgCon_clear"><i class="weui_icon_clear"></i></a>
+
+                            </li>
+                            <li class="imgCon_li">
+                                <a class="imgCon_img" style="background-image:url(http://shp.qpic.cn/weixinsrc_pic/pScBR7sbqjOBJomcuvVJ6iacVrbMJaoJZkFUIq4nzQZUIqzTKziam7ibg/)"></a>
+                                <div class="imgCon_name">王永安</div>
+                                <a class="imgCon_clear"><i class="weui_icon_clear"></i></a>
+
+                            </li>
+                            <li class="imgCon_li">
+                                <a class="imgCon_img" style="background-image:url(http://shp.qpic.cn/weixinsrc_pic/pScBR7sbqjOBJomcuvVJ6iacVrbMJaoJZkFUIq4nzQZUIqzTKziam7ibg/)"></a>
+                                <div class="imgCon_name">王永安</div>
+                                <a class="imgCon_clear"><i class="weui_icon_clear"></i></a>
+
+                            </li>
+                            <li class="imgCon_li">
+                                <a class="imgCon_img" style="background-image:url(http://shp.qpic.cn/weixinsrc_pic/pScBR7sbqjOBJomcuvVJ6iacVrbMJaoJZkFUIq4nzQZUIqzTKziam7ibg/)"></a>
+                                <div class="imgCon_name">王永安</div>
+                                <a class="imgCon_clear"><i class="weui_icon_clear"></i></a>
+
+                            </li>
+                            <li class="imgCon_li">
+                                <a class="imgCon_img" style="background-image:url(http://shp.qpic.cn/weixinsrc_pic/pScBR7sbqjOBJomcuvVJ6iacVrbMJaoJZkFUIq4nzQZUIqzTKziam7ibg/)"></a>
+                                <div class="imgCon_name">王永安</div>
+                                <a class="imgCon_clear"><i class="weui_icon_clear"></i></a>
+
+                            </li>
+                        </ul>
+                        <div class="imgCon_div">
+                            <a href="javascript:;" class="imgCon_a add"></a>
+                        </div>
+                        <div class="imgCon_div">
+                            <a href="javascript:;" class="imgCon_a remove" id="remove1"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="weui_cell weui_cell_switch">
+                <div class="weui_cell_hd weui_cell_primary">同步企业号中的图片</div>
+                <div class="weui_cell_ft">
+                    <input class="weui_switch" type="checkbox">
+                </div>
+            </div>
+        </div>
+        <div class="weui_btn_area">
+            <a class="weui_btn weui_btn_primary" href="javascript:">创建群聊</a>
+        </div>
+        <div class="weui_cells_tips" style="text-align:center">底部说明文字底部说明文字</div>
+    </div>
+    <script>
+        $("#remove1").click(function () {
+            $("#imgCon_ul1").toggleClass("active_remove");
+        })
+
+    </script>
+</body>
+</html>

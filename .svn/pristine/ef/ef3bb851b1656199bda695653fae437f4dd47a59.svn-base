@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title></title>
+    <link href="css/main.css" rel="stylesheet" />
+    <script src="js/jquery-1.9.1.min.js"></script>
+    <script src="js/index.js"></script>
+</head>
+<body>
+    <div class="header">
+        <div class="inner">
+            <div class="top">
+                <span>
+                    <a href="javascript:void(0)" onclick="shoucang(document.title,window.location)"><em class="collection">收藏味争鲜</em></a>|<em class="weixin" id="weixin">
+                        <strong>关注微信</strong><dl id="weixin_code" style="display: none;">
+                            <dt>味争鲜微信公众号</dt>
+                            <dd><img src="img/pr_weixin_top.png" width="105" height="105"></dd>
+                        </dl>
+                    </em>
+                </span>hi，欢迎光临味争鲜！
+            </div>
+            <a href="index.html" class="logo">
+                <img src="img/logo.png" width="350" height="105" alt="味争鲜" id="home" class="logo_img">
+            </a>
+            <div class="nav" id="nav">
+                <ul>
+                    <li class=""><a href="index.html">首页<span>HOME</span></a></li>
+                    <li class=""><a href="aboutUs.html">关于我们<span>ABOUT US</span></a></li>
+                    <li class=""><a href="ournews.html">媒体报道<span>OUR NEWS</span></a></li>
+                    <li class=""><a href="base.html">契约基地<span>BASE</span></a></li>
+                    <li class="current"><a href="onlineSale.html">销售网络<span>ONLINE SALE</span></a></li>
+                    <li class=""><a href="partner.html">合作伙伴<span>PARTNER</span></a></li>
+                    <li class=""><a href="contact.html">联系我们<span>CONTACT</span></a></li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+
+    <!--销售网络-->
+    <div class="contain">
+        <div class="contactus">
+            <div class="inner">
+                <h2><strong><span>销售网络</span><span>ONLINE SALE</span></strong><em class="h2_bar"></em></h2>
+                <div class="aboutUs">
+                    <dl class="ds">
+                        <dt>味争鲜-<span>销售网络</span></dt>
+                        <dd>味争鲜（大连）科技有限公司，凭借创始人团队多年丰富的电子商务与互联网从业经验，采取圈地、建平台、做品牌的发展战略，首先借助阿里巴巴天猫/淘宝、京东、苏宁易够、购等第三方平台庞大的用户，迅速将自己的产品销售出去，先让客户了解我们，认可我们的产品，忠于我们的理念，在采用完善的客户维护体系，积累数据，培养消费习惯，最终建设自己的销售平台。</dd>
+                        <dd>味争鲜创始人团队着眼于产品标准化，品牌化，迅速注册味争鲜品牌全类目类目商标，
+进驻拼多多、邮乐网等生鲜销售平台，拓展销售渠道。同时也大力投入网络营销，提高知名度，扩大影响力。</dd>
+                        <dd>味争鲜（大连）科技有限公司，进驻到大连高新技术产业园区国际级众创空间后，受到了园区领导的高度重视，园区大力扶持科技企业和互联网平台，鼓励味争鲜将自己的用户作为大数据的基础，与养殖种植基地签约，打造原产地直购的生鲜电商模式，并大力发展微商形成众创模式，在园区领导的扶持下，味争鲜着手搭建自己的网络销售体系和销售平台。</dd>
+                        <dd>味争鲜将在2016年下半年开启自由网络销售平台的新篇章。</dd>
+                    </dl>
+                    <p class="ds"><img src="img/img-ds.jpg" width="540" height="310" alt="味争鲜"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="footer">
+        <div class="inner">
+            味争鲜（大连）科技有限公司辽ICP备13005630号-2 增值电信业务经营许可证： 辽B2-20140019
+        </div>
+    </div>
+
+
+
+</body>
+</html>

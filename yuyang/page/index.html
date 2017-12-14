@@ -1,0 +1,787 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+	<head>
+		<!-- Meta, title, CSS, favicons, etc. -->
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		<meta name="author" content="">
+
+		<title></title>
+
+		<!-- Bootstrap core CSS -->
+		<link href="../static/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="../static/lib/font-awesome/css/font-awesome.min.css" />
+		<link rel="stylesheet" type="text/css" href="../static/css/index.css" />
+		<link rel="stylesheet" type="text/css" href="../static/css/common/common.css" />
+
+		<!--[if lt IE 9]>
+			<script src="../static/js/common/ie8-responsive-file-warning.js"></script>
+		<![endif]-->
+		<script src="../static/js/common/ie-emulation-modes-warning.js"></script>
+		<script src="../static/js/common/jquery-1.8.3.min.js"></script>
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!--[if lt IE 9]>
+		  <script src="../static/lib/html5shiv/html5shiv.min.js"></script>
+		  <script src="../static/lib/respond.js/respond.min.js"></script>
+		<![endif]-->
+		<link rel="icon" href="/favicon.ico">
+		<script>
+			$(function() {
+				var thisId = window.location.hash;
+
+				$("#liskxl").click(function() {
+					$("#skxl").attr("class", "active");
+					$("#head-two").attr("aria-expanded", "true")
+					$("#content-two").attr("class", "tab-pane fade active in");
+					$("#all").removeClass("active");
+					$("#content-one").attr("class", "tab-pane fade");
+				})
+				$("#lijqrxl").click(function() {
+					$("#jqrxl").attr("class", "active");
+					$("#head-three").attr("aria-expanded", "true")
+					$("#content-three").attr("class", "tab-pane fade active in");
+					$("#all").removeClass("active");
+					$("#content-one").attr("class", "tab-pane fade");
+				})
+				$("#lizhzx").click(function() {
+					$("#zhzx").attr("class", "active");
+					$("#head-four").attr("aria-expanded", "true")
+					$("#content-four").attr("class", "tab-pane fade active in");
+					$("#all").removeClass("active");
+					$("#content-one").attr("class", "tab-pane fade");
+				})
+
+			})
+		</script>
+	</head>
+
+	<body>
+
+		<!--<header>
+			<nav class="navbar">
+				<div class="container">
+
+					<nav class="collapse navbar-collapse">
+						<ul class="nav navbar-nav navbar-right">
+							<li>
+								<a href="http://www.bootcss.com/" target="_blank">
+									<span class="fa fa-weibo"></span>
+								</a>
+							</li>
+							<li id="weixinicon1">
+								<a href="http://www.bootcss.com/" target="_blank">
+									<span class="fa fa-weixin"></span></a>
+								<div class="qrCode">
+									<img src='../static/img/index/qrCode1.png' />
+								</div>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</nav>
+		</header>-->
+		<div class="container-fluid cust-logo-area">
+			<nav class="navbar cust-logo">
+				<div class="container">
+					<div class="navbar-header">
+						<a class="navbar-brand" href="#">
+							<img alt="LOGO 400*94" src="../static/img/common/logo1.png">
+						</a>
+					</div>
+					<div class="collapse navbar-collapse">
+						<ul class="nav navbar-nav navbar-right">
+							<li>
+								<a href="#"><span class="fa fa-phone"></span> 400 877 3838</a>
+							</li>
+							<li>
+								<a>|</a>
+							</li>
+							<li>
+								<a href="#"><span class="fa fa-envelope-o"></span> QQ2901707953</a>
+							</li>
+							<li>
+								<a>|</a>
+							</li>
+							<li>
+								<a href="#"> 微信个人</a>
+							</li>
+							<li>
+								<a>|</a>
+							</li>
+							<li>
+								<a href="#"> 微信公众平台</a>
+							</li>
+							<!--
+							<li>
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">语言切换 <span class="caret"></span></a>
+								<ul class="dropdown-menu">
+					                <li><a href="#"><img src="../static/img/flags/chinese.png">&nbsp;&nbsp;中文</a></li>
+					                <li role="separator" class="divider"></li>
+					                <li><a href="#"><img src="../static/img/flags/english.png">&nbsp;&nbsp;英文</a></li>
+					            </ul>
+							</li>
+                            -->
+						</ul>
+					</div>
+				</div>
+			</nav>
+			<nav class="navbar cust-menu">
+				<div class="container">
+					<div class="collapse navbar-collapse">
+						<ul class="nav navbar-nav">
+							<li>
+								<a href="index.html">首页</a>
+							</li>
+							<li class="dropdown cust-dropdown">
+								<a href="iproduct.html" class="dropdown-toggle">智能产品 <span class="caret"></span></a>
+								<div class="dropdown-menu cust-sub-menu">
+									<div class="container">
+										<ul class="cust-dropdown-submenu">
+											<li class="" id="liskxl">
+												<a href="iproduct.html#skxl" class="common-grayimg-hover common-grayText-hover">
+													<img alt="IMG 130*130" src="../static/img/common/pro01.png" />
+													<span class="cust-fir-span">KINMAC</span>
+													<span class="cust-sec-span">数控机床系列</span>
+												</a>
+											</li>
+											<li id="lijqrxl">
+												<a href="iproduct.html#jqrxl" class="common-grayimg-hover common-grayText-hover">
+													<img alt="IMG 130*130" src="../static/img/common/pro02.png" />
+													<span class="cust-fir-span">KINROBOTICS</span>
+													<span class="cust-sec-span">机器人系列</span>
+												</a>
+											</li>
+											<li id="lizhzx">
+												<a href="iproduct.html#zhzx" class="common-grayimg-hover common-grayText-hover">
+													<img alt="IMG 130*130" src="../static/img/common/pro03.png" />
+													<span class="cust-fir-span">KINHYBRID</span>
+													<span class="cust-sec-span">组合中心</span>
+												</a>
+											</li>
+										</ul>
+										<!--/ul-->
+
+									</div>
+								</div>
+
+							</li>
+							<li>
+								<a href="solution.html">解决方案</a>
+							</li>
+							<li>
+								<a href="application.html">应用领域</a>
+							</li>
+							<li>
+								<a href="services.html">服务支持</a>
+							</li>
+							<li class="dropdown cust-dropdown2">
+								<!--<a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">关于誉洋 <span class="caret"></span></a>-->
+								<a href="aboutyuyang.html" class="dropdown-toggle">关于誉洋 <span class="caret"></span></a>
+								<ul class="dropdown-menu cust-sub-menu2">
+									<li>
+										<a href="aboutus.html">
+											<!--<img src="../static/img/flags/chinese.png" />-->
+											关于我们</a>
+									</li>
+									<!--<li><a href="aboutyuyang.html"><img src="../static/img/flags/chinese.png"/>YUANG实验室</a></li>-->
+									<li>
+										<a href="aboutyuyang.html">
+											<!--<img src="../static/img/flags/chinese.png"/>-->
+											新闻动态</a>
+									</li>
+								</ul>
+							</li>
+
+						</ul>
+						<ul class="nav navbar-nav navbar-right">
+							<li>
+								<!--div class="fa fa-edit cust-icon"></div-->
+								<img src="../static/img/common/edit_logo.png" class="cust-icon" />
+								<button class="btn cust-btn1" data-toggle="modal" data-target="#questionForm">我要咨询</button>
+							</li>
+						</ul>
+					</div>
+					<!-- /.navbar-collapse -->
+				</div>
+				<!-- /.container-fluid -->
+			</nav>
+		</div>
+		</div>
+		<div class="container cust-carousel">
+			<div class="carousel slide" data-ride="carousel" id="carousel-example-generic">
+				<!-- Indicators -->
+				<ol class="carousel-indicators">
+					<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+					<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+				</ol>
+
+				<!-- Wrapper for slides -->
+				<div class="carousel-inner" role="listbox">
+					<div class="item active">
+						<img src="../static/img/index/lunbo1.png" alt="...">
+						<div class="cust-carousel-content">
+							<img src="../static/img/index/carousel-logo1.png" />
+							<span class="cust-carousel-h1 first">工业智能</span>
+							<span class="cust-carousel-h1 second">集成解决方案专家</span>
+							<span class="cust-carousel-h3 third">面向工业制造企业转型升级提供智能制造软硬件</span>
+							<span class="cust-carousel-h3 forth">一体化服务让制造更智能、更高效</span>
+							<button class="btn cust-carousel-btn">免费咨询热线</button>
+							<span class="cust-carousel-h5">400 877 3838</span>
+							<!--
+							<div class="cust-canvas-line">
+								<canvas id="waves"></canvas>
+							</div>
+                            -->
+						</div>
+
+					</div>
+					<div class="item">
+						<img src="../static/img/index/lunbo2.png" alt="...">
+						<div class="cust-carousel-content blue">
+							<img src="../static/img/index/carousel-logo2.png" />
+							<span class="cust-carousel-h1 first">品质成就价值</span>
+							<span class="cust-carousel-h1 second">创新成就未来</span>
+							<span class="cust-carousel-h3 third">YUYANG产品和解决方案非常适合于专业制造行业，</span>
+							<span class="cust-carousel-h3 forth">完全满足用户对制造产品最大限度的灵活性、质量和效率要求。</span>
+							<button class="btn cust-carousel-btn">免费咨询热线</button>
+							<span class="cust-carousel-h5">400 877 3838</span>
+							<!--
+							<div class="cust-canvas-line">
+								<canvas id="waves"></canvas>
+							</div>
+                            -->
+						</div>
+					</div>
+				</div>
+				<!--
+				-->
+				<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+					<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+					<span class="sr-only">Previous</span>
+				</a>
+				<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+					<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+					<span class="sr-only">Next</span>
+				</a>
+			</div>
+		</div>
+<!--
+		<div class="container-fluid cust-area2">
+			<div class="container">
+				<span class="cust-h1">产品中心</span>
+				<span class="cust-h2">在互联网时代，企业发展必须具备微信公众号、微信企业号、阿里·钉钉</span>
+				<span class="cust-line"></span>
+				<span class="cust-h3">誉洋（YUYANG）凭借二十余年工业制造领域经验和技术积累，</span>
+				<span class="cust-h3">与德国，也大力，澳大利亚，美国等一流公司合作</span>
+				<span class="cust-h3">基于智能制造信息技术与制造业深度融合，形成以自主核心技术、核心零部件、</span>
+				<span class="cust-h3">领先的工业智能产品及智能制造系统集成解决方案为一体的完整工业制造自动化、</span>
+				<span class="cust-h3">智能化产业价值链，并可以将生产中的供应，制造，销售信息数据化、智慧化，</span>
+				<span class="cust-h3">帮助制造企业实现智能制造与智慧生产。</span>
+
+				<div class="row">
+					<div class="col-md-1 col-lg-1 col-xs-1 col-xs-1">
+						<img src="../static/img/index/help01.png" alt="img 200*200" />
+						<span class="cust-title">互联</span>
+						<span class="cust-subtitle">INTERCONNECTION</span>
+					</div>
+					<div class="col-md-1 col-lg-1 col-xs-1 col-xs-1">
+						<img src="../static/img/index/help02.png" alt="img 200*200" />
+						<span class="cust-title">数据</span>
+						<span class="cust-subtitle">DATA</span>
+					</div>
+					<div class="col-md-1 col-lg-1 col-xs-1 col-xs-1">
+						<img src="../static/img/index/help03.png" alt="img 200*200" />
+						<span class="cust-title">集成</span>
+						<span class="cust-subtitle">INTEGRATION</span>
+					</div>
+					<div class="col-md-1 col-lg-1 col-xs-1 col-xs-1">
+						<img src="../static/img/index/help04.png" alt="img 200*200" />
+						<span class="cust-title">创新</span>
+						<span class="cust-subtitle">INNOVATION</span>
+					</div>
+					<div class="col-md-1 col-lg-1 col-xs-1 col-xs-1">
+						<img src="../static/img/index/help05.png" alt="img 200*200" />
+						<span class="cust-title">转型</span>
+						<span class="cust-subtitle">CHANGE</span>
+					</div>
+				</div>
+			</div>
+		</div>-->
+
+		<div class="container-fluid cust-area3">
+			<div class="container">
+				<span class="cust-h1">产品中心</span>
+				<span class="cust-h2">在移动互联网时代，企业发展必须具备微信公众号、微信企业号、阿里·钉钉</span>
+
+				<div class="carousel slide" data-ride="carousel" id="carousel2">
+					<!-- Indicators 
+						
+					<ol class="carousel-indicators">
+						<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+						<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+					</ol>
+					-->
+
+					<!-- Wrapper for slides -->
+					<div class="carousel-inner" role="listbox">
+						<div class="item active">
+							<div class="row">
+								<div class="col-md-1 col-lg-1 col-xs-1 col-xs-1 common-grayimg-hover common-grayText-hover">
+									<a href="#">
+										<img src="../static/img/index/quality01.png" alt="img 350*350" />
+									</a>
+									<span class="cust-subtitle">BURNISHING</span>
+									<span class="cust-title">智能打磨</span>
+									<span class="cust-subtitle-line"></span>
+								</div>
+								<div class="col-md-1 col-lg-1 col-xs-1 col-xs-1 common-grayimg-hover common-grayText-hover">
+									<a href="#">
+										<img src="../static/img/index/quality02.png" alt="img 350*350" />
+									</a>
+									<span class="cust-subtitle">CUTTING</span>
+									<span class="cust-title">智能切割</span>
+									<span class="cust-subtitle-line"></span>
+								</div>
+								<div class="col-md-1 col-lg-1 col-xs-1 col-xs-1 common-grayimg-hover common-grayText-hover">
+									<a href="#">
+										<img src="../static/img/index/quality03.png" alt="img 350*350" />
+									</a>
+									<span class="cust-subtitle">POLISHING</span>
+									<span class="cust-title">智能抛光</span>
+									<span class="cust-subtitle-line"></span>
+								</div>
+								<div class="col-md-1 col-lg-1 col-xs-1 col-xs-1 common-grayimg-hover common-grayText-hover">
+									<a href="#">
+										<img src="../static/img/index/quality03.png" alt="img 350*350" />
+									</a>
+									<span class="cust-subtitle">POLISHING</span>
+									<span class="cust-title">智能抛光</span>
+									<span class="cust-subtitle-line"></span>
+								</div>
+							</div>
+
+						</div>
+						<!--<div class="item">
+							<div class="row">
+								<div class="col-md-1 col-lg-1 col-xs-1 col-xs-1 common-grayimg-hover common-grayText-hover">
+									<a href="#">
+										<img src="../static/img/index/quality01.png" alt="img 350*350"/>
+									</a>
+									<span class="cust-subtitle">BURNISHING</span>
+									<span class="cust-title">智能打磨2</span>
+									<span class="cust-subtitle-line"></span>
+								</div>
+								<div class="col-md-1 col-lg-1 col-xs-1 col-xs-1 common-grayimg-hover common-grayText-hover">
+									<a href="#">
+										<img src="../static/img/index/quality02.png" alt="img 350*350"/>
+									</a>
+									<span class="cust-subtitle">CUTTING</span>
+									<span class="cust-title">智能切割2</span>
+									<span class="cust-subtitle-line"></span>
+								</div>
+								<div class="col-md-1 col-lg-1 col-xs-1 col-xs-1 common-grayimg-hover common-grayText-hover">
+									<a href="#">
+										<img src="../static/img/index/quality03.png" alt="img 350*350"/>
+									</a>
+									<span class="cust-subtitle">POLISHING</span>
+									<span class="cust-title">智能抛光2</span>
+									<span class="cust-subtitle-line"></span>
+								</div>
+							</div>
+							
+						</div>-->
+					</div>
+					<!--
+					-->
+					<a class="left carousel-control" href="#carousel2" role="button" data-slide="prev">
+						<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+						<span class="sr-only">Previous</span>
+					</a>
+					<a class="right carousel-control" href="#carousel2" role="button" data-slide="next">
+						<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+						<span class="sr-only">Next</span>
+					</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="container-fluid cust-area4">
+			<div class="container">
+				<span class="cust-h1">为什么选择我们</span>
+				<span class="cust-h2">大连团队为您解决企业上下游问题，打造企业移动互联网化<span>
+				<!--<div class="row">
+					<div class="col-md-1 col-lg-1 col-xs-1 col-xs-1">
+						<a href="#" class="common-bigimg-hover common-grayText-hover">
+							<img src="../static/img/index/used01.png" alt="img 150*150" class="" />
+							<span class="cust-title">智能打磨清理</span>
+						</a>
+					</div>
+					<div class="col-md-1 col-lg-1 col-xs-1 col-xs-1 ">
+						<a href="#" class="common-bigimg-hover common-grayText-hover">
+							<img src="../static/img/index/used02.png" alt="img 150*150" class="" />
+							<span class="cust-title">智能金属加工</span>
+						</a>
+					</div>
+					<div class="col-md-1 col-lg-1 col-xs-1 col-xs-1">
+						<a href="#" class="common-bigimg-hover common-grayText-hover">
+							<img src="../static/img/index/used03.png" alt="img 150*150" class="" />
+							<span class="cust-title">数字化工厂</span>
+						</a>
+					</div>
+					<div class="col-md-1 col-lg-1 col-xs-1 col-xs-1">
+						<a href="#" class="common-bigimg-hover common-grayText-hover">
+							<img src="../static/img/index/used04.png" alt="img 150*150" class="" />
+							<span class="cust-title">智能系统</span>
+						</a>
+					</div>
+				</div>-->
+				
+				<div class="row">
+           			 <ul>
+	                    <li class="i0">
+		                    <div class="icon">
+		                        <i></i>
+		                    </div>
+		                    <div class="desc">
+		                        <div class="row0">
+		                            <h3>强大的售后团队</h3>
+		                            <p>我们售后技术包括开发工程师、安全工程师、运维工程师，全方位为客户的稳定安全服务</p>
+		                        </div>
+		                    </div>
+		                </li>
+                                        <li class="i1">
+                    <div class="icon">
+                        <i></i>
+                    </div>
+                    <div class="desc">
+                        <div class="row0">
+                            <h3>售后投诉监督机制</h3>
+                            <p>公司通过设立微信(微信号:rockdeaf)投诉和电话投诉，由专人来监督售后服务质量</p>
+                        </div>
+                    </div>
+                </li>
+                                        <li class="i2">
+                    <div class="icon">
+                        <i></i>
+                    </div>
+                    <div class="desc">
+                        <div class="row0">
+                            <h3>服务评价回访机制</h3>
+                            <p>小猪cms自建服务评价体系，对于不满意售后的客户，我们有专人负责跟踪回访</p>
+                        </div>
+                    </div>
+                </li>
+                                        <li class="i3">
+                    <div class="icon">
+                        <i></i>
+                    </div>
+                    <div class="desc">
+                        <div class="row0">
+                            <h3>极好的客户反馈</h3>
+                            <p>我们收到过很多客户给我们售后团队寄来的锦旗和礼品，我们的售后得到广大客户的极大认可</p>
+                        </div>
+                    </div>
+                </li>
+                                        <li class="i4">
+                    <div class="icon">
+                        <i></i>
+                    </div>
+                    <div class="desc">
+                        <div class="row0">
+                            <h3>节假日无休制度</h3>
+                            <p>为保证客户系统的安全与稳定，我们在周末和节假日都会轮休为客户提供售后支持</p>
+                        </div>
+                    </div>
+                </li>
+                                        <li class="i5">
+                    <div class="icon">
+                        <i></i>
+                    </div>
+                    <div class="desc">
+                        <div class="row0">
+                            <h3>全方位即时响应服务</h3>
+                            <p>我们通过QQ、电话和售后工单的方式，全方位为客户解决各种操作问题、技术问题</p>
+                        </div>
+                    </div>
+                </li>
+                                    
+            </ul>
+        </div>
+        
+        
+			</div>
+		</div>
+
+		<div class="container-fluid cust-onestop-services">
+			<div class="container">
+				<span class="cust-h1">大连团队陪您在移动互联网的道路上一起成长</span>
+				<span class="cust-h2">One-stop Service</span>
+				<span class="cust-line"></span>
+				<!--<span class="cust-h3">YUYANG凭借二十余年工业制造领域经验和技术积累，</span>
+				<span class="cust-h3">针对制造企业转型升级需求提供专业化的工业职能一站式服务，为用户提升产品质量，</span>
+				<span class="cust-h3">降低生产成本，提升运营效率，持续为用户创造最大价值。</span>-->
+				<div class="row">
+					<div class="col-md-1 col-lg-1 col-xs-1 col-xs-1">
+						<a href="#" class="common-bigimg-hover common-grayText-hover">
+							<img src="../static/img/index/onestop01.png" alt="img 130*130" class="" />
+							<span class="cust-title">售前咨询</span>
+						</a>
+					</div>
+					<div class="col-md-1 col-lg-1 col-xs-1 col-xs-1">
+						<a href="#" class="common-bigimg-hover common-grayText-hover">
+							<img src="../static/img/index/onestop02.png" alt="img 130*130" class="" />
+							<span class="cust-title">技术支持</span>
+						</a>
+					</div>
+					<div class="col-md-1 col-lg-1 col-xs-1 col-xs-1">
+						<a href="#" class="common-bigimg-hover common-grayText-hover">
+							<img src="../static/img/index/onestop03.png" alt="img 130*130" class="" />
+							<span class="cust-title">培训中心</span>
+						</a>
+					</div>
+					<div class="col-md-1 col-lg-1 col-xs-1 col-xs-1">
+						<a href="#" class="common-bigimg-hover common-grayText-hover">
+							<img src="../static/img/index/onestop04.png" alt="img 130*130" class="" />
+							<span class="cust-title">售后服务</span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!--<div class="container-fluid cust-area6">
+			<div class="cust-particles" id="particles-js">
+			</div>
+			<div class="container-fluid">
+				<div class="container">
+					<span class="cust-h1">发动机缸体智能打磨</span>
+					<div class="cust-videa-area">
+						<img src="../static/img/index/video01.png" alt="1305*744" />
+						<a href="#" data-toggle="modal" data-target="#myModal" data-source="#ewash-video"><span class="fa fa-play-circle"></span></a>
+					</div>
+					
+				</div>
+			</div>
+		</div>-->
+
+		<div class="container-fluid cust-area7">
+			<div class="container">
+				<div class="row cust-area7-row">
+					<div class="col-md-1 col-lg-1 col-xs-1 col-xs-1">
+						<img src="../static/img/common/help01.png" alt="img 130*130" />
+						<span class="cust-title">帮助中心</span>
+						<span class="cust-title2">立即获得您有关YUYANG产品</span>
+						<span class="cust-title2">和服务的帮助</span>
+						<a class="cust-title3">前往帮助中心 <span class="fa fa-angle-right"></span></a>
+					</div>
+					<div class="col-md-1 col-lg-1 col-xs-1 col-xs-1">
+						<img src="../static/img/common/help02.png" alt="img 130*130" />
+						<span class="cust-title">售前咨询</span>
+						<span class="cust-title2">销售助理为您解答工业智能产品、</span>
+						<span class="cust-title2">集成解决方案的各种问题</span>
+						<a class="cust-title3">400 877 3838</a>
+					</div>
+					<div class="col-md-1 col-lg-1 col-xs-1 col-xs-1">
+						<img src="../static/img/common/help03.png" alt="img 130*130" />
+						<span class="cust-title">技术支持</span>
+						<span class="cust-title2">使用YUYANG产品时，遇到任</span>
+						<span class="cust-title2">何技术上的问题，</span>
+						<span class="cust-title2">直接致电技术支持专线</span>
+						<a class="cust-title3">15566971838</a>
+					</div>
+					<div class="col-md-1 col-lg-1 col-xs-1 col-xs-1">
+						<img src="../static/img/common/help04.png" alt="img 130*130" />
+						<span class="cust-title">关注微信</span>
+						<span class="cust-title2">关注YUYANG最新动态和技术</span>
+						<span class="cust-title2">请关注微信公众号</span>
+						<a class="cust-title3" id="weixinicon2">订阅微信
+							<span class="fa fa-angle-right"></span>
+							<div class="qrCode">
+								<img src='../static/img/index/qrCode1.png' id='imgQRCode2' />
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="cust-long-line"></div>
+				<div class="row cust-area-77-23">
+					<div class="col-md-1 col-lg-1 col-xs-1 col-xs-1 cust-area-77">
+						<div class="row">
+							<div class="col-md-1 col-lg-1 col-xs-1 col-xs-1">
+								<span class="cust-title1">发现</span>
+								<span class="cust-title2">智能产品</span>
+								<span class="cust-title2">解决方案</span>
+								<span class="cust-title2">应用领域</span>
+							</div>
+							<div class="col-md-1 col-lg-1 col-xs-1 col-xs-1">
+								<span class="cust-title1">支持</span>
+								<span class="cust-title2">在线咨询</span>
+								<span class="cust-title2">技术支持</span>
+								<span class="cust-title2">常见问题</span>
+								<span class="cust-title2">资料下载</span>
+							</div>
+							<div class="col-md-1 col-lg-1 col-xs-1 col-xs-1">
+								<span class="cust-title1">关于</span>
+								<span class="cust-title2">关于誉洋</span>
+								<span class="cust-title2">热点新闻</span>
+								<span class="cust-title2">加入我们</span>
+							</div>
+							<div class="col-md-1 col-lg-1 col-xs-1 col-xs-1">
+								<span class="cust-title1">语言</span>
+								<span class="cust-title2">中文</span>
+								<span class="cust-title2">English</span>
+							</div>
+						</div>
+						<span class="cust-title3">联系我们</span>
+						<!--div class="cust-app">
+							<span class="fa fa-weibo"></span>
+							<span class="fa fa-weixin"></span>
+							
+						</div-->
+						<div class="cust-address">
+							<span class="fa fa-map-marker cust-block"></span>
+							<span class="cust-block">中国 大连七贤岭汇贤街5号</span>
+							<span class="cust-block">|</span>
+							<span class="fa fa-phone"></span>
+							<span class="cust-block">400 877 3838</span>
+							<span class="cust-block">|</span>
+							<span class="fa fa-envelope cust-block"></span>
+							<span class="cust-block">info@dalianyuyang.com</span>
+							<span class="cust-block">|</span>
+							<span class="cust-block">
+								<div class="cust-app">
+									<span class="fa fa-weibo">										
+									</span>
+							<span class="fa fa-weixin" id="weixinicon3">
+						        <div class="qrCode">
+								  <img src='../static/img/index/qrCode2.png' />
+							    </div>								
+							</span>
+						</div>
+						<span>关注YUYANG最新资讯</span>
+						</span>
+					</div>
+
+				</div>
+				<div class="col-md-1 col-lg-1 col-xs-1 col-xs-1 cust-area-23">
+					<span class="cust-title1">订阅电子邮件</span>
+					<form class="cust-form2">
+						<input type="email" class="form-control" name="email" placeholder="Email">
+						<input type="text" class="form-control" name="name" placeholder="Name">
+
+						<button type="submit" class="btn cust-btn3">立即订阅</button>
+					</form>
+
+					<ul class="cust-ask-area">
+						<li>
+							<span class="fa fa-edit"></span>
+						</li>
+						<li>
+							<button class="btn cust-ask-btn">我要咨询</button>
+						</li>
+				</div>
+			</div>
+		</div>
+		</div>
+		</div>
+
+		<footer>
+			<div class="cust-gotop pull-right">
+				<span class="fa fa-angle-up"></span>
+			</div>
+			<div class="container">
+				<nav class="navbar cust-navbar">
+					<div class="container-fluid">
+						<div class="navbar-header">
+							<span class="navbar-brand">誉洋工业智能有限公司（中国）版权所有 | 本网站刊载图片及技术仅供参考</span>
+						</div>
+						<div class="collapse navbar-collapse">
+							<form class="navbar-form navbar-right" role="search">
+								<div class="input-group">
+									<input type="text" class="form-control">
+									<div class="input-group-addon"><span class="fa fa-search"></span></div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</nav>
+			</div>
+		</footer>
+
+		<div class="modal fade modal-video" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">×</button>
+						<h4 id="videoModalLabel" class="modal-title sr-only"></h4>
+					</div>
+					<div class="modal-body">
+						<div class="video-container">
+							<video controls="" preload="" class="box-video" id="ewash-video">
+								<source src="http://7othr3.com2.z0.glb.qiniucdn.com/request-demo-ewash.webm" type="video/webm">
+								<source src="http://7othr3.com2.z0.glb.qiniucdn.com/request-demo-ewash.mp4" type="video/mp4">
+							</video>
+						</div>
+						<!--//video-container-->
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="modal fade" id="questionForm" tabindex="-1" role="dialog">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-body">
+						<div class="row">
+							<div class="col-md-1 cust-form">
+								<span class="cust-text1">为了我们能更好的服务您，请您填写以下信息，我们将会严格保密！</span>
+								<form class="form-horizontal">
+									<input type="text" class="form-control" placeholder="公司名称">
+									<input type="text" class="form-control" placeholder="姓名">
+									<input type="text" class="form-control" placeholder="Mail">
+									<input type="text" class="form-control" placeholder="Phone">
+									<textarea class="form-control" rows="3" placeholder="咨询内容"></textarea>
+									<button class="btn cust-btn">提交</button>
+								</form>
+							</div>
+							<div class="col-md-1 cust-info">
+								<!--<span class="fa fa-map-marker cust-one"></span>-->
+								<br><br><br><br><br>
+								<span class="cust-two">中国·大连</span>
+								<span class="cust-two">七贤岭汇贤街5号</span>
+								<span class="fa fa-phone cust-three"></span>
+								<span class="cust-four">400 877 3838</span>
+								<span class="fa fa-envelope cust-five"></span>
+								<span class="cust-six">info@dalianyuyang.com</span>
+								<img src="../static/img/map.png" />
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<a class="ask-online" href="#">
+			<img src="../static/img/index/OnlineConsulting.png">
+			<!--<span class="fa fa-user"></span>
+			<span class="cust-text1">在线咨询</span>-->
+		</a>
+
+		<!-- Bootstrap core JavaScript ================================================== -->
+		<!-- Placed at the end of the document so the pages load faster -->
+		<script src="../static/lib/jquery/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../static/lib/bootstrap/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../static/lib/particle/particles.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../static/lib/particle/particle_init.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript" src="../static/lib/sine-waves/sine-waves-1.0/dist/SineWaves.min.js"></script>
+		<script src="../static/js/index.js" type="text/javascript" charset="utf-8"></script>
+
+		<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+		<script src="../static/js/common/ie10-viewport-bug-workaround.js"></script>
+
+	</body>
+
+</html>

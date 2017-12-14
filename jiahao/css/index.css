@@ -1,0 +1,101 @@
+.banner{
+    width:1200px;
+    margin:0 auto;
+}
+.banner .swiper-container{
+    width:100%;
+}
+.banner .swiper-container .swiper-wrapper>div{
+    width:100%;
+    display: inline-block;
+}
+.banner .swiper-container .swiper-wrapper>div img{
+    width:100%;
+}
+.product-center{
+    margin-top:50px;
+}
+.product-center .title .center{
+    text-align: center;
+    font-size: 26px;
+    color:#004e97;
+     /*line-height: 30px;*/
+}
+/*产品中心左右横线*/
+.product-center .title .hr-l,.product-center .title .hr-r{
+    width:40px;
+    height:30px;
+    display: inline-block;
+    transform: translateY(5px);
+    -moz-transform: translateY(5px);
+    -ms-transform: translateY(5px);
+    -o-transform: translateY(5px);
+}
+
+.product-center .title .hr-l>span,.product-center .title .hr-r>span{
+    display:inline-block;
+    width:40px;
+    height:7px;
+    line-height: 0;
+    padding:0;margin: 0;
+    border-bottom:1px solid #00008B;
+    float:left;
+}
+.product-center .title .hr-l>span:nth-of-type(2){
+    width:60px;
+    transform: translateX(-20px);
+}
+.product-center .title .hr-r>span:nth-of-type(2){
+      width:60px;
+}
+/*产品中心左右横线 over*/
+
+.product-center .list{
+    width:1200px;
+    margin:50px auto;
+    /*border:1px solid red;*/
+}
+
+/*产品展示列表*/
+.product-center .list ul:before,.product-center .list ul:after{
+    display:table;
+    content:"";
+}
+.product-center .list ul:after{
+    clear: both;
+}
+.product-center .list ul li{
+    list-style: none;
+    width:390px;
+    height:270px;
+    line-height: 270px;
+    margin-right:10px;  
+    float: left;
+    position: relative;
+}
+.product-center .list ul li .mark{
+    display: block;
+    cursor: pointer;
+    text-decoration: none;
+    background: rgba(0,0,0,0.6);
+    position: absolute;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+}
+.product-center .list ul li img{
+    display: block;
+    width:390px;
+    height:270px;
+}
+
+
+
+
+
+
+

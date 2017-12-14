@@ -1,0 +1,21 @@
+@color-orange:#e55b27;
+
+*{
+    font-family: "Microsoft YaHei";
+}
+
+html{
+    font-size: 70px;
+}
+
+body{
+    background-color: #010101;
+}
+
+
+
+@media (min-width: 1400px){
+    .container {
+      width: 1370px;
+    }
+}

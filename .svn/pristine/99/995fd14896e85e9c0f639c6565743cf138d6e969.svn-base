@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="keywords" content="">
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="format-detection" content="telephone=no" />
+<meta name="x5-orientation" content="portrait">
+<link href="css/normalize.css" rel="stylesheet" />
+<link href="css/swiper-3.3.1.min.css" rel="stylesheet" />
+<link href="css/main.css" rel="stylesheet" />
+<title>新闻详情页</title>
+</head>
+
+<body>
+<nav class="nav_code">
+  <div>
+  <img src="img/qrCode.png"/>
+  </div>
+</nav>
+<div class="news_detail" >
+  <h3>致力于为制造企业转型升级提供专致力于为制造企业转型升级提供专</h3>
+  <h4>2107.3.15<span class="blue">于洋工业智能</span></h4>
+  <p class="news_detail_content">完全满足用户对打磨系统有最大限度的灵活性和生产质量和效率的要求，完全满足用户对打磨系统有最大限度的灵活性和生产质量和效率的要求，完全满足用户对打磨系统有最大限度的灵活性和生产质量和效率的要求，</p>
+  <img src="img/4.png"/>
+  <p class="line"><span>成都制造会现场</span></p>
+   <p class="news_detail_content">完全满足用户对打磨系统有最大限度的灵活性和生产质量和效率的要求，完全满足用户对打磨系统有最大限度的灵活性和生产质量和效率的要求，完全满足用户对打磨系统有最大限度的灵活性和生产质量和效率的要求，</p>
+  <ul class="history">
+    <li>上一篇 <span class="blue">完全满足用户对打磨系统有最大限度</span></li>
+    <li>下一篇 <span class="blue">完全满足用户对打磨系统有最大限度</span></li>
+  </ul>
+  
+  
+  
+</div>
+<footer>
+ <ul class="footer_nav">
+   <li><img src="img/footer_nav1.jpg"/>一键通话</li>
+   <li class="follow"><img src="img/footer_nav2.jpg"/>关注订阅号</li>
+   <li onclick="location.href='contact.html'"><img src="img/footer_nav3.jpg"/>联系方式</li>
+   <li><img src="img/footer_nav4.jpg"/>地图导航</li>
+ </ul>
+</footer>
+
+</body>
+</html>
+<script src="js/size.js"></script>
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/swiper-3.3.1.jquery.min.js"></script>
+<script src="js/jquery.transit.min.js"></script>
+<script src="js/main.js"></script>
